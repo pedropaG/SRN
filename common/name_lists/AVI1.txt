@@ -1,0 +1,204 @@
+﻿### Template
+AVI1 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"Eclosión Ascendida" "Eclosión Luchadora" "Eclosión Ágil" "Eclosión Desafiante" "Eclosión Resistente" "Eclosión Furiosa"
+			"Eclosión Confiada" "Eclosión Inteligente" "Eclosión Taimada" "Eclosión Pródiga" "Eclosión Exultante" "Eclosión Descarada"
+			"Eclosión Loca" "Eclosión Vigilante" "Eclosión Vengativa" "Eclosión Rencorosa" "Eclosión Vindicativa" "Eclosión Impaciente"
+			"Eclosión Famélica" "Eclosión Implacable" "Eclosión Digna" "Eclosión Osada" "Eclosión Jovial" "Eclosión Indignante"
+			"Eclosión Astuta" "Eclosión Absurda" "Eclosión Feliz" "Eclosión Inestable" "Eclosión Prudente" "Eclosión Solitaria" 
+			"Eclosión Perceptiva" "Eclosión Impredecible" "Eclosión Impetuosa" "Eclosión Nociva" "Eclosión Retorcida" "Eclosión Elegante"
+			"Eclosión Inflexible" "Eclosión Paciente" "Eclosión Incondicional" "Eclosión Fiera" "Eclosión Inolvidable" "Eclosión Insensible"
+			"Eclosión Afortunada" "Eclosión Valiente" "Eclosión Descarada" "Eclosión Impertinente" "Eclosión Fiable" "Eclosión Vivaz"
+			"Eclosión Salvaje" "Eclosión Robusta" "Eclosión Ardiente" "Eclosión Vigorosa" "Eclosión Briosa" "Eclosión Alegre"
+			"Eclosión Brusca" "Eclosión Animada" "Eclosión Tenaz" "Eclosión Persistente" "Eclosión Terca" "Eclosión Determinada"
+			"Eclosión Obstinada" "Eclosión Testaruda" "Eclosión Agresiva" "Eclosión Frenética" "Eclosión Tempestuosa" "Eclosión Turbulenta"
+			"Eclosión Temeraria" "Eclosión Brutal" "Eclosión Desatada" "Eclosión Alborotada" "Eclosión Insensata" "Eclosión Bulliciosa"
+			"Eclosión Agitada" "Eclosión Clamorosa" "Eclosión Constante" "Eclosión Vehemente" "Eclosión Fervorosa" "Eclosión Pasional"
+			"Eclosión Rapaz" "Eclosión Brava" "Eclosión Intrépida" "Eclosión Fuerte" "Eclosión Descuidada" "Eclosión Impresentable"
+			"Eclosión Trastornada" "Eclosión Demente" "Eclosión Inquieta" "Eclosión Inconformista" "Eclosión Imprudente" "Eclosión Impulsiva"
+			"Eclosión Negligente" "Eclosión Inconsciente" "Eclosión Violenta" "Eclosión Indómita" "Eclosión Silvestre" "Eclosión Pertinaz"
+			"Eclosión Caprichosa" "Eclosión Volátil" "Eclosión Voluble" "Eclosión Enérgica" "Eclosión Despreocupada" "Eclosión Jubilosa"
+			"Eclosión Gozosa" "Eclosión Entusiasta" "Eclosión Boyante" "Eclosión Fortalecida" "Eclosión Jocosa" "Eclosión Vital"
+			"Eclosión Alerta" "Eclosión Porfiada" "Eclosión Rebelde" "Eclosión Refractaria" "Eclosión Excéntrica" "Eclosión Errática"
+			"Eclosión Peculiar" "Eclosión Desviada" "Eclosión Irritable" "Eclosión Cruzada" "Eclosión Irascible" "Eclosión Colérica"
+			"Eclosión Furicunda" "Eclosión Áspera" "Eclosión Arisca" "Eclosión Hosca" "Eclosión Irrespetuosa" "Eclosión Irritada" 
+			"Eclosión Sombría" "Eclosión Esplénica" "Eclosión Ominosa" "Eclosión Taciturna" "Eclosión Severa" "Eclosión Imperiosa" 
+			"Eclosión Altiva" "Eclosión Orgullosa" "Eclosión Despectiva" "Eclosión Peyorativa" "Eclosión Supersticiosa" "Eclosión Canto"
+			"Eclosión Atenta" "Eclosión Cautelosa" "Eclosión Endiablada"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			#random_names = {
+				"Ojo Atento" "Ojo Vigilante" "Ojo Durmiente" "Ojo Agudo" "Ojo Despectivo" "Ojo Distraído" "Ojo Taimado" "Ojo Ferviente" "Ojo Intrépido" "Ojo Tenaz"
+			#}
+			#sequential_name = "%O% Frontier Outpost"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	ship_class_names = {
+		generic = {
+			V'Taka K'Mirom "M'Iskar Ro" S'Porak S'Kothan J'Kal Yeerel Yaaskan L'Dorak Bwiik Kraanak J'Vorok
+		}		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Bandada Estelar Dorada" "Bandada Estelar Emplumada" "Bandada Estelar Reverenciada" "Bandada Estelar Condecorada" "Bandada Estelar Elevada" "Bandada Estelar Baluarte" "Bandada Estelar Y'Sarka" "Bandada Estelar U'Ruusu" "Bandada Estelar S'Sarona" "Bandada Estelar T'Tsona" "Bandada Estelar Y'Trana" "Bandada Estelar S'Itanis" "Bandada Estelar Y'Ysonni"
+		}
+		sequential_name = "%C%ª Bandada Estelar"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%C%ª Alas de Seguridad"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Alas del Espacio"
+		}
+		
+		slave_army = {
+			random_names = { "1er Ejército Servil" }
+			sequential_name = "%C%º Ejército Servil"
+		}
+		
+		clone_army = { 
+			random_names = { "1er Frente Clon" }
+			sequential_name = "%C%º Frente Clon"
+		}
+		
+		robotic_army = {
+			sequential_name = "%C%ª Columna de Máquinas"
+		}
+		
+		android_army = {
+			random_names = { "1er Ejército Cibernético de Choque" }
+			sequential_name = "%C%º Ejército Cibernético de Choque"
+		}
+		
+		psionic_army = { 
+			sequential_name = "Orden Telepática %R%"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%C%ª Manada de Xenos"
+		}
+		
+		gene_warrior_army = {
+			random_names = { "1er Comando de la Muerte" }
+			sequential_name = "%C%º Comando de la Muerte"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				S'Prekeel J'Khanal S'Narkeel K'Karom "S'Kerin Vak" "Soska V'Ta" S'Bakri Yeethkri Bwaakar V'Vidir V'Ra M'Rak'Vo K'Karaal
+				V'Bindak Yeerok Kraak Deekri T'Tra C'Knoor S'Pemkru Bwreek T'Valdra K'Vra'Kok J'Mideer Jyylkir S'Vrak T'Sondek Paaltok M'Ruut C'Viirb T'Bukred D'Vraadir K'Mhakreer V'Tyykre Vakwaark
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Kreemak B'Raaki Reetril Yeedik L'Krami Eerkal Y'Sarkee Y'Heetak Lagraak Skraak T'Anaark Reebik P'Kida D'Kheera K'Reel T'Rootik Skeerid P'Dykna Haatrek Y'Ridaak
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Kreemak B'Raaki Reetril Yeedik L'Krami Eerkal Y'Sarkee Y'Heetak Lagraak Skraak
+			}
+			
+			regnal_second_names = {
+				Koriik
+			}
+		}
+	}
+}

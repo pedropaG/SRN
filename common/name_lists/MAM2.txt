@@ -1,0 +1,180 @@
+﻿### Mammalian 2
+MAM2 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			Urgion Datarrion Lurrion Nargion Astarion Peragion Selemarion Lysargion Lusmargion Hemberarion Eshnenarion Satharion Sulugarion
+			Antargion Bessemargion Vilargion Ysmargion Ytharion Berekarion Comporgion Cennergion Callustion Hethenion Daforgion Nifargion
+			Cibbanion Evanion Umselanion Usselargion Sukuragion Deterabion Dargion Shanarion Tirindion Kasmalarion Sedrinion Hodronumion
+			Hasarion Pakharion Gatharion Pondoranion Vussagion Diramion Fidraggion Hallamion Bathradurion Janarion Pinatarion Jhunustarion
+			Sacradarion Muntadarion Volmanarion Pedrinamion Oldaragion Kargion Winithion Lakarion Dukrumurion Nastarion Nisorgion Thagarion
+			Kordurion Kadramurion Condarion Cifritharion Rebrinthion Cathradarion Cimbarion Duthrularion Entherabion Redevellion Pentarigion
+			Bantarion Bijinarion Valdanarion Ithisarion Tolarion Chambadarion Faldevarion Nimbadarion Zadarion Beseldur Ganandur Vilkasordur
+			Jamdur Porandur Bakandur Itraldur Varandur Jarmakdur Sandur Kirmandur Tondur Pasdur Livandur Ryndur Hiramdur Ynamdur Camdur
+			Cabandur Jinndur Darasdur Divimdur Avamdur Athirimdur Ascarimdur Ijimdur Wimdur Trandur Evamdur Enildur Ecandur Timdur Packandur
+			Joldur Rangdur Rominadur Pivamdur Maldur Makandur Nakondur Binamdur Kaldur Kondur Uramdur Ubrildur Rebbendur Kramdur Konagdur
+			Etaradur
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			#random_names = { }
+			#sequential_name = "%O% Puesto Fronterizo"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = {
+			"Fuerza de Trabajo Boska" "Fuerza de Trabajo Utaris" "Fuerza de Trabajo Gaddlar" "Fuerza de Trabajo Mirasma" "Fuerza de Trabajo Yodora" "Fuerza de Trabajo Kampas"
+		}
+		sequential_name = "%C%ª Fuerza de Trabajo"
+	}
+	
+	army_names = {
+		defense_army = {		
+			sequential_name = "Regulares Defensivos %R%"
+		}
+			
+		assault_army = {
+			sequential_name = "Dragones de Ataque %R%"
+		}
+		
+		slave_army = {
+			sequential_name = "Esclavos de Batalla %R%"
+		}
+		
+		clone_army = { 
+			sequential_name = "Clones Guerreros %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Legión de Batalla Droide %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Legionarios Plateados %R%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "Puesto Psiónico %R%"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "Progenie Destructora %R%"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "Vanguardia Aumentada %R%"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Gandara Yaldira Mirida Bekonda Pildara Eldetha Arganira Athisa Bondoga Oldara Birga Jallida Terdaga Tirimba Dantariga
+				Umara Ferdera Nagrama Nidira Molgarima Varba Lappra Ligira Tentramoda Tavkaleba Paragima Firintarogga Kampira
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Rodrig Galdrig Modrig Valdrig Jorim Barim Virpim Jargim Birm Raldirm Feldirm Pendirm
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				"den Hullos" "den Badir" "den Vathrag" "den Adasga" "den Polosch" "den Piriam" "den Tarrob" "den Iridar" "den Rothorag"
+			}
+			
+			regnal_first_names = {
+				Rodrig Galdrig Modrig Valdrig Jorim Barim Virpim
+			}
+			
+			regnal_second_names = {
+				"den Hullos" "den Badir" "den Vathrag" "den Adasga" "den Polosch" "den Piriam" "den Tarrob" "den Iridar" "den Rothorag"
+			}
+		}
+	}
+}

@@ -1,0 +1,183 @@
+﻿### Plantoid 2
+### Created by Maximilian Olbers, Miranda van den Brink
+PLANT2 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+			   
+		}
+	
+		corvette = { Aurora "Chinche Fiera"  Resinoso Tuberoso "Centinela Verde" "Centinela Rojo" "Centinela Dorado" "Vigilante Verde" "Vigilante Rojo" "Vigilante Dorado" "Centinela Celestial" "Asalto Verde" "Fuerza Estelar" "Hoja Estrellada" "Hoja Celestial" "Ariete Estelar" "Ariete Verde" "Ariete Helecho" "Ariete Abeto" "Ariete Rama" "Cielos Lejanos" "Brote del Cielo" "Destello Verde" Dardo Corredor "Corredor de los Cielos" "Ariete del Cielo" "Cazador Estelar" Trífido "Orgullo del Bosque" "Chinche Tenaz" "Chinche Inexpugnable" "Chinche Magnífica" "Chinche Exaltada" "Pecíolo Exaltado" "Pecíolo Magnífico" "Pecíolo Tenaz" "Pecíolo Fiero" 
+		}
+		
+		destroyer = { "Orgullo de la Arboleda" "Orgullo de la Pradera" "Orgullo de los Pantanos" Acechador "Cielo Susurrante" "Acechador Verde" "Estrella Susurrante" "Relámpago Verde" "Orgullo Verde" "Orgullo del Páramo" "Orgullo del Claro" "Orgullo del Océano" "Orgullo del Valle" "Orgullo de Yax Imix Che" "Orgullo de Kalpavriksha" "Orgullo de Bo" "Orgullo de Akshayavat" "Orgullo de Nookomis Giizhig" "Orgullo de Irminsul" "Orgullo de Somb" "Orgullo de Tule" "Orgullo de Ashvattha" "Orgullo de Fusang" 
+		}
+		
+		cruiser = { "Protector de los Valles" "Protector de los Pantanos" "Protector de los Bosques" "Protector de los Océanos" "Protector de los Ríos" "Protector de las Arboledas"
+		}
+		
+		battleship = { "Defensor de Yggdrasil" "Defensor de Yax Imix Che" "Defensor de Kalpavriksha" "Defensor de Bo" "Defensor de Akshayavat" "Defensor de Irminsul" "Defensor de Somb" "Defensor de Tule" "Defensor de Ashvattha" "Defensor de Fusang"
+		}
+		
+		science = { Leguminante Perennia Meduloso Siempreverde
+		}
+		
+		colonizer = { Rama Ondulador Enroscador Pecíolo Brote
+		}
+		
+		constructor = { "Chinche Verde" "Chinche Mohosa" "Chinche Dorada"
+		}
+
+		transport = { "Transporte"
+		}
+		
+		orbital_station = {
+		}
+		mining_station = {
+		}
+		research_station = {
+		}
+		wormhole_station = { }
+		#terraform_station = {
+		#}
+		observation_station = {
+		}
+	
+		military_station_small = { "Orgullo de la Tundra" "Orgullo de los Ríos" "Orgullo de Yggdrasil"}
+	
+		military_station_medium = { "Orgullo de la Tundra" "Orgullo de los Ríos" "Orgullo de Yggdrasil"}
+	
+		military_station_large = { "Orgullo de la Tundra" "Orgullo de los Ríos" "Orgullo de Yggdrasil"}
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Ramo de Rosas" "Ramo Floreciente" "Ramo Vencedor" "Ramo Enroscado" "Ramo Desarrollado"
+		}
+		sequential_name = "Ramo %C%º"
+	}
+
+	### ARMIES
+	army_names = {
+		defense_army = {
+			random_names = { "1er Tallo Protector" }
+			sequential_name = "%C%º Tallo Protector"
+		}
+			
+		assault_army = {
+			random_names = { "1er Tallo Envenenado" }
+			sequential_name = "%C%º Tallo Envenenado"
+		}
+		
+		slave_army = {
+			random_names = { "1er Tallo Confinado" }
+			sequential_name = "%C%º Tallo Confinado"
+		}
+		
+		clone_army = { 
+			sequential_name = "Tallo de Muchos %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Tallo de Hierro %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Tallo de Acero %R%"
+		}
+		
+		psionic_army = { 
+			random_names = { "1er Tallo Lobulado" }
+			sequential_name = "%C%º Tallo Lobulado"
+		}
+		
+		xenomorph_army = {
+			random_names = { "1er Tallo Extraño" }
+			sequential_name = "%C%º Tallo Extraño"
+		}
+		
+		gene_warrior_army = {
+			random_names = { "1er Tallo Híbrido" }
+			sequential_name = "%C%º Tallo Híbrido"
+		}
+	}
+
+		
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Musgogar Arborealis Herbaceon Horticulto Praderas "Caída de Nuez" "Bayarbusto" Tronco Helechos "Cama de Tréboles" Helechopía Futuro Bulbo Fusang "Hogar al Fín" "Arboleda Estelar" "Nuevas Raíces" "Flor Estelar" Été "Nueva Esperanza" "Claro de Helechos" "Gloria de Tule" "Yax Imix Che" Kalpavriksha Bo Akshayavat "Nookomis Giizhig" Irminsul Somb Tule Ashvattha Musgosas Paraiso "Hierba Dorada" "Frondoso" "Nuez Espacial" "Dicha" "Flor Dorada"	"Nuevo Suelo" "Paraíso de la Hoja"	}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Blanco Gris Negro Borgoña Rojo Azul Índigo Cian Amarillo Naranja Marfil Ébano Púrpura Marrón Turquesa Verde Aguamarina Caqui Magenta Dorado Plata
+				Bronce Miel Lavanda Granate Oliva
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Raíz Bulbo Germinación Fronda Fruta Aguja Néctar Hierba Brote Vaina Cono
+			}
+
+			regnal_first_names = {
+				"Flor de"
+			}
+			
+			regnal_second_names = {
+				Yggdrasil "Yax Imix Che" Kalpavriksha Bo Akshayavat "Nookomis Giizhig" Irminsul Somb Tule Ashvattha Fusang
+			}
+		}
+	}
+}

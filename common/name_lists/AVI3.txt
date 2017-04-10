@@ -1,0 +1,213 @@
+﻿### Avian Predator
+### Created by Johan Andersson 2015-07-31
+
+AVI3 = {
+	ship_names = {
+		generic = {
+			"Grito" "Chillido" "Alarido" "Aullido" "Graznido"
+			"Planeo" "Ascenso" "Elevación" "Incremento" "Vuelo"
+			"Deriva" "Flote" "Deslíz" "Picado" "Descenso"
+			"Llanto" "Zambullida"
+		}
+		
+		corvette = {
+			"Agudo" "Rápido" "Frenesí" "Salpicadura" "Cicatriz"
+			"Sangre" "Mutilación" "Acometida" "Herida" "Dolor"
+			"Rajar" "Arañazo" "Cortar" "Mutilador" "Lesión"
+			"Tullidor" "Desfigurador" "Lisiador" "Deformador" "Perforador"
+		}
+		
+		constructor = {
+			"Fabricante de Nidos" "Constructor de Nidos" "Creador de Nidos" "Productor de Nidos" "Hacedor de Nidos"
+			"Fabricante de Corrales" "Constructor de Corrales" "Creador de Corrales" "Productor de Corrales" "Hacedor de Corrales"
+		}
+		
+		colonizer = {
+			"Huevoportador I" "Huevoportador II" "Huevoportador III" "Huevoportador IV" "Huevoportador V"
+			"Huevoportador VI" "Huevoportador VII" "Huevoportador VIII" "Huevoportador IX" "Huevoportador X"
+			"Huevoportador XI" "Huevoportador XII" "Huevoportador XIII" "Huevoportador XIV" "Huevoportador XV"
+			"Huevoportador XVI" "Huevoportador XVII" "Huevoportador XVIII" "Huevoportador XIX" "Huevoportador XX"
+		}
+		
+		science = {
+			"Ojo Interior" "Tercer Ojo" "Ojo Inspector" "Ojo Evaluador" "Ojo Analizador"
+			"Ojo Contemplativo" "Ojo Inquisitivo" "Ojo Evaluador" "Ojo Pensante"
+			"Ojo Apreciativo" "Ojo Asesor" "Ojo Clasificador" "Ojo Estimador" "Ojo Determinador"
+			"Ojo Registrador" "Ojo Estudioso" "Ojo Investigador" "Ojo Explorador" "Ojo Observador"
+		}
+		
+		destroyer = {
+			"Garra Precisa" "Garra Rápida" "Garra Frenética" "Garra Sangrienta" "Garra Cicatrizante"
+			"Garra Cruenta" "Garra Espeluznante" "Garra Mutiladora" "Garra Destrozadora" "Garra Herida"
+			"Garra Fulminante" "Garra Rascadora" "Garra Cortante" "Garra Mutilante" "Garra Hiriente"
+			"Garra Paralizante" "Garra Desfiguradora" "Garra Lisiante" "Garra Deformadora" "Garra Perforadora"
+		}
+		
+		cruiser = {
+			"Pico Preciso" "Pico Rápido" "Pico Frenético" "Pico Sangriento" "Pico Cicatrizanto"
+			"Pico Cruento" "Pico Espeluznanto" "Pico Mutilador" "Pico Destrozador" "Pico Herido"
+			"Pico Fulminante" "Pico Rascador" "Pico Cortante" "Pico Mutilante" "Pico Hiriente"
+			"Pico Paralizante" "Pico Desfigurador" "Pico Lisiador" "Pico Deformador" "Pico Perforador"
+		}
+		
+		battleship = {
+			"Masacre Gloriosa" "Matanza Gloriosa" "Carnicería Gloriosa" "Exterminio Glorioso" "Aniquilación Gloriosa"
+			"Masacre Maravillosa" "Matanza Maravillosa" "Carnicería Maravillosa" "Exterminio Maravilloso" "Aniquilación Maravillosa"
+			"Masacre Estimulante" "Matanza Estimulante" "Carnicería Estimulante" "Exterminio Estimulante" "Aniquilación Estimulante"
+			"Masacre Deliciosa" "Matanza Deliciosa" "Carnicería Deliciosa" "Exterminio Delicioso" "Aniquilación Deliciosa"
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { 
+		#	"Nest Shaper" "Roost Shaper"
+		#}
+		observation_station = { }
+		outpost_station = {
+			#random_names = {
+				"Ojo Atento" "Ojo Vigilante" "Ojo Durmiente" "Ojo Agudo" "Ojo Despectivo" "Ojo Distraído" "Ojo Taimado" "Ojo Ferviente" "Ojo Intrépido" "Ojo Tenaz"
+			#}
+			#sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Asesinato de Fidgit" "Asesinato de Trast" "Asesinato de Croo" "Asesinato de Carcan" "Asesinato de Tripato" "Asesinato de Foosh" "Asesinato de Urya" "Asesinato de Larii" "Asesinato de Cawica" "Asesinato de Foroo" "Asesinato de Try'tara" "Asesinato de Rickit" "Asesinato de Barraw" "Asesinato de Ca'tawa"
+		}
+		sequential_name = "%C%º Asesinato"
+	}
+
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "%C%ª Bandada de Defensa"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Bandada de Asalto"
+		}
+		
+		slave_army = {
+			sequential_name = "%C%º Ejército Subyugado"
+		}
+		
+		clone_army = { 
+			sequential_name = "Fuerzas Copia %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Fuerzas Droide %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Fuerzas Androide %R"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%C%ª Mentes Agitadas"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%C%ª Bandada de Xenos"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%C%ª Bandada Mutada"
+		}
+	}
+
+	planet_names = {
+
+		# Names that can be assigned to all planet types
+		generic = {
+			names = {
+				"Trast" "Fidgit" "Micaw" "Craw't" "Caw'taan" "Nido de Krachaw" "Risco de Frackaw" "Corral de Rickichi" "Nido de Lirchi" "Cubierta de Croo" "Carcana" "Frippit" "Whoo'tar" "Fashaaw" "Chyy'ta" "Fyyrt" "Drakoo" "Descanso de Foshoo" "Ury" "Travuu" "Kloo" "Claive" "Biribit" "Rooki" "Tripitit" "Trobbi" "Trittita" "Foosh'ro" "Urytry"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				"Pico Blanco" "Pico Gris" "Pico Negro" "Pico Rojo" "Pico Azul" "Pico Índigo" "Pico Cían" "Pico Amarillo" "Pico Naranja" "Pico de Marfil" "Pico de Ébano" "Pico Púrpura" 
+				"Pico Marrón" "Pico Turquesa" "Pico Verde" "Pico Aguamarina" "Pico Caqui" "Pico Magenta" "Pico de Oro" "Pico de Plata" "Pico de Bronce" "Pico de Lavanda" "Pico Granate" "Pico Oliva" 
+				"Penacho Blanco" "Penacho Gris" "Penacho Negro" "Penacho Rojo" "Penacho Azul" "Penacho Índigo" "Penacho Cían" "Penacho Amarillo" "Penacho Naranja" "Penacho de Marfil" "Penacho de Ébano" "Penacho Púrpura" 
+				"Penacho Marrón" "Penacho Turquesa" "Penacho Verde" "Penacho Aguamarina" "Penacho Caqui" "Penacho Magenta" "Penacho de Oro" "Penacho de Plata" "Penacho de Bronce" "Penacho de Lavanda" "Penacho Granate" "Penacho Oliva" 
+				"Ojos Blancos" "Ojos Grises" "Ojos Negros" "Ojos Rojos" "Ojos Azules" "Ojos Índigo" "Ojos Cían" "Ojos Amarillos" "Ojos Naranjas" "Ojos de Marfil" "Ojos de Ébano" "Ojos Púrpura" 
+				"Ojos Marrones" "Ojos Turquesa" "Ojos Verdes" "Ojos Aguamarina" "Ojos Caqui" "Ojos Magenta" "Ojos de Oro" "Ojos de Plata" "Ojos de Bronce" "Ojos de Lavanda" "Ojos Granate" "Ojos Oliva"
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			    "Garras"
+				"Alas" 
+				"Plumas" 
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Blancas Grises Negras Borgoña Rojas Azules Índigo Cían Amarillas Naranjas "de Marfil" "de Ébano" Púrpuras Marrones Turquesa Verdes Aguamarina Caqui Magenta "de Oro" "de Plata"
+				"de Bronce" Melón Lavanda Granate Oliva
+			}
+			
+			regnal_first_names = {
+				"Ala Negra" "Ala Blanca" "Ala Roja" "Ala Estelar" "Ala del Cielo" "Ala de las Nubes" 
+				"Pico Negro" "Pico Blanco" "Pico Rojo" "Pico Estelar" "Pico del Cielo" "Pico de las Nubes"
+				"Plumas Doradas" "Plumas Plateadas"
+			}
+			
+			regnal_second_names = {
+				Extak
+			}
+		}
+	}
+}
