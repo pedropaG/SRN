@@ -1,0 +1,183 @@
+﻿### Plantoid 3
+### Created by Rufus Tronde, Miranda van den Brink
+PLANT3 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+			Medriatus Soetemus Deketalus Boramavus Charadomus Ortionacus Moratinius Tenokiarius Meladionius Ornithorhynchus Paradoxus Lanlitius Vedirikarius Moretius Dekalus Chramus Vitalus Mereotepanus Brekkavus Gordanus Jamilus Evistratus Boramelus Rentifalus Mirtinius Teomoramavus Trivalus Prakus Brigavus Drimarus Tritus Ondolus Hemivalus Dekadamus Sepirius Jureus Brustus Livus Javus Petus Gladiolus Flovius Mirius Rivolus Titalus Avidius Aroneus Grolus Nemus Boralomus 
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		orbital_station = {
+		}
+		mining_station = {
+		}
+		research_station = {
+		}
+		wormhole_station = { }
+		#terraform_station = {
+		#}
+		observation_station = {
+		}
+	
+		military_station_small = {  }
+	
+		military_station_medium = {  }
+	
+		military_station_large = {  }	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Armada Bion Floreciente" "Armada Bion Boyante" "Armada Bion Vencedora" "Armada Bion Enroscada" "Armada Bion Desarrollada"
+		}
+		sequential_name = "Armada Bion %C%"
+	}
+
+	### ARMIES
+	army_names = {
+		defense_army = {
+			random_names = {"1er Escudo de Corteza"}
+			sequential_name = "%O% Escudo de Corteza"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Lanza de Púas"
+		}
+		
+		slave_army = {
+			sequential_name = "%C%ª Cosecha de Cultivos"
+		}
+		
+		clone_army = { 
+			sequential_name = "Genet %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Cadena de Margaritas %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Cadena de Girasoles %R%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%C%ª Fuerza de Feromonas"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%C%ª Fuerza Xenodendrona"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%C%ª Fuerza Extremófila"
+		}
+	}
+
+		
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Lonvitium Koronium Nimerium Mitanium Ramonium Henumium Janarsium Fugatium Panokirium Veranium Verdureum Lomenium Ronobirium Berykinium Cobunorium Omoderium Ibinidium Madasenium Esperium Herbarium Vorberium Gytorium Bevoreum Rivorium Limorium Drofilium Dendtritium Elorium Vendorium Ceptorium Styrium Brovarium Nirium Remorium Ketovilium Ketorium Gronium Revium Henimium Narium 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names_female = {
+				Flora Viola Violeta Lirio Rosa Margarita Sorbus Iris Jazmín Verónica Herbe Hazel Erica Olivo
+			}
+
+			first_names_male = {
+				Sorbus Albahaca Brezo Caña Ceniza Arándano Brote
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Roble Flor Guirnalda arce Espino Lita
+			}
+
+			regnal_first_names_male = {
+				Valeriana Narciso Amaranto
+			}
+
+			regnal_first_names_female = {
+				"Botón de Oro" Jazmín Belladona
+			}
+			
+			regnal_second_names = {
+				Linneo
+			}
+		}
+	}
+}

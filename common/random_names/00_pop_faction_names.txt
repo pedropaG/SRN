@@ -1,0 +1,384 @@
+
+pop_faction_name_parts_list = {
+	key = "loyalist_names"
+	parts = {
+		"Leales" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "docile_slaves_names"
+	parts = {
+		"Esclavos Dóciles" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "malcontent_slaves_names"
+	parts = {
+		"Esclavos Descontentos" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "emancipation_names"
+	parts = {
+		"Movimiento de Emancipación" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "peace_names"
+	parts = {
+		"Movimiento de Paz" = 1
+		"Coalición Anti-Guerra" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "purged_names"
+	parts = {
+		"Manifestantes Contra la Purga" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "planet_separatist_names_1_sing"
+	parts = {
+		"Separatista" = 1
+		"Secesionista" = 1
+		"Independentista" = 1
+		"Nacionalista" = 1
+		"por la Soberanía" = 1
+		"por la Autodeterminación" = 1
+		"Popular" = 1
+		"por la Autonomía" = 1
+		"por la Libertad" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "planet_separatist_names_1_pl"
+	parts = {
+		"Separatistas" = 1
+		"Secesionistas" = 1
+		"Independentistas" = 1
+		"Nacionalistas" = 1
+		"por la Soberanía" = 1
+		"por la Autodeterminación" = 1
+		"Populares" = 1
+		"por la Autonomía" = 1
+		"por la Libertad" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "planet_separatist_names_1_ex"
+	parts = {		
+		"y Libertad" = 1
+		"y Nación" = 1
+		"Independendiente" = 1
+		"Libre" = 1		
+		"Soberana" = 1
+		"Autonoma" = 1
+		"por la Soberanía" = 1
+		"por la Autodeterminación" = 1
+		"por la Autonomía" = 1
+		"por la Libertad" = 1
+		"Primero" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "planet_separatist_names_2_sing"
+	parts = {
+		"Movimiento" = 1
+		"Frente" = 1
+		"Alianza" = 1
+		"Liga" = 1
+		"Asociación" = 1
+		"Comité" = 1
+		"Unión" = 1
+		"Armada" = 1
+		"Resistencia" = 1
+		"Grupo" = 1
+		"Clandestino" = 1
+		"Vanguardia" = 1
+		"Bloque" = 1
+		"Guarnición" = 1
+		"Brigada" = 1
+		"Congreso" = 1
+		"Milicia" = 1
+		"Facción" = 1
+		"Comando" = 1
+		"Organización" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "planet_separatist_names_2_pl"
+	parts = {
+		"Rebeldes" = 1
+		"Insurgentes" = 1
+		"Fuerza de Voluntarios" = 1
+		"Luchadores" = 1
+		"Partidarios" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "nationalist_names"
+	parts = {
+		"Patriarcas" = 1
+		"Xenos Unidos" = 1
+		"Nativos" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_faction_names"
+	parts = {
+		"Bloque Leal" = 1
+		"Grupo Leal" = 1
+		"Iniciados Leales" = 1
+		"Leales del Borde" = 1
+		"Moderados Leales" = 1
+	}
+}
+
+# Loyalists
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "loyalist"
+		}
+	}
+	format = "<loyalist_names>"
+}
+
+# Slaves
+#pop_faction_name_format = {
+#	random_weight = {
+#		factor = 0
+#		modifier = {
+#			add = 100
+#			is_pop_faction_type = "slave"
+#		}
+#	}
+#	format = "<slave_names>"
+#}
+
+# Docile Slaves
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "docile_slaves"
+		}
+	}
+	format = "<docile_slaves_names>"
+}
+
+# Malcontent Slaves
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "malcontent_slaves"
+		}
+	}
+	format = "<malcontent_slaves_names>"
+}
+
+# Emancipation Faction
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "emancipation"
+		}
+	}
+	format = "<emancipation_names>"
+}
+
+# Peace Movement
+#pop_faction_name_format = {
+#	random_weight = {
+#		factor = 0
+#		modifier = {
+#			add = 100
+#			is_pop_faction_type = "peace"
+#		}
+#	}
+#	format = "<peace_names>"
+#}
+
+# Purged
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "purged"
+		}
+	}
+	format = "<purged_names>"
+}
+
+# Separatists Sing
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "planet_separatists"
+		}
+	}
+	format = "<planet_separatist_names_2_sing> <planet_separatist_names_1_sing> de [parameter:planet.GetName]"
+}
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "sector_separatists"
+		}
+	}
+	format = "<planet_separatist_names_2_sing> <planet_separatist_names_1_sing> de [parameter:sector.GetName]"
+}
+
+# Separatists Pl 1
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "planet_separatists"
+		}
+	}
+	format = "<planet_separatist_names_2_pl> <planet_separatist_names_1_pl>"
+}
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "sector_separatists"
+		}
+	}
+	format = "<planet_separatist_names_2_pl> <planet_separatist_names_1_pl>"
+}
+
+# Separatists Pl 2
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "planet_separatists"
+		}
+	}
+	format = "<planet_separatist_names_2_pl> de [parameter:planet.GetName]"
+}
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "sector_separatists"
+		}
+	}
+	format = "<planet_separatist_names_2_pl> de [parameter:sector.GetName]"
+}
+
+# Separatists Pl 3
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "planet_separatists"
+		}
+	}
+	format = "<planet_separatist_names_1_pl> de [parameter:planet.GetName]"
+}
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "sector_separatists"
+		}
+	}
+	format = "<planet_separatist_names_1_pl> de [parameter:sector.GetName]"
+}
+
+# Separatists extra
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "planet_separatists"
+		}
+	}
+	format = "[parameter:planet.GetName] <planet_separatist_names_1_ex>"
+}
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "sector_separatists"
+		}
+	}
+	format = "[parameter:sector.GetName] <planet_separatist_names_1_ex>"
+}
+
+# Nationalist
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "nationalist"
+		}
+	}
+	format = "<nationalist_names> de [parameter:country.GetAdj]"
+}
+
+pop_faction_name_parts_list = {
+	key = "pretender_names"
+	parts = {
+		"Pretendiente al Trono" = 1
+	}
+}
+
+# Pretender
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "pretender"
+		}
+	}
+	format = "<pretender_names>"
+}
+
+# Democratic election
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "democratic_election_faction"
+		}
+	}
+	format = "<democratic_election_faction_names>"
+}

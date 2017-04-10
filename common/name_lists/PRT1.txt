@@ -1,0 +1,132 @@
+﻿### Pirates
+PRT1 = {
+	selectable = { always = no }
+	randomized = no
+	
+	### PLANETS
+
+	trigger = {
+		is_pirate = yes
+	}
+
+	ship_names = {
+		generic = {
+			Monstruosidad Polvorín Quimera "Trampa Mortal" Trabalenguas Llorona Aguafiestas Procaz Arrogante Hijastro Destrozahogares Atropellado Descontento "Bala Perdida"
+			Torpe Patán Iracundo Amargado "Golpe Traicionero" Desollador "Odio Todo" Salteador Proscrito "Sacerdote Turbulento" "Mono del Mar"
+			Ganadero "Bancarrota Moral" "Disminuido Mental" Destartalado "Comida Gratis" "Inspector de Billeteras" Hazmerreír Pistolero Mercenario Taimado
+			"Hijo Obstinado" Tarugo "Asteroide Desapercibido" Destalentado "Carga Pesada" "Sin Reembolso" "Sin Criterio" "Punto Ciego" "Palo Feo" "Espectáculo Terminado" "Cuatro Luces"
+			"Justicia Poética" "Objecto Extraño" "¿Por Qué Yo?" "Último Intento" "Conductor Designado" "¡Cometa a la Vista!" Abofeteado "Mejor Postor" "Sábana Mojada" "Métodos Sórdidos"
+			"Récord Batido" "Transgénero" Perdulario Grotesco "Cachorro Impúdico" "Lenguaje Grosero" "Empleado Público" "El Amor Está en el Aire" Espectáculo Ineptitud
+			Malestar "Ciudadano Desviado" Masticador "Reducción de Ingresos" "Riesgo Calculado" "Pesadilla Logística" "Acércate" "Soylent Green" "Tunel del Amor" "Negligencia Grave"
+			"Otra Boca que Alimentar" "Sin Devoluciones" Trabuco "Atrápame Si Puedes" Obscenidad "Más Santo que Tú" "Abre la Boca" Objetivo "Tiro al Blanco" Recaudador Abogado "Temor Rojo"
+			"Enlace Perdido" Amordazado "Barón Ladrón" "Afrenta de la Naturaleza" "Venganza de la Reina Xoggra" "Derrota Total" "Tonto del Pueblo" Chismoso Filibustero "Sapo Servil"
+			"Perro Sarnoso" Embaucador "Percepción de Profundidad" "Por Aquí" "Sarpullido Misterioso" "Intervención Divina" "Huesos Cruzados" "Jolly Roger" "Sin Rendición" "Sin Cuartel"
+			"Víctima de la Circunstancia" "Bandera Roja" "Producto de la Sociedad" "Bajo Evaluación" "Sarcófago Volador" "Jaula Dorada" "Trabajador Descontento" "En Plenas Facultades" "Torre de Marfil"
+			"Hijo Bastardo" "Alfombra de Muestra" "Tentáculo Escarlata" Agáchate "Experiencia Educativa VII" "Mínimo Común Denominador" "Días de Gloria" "Apéndice Fascinante"
+			"Indigente Desesperado" "Nacido Afortunado" "Estupidez de Boltragg" "Mi Primer Navío IV" "Instinto Básico" "Comprueba Por Favor" "Bucle Infinito" "Amaneceres Perezosos" "Condenadas Consecuencias"
+			"Error de Ejecución" "Plausibilidad Inútil" "Materia Gris" "Objetor de Consciencia" "Picor Inexplicable" Anarquista "Fuera de Control" "Obstáculo Inesperado" 
+			"Comportamiento Tóxico" "Explosión Controlada" Fugitivo "Campista Feliz" "Final Desafortunado" "Criminalmente Loco" "No Culpable" "Doble Peligro" "Lanzamiento Perfecto" 
+			"Pedal al Metal" "Juicio Nulo" "Trozo de Carbón" "Lo Siento Mucho" "Oscuro Pronóstico" "Disculpas por Adelantado" "Reducido a Esto" "Encuentro Sorpresa" "Bodega de Carne"
+			"Arresto Cardiaco" Chatarra "No Quería Esto" "Línea de Fondo" "Con Abandono" "No Respondas" "Métodos Silenciosos" "Bestia de Carga" "Garra Roja"
+			"Dorgabloid Volador" "No es Cosa de Risa" "Nada Personal" "Gran Experimento" "Parece Problemático" "Punto de Retorno" "Maldición de Zuldaxim" Malvado Paleto
+			"Intención Homicida" "Parece que Podría Matarte" "¿Qué Brujería es Esta?" Intraducible "Coraje Líquido" "Buscador de Atención" "Tu Progenitora" "Delincuente Juvenil"
+			"Carne Misteriosa" "Pendiente REsbaladiza" "Cabeza de Chorlito" "Espíritu de Zalussa" "Gesto Vacío" "Peste Irritante" "Nave de Zarga" "La Otra Nave de Zarga" "Herramienta de Asesinato"
+			"Objeto Contundente" "El General Xarg" "Corredor de Bloqueos" "Espectador Inocente" Reprobable "Sin Propósito" "Sin Salvación" "Esto También Pasará" "Placer Culpable"
+			"Cirugía Exploratoria" "Solución Poco Elegante" Pilluelo "Bajo Nuevo Propietario" "Cascada de Resonancia" "Herida Supurante" "Sonrisa Roja" "Incitador de la Turba" "Extraño Misterioso"
+			"Proceso de Eliminación" Holgazán Paparruchas Sandeces Bobadas "Suficiente Holgazanería" "Propenso a la Histeria" "Pordiosero de las Estrellas" "Elegancia Bajo Presión" Brainiac
+			Nogoodnik "Picadura de Viruela" "Sueño Resquebrajado" Rompepromesas Chaquetero "Haz las Cuentas" "Por los Números" Percance Bruja "Chico Grande" "Mascota del Profesor" Desamparado "Campanas del Cielo"
+			Embaucador "Masa Crítica" "Golfa Estelar" "Doble Estandard" Retardado Zoquete Zopenco "Furia Ciega" "Os Maldigo" Carroñero Espontáneo "Libra de Carne"
+			"Entrecejo Fruncido" "Detonador Corto" Aguafiestas Almohadilla "Agente de Carretera" Fugitivo Mentecato Ignorante "No Es Lo que Parece" Reprobable Intolerante Petulante "Miradas Engañosas"
+		}
+		
+		corvette = {
+		}
+		
+		constructor = {
+		}
+		
+		colonizer = {
+		}
+		
+		science = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		mining_station = { 
+			"Estación"
+		}
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		
+		transport = {
+			"Portador"
+		}
+		
+		military_station_small = {
+			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación"
+		}
+
+		military_station_medium = {
+			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación"
+		}
+
+		military_station_large = {
+			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación"
+		}
+		
+		pirate_station = {
+			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Armada Sangrienta" "Flota Terrorífica" "Flotilla de la Muerte" "Armada Calavera" "Flota de la Condenación" "Flotilla Invasora" "Fuerza de Asalto"
+			"Escuadrón Pirata" "Flotilla Oscura" "Cuadrilla de Guerra" "Armada Pirata" "Flotilla Pirata" "Fuerza de Incursión" "Anfitrión Sangriento"
+			"Escuadrón de Caza" "Manada de Caza" "Azote de las Estrellas" "Flotilla Negra" "Flotilla Escarlata" "Merodeadores Estelares"
+		}
+	}
+
+	planet_names = {
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			full_names = {
+				"Tibias Cruzadas" Sonriente "Demonio-Volador" "Nariz Plana" "Almirante Amarillo" "Capitán Muerte" "Coronel Dolor"
+				"Qurob Sangrante" "Ruina de la Civilización" Pionero "Demonio Verde" Cicatriz "El Profesor" "Vientre Rojo" "Diente de Oro"
+				"Ojo de Plata" "Aliento de Muerte" "Jefe Nozka" "Azote del Espacio" "Jefe Militar Gebban" "Gran Cosa" "Ojos Salvajes"
+			}
+			
+			full_names_male = { 
+				"El Barón" "Rey Carnicero" "Su Señoría" "Emperador del Universo" "Timonel Loco" "Emperador Cuatro-Ojos VII" "Gordo Tirak" "El Comodoro" "El Salvaje" "El Veterano" "El Erudito" "El Cazador"
+				Sepulturero Facilitador "El Maldito" "Resbaladizo Luqav" "Astuto Birpe" Certero "Rikam el Borracho" "El Hechicero" "Betak el Bastardo" "El Destructor" "Ciudadano Jumbka" "Doctor S"
+				"Primer Oficial Tuwab"
+			}
+			
+			full_names_female = {
+				"La Comadrona" "Reina Sangrienta" "Rokka La Niña" "La Sheriff" "Gorda Tirak" "La Comodoro" "La Salvaje" "La Veterana" "La Erudita" "La Cazadora" Sepulturera Facilitadora "La Maldita" "Resbaladiza Luqav"
+				"Astuta Birpe" Certera "Rikam la Borracha" "La Bruja" "Betak la Bastarda" "La Destructora" "Ciudadana Jumbka" "Doctora S" "Primera Oficial Tuwab"
+			}
+
+			first_names = {
+			}
+			
+			second_names = {
+			}
+		}
+	}
+}

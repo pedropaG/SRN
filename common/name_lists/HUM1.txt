@@ -1,0 +1,211 @@
+﻿### Template
+HUM1 = {
+	### SHIPS
+	alias = "MAM5"
+
+	ship_names = {
+
+		generic = {
+			"Khutma el Grande" "Rhun el Inflexible" "Kashnak el Paciente" "Roktar el Bravo" "Suulnar el Leal" "Khebb el Fiero"
+			"Lasnem el Implacable" "Mendrack el Astuto" "Yndan el Fuerte" "Pandack el Sabio" "Ialness el Superior" "Anaban el Impasible"
+			"Galato el Justo" "Hempest el Intrépido" "Utak el Inesperado" "Jhana el Atrevido" "Hitaab el Silencioso" "Rhebnar el Cruel" "Tetran el Vil"
+			"Elesna el Afortunado" "Berek el Inteligente" "Porsam la Sombra" "Lur el Impredecible" "Mantar el Taimado" "Ashnu el Sobrio"
+			"Perek el Magnánimo" "Holt el Magnífico" "Jesslur el Obstinado" "Ombek el Terco" "Bynth el Firme" "Goron el Brillante"
+			"Hhomev el Valiente" "Donabb el Resuelto" "Selrak el Seguro" "Farassa el Enérgico" "Tork el Determinado" "Tipuk el Fervoroso" 
+			"Urbek el Inestable" "Illvagh el Tenaz" "Faju el Obstinado" "Khabbash el Furioso" "Appan el Triste" "Ketrill el Radiante"
+			"Lessaja el Ruinoso" "Issa el Juicioso" "Letham el Decisivo" "Rotha el Invencible" "Foss el Rápido" "Jolkeg el Ligero"
+			"Tetregg el Agil" "Ghuum el Misericordioso" "Rothinka el Iluminado" "Khamba el Despiadado" "Linntyl el Mordaz" "Onakbal el Capaz"
+			"Hoftaht el Vengador" "Menesik el Bendito" "Rothnak el Temerario" "Lahvon el Imprudente" "Rhass el Conquistador" "Ihlmac el Cruzado"
+			"Johvon el Ejecutor" "Pahni el Glorioso" "Esslon el Bueno" "Untabb el Severo" "Nehdaban el Sagrado" "Nothan el Arrogante"
+			"Galathor el Cazador" "Garal el Libertador" "Innik el Martir" "Avathim el Poderoso" "Jimmab el Enérgico" "Comboc el Orgulloso"
+			"Varkhim el Prudente" "Konsha el Redentor" "Kadmun el Restaurador" "Khaagul el Honrado" "Yhlat el Salvador" "Hahjum el Galante"
+			"Falatir el Valiente" "Fahvim el Victorioso" "Listhim el Guerrero" "Bathun el Campeón" "Hihmal el Azote" "Tatharon el Dominador"
+			"Dorlan el Tirano" "Karvulan el Condenado" "Cyssak el Digno" "Veltassa el Ordenador" "Ossana el Fundador" "Usal el Constructor"
+			"Hissnak the Razonable" "Elemano el Pródigo" "Etheron el Unificador" "Othana el Benigno" "Olymac el Erudito" "Tiltar el Joven"
+			"Timaphon el Implacable" "Veldik el Jovial" "Jussannon el Ermitaño" "Irevan el Amargo" "Russu el Agrio" "Remol el Abandonado"
+			"Petrack el Solitario" "Thaloth el Justiciero" "Asmacin el Cortés" "Taralla el Agraciado" "Eskeman el Azul" "Muntat el Amarillo"
+			"Ratalla el Rojo" "Tulakin el Blanco" "Effkar el Negor" "Lisamont el Verde" "Lomatik el Carnicero" "Ralpakin el Defensor"
+			"Jhulla el Protector" "Jhutana el Antiguo" "Donog el Apogeo" "Dassmath el Luchador" "Dathana el Místico" "Darmull el Misterioso"
+			"Ulbanok el Equitativo" "Bathar el Amistoso" "Bemalon el Desconfiado" "Hannakon el Sacrificador" "Haghonon el Vigilante"
+			"Hephanir el Salvaje" "Erkmal el Previsor" "Suthnar el Proveedor" "Monnobak el Centinela" "Seleng el Venerable" "Salaas el Reverenciado"
+			"Suthmar el Resistente" "Yllmassa el Reformador" "Tessma el Monstruoso" "Borok el Afable" "Khamtha el Ilustre" "Kamkak el Célebre"
+			"Damghalla el Heroico" "Jaffab el Devoto" "Mitgapp el Humilde" "Gaffimul el Impetuoso" "Ussnak el Vigilante" "Petrobon el Contendiente"
+			"Pagallum el Leal" "Peshnab el Fiel" "Itrambun el Torbellino" "Takjam el Memorable" "Takkram el Legislador" "Fylima el Legal"
+			"Petessa el Símbolo" "Elsam el Menospreciado" "Cognat el Asesino" "Carackon el Guardián" "Nimpac el Observador" "Illajon el Astuto"
+			"Gimalbon el Perspicaz" "Rommackin el Taimado" "Polonar el Insidioso" "Campramar el Peligroso" "Limpok el Funesto" "Ruthjara el Icono"
+			"Limathar el Majestuoso" "Kajana el Rápido" "Rukimar el Famoso" "Patana el Insigne" "Hishma el Inquietante" "Korgi el Inestable"
+			"Kodram el Cortés" "Donjab el Táctico"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			#random_names = { }
+			#sequential_name = "%O% Puesto Fronterizo"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	ship_class_names = {
+		generic = {
+			Il-Koth Daskall Mongath Sipii Narsul Vithar Kermel Saggor Gasna Dirama Bolkoth Erenth Ethill Kushana Joddam Korgas Ismir Centhor Piroc Pulnar Mol-Vikh
+			Ter-Math Ythamm Hessendroc Shoshona
+		}		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Armada de Suthnar" "Armada de Ralpakin" "Armada de Hissnak" "Armada de Galathor" "Armada de Olymac" "Armada de Perek"
+		}
+		sequential_name = "%C%ª Armada"
+	}
+	
+	army_names = {
+		defense_army = {			
+			names = { 
+				"1er Escudo Terrestre"
+			}
+			sequential_name = "%C%º Escudo Terrestre"
+		}
+			
+		assault_army = {
+			random_names = { 
+				"1er Gremio de Guerra"
+			}
+			sequential_name = "%C%º Gremio de Guerra"
+		}
+		
+		slave_army = {
+			sequential_name = "Peones de Guerra %C%"
+		}
+		
+		clone_army = { 
+			sequential_name = "Clones Guerreros %C%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Lanceros Robóticos %C%"
+		}
+		
+		android_army = {
+			sequential_name = "Cazadores Autónomos %C%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%C%ª Compañía de Brujos"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%C%ª Bandada de la Muerte"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "Caballeros Estrella %C%"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Desembarco de Karba" "Retirada de Mondak" "Fortaleza de Madragon" "Fortaleza de Siltam" "Ciudadela de Bontargi" "Dominios de Odranka" "Propiedad de Pirgak"
+				"Asilo de Lastargavin" "Refugio de Indig" "Bastión de Hadrigga" "Baluarte de Yltar" "Palacio de Tetlar" "Morada de Garbanog" "Punta de Ultrak"
+				"Estación de Kortol" "Avanzada de Findirban" "Frontera de Darmug" "Muelle de Dologga" "Tesoro de Irjamma" "Torreón de Kojogg"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = { 
+				Falatir Hephanir Timaphon Listhim Jesslur Yndan Kashnak Bemalon Cognat Limathar Elemano Khebb Tetran Ketrill
+				Rhass Linntyl Haghonon Darmull Ralpakin Campramar Monnobak Hannakon Veltassa Karba Darmug Ghuum Jaffab Thaloth
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Falatir Hephanir Timaphon Listhim Jesslur Yndan Kashnak Bemalon Cognat
+			}
+			
+			regnal_second_names = {
+				d'Vhakk
+			}
+		}
+	}
+}

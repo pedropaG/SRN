@@ -1,0 +1,198 @@
+﻿### Avian 2
+### Created by Maximilian Olbers
+### Based on a template by Henrik Eklund
+
+AVI2 = {
+	ship_names = {
+		generic = {
+			"Plumaje Ascendido" "Plumaje Luchador" "Plumaje Ágil" "Plumaje Desafiante" "Plumaje Resistente" "Plumaje Furioso"
+			"Plumaje Confiado" "Plumaje Inteligente" "Plumaje Taimado" "Plumaje Pródigo" "Plumaje Exultante" "Plumaje Descarado"
+			"Plumaje Loco" "Plumaje Vigilante" "Plumaje Vengativo" "Plumaje Rencoroso" "Plumaje Vindicativo" "Plumaje Impaciente"
+			"Plumaje Famélico" "Plumaje Implacable" "Plumaje Digno" "Plumaje Osado" "Plumaje Jovial" "Plumaje Indignante"
+			"Plumaje Astuto" "Plumaje Absurdo" "Plumaje Feliz" "Plumaje Inestable" "Plumaje Prudente" "Plumaje Solitario" 
+			"Plumaje Perceptivo" "Plumaje Impredeciblo" "Plumaje Impetuoso" "Plumaje Nocivo" "Plumaje Retorcido" "Plumaje Elegante"
+			"Plumaje Inflexible" "Plumaje Paciente" "Plumaje Incondicional" "Plumaje Fiero" "Plumaje Inolvidable" "Plumaje Insensible"
+			"Plumaje Afortunado" "Plumaje Valiente" "Plumaje Descarado" "Plumaje Impertinente" "Plumaje Fiable" "Plumaje Vivaz"
+			"Plumaje Salvaje" "Plumaje Robusto" "Plumaje Ardiente" "Plumaje Vigoroso" "Plumaje Brioso" "Plumaje Alegre"
+			"Plumaje Brusco" "Plumaje Animado" "Plumaje Tenaz" "Plumaje Persistente" "Plumaje Terco" "Plumaje Determinado"
+			"Plumaje Obstinado" "Plumaje Testarudo" "Plumaje Agresivo" "Plumaje Frenético" "Plumaje Tempestuoso" "Plumaje Turbulento"
+			"Plumaje Temerario" "Plumaje Brutal" "Plumaje Desatado" "Plumaje Alborotado" "Plumaje Insensato" "Plumaje Bullicioso"
+			"Plumaje Agitado" "Plumaje Clamoroso" "Plumaje Constante" "Plumaje Vehemente" "Plumaje Fervoroso" "Plumaje Pasional"
+			"Plumaje Rapaz" "Plumaje Bravo" "Plumaje Intrépido" "Plumaje Fuerte" "Plumaje Descuidado" "Plumaje Impresentable"
+			"Plumaje Trastornada" "Plumaje Demente" "Plumaje Inquieta" "Plumaje Inconformista" "Plumaje Imprudente" "Plumaje Impulsivo"
+			"Plumaje Negligente" "Plumaje Inconsciente" "Plumaje Violento" "Plumaje Indómito" "Plumaje Silvestre" "Plumaje Pertinaz"
+			"Plumaje Caprichoso" "Plumaje Volátil" "Plumaje Voluble" "Plumaje Enérgico" "Plumaje Despreocupado" "Plumaje Jubiloso"
+			"Plumaje Gozoso" "Plumaje Entusiasta" "Plumaje Boyante" "Plumaje Fortalecido" "Plumaje Jocoso" "Plumaje Vital"
+			"Plumaje Alerta" "Plumaje Porfiado" "Plumaje Rebelde" "Plumaje Refractario" "Plumaje Excéntrico" "Plumaje Errático"
+			"Plumaje Peculiar" "Plumaje Desviado" "Plumaje Irritable" "Plumaje Cruzado" "Plumaje Irascible" "Plumaje Colérico"
+			"Plumaje Furicundo" "Plumaje Áspero" "Plumaje Arisco" "Plumaje Hosco" "Plumaje Irrespetuoso" "Plumaje Irritado" 
+			"Plumaje Sombrío" "Plumaje Esplénico" "Plumaje Ominoso" "Plumaje Taciturno" "Plumaje Severo" "Plumaje Imperioso" 
+			"Plumaje Altivo" "Plumaje Orgulloso" "Plumaje Despectivo" "Plumaje Peyorativo" "Plumaje Supersticioso" "Plumaje Canto"
+			"Plumaje Atento" "Plumaje Cauteloso" "Plumaje Endiablado"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			#random_names = {
+				"Ojo Atento" "Ojo Vigilante" "Ojo Durmiente" "Ojo Agudo" "Ojo Despectivo" "Ojo Distraído" "Ojo Taimado" "Ojo Ferviente" "Ojo Intrépido" "Ojo Tenaz"
+			#}
+			#sequential_name = "%O% Frontier Outpost"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	ship_class_names = {
+		generic = {
+			Q'Dreeg Q'Polk Q'Doqur Q'Bewk Q'Rekoth Q'Jarok
+		}		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Rectores Estelares Dalurkot" "Rectores Estelares Tordalit" "Rectores Estelares Quadatia" "Rectores Estelares Saqrosta" "Rectores Estelares Eekaratia" "Rectores Estelares Kittoral" "Rectores Estelares Buteqos" "Rectores Estelares Yattori" "Rectores Estelares Qruannia" "Rectores Estelares Tiqisk Stellar Rectrix" "Rectores Estelares Loqarak" "Rectores Estelares Fannoq" "Rectores Estelares Giruus"
+		}
+		sequential_name = "%C%ª Rectores Estelares"
+	}
+	
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "%C%ª Alas de Defensa"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Alas de Asalto"
+		}
+		
+		slave_army = {
+			sequential_name = "Guerreros Esclavos %C%"
+		}
+		
+		clone_army = { 
+			sequential_name = "%C%ª Copias de Asalto"
+		}
+		
+		robotic_army = {
+			sequential_name = "%C%ª Fuerza Droide"
+		}
+		
+		android_army = {
+			sequential_name = "%C%ª Nano Fuerza"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%C%ª Alas Psi"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%C%ª Alas Xenomorfas"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%C%ª Alas Ascensión"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Qufant Koltren Karakt Ryygd Praadyk Bukraal Qrueen Klaht Lajkut Jiindet Poqats Kraajl Ruuq Yeedru Eetrak Stujk Baakrot Qaadlud Sondeeq Eekryt Tikeq Kitrel Butoq Qudater Saqraat Yatru
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Bhunakh Taradak Loketral Yurulek Krotyug Laktras Heektor Datnaq Qutrok Traak Kryydur Tryykad Dluuret Klotrast Tabhuk Qotryyk Lytalk Bhudlakras Tuyledek Dalurkot
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Bhunakh Taradak Loketral Yurulek Krotyug Laktras Heektor Datnaq Qutrok Traak
+			}
+			
+			regnal_second_names = {
+				Kirvus
+			}
+		}
+	}
+}

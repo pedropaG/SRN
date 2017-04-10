@@ -1,0 +1,552 @@
+war_name_parts_list = {
+	key = "prepositions_mas"
+	parts = {
+		"por el" = 1
+		"para el" = 1
+		"del" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "prepositions_fem"
+	parts = {
+		"por la" = 1
+		"para la" = 1
+		"de la" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "war_names"
+	parts = {
+		"Combate" = 1
+		"Conflicto" = 1
+		"Enfrentamiento" = 1
+		"Guerra" = 1
+		"Lucha" = 1
+		"Disputa" = 1
+		"Batalla" = 1
+		"Contienda" = 1
+		"Escaramuza" = 1
+		"Ofensiva" = 1		
+		"Refriega" = 1
+	}
+}
+
+##################
+##  HOLY WARS   ##
+##################
+
+war_name_parts_list = {
+	key = "holy_war_names"
+	parts = {
+		"Cruzada" = 1
+		"Guerra Santa" = 1
+		"Campaña" = 1
+		"Sagrada Lucha" = 1
+	}
+}
+
+
+##################
+##  CRUEL WARS  ##
+##################
+
+war_name_parts_list = {
+	key = "cruel_war_names"
+	parts = {
+		"Exterminio" = 1
+		"Erradicación" = 1
+		"Eliminación" = 1
+	}
+}
+
+
+###############
+## INVASIONS ##
+###############
+
+war_name_parts_list = {
+	key = "invasion_names"
+	parts = {
+		"Invasión" = 1
+		"Conquista" = 1
+		"Anexión" = 1
+		"Guerra" = 1
+		"Ofensiva" = 1
+	}
+}
+
+
+###############
+## BIG WARS  ##
+###############
+
+war_name_parts_list = {
+	key = "war_prefix"
+	parts = {
+		"La Gran" = 1
+		"Gran " = 2
+		"" = 8
+	}
+}
+
+war_name_parts_list = {
+	key = "big_war_names"
+	parts = {
+		"Batalla" = 1
+		"Guerra" = 1
+		"Invasión" = 1
+		"Conquista" = 1
+		"Ofensiva" = 1
+	}	
+}
+war_name_parts_list = {
+	key = "big_war_adj"
+	parts = {
+		"Galáctica" = 2
+		"Interestelar" = 2
+		"de Federaciones" = 2
+		"Espacial" = 2
+		"de los Imperios" = 2
+		"Estelar" = 2
+		"por la Galaxia" = 2
+		"de las Grandes Razas" = 1
+		"" = 1
+	}
+}
+
+###################
+## BROTHER WARS  ##
+###################
+
+war_name_parts_list = {
+	key = "brother_war_names"
+	parts = {
+		"Reconquista" = 1		
+		"Conflicto" = 1
+		"Guerras de Sangre" = 1
+		"Enfrentamiento entre Hermanos" = 1
+		"Reunificación" = 1
+		"Anexión" = 1
+	}
+}
+
+#######################
+## SUBESPECIES WARS  ##
+#######################
+
+war_name_parts_list = {
+	key = "subespecies_war_names"
+	parts = {
+		"Guerra de Sucesión" = 1		
+		"Guerra Civil" = 1
+		"Insurrección" = 1
+		"Conflicto Étnico" = 1
+	}
+}
+
+#################
+## REBELLIONS  ##
+#################
+
+war_name_parts_list = {
+	key = "civil_war_names"
+	parts = {
+		"Guerra Civil" = 1
+		"Rebelión" = 1
+		"Levantamiento" = 1
+		"Revolución" = 1
+		"Revuelta" = 1
+		"Crisis" = 1
+		"Alzamiento" = 1
+		"Insurrección" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "freedom_names_fem"
+	parts = {
+		"Libertad" = 1
+		"Liberación" = 1
+		"Emancipación" = 1
+		"Independencia" = 1
+		"Autodeterminación" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "freedom_names_mas"
+	parts = {		
+		"Libre Albedrío" = 1
+		"Indulto" = 1
+	}
+}
+
+########################################  NAME FORMATS  ###############################################################
+
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<war_names> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetName]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<war_names> [This.MainAttacker.GetName] - [This.MainDefender.GetAllianceName]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<war_names> [This.MainAttacker.GetSpeciesName] - [This.MainDefender.GetAllianceName]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<war_names> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetSpeciesName]"
+}
+
+### FEDERATION WARS ###
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<big_war_prefix><war_names> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAllianceName]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<big_war_prefix><big_war_names> <big_war_adj>"
+}
+
+### CRUEL WARS ###
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_ethic = fanatic_xenophobe
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<cruel_war_names> de [This.MainDefender.GetName]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_ethic = fanatic_xenophobe
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<cruel_war_names> de los [This.MainDefender.GetSpeciesNamePlural]"
+}
+
+### HOLY WARS ###
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_ethic = fanatic_spiritualist
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<holy_war_names> contra [This.MainDefender.GetName]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_ethic = fanatic_spiritualist
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<holy_war_names> sobre [This.MainDefender.Capital.System.GetName]"
+}
+
+### DIFERENT SPECIES ###
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				OR = {
+					NOT = {
+						exists = overlord
+					}
+					root = {
+						NOT = {
+							defender = {
+								is_same_value = prev.attacker.overlord
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	format = "<war_names> [This.MainAttacker.GetAdj]-[This.MainDefender.GetAdj]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				OR = {
+					NOT = {
+						exists = overlord
+					}
+					root = {
+						NOT = {
+							defender = {
+								is_same_value = prev.attacker.overlord
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	format = "<invasion_names> [This.MainAttacker.GetAdj] de [This.MainDefender.Capital.System.GetName]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				OR = {
+					NOT = {
+						exists = overlord
+					}
+					root = {
+						NOT = {
+							defender = {
+								is_same_value = prev.attacker.overlord
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	format = "<war_names> [This.MainAttacker.GetSpeciesName] - [This.MainDefender.GetSpeciesName]"
+}
+
+### REBELLIONS WARS ###
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				exists = overlord
+			}
+			defender = {
+				is_same_value = prev.attacker.overlord
+			}
+		}
+	}
+	format = "<civil_war_names> [This.MainAttacker.GetAdj] <prepositions_fem> <freedom_names_fem>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				exists = overlord
+			}
+			defender = {
+				is_same_value = prev.attacker.overlord
+			}
+		}
+	}
+	format = "<civil_war_names> [This.MainAttacker.GetAdj] <prepositions_mas> <freedom_names_mas>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				exists = overlord
+			}
+			defender = {
+				is_same_value = prev.attacker.overlord
+			}
+		}
+	}
+	format = "<civil_war_names> de <freedom_names_fem> [This.MainAttacker.GetAdj]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				exists = overlord
+			}
+			defender = {
+				is_same_value = prev.attacker.overlord
+			}
+		}
+	}
+	format = "<war_names> del <freedom_names_mas> [This.MainAttacker.GetAdj]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				exists = overlord
+			}
+			defender = {
+				is_same_value = prev.attacker.overlord
+			}
+		}
+	}
+	format = "<war_names> [This.MainAttacker.GetAdj]"
+}
+
+### SAME SPECIES, DIFERENT DOMINIONS WAR ###
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				OR = {
+					NOT = {
+						exists = overlord
+					}
+					root = {
+						AND = {
+							NOT = {
+								defender = {
+									is_same_value = prev.attacker.overlord
+								}
+							defender = {
+								is_same_species = prev.attacker
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	format = "<brother_war_names> [This.MainAttacker.GetSpeciesNamePlural]"
+}
+
+### SUBESPECIES WAR ###
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+			}
+			defender = {
+				is_subspecies = prev.attacker			
+			}
+		}
+	}
+	format = "<subespecies_war_names> [This.MainDefender.GetAdj]"
+}

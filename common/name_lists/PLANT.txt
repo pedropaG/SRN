@@ -1,0 +1,209 @@
+﻿### Plantoid 1
+### Created by Rufus Tronde Miranda van den Brink
+PLANT = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			   	}
+
+		corvette = {  "Espina" "Espina Plateada" "Espina de Hierro" "Espina Perforadora" "Espina Esmeralda" "Espina Dorada" "Tricoma" "Tricoma Plateada" "Tricoma de Hierro" "Tricoma de Jade" "Tricoma Esmeralda" "Tricoma Dorada" "Acícula" "Acícula Plateada" "Acícula de Hierro" "Acícula de Jade" "Acícula Dorada" "Acícula Perforante" "Acícula Esmeralda" "Sarpullido" 
+		}
+
+		destroyer = { "Pétalo" "Pétalo Plateado" "Pétalo de Hierro" "Pétalo de Jade" "Pétalo Esmeralda" "Pétalo Dorado" "Perforador" "Perforador Plateado" "Perforador Dorado" "Perforador de Hierro" "Perforador Esmeralda" "Aguijón Plateado" "Aguijón" "Aguijón de ACero" "Aguijón Perforante" "Acuchillador" "Cúter"
+		}
+
+		cruiser = { "Cuchilla" "Cuchilla Plateada" "Cuchilla de Hierro" "Cuchilla de Jade" "Cuchilla Esmeralda" "Cuchilla Dorada" "Cuchilla Cortante" "Cuchilla Segadora" "Cuchilla Perforante"
+		}
+
+		battleship = { Espiga "Espiga Plateada" "Espiga de Hierro" "Espiga de Jade" "Espiga Esmeralda" "Espiga Dorada" "Espiga Perforante" "Furia" "Furia Esmeralda" "Furia Espinosa" "Espiga de Furia" "Castigador"
+		}
+
+		science = {
+			"Hoja a la Deriva" "Hoja Flotante" "Hoja Buscadora" "Hoja Revoloteante" "Hoja Encumbrada"
+		}
+
+		colonizer = {
+			"Capsula de Semillas" "Portador de Fruta"
+		}
+
+		constructor = {
+			"Meristema"
+		}
+
+		transport = {
+			"Transporte"
+		}
+
+		orbital_station = {
+			"Rama"
+		}
+		mining_station = {
+			"Raíz"
+		}
+		research_station = {
+			"Poda Ornamental"
+		}
+		wormhole_station = { }
+		#terraform_station = {
+		#	"Greenhouse"
+		#	"Orangerie"
+		#}
+		observation_station = {
+			"Vid de Detección" "Vid Escaladora" "Vid Aferrante" "Enredadera" "Viña Creciente" "Diente de León"
+		}
+
+		military_station_small = { "Ya-te-veo" }
+
+		military_station_medium = { "Ya-te-veo" }
+
+		military_station_large = { "Ya-te-veo" }
+	}
+
+	fleet_names = {
+		random_names = {
+			"Corola Floreciente" "Corola Esplendorosa" "Corola de Vanguardia" "Corola Retorcida" "Corola Desarrollada"
+		}
+		sequential_name = "Corola %C%"
+	}
+
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "%C%ª Corona de Protección"
+		}
+
+		assault_army = {
+			sequential_name = "%C%ª Corona Fúnebre"
+		}
+
+		slave_army = {
+			sequential_name = "%C%ª Corona de Flores"
+		}
+
+		clone_army = { 
+			sequential_name = "Corona de Compensación %R%"
+		}
+
+		robotic_army = {
+			sequential_name = "Corona de Latón %R%"
+		}
+
+		android_army = {
+			sequential_name = "Corona Dorada %R%"
+		}
+
+		psionic_army = { 
+			sequential_name = "%C%ª Corona de Roble"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%C%ª Corona de Carne"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%C%ª Corona Transgénica"
+		}
+	}
+
+
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+                "Belleza" "Alegría" "Nuevo Comienzo" "Fruta de Osos" "Nuez Redonda" "Semilla de Esperanza" "Sueños en Ciernes" "Nectar de Esperanza" "Zarcillos Esperanzadores" "Esfuerzo Fructífero" "Siempre Primavera" "Lluvia de Primavera" "Nueva Luz"	"Triunfo" "Retoño" "Brote" "Verde Próspero" "Eclosión" "Floreciente"
+            }
+		}
+
+		pc_desert = {
+			names = {
+				"Descanso del Cactus" "Oasis de Palmeras" "Sed Sin Fin" "Quemadura" "Dune" "Tierra Roja" "Dunas Rojas" "Amarillo" "Tierra Seca" "Esperanza" "Sol Eterno" "Arena" "Tormenta de Arena" "Llanuras Ardientes" "Flor del Desierto" "Hojas Quemadas" "Seco" "Sueños Marchitos" "Crepitahojas" "Bosque Ardiente"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Solar" "Hierba Lejana" "Grandes Planicies" "Tierras Planas" "Praderas" "Resplandor" "Lágrima de Sol" "Praderas Aulladoras" "Hierba Amarilla" "Llanuras Ventosas" "Campos Dorados" "Campos de Hierba" "Arbol Solitario"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Bosque de Nubes" "Selva Tropical" Brote Hoja Verdor "Flor Eterna" "Siempreverde" "Bosque Brumoso" "Delicia" "Valle del Árbol" "Helecho" "Pabellón del Cielo" "Gran Humedad" Paraíso
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Follaje Seco" "Escrutinio del Sol" "Ríoseco" "Roca" "Raíces Profundas" "Tolerancia" "Gran Sequía" "Sin Descanso" "Hoja del Tonto" "Soledad" "Tierras Estériles" Sinárboles Victoria Matorral Arbusto  "Miedo del Follaje" "El Gran Chaparral" Tentativa
+			} 
+		}
+
+		pc_continental = {
+			names = {tem
+				"Muchos Bosques" "Muchos Prados" Berilo "Suelo Rico" "Esplendor Verde" Estaciones "Arboleda Verde" "Corona Dorada" "La Huerta" "Campos Esmeralda" "Cereal de la Verdad" "Buen Panorama" Floreada
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"El Gran Arrecife" "Hogar del Coral" Siempremar Azul Oceana Índigo "Esperanza Azul" "Sueño Índigo" Abundancia "Perla Azul" Gota Algas "Florecimiento Flotante" "Hogar Azul" 
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Borde Boreal" "Extensión de Musgo" "Prudencia" "Escarcha" "Primavera" "Roca" "Noches Heladas" "Musgo Helado" "Nuez Gris" "Nuez Rocosa" "Musgo de Picea" "Suelo Salado" "Bosque de Piedra" "Flor Tardía"
+            }
+		}
+
+		pc_alpine = {
+			names = {
+				"Cuestas Florecientes" Escarchado "Valle de las Flores" "Valle" "Montañas Ondulantes" "Gran Cresta" "Tierra Dentada" "Tierra Rasgada" "Roca Blanca" "Valle de Primavera" Pino "Valle del Abeto" "Risco Blanco" "Cañadas de Gloria"
+            }
+		}
+
+		pc_arctic = {
+			names = {
+				"Siempreverde" "Perseverancia" "Resistencia" "Nieve" "Tormenta Blanca" "Invernalia" "Solo Invierno"	"Cobijo Blanco"	"Bola de Nieve" "Raíces Escarchadas" "Campos de Plata" "Expanión Blanca" "Flor de Hielo" "Hoja de Hielo" "Flor de Escarcha" "Defiance"
+            }
+		}
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+				"Pétalos de"
+				"Frondas de "
+				"Rizoma de"
+				"Tallo de"
+			}
+
+			# Always combined with a first name
+			second_names = {
+				Blanco Gris Negro Borgoña Rojo Azul Índigo Cian Amarillo Naranja Marfil Ébano Púrpura Marrón Trullo Verde Aguamarina Caqui Magenta Oro Plata
+				Bronce "Gotas de Miel" Lavanda Granate Oliva
+			}
+
+			regnal_first_names = {
+				"Tronco de"
+			}
+
+			regnal_second_names = {
+				Yggdrasil "Yax Imix Che" Kalpavriksha Bo Akshayavat "Nookomis Giizhig" Irminsul Somb Tule Ashwattha Fusang
+			}
+		}
+	}
+}
