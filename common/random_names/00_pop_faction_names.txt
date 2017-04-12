@@ -1,384 +1,553 @@
-
+## Supremacists
 pop_faction_name_parts_list = {
-	key = "loyalist_names"
+	key = "supremacist_names_1_fem"
 	parts = {
-		"Leales" = 1
+		"Supremacía" = 1
+		"Unidad" = 1
+		"Primacía" = 1		
+		"Ascendencia" = 1
+		"Superioridad" = 1
+		"Preservación" = 1
+		"Pureza" = 1
 	}
 }
 
 pop_faction_name_parts_list = {
-	key = "docile_slaves_names"
+	key = "supremacist_names_1_mas"
 	parts = {
-		"Esclavos Dóciles" = 1
+		"Dominio" = 1
+		"Futuro" = 1
 	}
 }
 
 pop_faction_name_parts_list = {
-	key = "malcontent_slaves_names"
+	key = "supremacist_names_2"
 	parts = {
-		"Esclavos Descontentos" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "emancipation_names"
-	parts = {
-		"Movimiento de Emancipación" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "peace_names"
-	parts = {
-		"Movimiento de Paz" = 1
-		"Coalición Anti-Guerra" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "purged_names"
-	parts = {
-		"Manifestantes Contra la Purga" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "planet_separatist_names_1_sing"
-	parts = {
-		"Separatista" = 1
-		"Secesionista" = 1
-		"Independentista" = 1
-		"Nacionalista" = 1
-		"por la Soberanía" = 1
-		"por la Autodeterminación" = 1
-		"Popular" = 1
-		"por la Autonomía" = 1
-		"por la Libertad" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "planet_separatist_names_1_pl"
-	parts = {
-		"Separatistas" = 1
-		"Secesionistas" = 1
-		"Independentistas" = 1
-		"Nacionalistas" = 1
-		"por la Soberanía" = 1
-		"por la Autodeterminación" = 1
-		"Populares" = 1
-		"por la Autonomía" = 1
-		"por la Libertad" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "planet_separatist_names_1_ex"
-	parts = {		
-		"y Libertad" = 1
-		"y Nación" = 1
-		"Independendiente" = 1
-		"Libre" = 1		
-		"Soberana" = 1
-		"Autonoma" = 1
-		"por la Soberanía" = 1
-		"por la Autodeterminación" = 1
-		"por la Autonomía" = 1
-		"por la Libertad" = 1
-		"Primero" = 1
-	}
-}
-
-pop_faction_name_parts_list = {
-	key = "planet_separatist_names_2_sing"
-	parts = {
-		"Movimiento" = 1
-		"Frente" = 1
-		"Alianza" = 1
-		"Liga" = 1
-		"Asociación" = 1
-		"Comité" = 1
-		"Unión" = 1
-		"Armada" = 1
-		"Resistencia" = 1
-		"Grupo" = 1
-		"Clandestino" = 1
 		"Vanguardia" = 1
+		"Frente" = 1
+		"Movimiento" = 1
+		"Grupo" = 1
 		"Bloque" = 1
-		"Guarnición" = 1
-		"Brigada" = 1
-		"Congreso" = 1
-		"Milicia" = 1
-		"Facción" = 1
-		"Comando" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "supremacist"
+		}
+	}
+	format = "<supremacist_names_2> [This.Owner.GetSpeciesAdj] por la <supremacist_names_1_fem>"
+	# Vanguardia Humana por la Supremacía
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "supremacist"
+		}
+	}
+	format = "<supremacist_names_2> [This.Owner.GetSpeciesAdj] por el <supremacist_names_1_mas>"
+	# Vanguardia Humana por el Futuro
+}
+
+## Imperialists
+pop_faction_name_parts_list = {
+	key = "imperialist_names"
+	parts = {
+		"Asociación Militar de Oficiales" = 1
+		"Movimiento de Veteranos por la Victoria" = 1
+		"Complejo Militar-Industrial" = 1
+		"Coalición de Fuerza a Través de la Conquista" = 1
+		"Caballeros del Vacío" = 1
+		"Vanguardia Patriótica" = 1
+		"Orden de la Estrella Ardiente" = 1
+		"Logia del Guerrero Carmesí" = 1
+		"Legión del Primer Golpe" = 1
+		"Legión Roja" = 1
+		"Iniciativa Whetstone" = 1
+		"Operación Grito de Guerra" = 1
+		"Bandera del Triunfo" = 1
+		"Hermanos de la Batalla" = 1
+		"Guardia Plateada" = 1
+		"Iniciativa Gloria" = 1
+		"Comité del Camino a la Victoria" = 1
+		"Vanguardia de Los Elegidos" = 1
+		"Redoble del Partido de la Victoria" = 1
+		"Orden Marcial de la Espina" = 1
+		"Alianza de la Supremacía Marcial" = 1
+		"Marcha de los Valientes" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "imperialist"
+		}
+	}
+	format = "<imperialist_names>"
+}
+
+## Isolationists
+pop_faction_name_parts_list = {
+	key = "isolationist_names_1"
+	parts = {
+		"No-Intervencinista" = 1
+		"Sin Enredos = 1
+		"Defensa Primero" = 1
+		"Prosperidad Interna" = 1
+		"Preparación Nacional" = 1
+		"Preparación Defensiva" = 1
+		"Neutralidad" = 1
+		"Fuerza Interna" = 1
+		"Fronteras Cerradas" = 1
+		"Vigilancia Eterna" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "isolationist_names_2"
+	parts = {
+		"Coalición" = 1
+		"Concilio" = 1
+		"Comité" = 1
+		"Centro" = 1
+		"Fundación" = 1
+		"Iniciativa" = 1
+		"Sociedad" = 1
+		"Guardia" = 1
+		"Alianza" = 1
+		"Movimiento" = 1
+		"Grupo" = 1
 		"Organización" = 1
+		"Red" = 1
+		"Foro" = 1
+		"Asociación" = 1
+		"Liga" = 1
+		"Equipo" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "isolationist"
+		}
+	}
+	format = "<isolationist_names_2> '<isolationist_names_1>'"
+	# Organización Fronteras Cerradas
+}
+
+## Totalitarians
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_1"
+	parts = {
+		"Fuerza desde la Unidad" = 1
+		"Autoritario" = 1
+		"Unidad Imperial" = 1
+		"Un Trono" = 1
+		"Jerárquico" = 1
+		"Unidos como Uno" = 1
+		"Noble Privilegio" = 1
+		"Monárquico" = 1
+		"Sociedad Ordenada" = 1
+		"Paz y Orden" = 1
+		"Ciudadanía Leal" = 1
+		"Ciudadano Élite" = 1
+		"Ciudadano Obediencia" = 1
+		"Obediencia, Lealtad y Deber" = 1
 	}
 }
 
 pop_faction_name_parts_list = {
-	key = "planet_separatist_names_2_pl"
+	key = "totalitarian_names_2"
 	parts = {
-		"Rebeldes" = 1
-		"Insurgentes" = 1
-		"Fuerza de Voluntarios" = 1
-		"Luchadores" = 1
-		"Partidarios" = 1
+		"Iniciativa" = 1
+		"Coalición" = 1
+		"Movimiento" = 1
+		"Grupo" = 1
+		"Unión" = 1
+		"Equipo" = 1
+		"Vanguardia" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "totalitarian"
+		}
+	}
+	format = "<totalitarian_names_2> '<totalitarian_names_1>'"
+	# Iniciativa Paz y Orden
+}
+
+## Progressives
+pop_faction_name_parts_list = {
+	key = "progressive_names_1"
+	parts = {
+		"Democrático" = 1
+		"Libertad" = 1
+		"Elecciones Libres" = 1
+		"Libertad Ya" = 1
+		"Reforma Democrática" = 1
+		"Autodeterminación Ciudadana" = 1
+		"Completa Emancipación" = 1
+		"Verdadera Democracia" = 1
+		"Elección Individual" = 1
+		"Pensamiento Libre" = 1
+		"Ciudadanía Libre" = 1
+		"Voto Popular" = 1
+		"Derechos Democráticos" = 1
+		"Amigos de la Libertad" = 1
+		"Emancipación Galáctica" = 1
+		"Libertad Electoral" = 1
+		"Ciudadanos por la Libertad" = 1
 	}
 }
 
 pop_faction_name_parts_list = {
-	key = "nationalist_names"
+	key = "progressive_names_2"
 	parts = {
-		"Patriarcas" = 1
-		"Xenos Unidos" = 1
-		"Nativos" = 1
+		"Coalición" = 1
+		"Consejo" = 1
+		"Comité" = 1
+		"Centro" = 1
+		"Fundación" = 1
+		"Iniciativa" = 1
+		"Sociedad" = 1
+		"Guardia" = 1
+		"Alianza" = 1
+		"Movimiento" = 1
+		"Grupo" = 1
+		"Organización" = 1
+		"Red" = 1
+		"Foro" = 1
+		"Asociación" = 1
+		"Liga" = 1
+		"Equipo" = 1
+		"Convención" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "progressive"
+		}
+	}
+	format = "<progressive_names_2> '<progressive_names_1>'"
+	# Sociedad Libertad Ya
+}
+
+
+## Prosperity Faction
+pop_faction_name_parts_list = {
+	key = "prosperity_names_1"
+	parts = {
+		"Crecimiento Económico" = 1
+		"Desarrollo Económico" = 1
+		"Finanzas Nacionales" = 1
+		"Estabilidad Financiera" = 1
+		"Desarrollo Financiero" = 1
+		"Seguridad Económica" = 1
+		"Riqueza Nacional" = 1
+		"Control de Recursos" = 1
+		"Economistas Unidos" = 1
+		"Solvencia Nacional" = 1
+		"Inversión Nacional" = 1
+		"Analistas de Negocios" = 1
+		"Regulación Financiera" =1
+		"Promueve la Riqueza" = 1
+		"Prosperidad" = 1
 	}
 }
 
 pop_faction_name_parts_list = {
-	key = "democratic_election_faction_names"
+	key = "prosperity_names_2"
 	parts = {
-		"Bloque Leal" = 1
-		"Grupo Leal" = 1
-		"Iniciados Leales" = 1
-		"Leales del Borde" = 1
-		"Moderados Leales" = 1
+		"Fundación" = 1
+		"Iniciativa" = 1
+		"Asociación" = 1
+		"Junta" = 1
+		"Comité" = 1
+		"Equipo" = 1
+		"Coalition" = 1
+		"Liga" = 1
+		"Iniciativa" = 1
+		"Grupo" = 1
+		"Lobby" = 1
+		"Red" = 1
 	}
 }
 
-# Loyalists
 pop_faction_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_pop_faction_type = "loyalist"
+			is_pop_faction_type = "prosperity"
 		}
 	}
-	format = "<loyalist_names>"
+	format = "<prosperity_names_2> '<prosperity_names_1>'"
+	# Junta 'Prosperidad'
 }
 
-# Slaves
-#pop_faction_name_format = {
-#	random_weight = {
-#		factor = 0
-#		modifier = {
-#			add = 100
-#			is_pop_faction_type = "slave"
-#		}
-#	}
-#	format = "<slave_names>"
-#}
-
-# Docile Slaves
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "docile_slaves"
-		}
+## Technologists
+pop_faction_name_parts_list = {
+	key = "technologist_names_1"
+	parts = {
+		"Comité" = 1
+		"Academia" = 1
+		"Consejo" = 1
+		"Instituto" = 1
+		"Asociación" = 1
 	}
-	format = "<docile_slaves_names>"
-}
-
-# Malcontent Slaves
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "malcontent_slaves"
-		}
-	}
-	format = "<malcontent_slaves_names>"
-}
-
-# Emancipation Faction
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "emancipation"
-		}
-	}
-	format = "<emancipation_names>"
-}
-
-# Peace Movement
-#pop_faction_name_format = {
-#	random_weight = {
-#		factor = 0
-#		modifier = {
-#			add = 100
-#			is_pop_faction_type = "peace"
-#		}
-#	}
-#	format = "<peace_names>"
-#}
-
-# Purged
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "purged"
-		}
-	}
-	format = "<purged_names>"
-}
-
-# Separatists Sing
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "planet_separatists"
-		}
-	}
-	format = "<planet_separatist_names_2_sing> <planet_separatist_names_1_sing> de [parameter:planet.GetName]"
-}
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "sector_separatists"
-		}
-	}
-	format = "<planet_separatist_names_2_sing> <planet_separatist_names_1_sing> de [parameter:sector.GetName]"
-}
-
-# Separatists Pl 1
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "planet_separatists"
-		}
-	}
-	format = "<planet_separatist_names_2_pl> <planet_separatist_names_1_pl>"
-}
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "sector_separatists"
-		}
-	}
-	format = "<planet_separatist_names_2_pl> <planet_separatist_names_1_pl>"
-}
-
-# Separatists Pl 2
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "planet_separatists"
-		}
-	}
-	format = "<planet_separatist_names_2_pl> de [parameter:planet.GetName]"
-}
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "sector_separatists"
-		}
-	}
-	format = "<planet_separatist_names_2_pl> de [parameter:sector.GetName]"
-}
-
-# Separatists Pl 3
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "planet_separatists"
-		}
-	}
-	format = "<planet_separatist_names_1_pl> de [parameter:planet.GetName]"
-}
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "sector_separatists"
-		}
-	}
-	format = "<planet_separatist_names_1_pl> de [parameter:sector.GetName]"
-}
-
-# Separatists extra
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "planet_separatists"
-		}
-	}
-	format = "[parameter:planet.GetName] <planet_separatist_names_1_ex>"
-}
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "sector_separatists"
-		}
-	}
-	format = "[parameter:sector.GetName] <planet_separatist_names_1_ex>"
-}
-
-# Nationalist
-pop_faction_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 100
-			is_pop_faction_type = "nationalist"
-		}
-	}
-	format = "<nationalist_names> de [parameter:country.GetAdj]"
 }
 
 pop_faction_name_parts_list = {
-	key = "pretender_names"
+	key = "technologist_names_2"
 	parts = {
-		"Pretendiente al Trono" = 1
+		"del Alto Conocimiento" = 1
+		"de Científicos Unidos" = 1
+		"del Progreso Tecnológico" = 1
+		"de los Tecnólogos" = 1
+		"de Ciencias Avanzadas" = 1
+		"de Estudiantes Científicos" = 1
+		"de Ascendencia Científica" = 1
+		"de Alta Tecnología" = 1
+		"por el Avance de la Ciencia" = 1
+		"de la Reforma Tecnocrática" = 1
+		"de la Eficiencia de la Investigación" = 1
+		"del Máster Tecnológico" = 1
+		"del Mejoramiento Científico" = 1
+		"de las Ciencias Robóticas" = 1
 	}
 }
 
-# Pretender
 pop_faction_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_pop_faction_type = "pretender"
+			is_pop_faction_type = "technologist"
 		}
 	}
-	format = "<pretender_names>"
+	format = "<technologist_names_2> <technologist_names_1>"
+	# Instituto de los Tecnólogos
 }
 
-# Democratic election
+## Traditionalists
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_1"
+	parts = {
+		"Union" = 1
+		"Alianza" = 1
+		"Consejo" = 1
+		"Comité" = 1
+		"Iglesia" = 1
+		"Cónclave" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_2"
+	parts = {
+		"de los Valores Tradicionales" = 1
+		"de Espiritualistas" = 1
+		"de la Guía Divina" = 1
+		"de las Sagradas Tradiciones" = 1
+		"de la Conservación Religiosa" = 1
+		"de la Redención Espiritual" = 1
+		"de Espiritualidad Desencadenada" = 1
+		"del Evangelio Verdadero" = 1
+		"de la Filosofía Espiritual" = 1
+		"de Fundación de Tradiciones" = 1
+		"de la Limpieza Metafísica" = 1
+		"del Clero Exaltado" = 1
+		"del Alto Sacerdocio" = 1
+		"de las Verdades Sacrosantas" = 1
+		"de los Piadosos Tradicionalistas" = 1
+		"de Fe y Valores" = 1
+	}
+}
+
 pop_faction_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_pop_faction_type = "democratic_election_faction"
+			is_pop_faction_type = "traditionalist"
 		}
 	}
-	format = "<democratic_election_faction_names>"
+	format = "<traditionalist_names_2> <traditionalist_names_1>"
+	# Iglesia del Alto Sacerdocio
+}
+
+## Xenoists
+pop_faction_name_parts_list = {
+	key = "xenoist_names_1"
+	parts = {
+		"Alienígena" = 1
+		"Xeno" = 1
+		"Alien" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_2_fem"
+	parts = {		
+		"Tolerancia" = 1
+		"Amistad" = 1
+		"Igualdad" = 1
+		"Justicia" = 1
+		"Compasión" = 1
+		"Protección" = 1
+		"Libertad" = 1
+		"Ayuda" = 1
+		"Reforma" = 1
+		"Conciencia" = 1
+	}
+}
+pop_faction_name_parts_list = {
+	key = "xenoist_names_2_mas"
+	parts = {
+		"Derecho" = 1
+		"Sufragio" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_3"
+	parts = {
+		"Coalición" = 1
+		"Lobby" = 1
+		"Consejo" = 1
+		"Comité" = 1
+		"Centro" = 1
+		"Fundación" = 1
+		"Iniciativa" = 1
+		"Sociedad" = 1
+		"Guardia" = 1
+		"Alianza" = 1
+		"Movimiento" = 1
+		"Grupo" = 1
+		"Organización" = 1
+		"Red" = 1
+		"Foro" = 1
+		"Asociación" = 1
+		"Confianza" = 1
+		"Instituto" = 1
+		"Liga" = 1
+		"Observatorio" = 1
+		"Equipo" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "xenoist"
+		}
+	}
+	format = "<xenoist_names_3> por la <xenoist_names_2_fem> <xenoist_names_1>"
+	# Coalición por la Igualdad Alien
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "xenoist"
+		}
+	}
+	format = "<xenoist_names_3> por el <xenoist_names_2_mas> <xenoist_names_1>"
+	# Coalición por el Derecho Alien
+}
+
+## Democratic election minor factions
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_1_1"
+	parts = {
+		"Democracia" = 1
+		"Democracia del Pueblo" = 1
+		"Libre Democracia" = 1
+		"Progresista" = 1
+		"Democracia Unida" = 1
+		"Nueva Democracia" = 1
+		"Democracia Popular" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_1_2"
+	parts = {
+		"Grupo" = 6
+		"Congreso" = 1
+		"Unión" = 1
+		"Alianza" = 1
+		"Bloque" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "democratic_election_faction_1"
+		}
+	}
+	format = "<democratic_election_names_1_2> '<democratic_election_names_1_1>'"
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_2_1"
+	parts = {
+		"Unión Centrista" = 1
+		"Centro Progresista" = 1
+		"Ciudadano" = 1
+		"Civismo Radical" = 1
+		"Centro Popular" = 1
+		"Civismo del Pueblo" = 1
+		"Centrista" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_names_2_2"
+	parts = {
+		"Grupo" = 6
+		"Congreso" = 1
+		"Unión" = 1
+		"Alianza" = 1
+		"Bloque" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "democratic_election_faction_2"
+		}
+	}
+	format = "<democratic_election_names_2_2> '<democratic_election_names_2_1>'"
 }

@@ -5,6 +5,7 @@ species_modification_prefix = {
 	Ultra- 
 	Meta- 
 	Trans- 
+	"Alto "
 }
 
 species_modification_postfix = { 
@@ -1344,6 +1345,7 @@ star_names = {
 	Dressel
 	Mehrnaz
 	Manward
+	Aruz
 	Aslund
 	Moregard
 	Strom
