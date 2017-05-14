@@ -179,9 +179,9 @@ HUM4 = {
 
 		generic = {
 			names = {
-				Acrisia Aurora Capella Euterpe Faunus Hesperos Keresia Melpomenia Nexon Osiris Pallas Pallena Proclas 
-				Rhea Saon Smitheus Solaria Tethys Theia Destinikon Doron Hesperides Noricum Tyndis "Nova Constantinopla"
-				Athura Tartessos Agartha "St. Knatchbull" "St. Caspar" Truett "St. Hossack" Flaxington Girdwood Fincastle 
+				Acrisia Aurora Capella Euterpe Faunus Hesperos Keresia Melpomenia Nexon Osiris Palas Pallena Proclas 
+				Rhea Saon Smitheus Solaria Tethys Theia Destinikon Doron Hesperides Noricum Tyndis "Constantinopla Nova"
+				Athura Tartesos Agartha "San Knatchbull" "San Caspar" Truett "San Hossack" Flaxington Girdwood Fincastle 
 				Rattenbury Grinstead Leffingwell Durkheim Treadway Hoxworth "Esperanza de Hinckley" Tronchet Knutton Corregan 
 				Mullineux "Mundo de Fitzroy" "Mundo de Schimmel" Lockney
 			}
@@ -189,7 +189,7 @@ HUM4 = {
 		
 		pc_desert = {
 			names = {
-				"Arenas Frampton" Sunrise "Nova Alexandría" Inferno
+				"Arenas Frampton" Amanecer "Alexandría Nova" Inferno
 			}
 		}
 		
@@ -201,7 +201,7 @@ HUM4 = {
 		
 		pc_arid = {
 			names = {
-				Tartarus "High Ground" "Nova Antioch"
+				Tártaro "High Ground" "Nova Antioquía"
 			}
 		}
 		
@@ -213,7 +213,7 @@ HUM4 = {
 		
 		pc_gaia = {
 			names = {
-				Sanctuario Serendipia Deliverance Apollonia "Nova Babylon" Jardín
+				Santuario Serendipia Salvación Apollonia "Nova Babilonia" Jardín
 			}
 		}
 		

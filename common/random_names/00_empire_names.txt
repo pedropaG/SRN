@@ -129,7 +129,21 @@ empire_name_parts_list = {
 		"Poderoso " = 1
 		"Grandioso " = 1
 		"Glorioso " = 1
-		"" = 10
+		"" = 70
+	}
+}
+
+# Generic Descriptions At Beginning Mas Plural
+empire_name_parts_list = {
+	key = "standard_pre_desc_mas_pl"
+	parts = {
+		"Grandes " = 4
+		"Altos " = 2
+		"Nobles " = 2
+		"Poderosos " = 1
+		"Grandiosos " = 1
+		"Gloriosos " = 1
+		"" = 70
 	}
 }
 
@@ -143,7 +157,21 @@ empire_name_parts_list = {
 		"Poderosa " = 1
 		"Grandiosa " = 1
 		"Gloriosa " = 1
-		"" = 6
+		"" = 70
+	}
+}
+
+# Generic Descriptions At Beginning Fem Plural
+empire_name_parts_list = {
+	key = "standard_pre_desc_fem_pl"
+	parts = {
+		"Grandes " = 2
+		"Altas " = 1
+		"Nobles " = 1
+		"Poderosas " = 1
+		"Grandiosas " = 1
+		"Gloriosas " = 1
+		"" = 70
 	}
 }
 
@@ -5231,7 +5259,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<standard_pre_desc_fem><democratic_war_cul_fem> de [This.Capital.System.GetName]"
+	format = "<standard_pre_desc_fem_pl><democratic_war_cul_fem> de [This.Capital.System.GetName]"
 	prefix_format = "<democratic_war_cul_fem> de [This.Capital.System.GetName]"
 	noun = "[This.Capital.System.GetName]"
 	# (Gran) Republica de Sol
@@ -5250,7 +5278,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<standard_pre_desc_mas><democratic_war_cul_mas> de [This.Capital.System.GetName]"
+	format = "<standard_pre_desc_mas_pl><democratic_war_cul_mas> de [This.Capital.System.GetName]"
 	prefix_format = "<democratic_war_cul_mas> de [This.Capital.System.GetName]"
 	noun = "[This.Capital.System.GetName]"
 	# (Gran) Imperio de Sol
@@ -5269,7 +5297,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<standard_pre_desc_fem><democratic_war_cul_fem> de [This.Capital.GetName]"
+	format = "<standard_pre_desc_fem_pl><democratic_war_cul_fem> de [This.Capital.GetName]"
 	prefix_format = "<democratic_war_cul_fem> de [This.Capital.GetName]"
 	noun = "[This.Capital.System.GetName]"
 	# (Gran) Republica de Tierra
@@ -5288,7 +5316,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<standard_pre_desc_mas><democratic_war_cul_mas> de [This.Capital.GetName]"
+	format = "<standard_pre_desc_mas_pl><democratic_war_cul_mas> de [This.Capital.GetName]"
 	prefix_format = "<democratic_war_cul_mas> de [This.Capital.GetName]"
 	noun = "[This.Capital.System.GetName]"
 	# (Gran) Imperio de Tierra
@@ -5307,7 +5335,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<standard_pre_desc_fem><democratic_war_cul_fem> [This.GetSpeciesAdj]"
+	format = "<standard_pre_desc_fem_pl><democratic_war_cul_fem> [This.GetSpeciesAdj]"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<democratic_war_cul_fem> [This.GetSpeciesAdj]"
 	# (Gran) Republica Humano
@@ -5326,7 +5354,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<standard_pre_desc_mas><democratic_war_cul_mas> [This.GetSpeciesAdj]"
+	format = "<standard_pre_desc_mas_pl><democratic_war_cul_mas> [This.GetSpeciesAdj]"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<democratic_war_cul_mas> [This.GetSpeciesAdj]"
 	# (Gran) Imperio Humano
