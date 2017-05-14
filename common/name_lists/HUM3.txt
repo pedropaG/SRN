@@ -198,18 +198,18 @@ HUM3 = {
 
 		generic = {
 			names = {
-				"Nueva Jerusalén" Anchor Dis Avalon Bounty Hope Olympia Serendipity Spring Thinis Salaam Xianyang Concord
+				"Nueva Jerusalén" Ancla Dis Avalon Botón Esperanza Olympia Serendipia Primavera Thinis Salaam Xianyang Concordia
 				Theia Tuscany "Nueva Roanoke" Wenzhou "Nuevo Jamestown" "Nueva Troya" Delgovicia "Wang Tong" Al-Jissa Al-Mada'in 
 				Al-Nuqayrah Al-Karak Al-Matabbah "Las Veredas" "San Lucas" "San Fernando" "San Cristóbal" "Nueva Sonora" 
-				"Puerto González" Nozomi Akatsuki "Nueva Cádiz" "La Isabela" "New Coventry" "St. Yegorov" "St. Pomeroy"
+				"Puerto González" Nozomi Akatsuki "Nueva Cádiz" "La Isabela" "New Coventry" "San Yegorov" "San Pomeroy"
 				"Puerto Karakosov"
 			}
 		}
 		
 		pc_desert = {
 			names = {
-				"Nova Arabia" Sahara Gobi Kalahari Mojave Patagonia Syria Chihuahua Sand "Kara Kum" Colorado Sonora 
-				"Kyzyl Kum" Taklamakan Thar Gibson Namib Lut Kavir Dune Kali Muspelheim Vulcan Baal Carthage 
+				"Nova Arabia" Sahara Gobi Kalahari Mojave Patagonia Siria Chihuahua Arena "Kara Kum" Colorado Sonora 
+				"Kyzyl Kum" Taklamakan Thar Gibson Namib Lut Kavir Dune Kali Muspelheim Vulcan Baal Cartago
 				Ordos Khara Lop Maranjab Negev Sinai Atacama Simpson
 			}
 		}
@@ -236,20 +236,20 @@ HUM3 = {
 		
 		pc_gaia = {
 			names = {
-				Eden Elysium Cornucopia Utopía Shambhala Xanadú Shangri-La
+				Edén Elysium Cornucopia Utopía Shambhala Xanadú Shangri-La
 			}
 		}
 		
 		pc_ocean = {
 			names = {
-				Atlantis Oceanía Pacífica Atlántica Euxina Hyrcania Rubrica Erythraea Baltica R'lyeh Dagon Kraken Aegea 
+				Atlantis Oceanía Pacífica Atlántica Euxina Hyrcania Rúbrica Erythraea Báltica R'lyeh Dagón Kraken Aegea 
 				Adriática Tyrrhenia Mediterránea Mare "Port Rabcewicz" Ningbo
 			}
 		}
 		
 		pc_tundra = {
 			names = {
-				Islandia Canadá Kola Scandza Utgard Rus Blizzard Taiyuan
+				Islandia Canadá Kola Scandza Utgard Rus Ventisca Taiyuan
 			}
 		}
 		

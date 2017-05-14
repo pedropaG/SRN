@@ -1,0 +1,208 @@
+﻿### Hive Mind
+### Created by Miranda van den Brink
+### Based on a template by Henrik Eklund
+
+HIVE = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+			"Zángano de Colmena"
+		}
+
+		corvette = {
+			"Zángano de Combate"
+		}
+		
+		destroyer = {
+			"Zángano de Combate"
+		}
+		
+		cruiser = {
+			"Zángano de Combate"
+		}
+		
+		battleship = {
+			"Zángano de Combate"
+		}
+		
+		science = {
+			"Zángano Buscador"
+		}
+		
+		colonizer = {
+			"Zángano Fundador"
+		}
+		
+		constructor = {
+			"Zángano Constructor"
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			"Vástago"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+
+		transport = {
+			"Zángano Portador"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+		"Tipo Alpha" "Tipo Beta" "Tipo Gamma" "Tipo Delta" "Tipo Epsilon" "Tipo Zeta" "Tipo Eta" "Tipo Theta" "Tipo Iota" "Tipo Kappa" "Tipo Lambda" "Tipo Mu" "Tipo Nu" "Tipo Xi" "Tipo Omicron" "Tipo Pi" "Tipo Rho" "Tipo Sigma" "Tipo Tau" "Tipo Upsilon" "Tipo Phi" "Tipo Chi" "Tipo Psi" "Tipo Omega"
+		}		
+	}
+
+	fleet_names = {
+		random_names = { "1er Enjambre de Combate"
+		}
+		sequential_name = "%O% Enjambre de Combate"
+	}
+	
+	### ARMIES
+	army_names = {
+		defense_army = { 
+			random_names = { 
+			}
+			sequential_name = "Enjambre Defensor %C%"
+		}
+			
+		assault_army = {
+			sequential_name = "Agresores %C%"
+		}
+		
+		slave_army = {
+			sequential_name = "Zánganos-Guerreros Esclavos %C%"
+		}
+		
+		clone_army = { 
+			sequential_name = "Zánganos-Guerreros Clonados %C%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Zánganos-Guerreros Robóticos %C%"
+		}
+		
+		android_army = {
+			sequential_name = "Zánganos-Guerreros Droides %C%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "Zánganos-Guerreros Psi %C%"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "Zánganos-Guerreros Mutados %C%"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "Zánganos-Guerreros Mejorados %C%"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Célula Alpha" "Célula Enjambre Alpha" "Célula de Zánganos" "Cámara de Anidamiento" "Nido de Zánganos" "Alcance Exterior" "Cámara de Zánganos Exterior" "Nodo de Extensión" "Nodo Estándar" "Nodo de Zánganos" "Célula de Expansión" "Cámara de Producción" "Vértice Superior" "Nodo de Expansión" "Cámara de Desarrollo" "Célula de Progreso" "Nodo de Fabricación" "Célula de Reunión" "Unión de Guardia" "Supra-Vértice" "Unión de Avanzada" "Nodo de Reunión" "Colonia de Cría" "Colonia Alpha" "Colonia Beta" "Colonia Gamma" "Colonia Delta" "Colonia Epsilon" "Colonia Zeta" "Colonia Eta" "Colonia Theta" "Colonia Iota" "Célula de Producción" "Célula de Cría" "Racimo de Zánganos" "Colonia Enjambre" "Colonia de Zánganos" "Colonia de Reunión"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+				"Zángano Autónomo 1" "Zángano Autónomo 2" "Zángano Autónomo 3" "Zángano Autónomo 4" "Zángano Autónomo 5" "Zángano Autónomo 6" "Zángano Autónomo 7" "Zángano Autónomo 8" "Zángano Autónomo 9" "Zángano Autónomo 10" "Zángano Autónomo 11" "Zángano Autónomo 12" "Zángano Autónomo 13" "Zángano Autónomo 14"
+				"Zángano Autónomo 15" "Zángano Autónomo 16" "Zángano Autónomo 17" "Zángano Autónomo 18" "Zángano Autónomo 19" "Zángano Autónomo 20" "Zángano Autónomo 21" "Zángano Autónomo 22" "Zángano Autónomo 23" "Zángano Autónomo 24" "Zángano Autónomo 25" "Zángano Autónomo 26" "Zángano Autónomo 27" "Zángano Autónomo 28" "Zángano Autónomo 29" 
+				"Zángano Autónomo 30" "Zángano Autónomo 31" "Zángano Autónomo 32" "Zángano Autónomo 33" "Zángano Autónomo 34" "Zángano Autónomo 35" "Zángano Autónomo 36" "Zángano Autónomo 37" "Zángano Autónomo 38" "Zángano Autónomo 39" "Zángano Autónomo 40" "Zángano Autónomo 41" "Zángano Autónomo 42" "Zángano Autónomo 43" "Zángano Autónomo 44"
+				"Zángano Autónomo 45" "Zángano Autónomo 46" "Zángano Autónomo 47" "Zángano Autónomo 48" "Zángano Autónomo 49" "Zángano Autónomo 50" "Zángano Autónomo 51" "Zángano Autónomo 52" "Zángano Autónomo 53" "Zángano Autónomo 54" "Zángano Autónomo 55" "Zángano Autónomo 56" "Zángano Autónomo 57" "Zángano Autónomo 58" "Zángano Autónomo 59" 
+				"Zángano Autónomo 60" "Zángano Autónomo 61" "Zángano Autónomo 62" "Zángano Autónomo 63" "Zángano Autónomo 64" "Zángano Autónomo 65" "Zángano Autónomo 66" "Zángano Autónomo 67" "Zángano Autónomo 68" "Zángano Autónomo 69" "Zángano Autónomo 70" "Zángano Autónomo 71" "Zángano Autónomo 72" "Zángano Autónomo 73" "Zángano Autónomo 74"
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+			}
+			
+			regnal_second_names = {
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				Consciencia "Nexo Sináptico"
+			}
+		}
+	}
+}

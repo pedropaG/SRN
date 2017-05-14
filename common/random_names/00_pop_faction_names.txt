@@ -346,7 +346,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "technologist"
 		}
 	}
-	format = "<technologist_names_2> <technologist_names_1>"
+	format = "<technologist_names_1> <technologist_names_2>"
 	# Instituto de los Tecnólogos
 }
 
@@ -354,7 +354,7 @@ pop_faction_name_format = {
 pop_faction_name_parts_list = {
 	key = "traditionalist_names_1"
 	parts = {
-		"Union" = 1
+		"Unión" = 1
 		"Alianza" = 1
 		"Consejo" = 1
 		"Comité" = 1
@@ -393,7 +393,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "traditionalist"
 		}
 	}
-	format = "<traditionalist_names_2> <traditionalist_names_1>"
+	format = "<traditionalist_names_1> <traditionalist_names_2>"
 	# Iglesia del Alto Sacerdocio
 }
 
@@ -402,7 +402,7 @@ pop_faction_name_parts_list = {
 	key = "xenoist_names_1"
 	parts = {
 		"Alienígena" = 1
-		"Xeno" = 1
+		"Xenos" = 1
 		"Alien" = 1
 	}
 }
@@ -422,11 +422,34 @@ pop_faction_name_parts_list = {
 		"Conciencia" = 1
 	}
 }
+
 pop_faction_name_parts_list = {
 	key = "xenoist_names_2_mas"
 	parts = {
 		"Derecho" = 1
 		"Sufragio" = 1
+	}
+}
+
+
+
+pop_faction_name_parts_list = {
+	key = "preposition_names_fem"
+	parts = {
+		"por la " = 10
+		"de " = 1
+		"de la " = 1
+		"Pro-" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "preposition_names_mas"
+	parts = {
+		"por el " = 10
+		"de " = 1		
+		"del " = 1
+		"Pro-" = 1
 	}
 }
 
@@ -465,7 +488,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "xenoist"
 		}
 	}
-	format = "<xenoist_names_3> por la <xenoist_names_2_fem> <xenoist_names_1>"
+	format = "<xenoist_names_3> <preposition_names_fem><xenoist_names_2_fem> <xenoist_names_1>"
 	# Coalición por la Igualdad Alien
 }
 
@@ -477,7 +500,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "xenoist"
 		}
 	}
-	format = "<xenoist_names_3> por el <xenoist_names_2_mas> <xenoist_names_1>"
+	format = "<xenoist_names_3> <preposition_names_mas><xenoist_names_2_mas> <xenoist_names_1>"
 	# Coalición por el Derecho Alien
 }
 

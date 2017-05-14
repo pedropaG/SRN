@@ -1,5 +1,5 @@
-name="SRN - Complete"
-path="mod/srn"
+name="SRN - Pack Completo"
+path="mod/srn_complete_pack"
 tags={
 	"Translation"
 }

@@ -1,0 +1,208 @@
+﻿### Hive Mind
+### Created by Miranda van den Brink
+### Based on a template by Henrik Eklund
+
+HIVE = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+			"Dron de Colmena"
+		}
+
+		corvette = {
+			"Dron de Combate"
+		}
+		
+		destroyer = {
+			"Dron de Combate"
+		}
+		
+		cruiser = {
+			"Dron de Combate"
+		}
+		
+		battleship = {
+			"Dron de Combate"
+		}
+		
+		science = {
+			"Dron Buscador"
+		}
+		
+		colonizer = {
+			"Dron Fundador"
+		}
+		
+		constructor = {
+			"Dron Constructor"
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			"Vástago"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+
+		transport = {
+			"Dron Portador"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+		"Tipo Alpha" "Tipo Beta" "Tipo Gamma" "Tipo Delta" "Tipo Epsilon" "Tipo Zeta" "Tipo Eta" "Tipo Theta" "Tipo Iota" "Tipo Kappa" "Tipo Lambda" "Tipo Mu" "Tipo Nu" "Tipo Xi" "Tipo Omicron" "Tipo Pi" "Tipo Rho" "Tipo Sigma" "Tipo Tau" "Tipo Upsilon" "Tipo Phi" "Tipo Chi" "Tipo Psi" "Tipo Omega"
+		}		
+	}
+
+	fleet_names = {
+		random_names = { "1er Enjambre de Combate"
+		}
+		sequential_name = "%O% Enjambre de Combate"
+	}
+	
+	### ARMIES
+	army_names = {
+		defense_army = { 
+			random_names = { 
+			}
+			sequential_name = "Enjambre Defensor %C%"
+		}
+			
+		assault_army = {
+			sequential_name = "Agresores %C%"
+		}
+		
+		slave_army = {
+			sequential_name = "Drones-Guerreros Esclavos %C%"
+		}
+		
+		clone_army = { 
+			sequential_name = "Drones-Guerreros Clonados %C%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Drones-Guerreros Robóticos %C%"
+		}
+		
+		android_army = {
+			sequential_name = "Drones-Guerreros Droides %C%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "Drones-Guerreros Psi %C%"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "Drones-Guerreros Mutados %C%"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "Drones-Guerreros Mejorados %C%"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Célula Alpha" "Célula Enjambre Alpha" "Célula de Drones" "Cámara de Anidamiento" "Nido de Drones" "Alcance Exterior" "Cámara de Drones Exterior" "Nodo de Extensión" "Nodo Estándar" "Nodo de Drones" "Célula de Expansión" "Cámara de Producción" "Vértice Superior" "Nodo de Expansión" "Cámara de Desarrollo" "Célula de Progreso" "Nodo de Fabricación" "Célula de Reunión" "Unión de Guardia" "Supra-Vértice" "Unión de Avanzada" "Nodo de Reunión" "Colonia de Cría" "Colonia Alpha" "Colonia Beta" "Colonia Gamma" "Colonia Delta" "Colonia Epsilon" "Colonia Zeta" "Colonia Eta" "Colonia Theta" "Colonia Iota" "Célula de Producción" "Célula de Cría" "Racimo de Drones" "Colonia Enjambre" "Colonia de Drones" "Colonia de Reunión"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+				"Dron Autónomo 1" "Dron Autónomo 2" "Dron Autónomo 3" "Dron Autónomo 4" "Dron Autónomo 5" "Dron Autónomo 6" "Dron Autónomo 7" "Dron Autónomo 8" "Dron Autónomo 9" "Dron Autónomo 10" "Dron Autónomo 11" "Dron Autónomo 12" "Dron Autónomo 13" "Dron Autónomo 14"
+				"Dron Autónomo 15" "Dron Autónomo 16" "Dron Autónomo 17" "Dron Autónomo 18" "Dron Autónomo 19" "Dron Autónomo 20" "Dron Autónomo 21" "Dron Autónomo 22" "Dron Autónomo 23" "Dron Autónomo 24" "Dron Autónomo 25" "Dron Autónomo 26" "Dron Autónomo 27" "Dron Autónomo 28" "Dron Autónomo 29" 
+				"Dron Autónomo 30" "Dron Autónomo 31" "Dron Autónomo 32" "Dron Autónomo 33" "Dron Autónomo 34" "Dron Autónomo 35" "Dron Autónomo 36" "Dron Autónomo 37" "Dron Autónomo 38" "Dron Autónomo 39" "Dron Autónomo 40" "Dron Autónomo 41" "Dron Autónomo 42" "Dron Autónomo 43" "Dron Autónomo 44"
+				"Dron Autónomo 45" "Dron Autónomo 46" "Dron Autónomo 47" "Dron Autónomo 48" "Dron Autónomo 49" "Dron Autónomo 50" "Dron Autónomo 51" "Dron Autónomo 52" "Dron Autónomo 53" "Dron Autónomo 54" "Dron Autónomo 55" "Dron Autónomo 56" "Dron Autónomo 57" "Dron Autónomo 58" "Dron Autónomo 59" 
+				"Dron Autónomo 60" "Dron Autónomo 61" "Dron Autónomo 62" "Dron Autónomo 63" "Dron Autónomo 64" "Dron Autónomo 65" "Dron Autónomo 66" "Dron Autónomo 67" "Dron Autónomo 68" "Dron Autónomo 69" "Dron Autónomo 70" "Dron Autónomo 71" "Dron Autónomo 72" "Dron Autónomo 73" "Dron Autónomo 74"
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+			}
+			
+			regnal_second_names = {
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				Consciencia "Nexo Sináptico" Núcleo Unidad
+			}
+		}
+	}
+}
