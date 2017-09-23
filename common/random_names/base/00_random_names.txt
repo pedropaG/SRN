@@ -499,6 +499,8 @@ star_names = {
 	Serpess
 	Talandra
 	Bivham
+	Covfefe
+	Kerbal
 	Intham
 	Nordak
 	Vorsham
@@ -509,7 +511,7 @@ star_names = {
 	Sym
 	Pash
 	Roganoin
-	"Ler Zumon"
+	"Ler_Zumon"
 	Taramba
 	Ginam
 	Darep
@@ -518,8 +520,8 @@ star_names = {
 	Pentarum
 	Veldoon
 	Hyshma
-	"Antak Rham"
-	"Impal Tov"
+	"Antak_Rham"
+	"Impal_Tov"
 	Bysh
 	Polymar
 	Hyrma
@@ -556,7 +558,7 @@ star_names = {
 	Stenlar
 	Minokh 
 	Guram
-	"Tar Valemm"
+	"Tar_Valemm"
 	Tiralam
 	Obnoll
 	Unatra
@@ -572,7 +574,7 @@ star_names = {
 	Monboth
 	Leesak
 	Avalam
-	"Ampal Dir"
+	"Ampal_Dir"
 	Uldor
 	Zathmak
 	Deteenal
@@ -608,7 +610,7 @@ star_names = {
 	Reagg
 	Inthor
 	Jasmak
-	"Uran Tokh"
+	"Uran_Tokh"
 	Rixim
 	Hittimar
 	Rabinoc
@@ -616,13 +618,13 @@ star_names = {
 	Talan
 	Dimis
 	Tinab
-	"Josq Fomat"
+	"Josq_Fomat"
 	Fidhilam
 	Ferragon
 	Saldar
-	"Med Karash"
+	"Med_Karash"
 	Kongath
-	"Con Viab"
+	"Con_Viab"
 	Condarra
 	Cothium
 	Collodor
@@ -655,7 +657,7 @@ star_names = {
 	Bikhul
 	Zabeen
 	Torrom
-	"Kenn Hijal"
+	"Kenn_Hijal"
 	Bihjall
 	Uzun
 	Maghama
@@ -683,13 +685,13 @@ star_names = {
 	Xir
 	Bindur
 	Piddahfir
-	"Firin Malba"
+	"Firin_Malba"
 	Rijjin
 	Niamba
 	Bolthor
 	Gatana
 	Guhur
-	"Pollban Kir"
+	"Pollban_Kir"
 	Enim
 	Ennust
 	Tigira
@@ -730,7 +732,7 @@ star_names = {
 	Nodox
 	Nixahel
 	Hixaros
-	"Trax Ofko"
+	"Trax_Ofko"
 	Illex
 	Ijax
 	Wexellia
@@ -757,7 +759,7 @@ star_names = {
 	Millistamu
 	Phonok
 	Bazkarat
-	"Bion Dazat"
+	"Bion_Dazat"
 	Bashpat
 	Banthary
 	Culdax
@@ -826,7 +828,7 @@ star_names = {
 	Eissam
 	Zoldiore
 	Fulbadan
-	"Fir Mathrioz"
+	"Fir_Mathrioz"
 	Pobbma
 	Pothria
 	Jinnium
@@ -844,7 +846,7 @@ star_names = {
 	Cizar
 	Trabalore
 	Kornaggi
-	"Ryl Somot"
+	"Ryl_Somot"
 	Zatar
 	Dearum
 	Withyr
@@ -886,11 +888,11 @@ star_names = {
 	Yiriam
 	Yinin
 	Yomon
-	"Yodd Bem"
+	"Yodd_Bem"
 	Yarak
 	Yotla
 	Piskus
-	"Tram Bodon"
+	"Tram_Bodon"
 	Advatir
 	Ruul
 	Coggan
@@ -916,7 +918,7 @@ star_names = {
 	Atlabba
 	Raskamir
 	Romsir
-	"Rint Beekun"
+	"Rint_Beekun"
 	Trunt
 	Parsax
 	Nemozi
@@ -947,7 +949,7 @@ star_names = {
 	Barban
 	Bitrius
 	Loisar
-	"Xel Madak"
+	"Xel_Madak"
 	Hiamit
 	Himpra
 	Hizzel
@@ -1048,7 +1050,7 @@ star_names = {
 	Yeelon
 	Bapagia
 	Odlamon
-	"Orkam Fung"
+	"Orkam_Fung"
 	Shashamar
 	Mareenius
 	Lawam
@@ -1060,18 +1062,18 @@ star_names = {
 	Jardlaphon
 	Jinkath
 	Kahalajom
-	"Bir Zun"
+	"Bir_Zun"
 	Voldop
 	Cossmallion
 	Diub
 	Olum
 	Qabji
-	"Qad Vhi"
+	"Qad_Vhi"
 	Qorrolla
 	Brynnis
 	Braddam
 	Bonos
-	"Honnam Ter"
+	"Honnam_Ter"
 	Yurus
 	Yillion
 	Qamm
@@ -1084,7 +1086,7 @@ star_names = {
 	Batraq
 	Osseq
 	Goffia
-	"Eurav Wass"
+	"Eurav_Wass"
 	Khor
 	Perqim
 	Aesir
@@ -1121,12 +1123,12 @@ star_names = {
 	Grugmora
 	Neetris
 	Gilprim
-	"Xu Nur"
+	"Xu_Nur"
 	Tirim
 	Tirmana
 	Tir
 	Pulcor
-	"Absajha Min"
+	"Absajha_Min"
 	Jataramus
 	Inegore
 	Wegmore
@@ -1167,17 +1169,18 @@ star_names = {
 	Borce
 	Bijh
 	Romston
+	Scorpio
 	Ereness
 	Bregglar
 	Qastan
 	Iriani
 	Vilth
 	Lastus
-	"Jor Mon Dir"
+	"Jor_Mon_Dir"
 	Medac
 	Widbarill
 	Endirlang
-	"Edor Vang"
+	"Edor_Vang"
 	Sorcimax
 	Saramore
 	Thirimora
@@ -1189,7 +1192,7 @@ star_names = {
 	Patraggor
 	Mitin
 	Dirban
-	"Yel Barrasta"
+	"Yel_Barrasta"
 	Hamkad
 	Baidaan
 	Cador
@@ -1278,7 +1281,7 @@ star_names = {
 	Wetij
 	Wicklar
 	Wodriax
-	"Wum Jiam"
+	"Wum_Jiam"
 	Crescim
 	Zimtauri
 	Zimatullon
@@ -1325,7 +1328,7 @@ star_names = {
 	Uqallon
 	Horschim
 	Wilcam
-	"Wir Thosk"
+	"Wir_Thosk"
 	Thegglan
 	Iriamus
 	Ulm
@@ -1334,6 +1337,7 @@ star_names = {
 	Porabim
 	Simtinasca
 	Sidor
+	Alderaan
 	Drisk
 	Wemoll
 	Wanambis
@@ -1348,6 +1352,7 @@ star_names = {
 	Aruz
 	Aslund
 	Moregard
+	Jamor
 	Strom
 	Grekil
 	Dorellion
@@ -1395,10 +1400,10 @@ star_names = {
 	Zipir
 	Phargis
 	Qirbus
-	"Qeb Daraan"
-	Vi'Maas
+	"Qeb_Daraan"
+	ViMaas
 	Ruqlar
-	Im'dar
+	Imdar
 	Roscan
 	Ovany
 	Astarte
@@ -1410,20 +1415,20 @@ star_names = {
 	Tiamat
 	Higashik-Ata
 	Tronde
-	"Zulei Cro"
+	"Zulei_Cro"
 	Olbers
 	Julau
-	Ar'Doqd
+	ArDoqd
 	Matsonia
 	Grunthirst
 	Nugaan
-	T'Vilkait
+	TVilkait
 	Cknoor
 	Kazoo
 	Yump
-	"Fia Nita"
-	"Bal Durk"
-	"Etan Stela"
+	"Fia_Nita"
+	"Bal_Durk"
+	"Etan_Stela"
 	Kazon
 	Lazon
 	Vanniko
@@ -1535,6 +1540,7 @@ star_names = {
 	Oxcliri
 	Seyyama
 	Ebliuq
+	Stimsis
 	Poaa
 	Upstoth
 	Yacury
@@ -1638,6 +1644,10 @@ star_names = {
 	Uiafladus
 	Nostea
 	Damia
+	Veit
+	Katz
+	Brink
+	Majek
 }
 
 nebula_names = {
