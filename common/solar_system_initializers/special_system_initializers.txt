@@ -19,6 +19,8 @@ special_init_01 = {
 		class = "pc_barren"
 		entity = "barren_planet_01_destroyed_entity"
 		size = { min = 10 max = 15 }
+		
+		init_effect = { prevent_anomaly = yes }
 	}
 	
 	change_orbit = 30
@@ -35,7 +37,8 @@ special_init_02 = {
 	class = "rl_standard_stars"
 	
 	usage = misc_system_init
-	usage_odds = 2
+	usage_odds = 1.5
+	primitive_system = yes	# usage odds modified by primitives setup slider
 
 	flags = { primitive_system }
 	
@@ -72,7 +75,7 @@ special_init_02 = {
 				50 = {
 					create_species = {
 						name = random
-						class = random
+						class = random_non_machine
 						portrait = random
 						homeworld = THIS
 						traits = {
@@ -276,11 +279,7 @@ special_init_02 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_factory"
-							add_resource = {
-								resource = minerals
-								amount = 1
-								replace = yes
-							}						
+							set_deposit = d_mineral_deposit					
 						}						
 					}					
 					if = {
@@ -313,11 +312,7 @@ special_init_02 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_factory"
-							add_resource = {
-								resource = minerals
-								amount = 1
-								replace = yes
-							}						
+							set_deposit = d_mineral_deposit					
 						}						
 					}						
 					while = {
@@ -329,11 +324,7 @@ special_init_02 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_factory"
-							add_resource = {
-								resource = minerals
-								amount = 1
-								replace = yes
-							}						
+							set_deposit = d_mineral_deposit					
 						}					
 					}
 					while = {
@@ -345,11 +336,7 @@ special_init_02 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_farm"
-							add_resource = {
-								resource = food
-								amount = 1
-								replace = yes
-							}						
+							set_deposit = d_farmland_deposit				
 						}					
 					}
 					last_created_country = {
@@ -430,7 +417,7 @@ special_init_02 = {
 				50 = {
 					create_species = {
 						name = random
-						class = random
+						class = random_non_machine
 						portrait = random
 						homeworld = THIS
 						traits = {
@@ -635,11 +622,7 @@ special_init_02 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_farm"										
-							add_resource = {
-								resource = food
-								amount = 1
-								replace = yes
-							}
+							set_deposit = d_farmland_deposit
 						}
 					}
 					if = {
@@ -683,11 +666,7 @@ special_init_02 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_farm"
-							add_resource = {
-								resource = food
-								amount = 1
-								replace = yes
-							}
+							set_deposit = d_farmland_deposit
 						}						
 					}					
 					if = {
@@ -706,11 +685,7 @@ special_init_02 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_farm"
-							add_resource = {
-								resource = food
-								amount = 1
-								replace = yes
-							}
+							set_deposit = d_farmland_deposit
 						}						
 					}
 					if = {
@@ -726,11 +701,7 @@ special_init_02 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_factory"
-							add_resource = {
-								resource = minerals
-								amount = 1
-								replace = yes
-							}						
+							set_deposit = d_mineral_deposit					
 						}						
 					}					
 					last_created_country = {
@@ -1046,11 +1017,7 @@ special_init_03 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_factory"
-							add_resource = {
-								resource = minerals
-								amount = 1
-								replace = yes
-							}	
+							set_deposit = d_mineral_deposit
 						}
 					}
 					while = {
@@ -1062,11 +1029,7 @@ special_init_03 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_farm"
-							add_resource = {
-								resource = food
-								amount = 1
-								replace = yes
-							}
+							set_deposit = d_farmland_deposit
 						}
 					}
 					last_created_country = {
@@ -1213,11 +1176,7 @@ special_init_03 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_factory"
-							add_resource = {
-								resource = minerals
-								amount = 1
-								replace = yes
-							}	
+							set_deposit = d_mineral_deposit
 						}
 					}
 					while = {
@@ -1229,11 +1188,7 @@ special_init_03 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_farm"
-							add_resource = {
-								resource = food
-								amount = 1
-								replace = yes
-							}							
+							set_deposit = d_farmland_deposit						
 						}
 					}
 					last_created_country = {
@@ -1324,7 +1279,7 @@ special_init_03 = {
 						}
 					}
 					while = {
-						count = 3
+						count = 4
 						random_tile = {
 							limit = { 
 								has_blocker = no 
@@ -1332,11 +1287,7 @@ special_init_03 = {
 								has_grown_pop = yes
 							}
 							set_building = "building_primitive_farm"
-							add_resource = {
-								resource = food
-								amount = 1
-								replace = yes
-							}
+							set_deposit = d_farmland_deposit
 						}
 					}
 					last_created_country = {
@@ -1360,7 +1311,7 @@ special_init_03 = {
 		class = "pc_barren"
 		orbit_distance = 25
 		orbit_angle = 60
-		size = 15
+		size = 13
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 	}
@@ -1537,7 +1488,7 @@ special_init_04 = {
 		class = "pc_barren"
 		orbit_distance = 25
 		orbit_angle = 60
-		size = 15
+		size = 13
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 	}
@@ -1687,6 +1638,8 @@ special_init_06 = {
 		entity = "barren_planet_01_destroyed_entity"
 		size = 25
 		orbit_angle = { min = 90 max = 270 }
+		
+		init_effect = { prevent_anomaly = yes }
 	}
 	
 	planet = {
@@ -1831,6 +1784,8 @@ special_init_06 = {
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
+		
+		init_effect = { prevent_anomaly = yes }
 	}
 	
 	planet = {
@@ -1840,6 +1795,8 @@ special_init_06 = {
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
+		
+		init_effect = { prevent_anomaly = yes }
 	}
 	
 	init_effect = {
@@ -2336,11 +2293,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit	
 				}				
 			}			
 			if = {
@@ -2369,11 +2322,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit
 				}				
 			}							
 			if = {
@@ -2399,11 +2348,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_mineral_deposit					
 				}
 				every_tile = {
 					limit = {
@@ -2440,11 +2385,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"	
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit
 				}		
 			}
 			if = {
@@ -2521,7 +2462,7 @@ sanctuary_system = {
 						while = {
 							count = 4
 							create_army = {
-								name = "Primitive_Army"
+								name = "NAME_Primitive_Army"
 								owner = last_created
 								species = last_created
 								type = "primitive_army"
@@ -2826,11 +2767,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit			
 				}				
 			}			
 			if = {
@@ -2859,11 +2796,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit			
 				}				
 			}							
 			if = {
@@ -2889,11 +2822,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_mineral_deposit					
 				}
 				every_tile = {
 					limit = {
@@ -2930,11 +2859,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit			
 				}		
 			}	
 			if = {
@@ -3316,11 +3241,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit
 				}				
 			}			
 			if = {
@@ -3349,11 +3270,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit			
 				}				
 			}							
 			if = {
@@ -3379,11 +3296,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_mineral_deposit					
 				}		
 				every_tile = {
 					limit = {
@@ -3420,11 +3333,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_mineral_deposit						
 				}		
 			}
 			if = {
@@ -3796,11 +3705,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit	
 				}				
 			}			
 			if = {
@@ -3829,11 +3734,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit		
 				}				
 			}							
 			if = {
@@ -3859,11 +3760,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_mineral_deposit						
 				}
 				every_tile = {
 					limit = {
@@ -3900,11 +3797,7 @@ sanctuary_system = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
+					set_deposit = d_farmland_deposit				
 				}		
 			}
 			if = {
@@ -4198,153 +4091,7 @@ com_sol_system = {
 		}
 		
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}					
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 2
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 2
-						replace = yes
-					}						
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				random_list = {
-					33 = { 
-						add_resource = {
-							resource = engineering_research
-							amount = 1
-							replace = yes
-						}						
-					}
-					33 = { 
-						add_resource = {
-							resource = physics_research
-							amount = 1
-							replace = yes
-						}						
-					}
-					33 = { 
-						add_resource = {
-							resource = society_research
-							amount = 1
-							replace = yes
-						}						
-					}					
-				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}						
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}				
-			}			
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}				
-			}
-			while = {
-				count = 2
-				random_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_blocker = "tb_decrepit_dwellings"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}					
-				}
-			}			
+			generate_start_buildings_and_blockers = yes			
 			random_country = {
 				limit = { has_country_flag = human_2 }
 				owner_species = { save_event_target_as = human_species }
@@ -4419,7 +4166,7 @@ com_sol_system = {
 		class = "pc_barren"
 		orbit_distance = 25
 		orbit_angle = 60
-		size = 15
+		size = 13
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 		
@@ -4814,7 +4561,7 @@ sentinel_system = {
 			prevent_anomaly = yes
 			create_species = {
 				name = random
-				class = random
+				class = random_non_machine
 				portrait = random
 				traits = random
 				homeworld = this
