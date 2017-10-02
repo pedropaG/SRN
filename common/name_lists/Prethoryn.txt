@@ -51,19 +51,19 @@ Prethoryn = {
 	character_names = {
 		default = {
 			full_names = {
-				"Patrón de la Forma 'Cazador'" "Patrón de la Forma 'Acechador'" "Patrón de la Forma 'Devorador'" "Patrón de la Forma 'Asesino'" 
-				"Patrón de la Forma 'Destructor'" "Patrón de la Forma 'Ejecutor'" "Patrón de la Forma 'Segador'" "Patrón de la Forma 'Carnicero'" 
-				"Patrón de la Forma 'Aullador'" "Patrón de la Forma 'Merodeador'" "Patrón de la Forma 'Homicida'" "Patrón de la Forma 'Torturador'"
-				"Patrón de la Forma 'Buscador'" "Patrón de la Forma 'Verdugo'" "Patrón de la Forma 'Corruptor'" "Patrón de la Forma 'Escandaloso'" 
-				"Patrón de la Forma 'Aguijón'" "Patrón de la Forma 'Trillador'" "Patrón de la Forma 'Batallador'" "Patrón de la Forma 'Cantor'" 
-				"Patrón de la Forma 'Silenciador'" "Patrón de la Forma 'Alimentador'" "Patrón de la Forma 'Golpeador'" "Patrón de la Forma 'Ariete'"
-				"Patrón de la Forma 'Vigilante'" "Patrón de la Forma 'Observador'" "Patrón de la Forma 'Perseguidor'" "Patrón de la Forma 'Vencedor'" 
-				"Patrón de la Forma 'Aplastador'" "Patrón de la Forma 'Tragón'" "Patrón de la Forma 'Invasor'" "Patrón de la Forma 'Intruso'" 
-				"Patrón de la Forma 'Intruder'" "Patrón de la Forma 'Trespasser'" "Patrón de la Forma 'Encroacher'" "Patrón de la Forma 'Ravager'" 
-				"Patrón de la Forma 'Roedor'" "Patrón de la Forma 'Arruinador'" "Patrón de la Forma 'Asolador'" "Patrón de la Forma 'Demoledor'" 
-				"Patrón de la Forma 'Saqueador'" "Patrón de la Forma 'Mancillador'" "Patrón de la Forma 'Privador'" "Patrón de la Forma 'Raptor'" 
-				"Patrón de la Forma 'Berserker'" "Patrón de la Forma 'Castigador'" "Patrón de la Forma 'Viajero'" "Patrón de la Forma 'Limpiador'" 
-				"Patrón de la Forma 'Devastador'" "Patrón de la Forma 'Atormentador'" "Patrón de la Forma 'Aterrador'"
+				"Patrón Gestalt 'Cazador'" "Patrón Gestalt 'Acechador'" "Patrón Gestalt 'Devorador'" "Patrón Gestalt 'Asesino'" 
+				"Patrón Gestalt 'Destructor'" "Patrón Gestalt 'Ejecutor'" "Patrón Gestalt 'Segador'" "Patrón Gestalt 'Carnicero'" 
+				"Patrón Gestalt 'Aullador'" "Patrón Gestalt 'Merodeador'" "Patrón Gestalt 'Homicida'" "Patrón Gestalt 'Torturador'"
+				"Patrón Gestalt 'Buscador'" "Patrón Gestalt 'Verdugo'" "Patrón Gestalt 'Corruptor'" "Patrón Gestalt 'Escandaloso'" 
+				"Patrón Gestalt 'Aguijón'" "Patrón Gestalt 'Trillador'" "Patrón Gestalt 'Batallador'" "Patrón Gestalt 'Cantor'" 
+				"Patrón Gestalt 'Silenciador'" "Patrón Gestalt 'Alimentador'" "Patrón Gestalt 'Golpeador'" "Patrón Gestalt 'Ariete'"
+				"Patrón Gestalt 'Vigilante'" "Patrón Gestalt 'Observador'" "Patrón Gestalt 'Perseguidor'" "Patrón Gestalt 'Vencedor'" 
+				"Patrón Gestalt 'Aplastador'" "Patrón Gestalt 'Tragón'" "Patrón Gestalt 'Invasor'" "Patrón Gestalt 'Intruso'" 
+				"Patrón Gestalt 'Intruder'" "Patrón Gestalt 'Trespasser'" "Patrón Gestalt 'Encroacher'" "Patrón Gestalt 'Ravager'" 
+				"Patrón Gestalt 'Roedor'" "Patrón Gestalt 'Arruinador'" "Patrón Gestalt 'Asolador'" "Patrón Gestalt 'Demoledor'" 
+				"Patrón Gestalt 'Saqueador'" "Patrón Gestalt 'Mancillador'" "Patrón Gestalt 'Privador'" "Patrón Gestalt 'Raptor'" 
+				"Patrón Gestalt 'Berserker'" "Patrón Gestalt 'Castigador'" "Patrón Gestalt 'Viajero'" "Patrón Gestalt 'Limpiador'" 
+				"Patrón Gestalt 'Devastador'" "Patrón Gestalt 'Atormentador'" "Patrón Gestalt 'Aterrador'"
 			}
 			
 		}
