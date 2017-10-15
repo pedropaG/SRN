@@ -1,0 +1,225 @@
+﻿### Machine 1
+MACHINE1 = {
+	should_name_home_system_planets = no
+	
+	ship_names = {
+
+		generic = {
+		}
+
+		corvette = {
+			Erradicador Aniquildaor Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}
+		
+		destroyer = {
+			Erradicador Aniquildaor Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}
+		
+		cruiser = {
+			Erradicador Aniquildaor Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}
+		
+		battleship = {
+			Erradicador Aniquildaor Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}
+		
+		science = {
+			Supervisor Investigador Examinador Dilucidador Viajero Erudito Analista
+		}
+		
+		colonizer = {
+			Replicador Fundador Generador Sembrador Inductor Desarrollador
+		}
+		
+		constructor = {
+			Ensamblador Constructor Compilador Operador
+		}
+
+		transport = {
+			"Convoy"
+		}
+		
+
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = { 
+			#random_names = { }
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	ship_class_names = {
+		generic = {
+			
+		}		
+	}
+
+	fleet_names = {
+		random_names = {
+			
+		}
+		sequential_name = "%C%ª Legión"
+	}
+	
+	army_names = {
+		
+		machine_assault_1 = {
+			sequential_name = "%C%ª Fuerza de Asalto Mecanizada"
+		}
+
+		machine_defense_1 = {
+			sequential_name = "%C%ª Fuerza de Defensa Mecanizada"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%C%ª Fuerza Pesada de Asalto"
+		}
+
+		machine_defense_2 = {
+			sequential_name = "%C%ª Fuerza Pesada de Defensa"
+		}
+	
+			machine_assault_3 = {
+			sequential_name = "Ultra Titán de Asalto %CC%"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = { 
+				Nexus Hub Puente Matriz Red Núcleo Kernel Fuente Combinado Locus Central Omphalos Nucleus Eje Axis Crux Terminus Servidor Chasis
+			}
+		}
+		
+		pc_desert = {
+			names = { 
+				"Nexus Abrasador" "Hub Abrasador" "Puente Abrasador" "Matriz Abrasador" "Red Abrasador" "Núcleo Abrasador" "Kernel Abrasador" "Fuente Abrasador" "Combinado Abrasador" "Locus Abrasador" "Central Abrasador" "Omphalos Abrasador" "Nucleus Abrasador" "Eje Abrasador" "Cruz Abrasador" "Terminus Abrasador" "Servidor Abrasador" "Chasis Abrasador"
+			}
+		}
+		
+		pc_tropical = {
+			names = { 
+				"Nexus Frondoso" "Hub Frondoso" "Puente Frondoso" "Matriz Frondosa" "Red Frondosa" "Núcleo Frondoso" "Kernel Frondoso" "Fuente Frondosa" "Combinado Frondoso" "Locus Frondoso" "Central Frondosa" "Omphalos Frondoso" "Nucleus Frondoso" "Eje Frondoso" "Cruz Frondosa" "Terminus Frondoso" "Servidor Frondoso" "Chasis Frondoso"				
+			}
+		}
+		
+		pc_arid = {
+			names = { 
+				"Nexus Desecante" "Hub Desecante" "Puente Desecante" "Matriz Desecante" "Red Desecante" "Núcleo Desecante" "Kernel Desecante" "Fuente Desecante" "Combinado Desecante" "Locus Desecante" "Central Desecante" "Omphalos Desecante" "Nucleus Desecante" "Eje Desecante" "Cruz Desecante" "Terminus Desecante" "Servidor Desecante" "Chasis Desecante"
+			}
+		}
+		
+		pc_continental = {
+			names = { 
+				"Nexus Terrenal" "Hub Terrenal" "Puente Terrenal" "Matriz Terrenal" "Red Terrenal" "Núcleo Terrenal" "Kernel Terrenal" "Fuente Terrenal" "Combinado Terrenal" "Locus Terrenal" "Central Terrenal" "Omphalos Terrenal" "Nucleus Terrenal" "Eje Terrenal" "Cruz Terrenal" "Terminus Terrenal" "Servidor Terrenal" "Chasis Terrenal"
+			}
+		}
+		
+		pc_ocean = {
+			names = { 
+				"Nexus Fluido" "Hub Fluido" "Puente Fluido" "Matriz Fluida" "Red Fluida" "Núcleo Fluido" "Kernel Fluido" "Fuente Fluida" "Combinado Fluido" "Locus Fluido" "Central Fluida" "Omphalos Fluido" "Nucleus Fluido" "Eje Fluido" "Cruz Fluida" "Terminus Fluido" "Servidor Fluido" "Chasis Fluido"
+			}
+		}
+		
+		pc_tundra = {
+			names = { 
+				"Nexus Polar" "Hub Polar" "Puente Polar" "Matriz Polar" "Red Polar" "Núcleo Polar" "Kernel Polar" "Fuente Polar" "Combinado Polar" "Locus Polar" "Central Polar" "Omphalos Polar" "Nucleus Polar" "Eje Polar" "Cruz Polar" "Terminus Polar" "Servidor Polar" "Chasis Polar"
+			}
+		}
+		
+		pc_arctic = {
+			names = { 			
+				"Cryo Nexus" "Cryo Hub" "Puente Helado" "Cryo Matriz" "Red Helada" "Cryo Núcleo" "Kernel Helado" "Cryo Fuente" "Cryo Combinado" "Locus Helado" "Central Helada" "Omphalos Helado" "Cryo Nucleus" "Eje Helado" "Cryo Cruz" "Cryo Terminus" "Cryo Servidor" "Cryo Chasis"
+			}
+		}
+
+		pc_savannah = {
+			names = { 
+				"Meseta Nexus" "Estepa Hub" "Landa Puente" "Meseta Matriz" "Estepa Red" "Landa Núcleo" "Landa Kernel" "Meseta Fuente" "Estepa Combinada" "Landa Locus" "Meseta Central" "Landa Omphalos" "Estepa Nucleus" "Meseta Eje" "Landa Cruz" "Meseta Terminus" "Landa Servidor" "Estepa Chasis"
+			}
+		}
+
+		pc_alpine = {
+			names = { 
+				"Pico Nexus" "Pico Hub" "Pico Puente" "Pico Matriz" "Pico Red" "Pico Núcleo" "Pico Kernel" "Pico Fuente" "Pico Combinado" "Pico Locus" "Pico Central" "Pico Omphalos" "Pico Nucleus" "Pico Eje" "Pico Cruz" "Pico Terminus" "Pico Servidor" "Pico Chasis"
+			}
+		}
+
+		pc_nuked = {
+			names = { 
+				"Nexus Baldío" "Hub Yermo" "Puente Baldío" "Matriz Yerma" "Red Yerma" "Núcleo Yermo" "Kernel Yermo" "Fuente Baldía" "Combinado Yermo" "Locus Yermo" "Central Baldía" "Omphalos Yermo" "Nucleus Yermo" "Eje Yermo" "Cruz Baldía" "Terminus Yermo" "Servidor Yermo" "Chasis Yermo"				
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = { 
+				"Unidad A1" "Unidad A2" "Unidad A3" "Unidad A4" "Unidad A5" "Unidad A6" "Unidad A7" "Unidad A8" "Unidad A9" 
+				"Unidad B1" "Unidad B2" "Unidad B3" "Unidad B4" "Unidad B5" "Unidad B6" "Unidad B7" "Unidad B8" "Unidad B9"
+				"Unidad C1" "Unidad C2" "Unidad C3" "Unidad C4" "Unidad C5" "Unidad C6" "Unidad C7" "Unidad C8" "Unidad C9"
+				"Unidad D1" "Unidad D2" "Unidad D3" "Unidad D4" "Unidad D5" "Unidad D6" "Unidad D7" "Unidad D8" "Unidad D9"
+				"Unidad E1" "Unidad E2" "Unidad E3" "Unidad E4" "Unidad E5" "Unidad E6" "Unidad E7" "Unidad E8" "Unidad E9"
+				"Unidad F1" "Unidad F2" "Unidad F3" "Unidad F4" "Unidad F5" "Unidad F6" "Unidad F7" "Unidad F8" "Unidad F9"
+				"Unidad G1" "Unidad G2" "Unidad G3" "Unidad G4" "Unidad G5" "Unidad G6" "Unidad G7" "Unidad G8" "Unidad G9"
+				"Unidad H1" "Unidad H2" "Unidad H3" "Unidad H4" "Unidad H5" "Unidad H6" "Unidad H7" "Unidad H8" "Unidad H9"
+				"Unidad I1" "Unidad I2" "Unidad I3" "Unidad I4" "Unidad I5" "Unidad I6" "Unidad I7" "Unidad I8" "Unidad I9"
+				"Unidad J1" "Unidad J2" "Unidad J3" "Unidad J4" "Unidad J5" "Unidad J6" "Unidad J7" "Unidad J8" "Unidad J9"
+				"Unidad K1" "Unidad K2" "Unidad K3" "Unidad K4" "Unidad K5" "Unidad K6" "Unidad K7" "Unidad K8" "Unidad K9"
+				"Unidad L1" "Unidad L2" "Unidad L3" "Unidad L4" "Unidad L5" "Unidad L6" "Unidad L7" "Unidad L8" "Unidad L9"
+				"Unidad M1" "Unidad M2" "Unidad M3" "Unidad M4" "Unidad M5" "Unidad M6" "Unidad M7" "Unidad M8" "Unidad M9"
+				"Unidad N1" "Unidad N2" "Unidad N3" "Unidad N4" "Unidad N5" "Unidad N6" "Unidad N7" "Unidad N8" "Unidad N9"
+				"Unidad O1" "Unidad O2" "Unidad O3" "Unidad O4" "Unidad O5" "Unidad O6" "Unidad O7" "Unidad O8" "Unidad O9"
+				"Unidad P1" "Unidad P2" "Unidad P3" "Unidad P4" "Unidad P5" "Unidad P6" "Unidad P7" "Unidad P8" "Unidad P9"
+				"Unidad Q1" "Unidad Q2" "Unidad Q3" "Unidad Q4" "Unidad Q5" "Unidad Q6" "Unidad Q7" "Unidad Q8" "Unidad Q9"
+				"Unidad R1" "Unidad R2" "Unidad R3" "Unidad R4" "Unidad R5" "Unidad R6" "Unidad R7" "Unidad R8" "Unidad R9"
+				"Unidad S1" "Unidad S2" "Unidad S3" "Unidad S4" "Unidad S5" "Unidad S6" "Unidad S7" "Unidad S8" "Unidad S9"
+				"Unidad T1" "Unidad T2" "Unidad T3" "Unidad T4" "Unidad T5" "Unidad T6" "Unidad T7" "Unidad T8" "Unidad T9"
+				"Unidad U1" "Unidad U2" "Unidad U3" "Unidad U4" "Unidad U5" "Unidad U6" "Unidad U7" "Unidad U8" "Unidad U9"
+				"Unidad V1" "Unidad V2" "Unidad V3" "Unidad V4" "Unidad V5" "Unidad V6" "Unidad V7" "Unidad V8" "Unidad V9"
+				"Unidad W1" "Unidad W2" "Unidad W3" "Unidad W4" "Unidad W5" "Unidad W6" "Unidad W7" "Unidad W8" "Unidad W9"
+				"Unidad X1" "Unidad X2" "Unidad X3" "Unidad X4" "Unidad X5" "Unidad X6" "Unidad X7" "Unidad X8" "Unidad X9"
+				"Unidad Y1" "Unidad Y2" "Unidad Y3" "Unidad Y4" "Unidad Y5" "Unidad Y6" "Unidad Y7" "Unidad Y8" "Unidad Y9"
+				"Unidad Z1" "Unidad Z2" "Unidad Z3" "Unidad Z4" "Unidad Z5" "Unidad Z6" "Unidad Z7" "Unidad Z8" "Unidad Z9"
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				
+			}
+			
+			regnal_second_names = {
+				
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				Ejecutor 01 Director
+			}
+		}
+	}
+}
