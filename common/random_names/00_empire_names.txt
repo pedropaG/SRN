@@ -1392,6 +1392,27 @@ empire_name_parts_list = {
 		"Colectivo" = 3
 		"Prime" = 2
 		"Organismo" = 1
+		"Multitud" = 2
+	}
+}
+
+# Hive Mind Devouring Swarm
+empire_name_parts_list = {
+	key = "devouring_swarm"
+	parts = {
+		"Enjambre" = 5
+		"Horda" = 3
+		"Multitud" = 3
+		"Hueste" = 1
+	}
+}
+
+# Hive Mind Devouring Swarm Plural
+empire_name_parts_list = {
+	key = "devouring_swarm_pl"
+	parts = {
+		"Devoradores" = 2
+		"Voraces" = 2	
 	}
 }
 
@@ -1465,6 +1486,48 @@ empire_name_parts_list = {
 		"Sistemas" = 1
 	}
 }
+
+# Megachurch
+empire_name_parts_list = {
+	key = "oligarchic_megachurch"
+	parts = {
+		"Comunión" = 1
+		"Iglesia Estelar" = 1
+		"Iglesia del Mañana" = 1
+		"Primera Iglesia" = 1
+		"Iglesia de la Prosperidad" = 1
+		"Unión Mesiánica" = 1
+		"Conglomerado Sagrado" = 1
+		"Santa Empresa" = 1
+		"Nueva Ascensión" = 1
+		"Denominación" = 1
+		"Templo de la Hermandad" = 1
+		"Templo de la Renovación" = 1
+		"Fundación Dorada" = 1
+	}
+}
+
+# Trade League
+empire_name_parts_list = {
+	key = "trade_league"
+	parts = {
+		"Sindicato" = 1
+		"Consorcio" = 1
+		"Cartel" = 1
+		"Unión Mercantil" = 1
+		"Gremio de Comercio" = 1
+		"Liga de Comercio" = 1
+		"Consorcio Comercial" = 1
+		"Hermandad Mercantil" = 1
+		"Comisión de Comercio" = 1
+		"Unión de Comercio" = 1
+		"Libre Comercio" = 1
+		"Coalición Comercial" = 1
+		"Mercaderes de Confianza" = 1
+		"Alianza de Transporte" = 1
+	}
+}
+
 
 # Enlightened fem
 empire_name_parts_list = {
@@ -6717,6 +6780,45 @@ empire_name_format = {
 	# Colmena Humana
 }
 
+
+# Devouring Swarm
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "gov_devouring_swarm"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<devouring_swarm> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<devouring_swarm> [This.GetSpeciesName]"
+	# Horda Zelvana
+}
+
+# Devouring Swarm
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 3
+			has_government = "gov_devouring_swarm"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<devouring_swarm_pl> [This.GetSpeciesNamePlural]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<devouring_swarm> [This.GetSpeciesNamePlural]"
+	# Devoradores Zelvan
+}
+
 # MegaCorporación 1
 empire_name_format = {
 	random_weight = {
@@ -6753,6 +6855,83 @@ empire_name_format = {
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<oligarchic_corp> de [This.Capital.GetStarName]"
 	# Sindicato de Sol
+}
+
+
+# Megachurch 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "gov_megachurch"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<oligarchic_megachurch> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<oligarchic_megachurch> [This.GetSpeciesName]"
+	# Human Empire
+}
+
+# Megachurch 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "gov_megachurch"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<oligarchic_megachurch> de [This.Capital.GetStarName]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<oligarchic_megachurch> de [This.Capital.GetStarName]"
+	# Human Empire
+}
+
+# Trade League 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "gov_trade_league"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<trade_league> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<trade_league> [This.GetSpeciesName]"
+	# Human Empire
+}
+
+# Trade League 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "gov_trade_league"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<trade_league> de [This.Capital.GetStarName]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<trade_league> de [This.Capital.GetStarName]"
+	# Human Empire
 }
 
 # Fanatical purifiers
@@ -6948,6 +7127,26 @@ empire_name_parts_list = {
 	}
 }
 
+# Machine fem
+empire_name_parts_list = {
+	key = "fallen_empire_names_machine_fem"
+	parts = {	
+		"Continuación" = 10		
+		"Continuidad" = 10
+	}
+}
+
+# Machine mas
+empire_name_parts_list = {
+	key = "fallen_empire_names_machine_mas"
+	parts = {	
+		"Continuo" = 10
+		"Infinito" = 10
+	}
+}
+
+
+# Xenophobe Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6962,6 +7161,7 @@ empire_name_format = {
 	# Vestigio de Humanos
 }
 
+# Materialist Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6976,6 +7176,7 @@ empire_name_format = {
 	# Archivistas Humanos
 }
 
+# Xenophile Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6990,6 +7191,7 @@ empire_name_format = {
 	# Progenitores Humanos
 }
 
+# Spiritualist Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -7001,10 +7203,37 @@ empire_name_format = {
 	}
 	format = "<fallen_empire_names_4> [This.GetSpeciesNamePlural]"
 	noun = "[This.GetSpeciesName]"
-	# Guardianes Humanos
+	# Continuo Humano
 }
 
 
+# Machine Ancients Fem
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = gov_custodian_matrix
+		}
+	}
+	format = "<fallen_empire_names_machine_fem> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Continuidad Zelvan
+}
+
+# Machine Ancients Mas
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = gov_custodian_matrix
+		}
+	}
+	format = "<fallen_empire_names_machine_mas> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Continuo Zelvan
+}
 
 ### AWAKENED FALLEN EMPIRES
 
@@ -7049,6 +7278,28 @@ empire_name_parts_list = {
 	}
 }
 
+# Machine 1
+empire_name_parts_list = {
+	key = "awakened_fallen_empire_names_machine_1"
+	parts = {	
+		"Directiva Final" = 10
+		"Última Directiva" = 10
+		"Protocolo de Defensa" = 10
+		"Proceso de Custodia" = 10
+	}
+}
+
+# Machine 2
+empire_name_parts_list = {
+	key = "awakened_fallen_empire_names_machine_2"
+	parts = {	
+		"Unidad de Defensa Disfuncional" = 10
+		"Custodio Defectuoso" = 10
+		"Guardianes Corruptos" = 10
+	}
+}
+
+# Xenophobe Awakned Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -7063,6 +7314,7 @@ empire_name_format = {
 	# Restauradores Humanos
 }
 
+# Materialist Awakned Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -7077,6 +7329,7 @@ empire_name_format = {
 	# Reguladores Humanos
 }
 
+# Xenophile Awakned Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -7091,6 +7344,7 @@ empire_name_format = {
 	# Arbitros Humanos
 }
 
+# Spiritualist Awakned Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -7105,6 +7359,439 @@ empire_name_format = {
 	# Cruzados Humanos
 }
 
+# Machine Defense Awakened Ancients
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = gov_galactic_defense_unit
+		}
+	}
+	format = "<awakened_fallen_empire_names_machine_1> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Directiva Final Humana
+}
+
+# Machine Berseker Awakened Ancients
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = gov_berserker_machine
+		}
+	}
+	format = "<awakened_fallen_empire_names_machine_2>"
+	noun = "[This.GetSpeciesName]"
+	# Custodio Defectuoso
+}
+
+### MACHINE EMPIRE NAMES
+
+# Generic
+empire_name_parts_list = {
+	key = "machine_empire_names_1"
+	parts = {
+		"Red" = 10		
+		"Malla" = 10
+		"Sistema" = 10
+		"Unión" = 10
+		"Kernel" = 10
+		"Hub" = 10
+		"Matriz" = 10
+		"Nexo" = 10
+		"Núcleo" = 10
+		"Enlace" = 10
+		"Confluencia" = 10
+		"Interfaz" = 10
+		"Multisistema" = 10
+		"Secuencia" = 10
+		"Directiva" = 10
+		"Conciencia" = 10
+		"Pensamiento" = 10
+		"Índice" = 10
+		"Centro de Proceso" = 10
+		"Multiplex" = 10
+		"Colector" = 10
+		"Animus" = 10
+	}
+}
+
+# Terminator Plural
+empire_name_parts_list = {
+	key = "machine_empire_names_2"
+	parts = {
+		"Exterminadores" = 40
+		"Erradicadores" = 40
+		"Eliminadores" = 40
+		"Extinguidores" = 40
+		"Expulsores" = 40
+		"Aniquiladores" = 40
+		"Extirpadores" = 40
+	}
+}
+
+# Terminator Nouns
+empire_name_parts_list = {
+	key = "machine_empire_names_2_noun"
+	parts = {	
+		"Red" = 5
+		"Malla" = 5
+		"Sistema" = 5
+		"Unión" = 5
+		"Kernel" = 5
+		"Hub" = 5
+		"Matriz" = 5
+		"Nexo" = 5
+		"Núcleo" = 5
+		"Enlace" = 5
+		"Confluencia" = 5
+		"Interfaz" = 5
+		"Multisistema" = 5
+		"Secuencia" = 5
+		"Directiva" = 5
+		"Conciencia" = 5
+		"Pensamiento" = 5
+		"Índice" = 5
+		"Médula" = 5
+		"Multiplex" = 5
+		"Colector" = 5
+		"Animus" = 5
+	}
+}
+
+# Servitor Plural
+empire_name_parts_list = {
+	key = "machine_empire_names_3"
+	parts = {
+		"Vigilantes" = 40
+		"Guardianes" = 40
+		"Supervisores" = 40
+		"Custodios" = 40
+		"Guardas" = 40
+		"Sirvientes" = 50	
+	}
+}
+
+# Servitor Nouns
+empire_name_parts_list = {
+	key = "machine_empire_names_3_noun"
+	parts = {	
+		"Red" = 5
+		"Malla" = 5
+		"Sistema" = 5
+		"Unión" = 5
+		"Kernel" = 5
+		"Hub" = 5
+		"Matriz" = 5
+		"Nexo" = 5
+		"Núcleo" = 5
+		"Enlace" = 5
+		"Confluencia" = 5
+		"Interfaz" = 5
+		"Multisistema" = 5
+		"Secuencia" = 5
+		"Directiva" = 5
+		"Conciencia" = 5
+		"Pensamiento" = 5
+		"Índice" = 5
+		"Médula" = 5
+		"Multiplex" = 5
+		"Colector" = 5
+		"Animus" = 5
+	}
+}
+
+# Assimilator Plural
+empire_name_parts_list = {
+	key = "machine_empire_names_4"
+	parts = {
+		"Colectores" = 40
+		"Asimiladores" = 50
+		"Incorporadores" = 40
+		"Acumuladores" = 40
+		"Integradores" = 40
+		"Absorbentes" = 40
+		"Subsumidores" = 40
+		"Compiladores" = 40	
+	}
+}
+
+# Assimilator Nouns
+empire_name_parts_list = {
+	key = "machine_empire_names_4_noun"
+	parts = {	
+		"Red" = 5
+		"Malla" = 5
+		"Sistema" = 5
+		"Unión" = 5
+		"Kernel" = 5
+		"Hub" = 5
+		"Matriz" = 5
+		"Nexo" = 5
+		"Núcleo" = 5
+		"Enlace" = 5
+		"Confluencia" = 5
+		"Interfaz" = 5
+		"Multisistema" = 5
+		"Secuencia" = 5
+		"Directiva" = 5
+		"Conciencia" = 5
+		"Pensamiento" = 5
+		"Índice" = 5
+		"Médula" = 5
+		"Multiplex" = 5
+		"Colector" = 5
+		"Animus" = 5
+	}
+}
+
+# Research Plural
+empire_name_parts_list = {
+	key = "machine_empire_names_5"
+	parts = {	
+		"Buscadores de Conocimiento" = 40
+		"Experimentadores" = 40
+		"Eruditos" = 40
+		"Investigadores" = 40
+		"Bancos de Datos" = 40
+	}
+}
+
+# Research Nouns
+empire_name_parts_list = {
+	key = "machine_empire_names_5_noun"
+	parts = {	
+		"Experimento" = 40
+		"Investigación" = 40
+		"Banco de Datos" = 40
+		"Intelecto Prime" = 40		
+		"Intelegencia Principal" = 40	
+		"Red" = 5	
+		"Malla" = 5
+		"Sistema" = 5
+		"Unión" = 5
+		"Kernel" = 5
+		"Hub" = 5
+		"Matriz" = 5
+		"Nexo" = 5
+		"Núcleo" = 5
+		"Enlace" = 5
+		"Confluencia" = 5
+		"Interfaz" = 5
+		"Multisistema" = 5
+		"Secuencia" = 5
+		"Directiva" = 5
+		"Conciencia" = 5
+		"Pensamiento" = 5
+		"Índice" = 5
+		"Médula" = 5
+		"Multiplex" = 5
+		"Colector" = 5
+		"Animus" = 5
+	}
+}
+
+# Industrial Plural
+empire_name_parts_list = {
+	key = "machine_empire_names_6"
+	parts = {	
+		"Ensambladores" = 40
+		"Arquitectos" = 40
+		"Fabricantes" = 30
+		"Replicadores" = 40
+		"Fundidores" = 40
+		"Forjadores" = 40
+	}
+}
+
+# Industrial Nouns
+empire_name_parts_list = {
+	key = "machine_empire_names_6_noun"
+	parts = {	
+		"Forja" = 40
+		"Fundición" = 40
+		"Ensamblaje" = 20
+		"Red" = 5
+		"Malla" = 5
+		"Sistema" = 5
+		"Unión" = 5
+		"Kernel" = 5
+		"Hub" = 5
+		"Matriz" = 5
+		"Nexo" = 5
+		"Núcleo" = 5
+		"Enlace" = 5
+		"Confluencia" = 5
+		"Interfaz" = 5
+		"Multisistema" = 5
+		"Secuencia" = 5
+		"Directiva" = 5
+		"Conciencia" = 5
+		"Pensamiento" = 5
+		"Índice" = 5
+		"Médula" = 5
+		"Multiplex" = 5
+		"Colector" = 5
+		"Animus" = 5
+	}
+}
+
+# Generic
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_government = "gov_machine_empire"
+		}
+	}
+	format = "<machine_empire_names_1> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Red Mechanoide
+}
+
+# Terminator 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 40
+			has_government = "gov_machine_terminator"
+		}
+	}
+	format = "<machine_empire_names_2> [This.GetSpeciesNamePlural]"
+	noun = "[This.GetSpeciesName]"
+	# Exterminadores Mecanoides
+}
+
+# Terminator 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_government = "gov_machine_terminator"
+		}
+	}
+	format = "<machine_empire_names_2_noun> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Nexo Mecanoide
+}
+
+# Servitor 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 40
+			has_government = "gov_machine_servitor"
+		}
+	}
+	format = "<machine_empire_names_3> [This.GetSpeciesNamePlural]"
+	noun = "[This.GetSpeciesName]"
+	# Guardianes Mecanoides
+}
+
+# Servitor 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_government = "gov_machine_servitor"
+		}
+	}
+	format = "<machine_empire_names_3_noun> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Nexo Mecanoide
+}
+
+# Assimilator 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 40
+			has_government = "gov_machine_assimilator"
+		}
+	}
+	format = "<machine_empire_names_4> [This.GetSpeciesNamePlural]"
+	noun = "[This.GetSpeciesName]"
+	# Asimiladores Mecanoides
+}
+
+# Assimilator 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_government = "gov_machine_assimilator"
+		}
+	}
+	format = "<machine_empire_names_4_noun> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Nexo Mecanoides
+}
+
+# Research 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 40
+			has_government = "gov_machine_research"
+		}
+	}
+	format = "<machine_empire_names_5> [This.GetSpeciesNamePlural]"
+	noun = "[This.GetSpeciesName]"
+	# Ingestigadores Mechanoides
+}
+
+# Research 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 20
+			has_government = "gov_machine_research"
+		}
+	}
+	format = "<machine_empire_names_5_noun> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Experimento Mecanoide
+}
+
+# Industrial 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 40
+			has_government = "gov_machine_industrial"
+		}
+	}
+	format = "<machine_empire_names_6> [This.GetSpeciesNamePlural]"
+	noun = "[This.GetSpeciesName]"
+	# Constructores Mechanoides
+}
+
+# Industrial 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 20
+			has_government = "gov_machine_industrial"
+		}
+	}
+	format = "<machine_empire_names_6_noun> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	# Forja Mecanoide
+}
+
 
 ############################## Radical Cult ##############################
 
@@ -7114,6 +7801,7 @@ empire_name_parts_list = {
 		"Último Crisol" = 10
 		"Camino de la Verdad" = 10
 		"Iglesia de la Luz" = 10
+		"La Hermandad" = 10
 		"La Asociación" = 10
 		"Los Penitentes" = 10
 		"Templo de la Unidad" = 10

@@ -4,6 +4,7 @@
 
 HIVE = {
 	randomized = no
+	should_name_home_system_planets = no
 
 	ship_names = {
 		generic = {
