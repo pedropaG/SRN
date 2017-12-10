@@ -44,7 +44,7 @@ AI = {
 		}
 		
 		constructor = {
-			"Formación de Flota Utilitaria 1X-5"
+			"Unidad Utilitaria 1X-5"
 		}
 		
 		mining_station = { }
@@ -57,7 +57,7 @@ AI = {
 		}
 		
 		transport = {
-			"Formación de Flota de Transporte D-56-1"
+			"Unidad de Transporte D-56-1"
 		}
 		
 		military_station_small = {}
@@ -124,10 +124,10 @@ AI = {
 
 		default = {
 			full_names = {
-				"Formación de Flota MZ-34" "Formación de Flota P2-XR0" "Formación de Flota 19-G" "Formación de Flota Q-12" "Formación de Flota XI-130" "Formación de Flota V13" "Formación de Flota 44/1" "Formación de Flota LFA-5" "Formación de Flota 15/57" "Formación de Flota J-14"
-				"Formación de Flota OR-004" "Formación de Flota KT-5" "Formación de Flota 0009-X" "Formación de Flota Alfa-2" "Formación de Flota 388-F" "Formación de Flota M8-4" "Formación de Flota 54.2" "Formación de Flota 54.1" "Formación de Flota 48B" "Formación de Flota XR-2"
-				"Formación de Flota FR-9" "Formación de Flota VK-12" "Formación de Flota HK-48" "Formación de Flota L8P9" "Formación de Flota IX-1442" "Formación de Flota U-89" "Formación de Flota PDX-1" "Formación de Flota S09-B" "Formación de Flota S0B" "Formación de Flota M1D" 
-				"Formación de Flota F-19" "Formación de Flota TLY-68" "Formación de Flota 14/2" "Formación de Flota BX-4" "Formación de Flota Kappa 5" "Formación de Flota Sigma" "Formación de Flota YT-8" "Formación de Flota M4-L" "Formación de Flota 38-38" "Formación de Flota 8-99"
+				"Unidad MZ-34" "Unidad P2-XR0" "Unidad 19-G" "Unidad Q-12" "Unidad XI-130" "Unidad V13" "Unidad 44/1" "Unidad LFA-5" "Unidad 15/57" "Unidad J-14"
+				"Unidad OR-004" "Unidad KT-5" "Unidad 0009-X" "Unidad Alfa-2" "Unidad 388-F" "Unidad M8-4" "Unidad 54.2" "Unidad 54.1" "Unidad 48B" "Unidad XR-2"
+				"Unidad FR-9" "Unidad VK-12" "Unidad HK-48" "Unidad L8P9" "Unidad IX-1442" "Unidad U-89" "Unidad PDX-1" "Unidad S09-B" "Unidad S0B" "Unidad M1D" 
+				"Unidad F-19" "Unidad TLY-68" "Unidad 14/2" "Unidad BX-4" "Unidad Kappa 5" "Unidad Sigma" "Unidad YT-8" "Unidad M4-L" "Unidad 38-38" "Unidad 8-99"
 			}
 			
 			first_names = {
