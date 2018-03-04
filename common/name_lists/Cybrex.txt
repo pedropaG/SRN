@@ -6,9 +6,6 @@ Cybrex = {
 	### SHIPS
 
 	ship_names = {
-	
-		
-
 		generic = {
 			"Salvaguarda-001" "Salvaguarda-002" "Salvaguarda-003" "Salvaguarda-004" "Salvaguarda-005" "Salvaguarda-006" "Salvaguarda-007" "Salvaguarda-008" "Salvaguarda-009" "Salvaguarda-010" "Salvaguarda-011" "Salvaguarda-012" "Salvaguarda-013" "Salvaguarda-014" "Salvaguarda-015" "Salvaguarda-016" "Salvaguarda-017" "Salvaguarda-018" "Salvaguarda-019" "Salvaguarda-020" "Salvaguarda-021" "Salvaguarda-022" "Salvaguarda-023" "Salvaguarda-024" "Salvaguarda-025" "Salvaguarda-026" "Salvaguarda-027" "Salvaguarda-028" "Salvaguarda-029" "Salvaguarda-030" "Salvaguarda-031" "Salvaguarda-032" "Salvaguarda-033" "Salvaguarda-034" "Salvaguarda-035" "Salvaguarda-036" "Salvaguarda-037" "Salvaguarda-038" "Salvaguarda-039" "Salvaguarda-040" "Salvaguarda-041" "Salvaguarda-042" "Salvaguarda-043" "Salvaguarda-044" "Salvaguarda-045" "Salvaguarda-046" "Salvaguarda-047" "Salvaguarda-048" "Salvaguarda-049" "Salvaguarda-050" "Salvaguarda-051" "Salvaguarda-052" "Salvaguarda-053" "Salvaguarda-054" "Salvaguarda-055" "Salvaguarda-056" "Salvaguarda-057" "Salvaguarda-058" "Salvaguarda-059" "Salvaguarda-060" "Salvaguarda-061" "Salvaguarda-062" "Salvaguarda-063" "Salvaguarda-064" "Salvaguarda-065" "Salvaguarda-066" "Salvaguarda-067" "Salvaguarda-068" "Salvaguarda-069" "Salvaguarda-070" "Salvaguarda-071" "Salvaguarda-072" "Salvaguarda-073" "Salvaguarda-074" "Salvaguarda-075" "Salvaguarda-076" "Salvaguarda-077" "Salvaguarda-078" "Salvaguarda-079" "Salvaguarda-080" "Salvaguarda-081" "Salvaguarda-082" "Salvaguarda-083" "Salvaguarda-084" "Salvaguarda-085" "Salvaguarda-086" "Salvaguarda-087" "Salvaguarda-088" "Salvaguarda-089" "Salvaguarda-090" "Salvaguarda-091" "Salvaguarda-092" "Salvaguarda-093" "Salvaguarda-094" "Salvaguarda-095" "Salvaguarda-096" "Salvaguarda-097" "Salvaguarda-098" "Salvaguarda-099" "Salvaguarda-100" "Salvaguarda-101" "Salvaguarda-102" "Salvaguarda-103" "Salvaguarda-104" "Salvaguarda-105" "Salvaguarda-106" "Salvaguarda-107" "Salvaguarda-108" "Salvaguarda-109" "Salvaguarda-110" "Salvaguarda-111" "Salvaguarda-112" "Salvaguarda-113" "Salvaguarda-114" "Salvaguarda-115" "Salvaguarda-116" "Salvaguarda-117" "Salvaguarda-118" "Salvaguarda-119" "Salvaguarda-120" "Salvaguarda-121" "Salvaguarda-122" "Salvaguarda-123" "Salvaguarda-124" "Salvaguarda-125" "Salvaguarda-126" "Salvaguarda-127" "Salvaguarda-128" "Salvaguarda-129" "Salvaguarda-130" "Salvaguarda-131" "Salvaguarda-132" "Salvaguarda-133" "Salvaguarda-134" "Salvaguarda-135" "Salvaguarda-136" "Salvaguarda-137" "Salvaguarda-138" "Salvaguarda-139" "Salvaguarda-140" "Salvaguarda-141" "Salvaguarda-142" "Salvaguarda-143" "Salvaguarda-144" "Salvaguarda-145" "Salvaguarda-146" "Salvaguarda-147" "Salvaguarda-148" "Salvaguarda-149" "Salvaguarda-150" "Salvaguarda-151" "Salvaguarda-152" "Salvaguarda-153" "Salvaguarda-154" "Salvaguarda-155" "Salvaguarda-156" "Salvaguarda-157" "Salvaguarda-158" "Salvaguarda-159" "Salvaguarda-160" "Salvaguarda-161" "Salvaguarda-162" "Salvaguarda-163" "Salvaguarda-164" "Salvaguarda-165" "Salvaguarda-166" "Salvaguarda-167" "Salvaguarda-168" "Salvaguarda-169" "Salvaguarda-170" "Salvaguarda-171" "Salvaguarda-172" "Salvaguarda-173" "Salvaguarda-174" "Salvaguarda-175" "Salvaguarda-176" "Salvaguarda-177" "Salvaguarda-178" "Salvaguarda-179" "Salvaguarda-180" "Salvaguarda-181" "Salvaguarda-182" "Salvaguarda-183" "Salvaguarda-184" "Salvaguarda-185" "Salvaguarda-186" "Salvaguarda-187" "Salvaguarda-188" "Salvaguarda-189" "Salvaguarda-190" "Salvaguarda-191" "Salvaguarda-192" "Salvaguarda-193" "Salvaguarda-194" "Salvaguarda-195" "Salvaguarda-196" "Salvaguarda-197" "Salvaguarda-198" "Salvaguarda-199" "Salvaguarda-200" "Salvaguarda-201" "Salvaguarda-202" "Salvaguarda-203" "Salvaguarda-204" "Salvaguarda-205" "Salvaguarda-206" "Salvaguarda-207" "Salvaguarda-208" "Salvaguarda-209" "Salvaguarda-210" "Salvaguarda-211" "Salvaguarda-212" "Salvaguarda-213" "Salvaguarda-214" "Salvaguarda-215" "Salvaguarda-216" "Salvaguarda-217" "Salvaguarda-218" "Salvaguarda-219" "Salvaguarda-220" "Salvaguarda-221" "Salvaguarda-222" "Salvaguarda-223" "Salvaguarda-224" "Salvaguarda-225" "Salvaguarda-226" "Salvaguarda-227" "Salvaguarda-228" "Salvaguarda-229" "Salvaguarda-230" "Salvaguarda-231" "Salvaguarda-232" "Salvaguarda-233" "Salvaguarda-234" "Salvaguarda-235" "Salvaguarda-236" "Salvaguarda-237" "Salvaguarda-238" "Salvaguarda-239" "Salvaguarda-240" "Salvaguarda-241" "Salvaguarda-242" "Salvaguarda-243" "Salvaguarda-244" "Salvaguarda-245" "Salvaguarda-246" "Salvaguarda-247" "Salvaguarda-248" "Salvaguarda-249" "Salvaguarda-250" "Salvaguarda-251" "Salvaguarda-252" "Salvaguarda-253" "Salvaguarda-254" "Salvaguarda-255" "Salvaguarda-256" "Salvaguarda-257" "Salvaguarda-258" "Salvaguarda-259" "Salvaguarda-260" "Salvaguarda-261" "Salvaguarda-262" "Salvaguarda-263" "Salvaguarda-264" "Salvaguarda-265" "Salvaguarda-266" "Salvaguarda-267" "Salvaguarda-268" "Salvaguarda-269" "Salvaguarda-270" "Salvaguarda-271" "Salvaguarda-272" "Salvaguarda-273" "Salvaguarda-274" "Salvaguarda-275" "Salvaguarda-276" "Salvaguarda-277" "Salvaguarda-278" "Salvaguarda-279" "Salvaguarda-280" "Salvaguarda-281" "Salvaguarda-282" "Salvaguarda-283" "Salvaguarda-284" "Salvaguarda-285" "Salvaguarda-286" "Salvaguarda-287" "Salvaguarda-288" "Salvaguarda-289" "Salvaguarda-290" "Salvaguarda-291" "Salvaguarda-292" "Salvaguarda-293" "Salvaguarda-294" "Salvaguarda-295" "Salvaguarda-296" "Salvaguarda-297" "Salvaguarda-298" "Salvaguarda-299" "Salvaguarda-300"
 		}
@@ -25,12 +22,21 @@ Cybrex = {
 		
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			random_names = { "%C%er Puesto Avanzado" }
-			sequential_name = "%C%º Puesto Avanzado"
+		starbase_outpost = {
+			sequential_name = "%C%ª Base Estelar"
+		}
+		starbase_starport = {
+			sequential_name = "%C%ª Base Estelar"
+		}
+		starbase_starhold = {
+			sequential_name = "%C%ª Base Estelar"
+		}
+		starbase_starfortress = {
+			sequential_name = "%C%ª Base Estelar"
+		}
+		starbase_citadel = {
+			sequential_name = "%C%ª Base Estelar"
 		}
 		
 		transport = {

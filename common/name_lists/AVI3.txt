@@ -17,25 +17,6 @@ AVI3 = {
 			"Tullidor" "Desfigurador" "Lisiador" "Deformador" "Perforador"
 		}
 		
-		constructor = {
-			"Fabricante de Nidos" "Constructor de Nidos" "Creador de Nidos" "Productor de Nidos" "Hacedor de Nidos"
-			"Fabricante de Corrales" "Constructor de Corrales" "Creador de Corrales" "Productor de Corrales" "Hacedor de Corrales"
-		}
-		
-		colonizer = {
-			"Huevoportador I" "Huevoportador II" "Huevoportador III" "Huevoportador IV" "Huevoportador V"
-			"Huevoportador VI" "Huevoportador VII" "Huevoportador VIII" "Huevoportador IX" "Huevoportador X"
-			"Huevoportador XI" "Huevoportador XII" "Huevoportador XIII" "Huevoportador XIV" "Huevoportador XV"
-			"Huevoportador XVI" "Huevoportador XVII" "Huevoportador XVIII" "Huevoportador XIX" "Huevoportador XX"
-		}
-		
-		science = {
-			"Ojo Interior" "Tercer Ojo" "Ojo Inspector" "Ojo Evaluador" "Ojo Analizador"
-			"Ojo Contemplativo" "Ojo Inquisitivo" "Ojo Evaluador" "Ojo Pensante"
-			"Ojo Apreciativo" "Ojo Asesor" "Ojo Clasificador" "Ojo Estimador" "Ojo Determinador"
-			"Ojo Registrador" "Ojo Estudioso" "Ojo Investigador" "Ojo Explorador" "Ojo Observador"
-		}
-		
 		destroyer = {
 			"Garra Precisa" "Garra Rápida" "Garra Frenética" "Garra Sangrienta" "Garra Cicatrizante"
 			"Garra Cruenta" "Garra Espeluznante" "Garra Mutiladora" "Garra Destrozadora" "Garra Herida"
@@ -56,28 +37,74 @@ AVI3 = {
 			"Masacre Estimulante" "Matanza Estimulante" "Carnicería Estimulante" "Exterminio Estimulante" "Aniquilación Estimulante"
 			"Masacre Deliciosa" "Matanza Deliciosa" "Carnicería Deliciosa" "Exterminio Delicioso" "Aniquilación Deliciosa"
 		}
+
+		titan = {
+			"Destrucción Majestuosa" "Matanza Majestuosa" "Masacre Majestuosa" "Carnicería Majestuosa" "Violencia Majestuosa" "Estragos Majestuosos"
+ 		}
+
+		colossus = {
+			"Huevo de la Muerte" "Huevo de la Destrucción" "Huevo del Olvido" "Huevo de la Perdición"
+		}
 		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { 
-		#	"Nest Shaper" "Roost Shaper"
-		#}
-		observation_station = { }
-		outpost_station = {
-			#random_names = {
-				"Ojo Atento" "Ojo Vigilante" "Ojo Durmiente" "Ojo Agudo" "Ojo Despectivo" "Ojo Distraído" "Ojo Taimado" "Ojo Ferviente" "Ojo Intrépido" "Ojo Tenaz"
-			#}
-			#sequential_name = "%O% Frontier Outpost"
+		constructor = {
+			"Fabricante de Nidos" "Constructor de Nidos" "Creador de Nidos" "Productor de Nidos" "Hacedor de Nidos"
+			"Fabricante de Corrales" "Constructor de Corrales" "Creador de Corrales" "Productor de Corrales" "Hacedor de Corrales"
+		}
+		
+		colonizer = {
+			"Huevoportador I" "Huevoportador II" "Huevoportador III" "Huevoportador IV" "Huevoportador V"
+			"Huevoportador VI" "Huevoportador VII" "Huevoportador VIII" "Huevoportador IX" "Huevoportador X"
+			"Huevoportador XI" "Huevoportador XII" "Huevoportador XIII" "Huevoportador XIV" "Huevoportador XV"
+			"Huevoportador XVI" "Huevoportador XVII" "Huevoportador XVIII" "Huevoportador XIX" "Huevoportador XX"
+		}
+		
+		science = {
+			"Ojo Interior" "Tercer Ojo" "Ojo Inspector" "Ojo Evaluador" "Ojo Analizador"
+			"Ojo Contemplativo" "Ojo Inquisitivo" "Ojo Evaluador" "Ojo Pensante"
+			"Ojo Apreciativo" "Ojo Asesor" "Ojo Clasificador" "Ojo Estimador" "Ojo Determinador"
+			"Ojo Registrador" "Ojo Estudioso" "Ojo Investigador" "Ojo Explorador" "Ojo Observador"
 		}
 		
 		transport = {
+			"Portador de la Muerte" "Portador de la Condena" "Portador de la Destrucción" "Portador de la Ruina"
+		} 
+
+		military_station_small = {
+			"Zarpa Precisa" "Zarpa Rápida" "Zarpa Frenética" "Zarpa Sangrienta" "Zarpa Cicatrizante"
+			"Zarpa Cruenta" "Zarpa Espeluznante" "Zarpa Mutiladora" "Zarpa Destrozadora" "Zarpa Herida"
+			"Zarpa Fulminante" "Zarpa Rascadora" "Zarpa Cortante" "Zarpa Mutilante" "Zarpa Hiriente"
+			"Zarpa Paralizante" "Zarpa Desfiguradora" "Zarpa Lisiante" "Zarpa Deformadora" "Zarpa Perforadora"
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		ion_cannon = { 
+			"Asidero de la Condena" "Asidero del Juicio" "Asidero de la Perdición" "Asidero de la Muerte" "Asidero de la Calamidad"
+		}
+
+		### For Fallen Empires
+		small_ship_fallen_empire = {
+			"Agudo" "Rápido" "Frenesí" "Salpicadura" "Cicatriz"
+			"Sangre" "Mutilación" "Acometida" "Herida" "Dolor"
+			"Rajar" "Arañazo" "Cortar" "Mutilador" "Lesión"
+			"Tullidor" "Desfigurador" "Lisiador" "Deformador" "Perforador"
+			"Grito" "Chillido" "Alarido" "Aullido" "Graznido"
+			"Planeo" "Ascenso" "Elevación" "Incremento" "Vuelo"
+			"Deriva" "Flote" "Deslíz" "Picado" "Descenso"
+			"Llanto" "Zambullida"			
+			"Garra Precisa" "Garra Rápida" "Garra Frenética" "Garra Sangrienta" "Garra Cicatrizante"
+			"Garra Cruenta" "Garra Espeluznante" "Garra Mutiladora" "Garra Destrozadora" "Garra Herida"
+			"Garra Fulminante" "Garra Rascadora" "Garra Cortante" "Garra Mutilante" "Garra Hiriente"
+			"Garra Paralizante" "Garra Desfiguradora" "Garra Lisiante" "Garra Deformadora" "Garra Perforadora"
+		}
+		large_ship_fallen_empire = {
+			"Masacre Gloriosa" "Matanza Gloriosa" "Carnicería Gloriosa" "Aniquilación Gloriosa" "Escabechina Gloriosa"
+			"Masacre Maravillosa" "Matanza Maravillosa" "Carnicería Maravillosa" "Aniquilación Maravillosa" "Escabechina Maavillosa"
+			"Masacre Inspiradora" "Matanza Inspiradora" "Carnicería Inspiradora" "Aniquilación Inspiradora" "Escabechina Inspiradora"
+			"Masacre Exquisita" "Matanza Exquisita" "Carnicería Exquisita" "Aniquilación Exquisita" "Escabechina Exquisita"
+		}
+		massive_ship_fallen_empire = {
+			"Destrucción Majestuosa" "Matanza Majestuosa" "Masacre Majestuosa" "Carnicería Majestuosa" "Violencia Majestuosa" "Estragos Majestuosos"
+		}
+		
 	}
 
 	fleet_names = {
@@ -108,9 +135,17 @@ AVI3 = {
 		robotic_army = {
 			sequential_name = "Fuerzas Droide %R%"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "Fuerzas Droide de Defensa %R%"
+		}
 		
 		android_army = {
 			sequential_name = "Fuerzas Androide %R"
+		}
+
+		android_defense_army = {
+			sequential_name = "Fuerzas Androide de Defensa %R%"
 		}
 		
 		psionic_army = { 

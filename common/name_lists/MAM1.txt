@@ -1,7 +1,8 @@
 ﻿### Mammalian 1
+### Created by Henrik Eklund
+
 MAM1 = {
 	### SHIPS
-	alias = "MAM4"
 
 	ship_names = {
 
@@ -27,6 +28,12 @@ MAM1 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -37,20 +44,14 @@ MAM1 = {
 		constructor = {
 		}
 		
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Puesto Fronterizo"
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}
 	}
 
 	fleet_names = {
@@ -81,9 +82,17 @@ MAM1 = {
 		robotic_army = {
 			sequential_name = "Infantería Robótica %R%"
 		}
-		
+
+		robotic_defense_army = {
+			sequential_name = "Protectores Robóticos %R%"
+		}
+				
 		android_army = {
 			sequential_name = "Infantería de Androides %R%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Protectores Androides %R%"
 		}
 		
 		psionic_army = { 
@@ -105,49 +114,43 @@ MAM1 = {
 
 		generic = {
 			names = {
-				"Korrim" "Primero de Caldan" "Madriguera de Rivén" "Rattia" "Fortana" "Pollimin" "Firren" "Carimal" "Mehrnana" "Finton" "Rorien's Grove" "Fortalia" "Biroi" "Varnia" "Cardilia" "Kormli" "Comunión de Darpo" "Dissadia" "Refugio de Ultia" "Guarida de Mani" "Membrana de Firtle" "Bodega de Pottle" "Médula de Mortin" "Tourivale" "Droitandir" "Lavelkor" "Granja Collonia" "Templo de Uthian" "Forfion" "Carnaloa" "Refugio de Ridlan" "Asilo de Hortle" "Búsqueda de Vilcot" "Ultan" "Baordo" "Nagrim" "Furdest" "Noilan" "Yrdur" "Taminth" "Gordan" "Grongari" "Balitana" "Palitine"
+				"Korrim" "Primero de Caldan" "Madriguera de Rivén" "Rattia" "Fortana" "Pollimin" "Firren" "Carimal" "Mehrnana" "Finton" "Rorien's Grove" "Fortalia" "Biroi" "Varnia" "Cardilia" "Kormli" "Comunión de Darpo" "Dissadia" "Refugio de Ultia" "Guarida de Mani" "Membrana de Firtle" "Bodega de Pottle" "Médula de Mortin" "Tourivale" "Droitandir" "Lavelkor" "Granja Collonia" "Templo de Uthian" "Forfion" "Carnaloa" "Refugio de Ridlan" "Asilo de Hortle" "Búsqueda de Vilcot" "Ultan" "Baordo" "Nagrim" "Furdest" "Noilan" "Yrdur" "Taminth" "Gordan" "Grongari" "Balitana" "Palitine" 
+				"Topacio de Tillie" "Esmeralda de Emmrie" "Granate de Gildern" "Rubí de Roddle"	"Zafiro de Shondana" "Puerto de Philon"	"Cristal de Charion" "Diamante de Diona"
 			}
 		}
 		
 		pc_desert = {
 			names = {
-				"Topacio de Tillie"
 			}
 		}
 		
 		pc_tropical = {
 			names = {
-				"Esmeralda de Emmrie"
 			}
 		}
 		
 		pc_arid = {
 			names = {
-				"Granate de Gildern"
 			}
 		}
 		
 		pc_continental = {
 			names = {
-				"Rubí de Roddle"
 			}
 		}
 		
 		pc_ocean = {
 			names = {
-				"Zafiro de Shondana" "Puerto de Philon"
 			}
 		}
 		
 		pc_tundra = {
 			names = {
-				"Cristal de Charion"
 			}
 		}
 		
 		pc_arctic = {
 			names = {
-				"Diamante de Diona"
 			}
 		}
 		
@@ -162,13 +165,17 @@ MAM1 = {
 			}
 			
 			# Always combined with a second name
-			first_names = {
-				Tig Ser Vak Mor Gan Pud Cal Vir Bur Tan Mik Gor Oro Dim Ban Gar Sok 
+			first_names_male = {
+				Tig Ser Vak Mor Gan Pud Cal Vir Bur Tan Mik Gor Oro Dim Ban Gar Sok Vak Tok Pok Tik Sar Vub Mak Bor 
+			}
+			
+			first_names_female = {
+				Tigi Seri Vaki Mori Gani Pudi Cali Viri Buri Tani Miki Gori Oroi Dimi Bani Gari Soki Vaki Toki Poki Tiki Sari Vubi Maki Bori 
 			}
 			
 			# Always combined with a first name
 			second_names = {
-				J'Khanna J'Kir J'Dallot J'Ghor J'Bassim B'Donag B'Than B'Scorak B'Eren B'Torak
+				J'Khanna J'Kir J'Dallot J'Ghor J'Bassim B'Donag B'Than B'Scorak B'Eren B'Torak D'Dhenn D'Kut D'Kara B'Sirim B'Korab B'Scul J'Dumak J'Dir
 			}
 			
 			regnal_first_names = {

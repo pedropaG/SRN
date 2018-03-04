@@ -19,6 +19,12 @@ MAM3 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -28,28 +34,22 @@ MAM3 = {
 		
 		constructor = {
 		}
-		
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Puesto Fronterizo"
+
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}
 	}
 
 	fleet_names = {
 		random_names = {
 			"Cuerpos de Asalto" "Cuerpos 'Primera Orden'" "Cuerpos de Choque" "Cuerpos Estelares" "ExoCorps" "Cuerpos del Vacío " "Cuerpos del Éter" "Cuerpos del Horizonte" "Cuerpos de Batalla" "Cuerpos Galácticos" "Cuerpos Astrales"
 		}
-		sequential_name = "Cuerpos Extraorbitales %C%"
+		sequential_name = "%C%º Cuerpos Extraorbitales"
 	}
 	
 	### ARMIES
@@ -76,9 +76,17 @@ MAM3 = {
 		robotic_army = {
 			sequential_name = "%C%ª División Robótica"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Guarnición Robótica"
+		}
 		
 		android_army = {
 			sequential_name = "%C%ª División Androide"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Guarnición Androide"
 		}
 		
 		psionic_army = { 
@@ -101,7 +109,7 @@ MAM3 = {
 
 		generic = {
 			names = {
-				Safalon Lancord Drogena Yoergen Pendalor Tyntregal Camburen Cemlanth Suboramon Cumelod Condeus Genith Belores Agstur Fridgalen Annuend Sadolic Talienoc Angleruth Cranodeth
+				Safalon Lancord Drogena Yoergen Pendalor Tyntregal Camburen Cemlanth Suboramon Cumelod Condeus Genith Belores Agstur Fridgalen Annuend Sadolic Talienoc Angleruth Cranodeth Colbath Sturgos Vagalod Yirka Basturon Penthokka Ibilass Isika Corealla Gisiru Gaborina Avanna Avasur Fridgga Epensur
 			}
 		}
 		
@@ -153,7 +161,7 @@ MAM3 = {
 			
 			# Always combined with a second name
 			first_names = {
-				Lifres Gestith Regolid Sacoterum Murgaud Seifeth Gorlife Codrales Suclien Ganarth Thoraul Merould Galedur Sassodem Cluthar Guldorn Yodegud Sassomun Colaut Derom
+					Lifres Gestith Regolid Sacoterum Murgaud Seifeth Gorlife Codrales Suclien Ganarth Thoraul Merould Galedur Sassodem Cluthar Guldorn Yodegud Sassomun Colaut Derom
 			}
 			
 			# Always combined with a first name

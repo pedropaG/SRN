@@ -1,4 +1,6 @@
 ﻿### Reptilian 1
+### Created by Henrik Eklund
+
 REP1 = {
 	### SHIPS
 
@@ -77,15 +79,25 @@ REP1 = {
 		}
 		
 		robotic_army = {
+			random_names = { "1er Nexo de Asalto" }
 			sequential_name = "%C%º Nexo de Asalto"
+		}
+
+		robotic_defense_army = {
+			random_names = { "1er Nexo de Defensa" }
+			sequential_name = "%C%º Nexo de Defensa"
 		}
 		
 		android_army = {
-			sequential_name = "%C%º Guerreros Sintéticos"
+			sequential_name = "%C%ª Guerreros Sintéticos"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Guardia Sintética"
 		}
 		
 		psionic_army = { 
-			sequential_name = "%C%º Observadores del Pensamiento"
+			sequential_name = "%C%ª Observadores del Pensamiento"
 		}
 		
 		xenomorph_army = {
@@ -104,7 +116,7 @@ REP1 = {
 
 		generic = {
 			names = {
-				Na'Tirgir Na'Dall Bid'Jossk Bid'Rissim Ata'Virisch Ata'Podossa Pan'Dassak Pan'Kischa Fal'Taram Fal'Kaboss Mil'Susska Mil'Feldrak Ra'Targass Ra'Bothnor Gal'Suposk Gal'Karaska Shi'Tanask Shi'Poltan Ro'Doman Ro'Eseek Ka'Tanab Ka'Salosch Ira'Monosk Ira'Obass
+				Na'Tirgir Na'Dall Bid'Jossk Bid'Rissim Ata'Virisch Ata'Podossa Pan'Dassak Pan'Kischa Fal'Taram Fal'Kaboss Mil'Susska Mil'Feldrak Ra'Targass Ra'Bothnor Gal'Suposk Gal'Karaska Shi'Tanask Shi'Poltan Ro'Doman Ro'Eseek Ka'Tanab Ka'Salosch Ira'Monosk Ira'Obass Na'Garu Na'Simir Na'Valus Bid'Schukon Bid'Taraki Gal'Mukosa Gal'Vako Gal'Bothar Gal'Emun Shi'Suma Shi'Pator Ro'Denek Ro'Kabur
 			}
 		}
 		
@@ -151,7 +163,11 @@ REP1 = {
 		default = {
 			# A complete name
 			full_names = {
-				Hask'Valgam Hask'Zumon Hask'Teragg Hask'Sornas Hask'Pagram Hask'Jonnot Hask'Gentar Hask'Birim Hask'Endek Hask'Kalass Torba'Inrab Torba'Keldi Torba'Varass Torba'Namta Torba'Gandar Torba'Daggasch Torba'Finnrak Torba'Hassadra Torba'Malas Torba'Patar
+				Hask'Valgam Hask'Zumon Hask'Teragg Hask'Sornas Hask'Pagram Hask'Jonnot Hask'Gentar Hask'Birim Hask'Endek Hask'Kalass Hask'Schumak Hask'Virik Hask'Timak Hask'Guron Hask'Tibak Hask'Jugir Hask'Emik Hask'Porok Hask'Zamik Hask'Vugir Hask'Ekalim Hask'Kurnir 
+			}
+
+			full_names_female = {
+				Torba'Inrab Torba'Keldi Torba'Varass Torba'Namta Torba'Gandar Torba'Daggasch Torba'Finnrak Torba'Hassadra Torba'Malas Torba'Patar Torba'Murok Torba'Vilin Torba'Magon Torba'Kari Torba'Jirg Torba'Inak Torba'Vasku Torba'Tulus Torba'Inarim Torba'Tagga Torba'Vuk
 			}
 			
 			# Always combined with a second name

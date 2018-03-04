@@ -26,6 +26,14 @@ HIVE = {
 		battleship = {
 			"Zángano de Combate"
 		}
+
+		titan = {
+			"Zángano de Combate"
+		}
+
+		colossus = {
+			"Zángano Primario de Combate"
+		}
 		
 		science = {
 			"Zángano Buscador"
@@ -38,24 +46,17 @@ HIVE = {
 		constructor = {
 			"Zángano Constructor"
 		}
-		
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			"Vástago"
-		}
-
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
 
 		transport = {
 			"Zángano Portador"
+		}
+	
+		military_station_small = {
+			"Vástago Defensivo"
+		}
+
+		ion_cannon = {
+			"Vástago Iónico"
 		}
 	}
 
@@ -68,7 +69,7 @@ HIVE = {
 	fleet_names = {
 		random_names = { "1er Enjambre de Combate"
 		}
-		sequential_name = "%O% Enjambre de Combate"
+		sequential_name = "%C%º Enjambre de Combate"
 	}
 	
 	### ARMIES
@@ -94,9 +95,17 @@ HIVE = {
 		robotic_army = {
 			sequential_name = "Zánganos-Guerreros Robóticos %C%"
 		}
-		
+
+		robotic_defense_army = {
+			sequential_name = "Zánganos-Defensivos Robóticos %C%"
+		}
+				
 		android_army = {
 			sequential_name = "Zánganos-Guerreros Droides %C%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Zánganos-Defensivos Droides %C%"
 		}
 		
 		psionic_army = { 
@@ -202,7 +211,7 @@ HIVE = {
 	ruler_names = {
 		default = {
 			full_names = {
-				Consciencia "Nexo Sináptico"
+				Consciencia "Nexo Sináptico" "Mente Maestra"
 			}
 		}
 	}

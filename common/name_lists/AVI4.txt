@@ -1,0 +1,240 @@
+﻿### Avian 4
+### Created by Dee Majek
+
+AVI4 = {
+	ship_names = {
+		
+		corvette = {
+			"Cuatrel Carmesí" "Acamu Ensangrentado" "Stigri Coronado" "Osrik Melancólico" "Gruu Nocturno" "Circinae" "Qreek Rojo" "Qreek Negro" 
+			"Pitria Invernal" "Pajaro de la Muerte" "Tenu Severo" "Tenu Medianoche" "Aptryx Precipitado" "Tenu Negro" 
+			"Gruu Boreal" "Espuela" "Sarak Rubí" "Sarak Oscuro" "Kea Chillón" "Accipiter" "Harrier Oscuro" "Harrier Malvado" 
+			"Shrike Carnicero" "Stigri Escarlata" "Acamu Emplumado" "Pitria Terrible" "Strix Cresta Alta" "Shrike Salvaje" "Aptryx Llamativo" 
+			"Gruu Pálido" "Qreek Nuboso" "Osrik Ocre" "Stigri Ámbar" "Acamu Gris" "Stigri Creciente" "Pájaro de Presa" "Cuenta Afilada" 
+			"Rukk Garrafilada" "Strix Grueso" "Cuervo Carroñero" "Cuervo Encapuchado" "Rukk Garra Rasuradora" "Cuatrel Garraroja" "Circina Llamativa" 
+			"Gritos de Harrier" "Acamu Cielo" "Gran Pluma" "Pitria Ojosangre" "Shrike Colahenchida" "Acamu Cazavientos" "Karyu Ráfaga" 
+			"Pitria Vendaval" "Kea Elevada" "Strix Atacielos" "Strix Fiero" "Circina Hollinienta" "Tenu Largazarpa" "Aptryx Vientoafilado" 
+			"Stigri Plumaestrella" "Aptryx Crestaoscura" "Qreek Ojoagudo" "Shrike Cuchillada" "Rukk Garra de Rocío" "Harrier Parterotos" "Aptryx Hojapico" 
+			"Rukk Rasgadura" "Kea Alaviento" "Osrik Colablanca" "Stigri Dorado" "Gruu Cornudo" "Kea Garra de Perdiz" "Harrier Vientonorte" "Sarak Pálido" 
+			"Strix Cruel" "Cuatrel Garraferoz" "Acamu Guerra" "Gruu Lamentación" "Pitria Vuelorápido" "Shrike Quillafracturada" "Yra Lenguavil"
+		}
+
+		destroyer = {
+			"Cuatrel Carmesí" "Acamu Ensangrentado" "Stigri Coronado" "Osrik Melancólico" "Gruu Nocturno" "Circinae" "Qreek Rojo" "Qreek Negro" 
+			"Pitria Invernal" "Pajaro de la Muerte" "Tenu Severo" "Tenu Medianoche" "Aptryx Precipitado" "Tenu Negro" 
+			"Gruu Boreal" "Espuela" "Sarak Rubí" "Sarak Oscuro" "Kea Chillón" "Accipiter" "Harrier Oscuro" "Harrier Malvado" 
+			"Shrike Carnicero" "Stigri Escarlata" "Acamu Emplumado" "Pitria Terrible" "Strix Cresta Alta" "Shrike Salvaje" "Aptryx Llamativo" 
+			"Gruu Pálido" "Qreek Nuboso" "Osrik Ocre" "Stigri Ámbar" "Acamu Gris" "Stigri Creciente" "Pájaro de Presa" "Cuenta Afilada" 
+			"Rukk Garrafilada" "Strix Grueso" "Cuervo Carroñero" "Cuervo Encapuchado" "Rukk Garra Rasuradora" "Cuatrel Garraroja" "Circina Llamativa" 
+			"Gritos de Harrier" "Acamu Cielo" "Gran Pluma" "Pitria Ojosangre" "Shrike Colahenchida" "Acamu Cazavientos" "Karyu Ráfaga" 
+			"Pitria Vendaval" "Kea Elevada" "Strix Atacielos" "Strix Fiero" "Circina Hollinienta" "Tenu Largazarpa" "Aptryx Vientoafilado" 
+			"Stigri Plumaestrella" "Aptryx Crestaoscura" "Qreek Ojoagudo" "Shrike Cuchillada" "Rukk Garra de Rocío" "Harrier Parterotos" "Aptryx Hojapico" 
+			"Rukk Rasgadura" "Kea Alaviento" "Osrik Colablanca" "Stigri Dorado" "Gruu Cornudo" "Kea Garra de Perdiz" "Harrier Vientonorte" "Sarak Pálido" 
+			"Strix Cruel" "Cuatrel Garraferoz" "Acamu Guerra" "Gruu Lamentación" "Pitria Vuelorápido" "Shrike Quillafracturada" "Yra Lenguavil"
+		}
+
+		cruiser = {
+			"Cuatrel Carmesí" "Acamu Ensangrentado" "Stigri Coronado" "Osrik Melancólico" "Gruu Nocturno" "Circinae" "Qreek Rojo" "Qreek Negro" 
+			"Pitria Invernal" "Pajaro de la Muerte" "Tenu Severo" "Tenu Medianoche" "Aptryx Precipitado" "Tenu Negro" 
+			"Gruu Boreal" "Espuela" "Sarak Rubí" "Sarak Oscuro" "Kea Chillón" "Accipiter" "Harrier Oscuro" "Harrier Malvado" 
+			"Shrike Carnicero" "Stigri Escarlata" "Acamu Emplumado" "Pitria Terrible" "Strix Cresta Alta" "Shrike Salvaje" "Aptryx Llamativo" 
+			"Gruu Pálido" "Qreek Nuboso" "Osrik Ocre" "Stigri Ámbar" "Acamu Gris" "Stigri Creciente" "Pájaro de Presa" "Cuenta Afilada" 
+			"Rukk Garrafilada" "Strix Grueso" "Cuervo Carroñero" "Cuervo Encapuchado" "Rukk Garra Rasuradora" "Cuatrel Garraroja" "Circina Llamativa" 
+			"Gritos de Harrier" "Acamu Cielo" "Gran Pluma" "Pitria Ojosangre" "Shrike Colahenchida" "Acamu Cazavientos" "Karyu Ráfaga" 
+			"Pitria Vendaval" "Kea Elevada" "Strix Atacielos" "Strix Fiero" "Circina Hollinienta" "Tenu Largazarpa" "Aptryx Vientoafilado" 
+			"Stigri Plumaestrella" "Aptryx Crestaoscura" "Qreek Ojoagudo" "Shrike Cuchillada" "Rukk Garra de Rocío" "Harrier Parterotos" "Aptryx Hojapico" 
+			"Rukk Rasgadura" "Kea Alaviento" "Osrik Colablanca" "Stigri Dorado" "Gruu Cornudo" "Kea Garra de Perdiz" "Harrier Vientonorte" "Sarak Pálido" 
+			"Strix Cruel" "Cuatrel Garraferoz" "Acamu Guerra" "Gruu Lamentación" "Pitria Vuelorápido" "Shrike Quillafracturada" "Yra Lenguavil"
+		}
+		
+		battleship = {
+			"Cuatrel Carmesí" "Acamu Ensangrentado" "Stigri Coronado" "Osrik Melancólico" "Gruu Nocturno" "Circinae" "Qreek Rojo" "Qreek Negro" 
+			"Pitria Invernal" "Pajaro de la Muerte" "Tenu Severo" "Tenu Medianoche" "Aptryx Precipitado" "Tenu Negro" 
+			"Gruu Boreal" "Espuela" "Sarak Rubí" "Sarak Oscuro" "Kea Chillón" "Accipiter" "Harrier Oscuro" "Harrier Malvado" 
+			"Shrike Carnicero" "Stigri Escarlata" "Acamu Emplumado" "Pitria Terrible" "Strix Cresta Alta" "Shrike Salvaje" "Aptryx Llamativo" 
+			"Gruu Pálido" "Qreek Nuboso" "Osrik Ocre" "Stigri Ámbar" "Acamu Gris" "Stigri Creciente" "Pájaro de Presa" "Cuenta Afilada" 
+			"Rukk Garrafilada" "Strix Grueso" "Cuervo Carroñero" "Cuervo Encapuchado" "Rukk Garra Rasuradora" "Cuatrel Garraroja" "Circina Llamativa" 
+			"Gritos de Harrier" "Acamu Cielo" "Gran Pluma" "Pitria Ojosangre" "Shrike Colahenchida" "Acamu Cazavientos" "Karyu Ráfaga" 
+			"Pitria Vendaval" "Kea Elevada" "Strix Atacielos" "Strix Fiero" "Circina Hollinienta" "Tenu Largazarpa" "Aptryx Vientoafilado" 
+			"Stigri Plumaestrella" "Aptryx Crestaoscura" "Qreek Ojoagudo" "Shrike Cuchillada" "Rukk Garra de Rocío" "Harrier Parterotos" "Aptryx Hojapico" 
+			"Rukk Rasgadura" "Kea Alaviento" "Osrik Colablanca" "Stigri Dorado" "Gruu Cornudo" "Kea Garra de Perdiz" "Harrier Vientonorte" "Sarak Pálido" 
+			"Strix Cruel" "Cuatrel Garraferoz" "Acamu Guerra" "Gruu Lamentación" "Pitria Vuelorápido" "Shrike Quillafracturada" "Yra Lenguavil"
+		}
+
+		titan = {
+			"Torbellino Furioso" "Tornado" "Ciclón" "Tempestad" "Tormenta Incesante" "Pájaro de Trueno" "Pájaro de Fuego"
+ 		}
+
+		colossus = {
+			"Garra Mortal" "Último Aliento" "Vuelo Final"
+		}
+		
+		constructor = {
+			"Enakk Brisajadeante" "Laiu Borrascoso" "Qaquik Diamantino" "Rrao Deslizante" "Noru Azul" "Mimru Oscuro" "Pájaro Negro Errante" "Occu Cacareador" "Darter Alarápida" 
+			"Nerit Tormentoso" "Pájaro Cantor Sonrojado" "Darter Canciónubosa" "Warbler Frondoso" "Worui Hada" "Kral Revoloteo" "Lapu Burlón" "Petrel Aleteo" "Lyrak Posado" 
+			"Rostru Alancha" "Gau Cantor" "Sirix Negro"
+		}
+		
+		colonizer = {			
+			"Enakk Brisajadeante" "Laiu Borrascoso" "Qaquik Diamantino" "Rrao Deslizante" "Noru Azul" "Mimru Oscuro" "Pájaro Negro Errante" "Occu Cacareador" "Darter Alarápida" 
+			"Nerit Tormentoso" "Pájaro Cantor Sonrojado" "Darter Canciónubosa" "Warbler Frondoso" "Worui Hada" "Kral Revoloteo" "Lapu Burlón" "Petrel Aleteo" "Lyrak Posado" 
+			"Rostru Alancha" "Gau Cantor" "Sirix Negro"
+		}
+		
+		science = {			
+			"Enakk Brisajadeante" "Laiu Borrascoso" "Qaquik Diamantino" "Rrao Deslizante" "Noru Azul" "Mimru Oscuro" "Pájaro Negro Errante" "Occu Cacareador" "Darter Alarápida" 
+			"Nerit Tormentoso" "Pájaro Cantor Sonrojado" "Darter Canciónubosa" "Warbler Frondoso" "Worui Hada" "Kral Revoloteo" "Lapu Burlón" "Petrel Aleteo" "Lyrak Posado" 
+			"Rostru Alancha" "Gau Cantor" "Sirix Negro"
+		}
+		
+		transport = {			
+			"Enakk Brisajadeante" "Laiu Borrascoso" "Qaquik Diamantino" "Rrao Deslizante" "Noru Azul" "Mimru Oscuro" "Pájaro Negro Errante" "Occu Cacareador" "Darter Alarápida" 
+			"Nerit Tormentoso" "Pájaro Cantor Sonrojado" "Darter Canciónubosa" "Warbler Frondoso" "Worui Hada" "Kral Revoloteo" "Lapu Burlón" "Petrel Aleteo" "Lyrak Posado" 
+			"Rostru Alancha" "Gau Cantor" "Sirix Negro"
+		} 
+
+		military_station_small = {
+			"Guardacrías" "Vigilanidos" "Gallinero" "Kaseek Vigilante" "Tetheek Guardián" "Ocot Guarda" "Centinela Garrafilada"
+		}
+
+		ion_cannon = {
+			"Rompecielos" "Rascacielos" "Incansable" "Madre de Cría" "Guardanidos"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Alas del Vacío Ardenubes" "Alas del Vacío Bajacielos" "Alas del Vacío Vendaval" "Alas del Vacío Mistral" "Alas del Vacío Acechasombras" "Alas del Vacío Cazanoches" "Alas del Vacío Plumaestrella" "Alas del Vacío Vientormenta" "Alas del Vacío Gritohelado" "Alas del Vacío Garrasalvaje"
+		}
+		sequential_name = "%C%ª Alas del Vacío"
+	}
+
+	army_names = {
+		defense_army = {
+			sequential_name = "%C%ª Guardacrías"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Paratropas"
+		}
+		
+		slave_army = {
+			sequential_name = "%C%ª Tropas Encadenadas"
+		}
+		
+		clone_army = {
+			sequential_name = "%C%ª Infantería Clonada"
+		}
+		
+		robotic_army = {
+			sequential_name = "%C%ª Avanzadilla Mecanizada"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Guardacrías Mecanizados"
+		}
+		
+		android_army = {
+			sequential_name = "%C%ª Avanzadilla Androide"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Guardacrías Androides"
+		}
+		
+		psionic_army = {
+			sequential_name = "%C%ª Psionicos Alados"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "Xenoenjambre %R%"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%C%ª Infantería Perfeccionada"
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				"Cría Vacía" "Nido Estelar" "Rama Estrellada" "Nido Errante" "Aguilera Astral" "Aguilera Celestial" "Corral Estrellacaida" "Guarida Sagrada" "Refugio Estelar"	
+				"Rama Zirik" "Nido de Kokok" "Cría de Ikaro" "Pico Ukhu" "Rama Kamak" "Corral Paru" "Refugio de Qoriqo" "Criahuevos Huana" "Nidada Syrti" "Criadero Keak" "Pico Kisak" 
+				"Corral Opoke" "Cría Sora" "Guarida de Veeri" "Asidero Tiruk" "Nido de Arit" "Pico Icolo" "Cría Tasu" "Refugio de Visu" "Progenie de Mimak" "Nido de Nootka" 
+				"Asidero Magog" "Nido de Yoquol" "Refugio de Truro" "Pico Ina" "Corral Haro" "Refugio de Valiku" "Nidada Lipari"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			   
+			   "Datri" "Ibyk" "Strigi" "Koraci" "Cari" "Laniu" "Sparviu" "Physeta" "Harpia" "Mikvu" "Elanu" "Kathari" "Ekru" "Korii" "Seeir" "Karaka" "Kaiqu" "Aracari" "Iora" "Kagu" "Lowii" "Atrata" "Nekarae" "Kaukae" "Paru" "Pityria" "Estrili" "Vireok" "Urocyn" "Thraupi" "Corcora" "Artam" "Cemok" "Meli" "Parda" "Dika" "Reepi" "Akkan" "Kerthii" "Malur" "Tateek" "Aegli" "Bati" "Kokakk" "Kriree" "Akrok" "Pyko" "Cakaw" "Gralla" "Tyri" "Titru" "Sapi" "Euryla" "Konopo" "Pipri" "Atriko" "Sseri" "Artiko" "Pikno" "Kolluri" "Nikat" "Kaleek" "Kawikk" "Pachii" "Cassram" "Stiryi" "Ereni" "Sareek" "Cuix" "Lapoa" "Hugin" "Munin"
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				"Pssa" "Curassow" "Copassar" "Manokk" "Rokk" "Lamassu" "Minokaw" "Yalungur" "Yukonna" "Zduhak" "Gama" "Ayun" "Arkan" "Adzeha" "Simu" "Rokka" "Sarimanok" "Alkonos" "Turul" "Zu" "Tenju" "Gandab" "Erunda" "Hras" "Velgr" "Enaki" "Caladri" "Khol" "Makhan" "Umkoa" "Umloti" "Amato" "Isanda" "Makeki" "Modyadi" "Kulu" "Tekane" "Nama" "Curra" "Imvu" "Inyathi" "Umalu" "Kanda" "Skyna" "Wakesu" "Alvie" "Nahatl" "Mayatl" "Peyot" "Tecolot" "Sakati" "Huacalli" "Kwarachi" "Aca" "Aik" "Caqui" "Kolot" "Huale" "Ika" "Oquik" "Izit" "Miqui" "Mococo" "Nacayo" "Onehua" "Popoka" "Teot" "Nahua"
+			}
+			
+			regnal_first_names = {
+				"Plumabrillante" "Plumaonyx" "Garrarubí" "Garracristal" "Alatenue" "Picodorado" "Alagema" "Alaberilo" "Ópalopluma" "Perlapluma" "Aladiamante" "Plumaesmeralda" "Garraluna" "Plumasol"
+			}
+			
+			regnal_second_names = {
+				"Aruk"
+			}
+		}
+	}
+}

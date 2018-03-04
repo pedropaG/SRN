@@ -18,6 +18,12 @@ ART3 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -28,24 +34,14 @@ ART3 = {
 		constructor = {
 		}
 		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = {
-				"Mecinfic Outpost" "Huxinfic Outpost" "Ytranfic Outpost" "Cabbinfic Outpost" "Lopinfic Outpost" "Draxinfic Outpost" "Ekerinfic Outpost" "Xapinfic Outpost"
-			#}
-			#sequential_name = "%O% Frontier Outpost"
+		transport = {
 		}
 	
-		military_station_small = {}
-	
-		military_station_medium = {}
-	
-		military_station_large = {}	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
 	}
 	
 	fleet_names = {
@@ -82,9 +78,19 @@ ART3 = {
 			sequential_name = "%C%ª Robo-Garrapatos"
 		}
 		
+		robotic_defense_army = {
+			random_names = { "1er Robo-Emplazamiento" }
+			sequential_name = "%C%º Robo-Emplazamiento"
+		}
+		
 		android_army = {
 			random_names = { "1er Elenco Constructo" }
 			sequential_name = "%C%º Elenco Constructo"
+		}
+		
+		android_defense_army = {
+			random_names = { "1er Constructo Baluarte" }
+			sequential_name = "%C%º Constructo Baluarte"
 		}
 		
 		psionic_army = {
@@ -142,6 +148,16 @@ ART3 = {
 		}
 		
 		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
 			names = {
 			}
 		}

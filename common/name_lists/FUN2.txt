@@ -18,6 +18,12 @@ FUN2 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -28,20 +34,14 @@ FUN2 = {
 		constructor = {
 		}
 		
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Frontier Outpost"
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
 		}
 	}
 
@@ -73,9 +73,17 @@ FUN2 = {
 			random_names = { "1er Grupo Robo-Champiñón" }
 			sequential_name = "%C%º Grupo Robo-Champiñón"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Agáricos Robóticos"
+		}
 		
 		android_army = {
 			sequential_name = "%C%ª Biomasa Sintética"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Agáricos Sintéticos"
 		}
 		
 		psionic_army = { 

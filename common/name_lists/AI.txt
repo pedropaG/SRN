@@ -49,11 +49,21 @@ AI = {
 		
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			sequential_name = "%CC% Puesto Fronterizo"
+		starbase_outpost = {
+			sequential_name = "%C%ª Base Estelar"
+		}
+		starbase_starport = {
+			sequential_name = "%C%ª Base Estelar"
+		}
+		starbase_starhold = {
+			sequential_name = "%C%ª Base Estelar"
+		}
+		starbase_starfortress = {
+			sequential_name = "%C%ª Base Estelar"
+		}
+		starbase_citadel = {
+			sequential_name = "%C%ª Base Estelar"
 		}
 		
 		transport = {
@@ -68,6 +78,18 @@ AI = {
 	fleet_names = {
 		sequential_name = "Clúster Autónomo %CCC%"
 	}
+
+	army_names = {
+		android_army = {
+			random_names = { "1er Clúster de Esterilización" }
+			sequential_name = "%C%º Clúster de Esterilización"
+		}
+		android_defense_army = {
+			random_names = { "1er Clúster de Defensa" }
+			sequential_name = "%C%º Clúster de Defensa"
+		}
+	}
+		
 		
 
 	### PLANETS

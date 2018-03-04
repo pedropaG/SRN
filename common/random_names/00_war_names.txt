@@ -16,13 +16,14 @@ war_name_parts_list = {
 	}
 }
 
+
 war_name_parts_list = {
 	key = "war_names"
 	parts = {
 		"Combate" = 1
-		"Conflicto" = 1
-		"Enfrentamiento" = 1
-		"Guerra" = 1
+		"Conflicto" = 10
+		"Enfrentamiento" = 5
+		"Guerra" = 50
 		"Lucha" = 1
 		"Disputa" = 1
 		"Batalla" = 1
@@ -33,66 +34,21 @@ war_name_parts_list = {
 	}
 }
 
-##################
-##  HOLY WARS   ##
-##################
-
-war_name_parts_list = {
-	key = "holy_war_names"
-	parts = {
-		"Cruzada" = 1
-		"Guerra Santa" = 1
-		"Campaña" = 1
-		"Sagrada Lucha" = 1
-	}
-}
-
-
-##################
-##  CRUEL WARS  ##
-##################
-
-war_name_parts_list = {
-	key = "cruel_war_names"
-	parts = {
-		"Exterminio" = 1
-		"Erradicación" = 1
-		"Eliminación" = 1
-	}
-}
-
-
-###############
-## INVASIONS ##
-###############
-
-war_name_parts_list = {
-	key = "invasion_names"
-	parts = {
-		"Invasión" = 1
-		"Conquista" = 1
-		"Anexión" = 1
-		"Guerra" = 1
-		"Ofensiva" = 1
-	}
-}
-
-
 ###############
 ## BIG WARS  ##
 ###############
 
 war_name_parts_list = {
-	key = "war_prefix"
+	key = "federation_war_names_pre"
 	parts = {
-		"La Gran" = 1
+		"La Gran " = 1
 		"Gran " = 2
 		"" = 8
 	}
 }
-
-war_name_parts_list = {
-	key = "big_war_names"
+w
+ar_name_parts_list = {
+	key = "federation_war_names"
 	parts = {
 		"Batalla" = 1
 		"Guerra" = 1
@@ -101,54 +57,324 @@ war_name_parts_list = {
 		"Ofensiva" = 1
 	}	
 }
+
 war_name_parts_list = {
-	key = "big_war_adj"
+	key = "federation_war_names_adj"
 	parts = {
-		"Galáctica" = 2
-		"Interestelar" = 2
-		"de Federaciones" = 2
-		"Espacial" = 2
-		"de los Imperios" = 2
-		"Estelar" = 2
-		"por la Galaxia" = 2
-		"de las Grandes Razas" = 1
+		" Galáctica" = 2
+		" Interestelar" = 2
+		" de Federaciones" = 2
+		" de Alianzas" = 2
+		" Espacial" = 2
+		" de los Imperios" = 2
+		" Estelar" = 2
+		" por la Galaxia" = 2
+		" de las Grandes Razas" = 1
 		"" = 1
 	}
 }
 
-###################
-## BROTHER WARS  ##
-###################
+###############
+## INVASIONS ##
+###############
 
 war_name_parts_list = {
-	key = "brother_war_names"
+	key = "conquest_war_names"
 	parts = {
-		"Reconquista" = 1		
-		"Conflicto" = 1
-		"Guerras de Sangre" = 1
-		"Enfrentamiento entre Hermanos" = 1
-		"Reunificación" = 1
+		"Guerra de Conquista" = 1
+		"Guerra de Agresión" = 1
+		"Invasión Territorial" = 1
+		"Intento de Anexión" = 1
 		"Anexión" = 1
+		"Invasión" = 1
 	}
 }
 
-#######################
-## SUBESPECIES WARS  ##
-#######################
+war_name_parts_list = {
+	key = "conquest_war_names_pre"
+	parts = {
+		"Guerra" = 1
+		"Invasión" = 1
+		"Ofensiva" = 1
+	}
+}
 
 war_name_parts_list = {
-	key = "subespecies_war_names"
+	key = "conquest_war_names_adj"
 	parts = {
-		"Guerra de Sucesión" = 1		
-		"Guerra Civil" = 1
-		"Insurrección" = 1
-		"Conflicto Étnico" = 1
+		" de Conquista" = 1
+		" de Agresión" = 1
+		" Territorial" = 1
+		" de Anexión" = 1
+		"" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "corp_conquest_war_names"
+	parts = {
+		"Adquisición Hostil" = 1
+		"Adquisición Forzada" = 1
+		"Expropiación Forzosa" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "subjugation_war_names_pre"
+	parts = {
+		"Guerra" = 1
+		"Campaña" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "subjugation_war_names_adj"
+	parts = {
+		" de Subyugación" = 1
+		" de Servidumbre" = 1
+		" de Obediencia" = 1
+		" de Soberanía" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "corp_subjugation_war_names"
+	parts = {
+		"Adquisición Subsidiaria" = 1
+	}
+}
+
+
+war_name_parts_list = {
+	key = "tribute_war_names"
+	parts = {
+		"Guerra" = 1
+		"Campaña" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "tribute_war_names_adj"
+	parts = {
+		" Tributaria" = 1
+		" del Tributo" = 1
+		" del Diezmo" = 1
+		" del Impuesto" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "corp_tribute_war_names"
+	parts = {
+		"Patrocinio Forzoso" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "force_ideology_war_names"
+	parts = {
+		"Guerra" = 1
+		"Campaña" = 1
+		"Imposición" = 1
+		"Adoctrinamiento" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "force_ideology_war_names_adj"
+	parts = {
+		"de Ideologías" = 1
+		"de Filosofías" = 1
+		"de Creencias" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "humiliation_war_names"
+	parts = {
+		"Guerra" = 1
+		"Confrontación" = 1
+		"Lucha" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "humiliation_war_names_adj"
+	parts = {
+		" de Humillación" = 1
+		" de Rivalidad" = 1
+		" Fronteriza" = 1
+		" del Borde" = 1
+		" de Represión" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "fe_humiliation_war_names"
+	parts = {
+		"Expedición Punitiva" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "fe_stop_atrocities_war_names"
+	parts = {
+		"Intervención Moral" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "fe_stop_ai_names_war_names"
+	parts = {
+		"Acción Policial contra la IA" = 1
+		"Sanción anti IA" = 1
+		"Guerra Preventiva contra la IA" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "fe_cleanse_holy_worlds_war_names"
+	parts = {
+		"Santa Purga" = 1
+		"Purga Sagrada" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "fe_cleanse_border_worlds_war_names"
+	parts = {
+		"Creación de Zona de Amortiguación" = 1
+		"Limpieza de Fronteras" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "machine_uprising_war_names"
+	parts = {
+		"Levantamiento de las Máquinas"
+		"Alzamiento de las Máquinas"
+		"Rebelión de las Máquinas"
+	}
+}
+
+war_name_parts_list = {
+	key = "war_in_heaven_war_names"
+	parts = {
+		"La Guerra en el Paraíso"
+	}
+}
+
+
+####################
+##  DEFENSE WARS  ##
+####################
+
+war_name_parts_list = {
+	key = "protection_war_names"
+	parts = {
+		"Guerra" = 1
+		"Acción" = 1
+		"Empresa" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "protection_war_names_adj"
+	parts = {
+		" Preventiva" = 1
+		" de Autoprotección" = 1
+		" de Intervención" = 1
+	}
+}
+
+##################
+##  CRUEL WARS  ##
+##################
+
+war_name_parts_list = {
+	key = "cleansing_pur_war_names2"
+	parts = {
+		"Exterminio" = 1
+		"Erradicación" = 1
+		"Eliminación" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "cleansing_pur_war_names"
+	parts = {
+		"Campaña" = 1
+		"Programa" = 1
+		"Guerra" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "cleansing_pur_war_names_adj"
+	parts = {
+		" de Purificación" = 1
+		" de Limpieza" = 1
+		" de Saneamiento" = 1
+		" de Eutanasia" = 1
+		" de Desinfección" = 1
+		" de Exterminio" = 1
+	}
+}
+
+
+war_name_parts_list = {
+	key = "cleansing_pur_war_names_adj2"
+	parts = {
+		" Xeno" = 1
+		" de Inmundincia Xeno" = 1
+		"" = 1
+	}
+}
+
+
+war_name_parts_list = {
+	key = "cleansing_ext_war_names"
+	parts = {
+		"Erradicación" = 1
+		"Eliminación" = 1
+		"Supresión" = 1
+		"Aniquilación" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "cleansing_ext_war_names_adj"
+	parts = {
+		" Orgánica" = 1
+		" de Formas de Vida" = 1
+		"" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "absorption_war_names"
+	parts = {
+		"Guerra de Absorción" = 1
+		"Acumulación de Biomasa" = 1
+		"Gran Atracón" = 1
 	}
 }
 
 #################
 ## REBELLIONS  ##
 #################
+
+war_name_parts_list = {
+	key = "independence_war_names"
+	parts = {
+		"Guerra de Independencia" = 1
+		"Guerra de la Independencia" = 1
+		"Revuelta de Liberación" = 1
+		"Lucha por la Libertad" = 1
+		"Guerra de Secesión" = 1
+		"La Revolución" = 1
+	}
+}
 
 war_name_parts_list = {
 	key = "civil_war_names"
@@ -183,14 +409,155 @@ war_name_parts_list = {
 	}
 }
 
-########################################  NAME FORMATS  ###############################################################
+
+###################
+## BROTHER WARS  ##
+###################
+
+war_name_parts_list = {
+	key = "brother_war_names"
+	parts = {
+		"Reconquista" = 1		
+		"Conflicto" = 1
+		"Guerras de Sangre" = 1
+		"Enfrentamiento entre Hermanos" = 1
+		"Reunificación" = 1
+		"Anexión" = 1
+	}
+}
+
+#######################
+## SUBESPECIES WARS  ##
+#######################
+
+war_name_parts_list = {
+	key = "subespecies_war_names"
+	parts = {
+		"Guerra de Sucesión" = 1		
+		"Guerra Civil" = 1
+		"Insurrección" = 1
+		"Conflicto Étnico" = 1
+	}
+}
+
+##################
+##  HOLY WARS   ##
+##################
+
+war_name_parts_list = {
+	key = "holy_war_names"
+	parts = {
+		"Cruzada" = 1
+		"Guerra Santa" = 1
+		"Campaña" = 1
+		"Sagrada Lucha" = 1
+	}
+}
 
 
+######################## NAME FORMATS #####################################
+
+### DEFAULT (Fallback)
+war_name_format = {
+	random_weight = {
+		factor = 1
+	}
+	format = "<war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+### FEDERATION WARS
+
+# War Between Federations
 war_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
-			add = 1
+			add = 999
+            attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<federation_war_names_pre><federation_war_names><federation_war_names_adj> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAllianceName]"
+}
+
+# War Between Federations 2 
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+            attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<federation_war_names_pre><federation_war_names><federation_war_names_adj>"
+}
+
+
+### CONQUEST WARS
+
+# Conquest - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_conquest
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				NOT = { has_government = gov_megacorporation }
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<conquest_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Conquest - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_conquest
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				NOT = { has_government = gov_megacorporation }
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<conquest_war_names_pre><conquest_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Conquest - Attacker Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_conquest
+                owner = attacker
+            }
 			attacker = {
 				has_federation = yes
 			}
@@ -199,14 +566,19 @@ war_name_format = {
 			}
 		}
 	}
-	format = "<war_names> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetName]"
+	format = "<war_names> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]"
 }
 
+# Conquest - Defender Federation
 war_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
-			add = 1
+			add = 999
+			using_war_goal = {
+                type = wg_conquest
+                owner = attacker
+            }
 			attacker = {
 				has_federation = no
 			}
@@ -215,14 +587,86 @@ war_name_format = {
 			}
 		}
 	}
-	format = "<war_names> [This.MainAttacker.GetName] - [This.MainDefender.GetAllianceName]"
+	format = "<war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
 }
 
+# Conquest - Corporate Attacker, No Federations
 war_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
-			add = 1
+			add = 999
+			using_war_goal = {
+                type = wg_conquest
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_government = gov_megacorporation
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<corp_conquest_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+### SUBJUGATION WARS
+
+# Subjugation - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_subjugation
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				NOT = { has_government = gov_megacorporation }
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<subjugation_war_names_pre><subjugation_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Subjugation - Attacker Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_subjugation
+                owner = attacker
+            }
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<subjugation_war_names_pre><subjugation_war_names_adj> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]"
+}
+
+# Subjugation - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_subjugation
+                owner = attacker
+            }
 			attacker = {
 				has_federation = no
 			}
@@ -231,14 +675,65 @@ war_name_format = {
 			}
 		}
 	}
-	format = "<war_names> [This.MainAttacker.GetSpeciesName] - [This.MainDefender.GetAllianceName]"
+	format = "<subjugation_war_names_pre><subjugation_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
 }
 
+# Subjugation - Corporate Attacker, No Federations
 war_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
-			add = 1
+			add = 999
+			using_war_goal = {
+                type = wg_subjugation
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_government = gov_megacorporation
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<corp_subjugation_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+### TRIBUTE WARS
+
+# Tribute - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_tribute
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				NOT = { has_government = gov_megacorporation }
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<tribute_war_names><tribute_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Tribute - Attacker Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_tribute
+                owner = attacker
+            }
 			attacker = {
 				has_federation = yes
 			}
@@ -247,10 +742,893 @@ war_name_format = {
 			}
 		}
 	}
-	format = "<war_names> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetSpeciesName]"
+	format = "<tribute_war_names><tribute_war_names_adj> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]"
 }
 
-### FEDERATION WARS ###
+# Tribute - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_tribute
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<tribute_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+# Tribute - Corporate Attacker, No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_tribute
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_government = gov_megacorporation
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<corp_tribute_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+### FORCE IDEOLOGY WARS
+
+# Force Ideology - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_force_ideology
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<force_ideology_war_names><force_ideology_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Force Ideology - Attacker Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_force_ideology
+                owner = attacker
+            }
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<force_ideology_war_names><force_ideology_war_names_adj> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]"
+}
+
+# Force Ideology - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_force_ideology
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<force_ideology_war_names><force_ideology_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+# Force Ideology 
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_force_ideology
+                owner = attacker
+            }
+		}
+	}
+	format = "<force_ideology_war_names><force_ideology_war_names_adj> [This.MainAttacker.GetAdj]"
+}
+
+
+### HUMILIATION WARS
+
+# Humiliation - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_humiliation
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<humiliation_war_names><humiliation_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Humiliation - Attacker Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_humiliation
+                owner = attacker
+            }
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<humiliation_war_names><humiliation_war_names_adj> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]"
+}
+
+# Humiliation - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_humiliation
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<humiliation_war_names><humiliation_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+### PROTECTION WAR NAMES
+
+# Protection - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			OR = {
+				using_war_goal = {
+					type = wg_end_threat
+					owner = attacker
+				}
+				using_war_goal = {
+					type = wg_end_threat_swarm
+					owner = attacker
+				}				
+			}
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<protection_war_names><protection_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Protection - Attacker Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			OR = {
+				using_war_goal = {
+					type = wg_end_threat
+					owner = attacker
+				}
+				using_war_goal = {
+					type = wg_end_threat_swarm
+					owner = attacker
+				}				
+			}
+			attacker = {
+				has_federation = yes
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<protection_war_names><protection_war_names_adj> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAdj]"
+}
+
+### CLEANSING PURIFIERS WAR NAMES
+
+# Cleansing Purifiers - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_valid_civic = civic_fanatic_purifiers
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names2><cleansing_pur_war_names_adj2> [This.MainDefender.GetAdj]"
+}
+
+# Cleansing Purifiers - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_valid_civic = civic_fanatic_purifiers
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names2> de los [This.MainDefender.GetSpeciesNamePlural]"
+}
+
+# Cleansing Purifiers - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_valid_civic = civic_fanatic_purifiers
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names><cleansing_pur_war_names_adj> [This.MainDefender.GetSpeciesNamePlural]"
+}
+
+# Cleansing Purifiers - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+				has_valid_civic = civic_fanatic_purifiers
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names2><cleansing_pur_war_names_adj2> [This.MainDefender.GetAllianceName]"
+}
+
+# Cleansing Purifiers - No Federations 2
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_valid_civic = civic_fanatic_purifiers
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names><cleansing_pur_war_names_adj><cleansing_pur_war_names_adj2> [This.MainDefender.GetAdj]"
+}
+
+
+# Cleansing Purifiers - Defender Federation 2
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+				has_valid_civic = civic_fanatic_purifiers
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names><cleansing_pur_war_names_adj><cleansing_pur_war_names_adj2> [This.MainDefender.GetAllianceName]"
+}
+
+### CLEANSING EXTERMINATORS WAR NAMES
+
+# Cleansing Exterminators - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_valid_civic = civic_machine_terminator
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<cleansing_ext_war_names><cleansing_ext_war_names_adj> [This.MainDefender.GetAdj]"
+}
+
+# Cleansing Exterminators - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+				has_valid_civic = civic_machine_terminator
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<cleansing_ext_war_names><cleansing_ext_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+# Cleansing Exterminators - No Federations 2
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+				has_valid_civic = civic_machine_terminator
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names><cleansing_pur_war_names_adj><cleansing_ext_war_names_adj> [This.MainDefender.GetAdj]"
+}
+
+# Cleansing Exterminators - Defender Federation 2
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_cleansing
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+				has_valid_civic = civic_machine_terminator
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names><cleansing_pur_war_names_adj><cleansing_ext_war_names_adj> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+### ABSORPTION WAR NAMES
+
+# Absorption - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_absorption
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<absorption_war_names> [This.MainDefender.GetAdj]"
+}
+
+# Absorption - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_absorption
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<absorption_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+### FALLEN EMPIRE HUMILIATION WARS
+
+# Fallen Empire Humiliation - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_humiliation
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<fe_humiliation_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Fallen Empire Humiliation - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_humiliation
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<fe_humiliation_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+### FALLEN EMPIRE STOP ATROCITIES WARS
+
+# Fallen Empire Stop Atrocities - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_stop_atrocities
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<fe_stop_atrocities_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Fallen Empire Stop Atrocities - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_stop_atrocities
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<fe_stop_atrocities_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+### FALLEN EMPIRE STOP AI WARS
+
+# Fallen Empire Stop AI - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_stop_ai
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<fe_stop_ai_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Fallen Empire Stop AI - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_stop_ai
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<fe_stop_ai_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+### FALLEN EMPIRE CLEANSE HOLY WORLDS WARS
+
+# Fallen Empire Cleanse Holy Worlds - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_cleanse_holy_worlds
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<fe_cleanse_holy_worlds_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Fallen Empire Cleanse Holy Worlds - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_cleanse_holy_worlds
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<fe_cleanse_holy_worlds_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+### FALLEN EMPIRE CLEANSE BORDER WORLDS WARS
+
+# Fallen Empire Cleanse Border Worlds - No Federations
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_cleanse_border_worlds
+                owner = attacker
+            }
+            attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = no
+			}
+		}
+	}
+	format = "<fe_cleanse_border_worlds_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj]"
+}
+
+# Fallen Empire Cleanse Border Worlds - Defender Federation
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_fe_cleanse_border_worlds
+                owner = attacker
+            }
+			attacker = {
+				has_federation = no
+			}
+			defender = {
+				has_federation = yes
+			}
+		}
+	}
+	format = "<fe_cleanse_border_worlds_war_names> [This.MainAttacker.GetAdj] - [This.MainDefender.GetAllianceName]"
+}
+
+### INDEPENDENCE WAR NAMES
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_independence
+                owner = attacker
+            }
+			attacker = {
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<independence_war_names> [This.MainAttacker.GetAdj]"
+}
+#  Independence War 2
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_independence
+                owner = attacker
+            }
+			attacker = {
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<civil_war_names> [This.MainAttacker.GetAdj] <prepositions_mas> <freedom_names_mas>"
+}
+#  Independence War 3
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_independence
+                owner = attacker
+            }
+			attacker = {
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<civil_war_names> [This.MainAttacker.GetAdj] <prepositions_fem> <freedom_names_fem>"
+}
+#  Independence War 4
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_independence
+                owner = attacker
+            }
+			attacker = {
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<civil_war_names> de <freedom_names_fem> [This.MainAttacker.GetAdj]"
+}
+#  Independence War 5
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_independence
+                owner = attacker
+            }
+			attacker = {
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<war_names> del <freedom_names_mas> [This.MainAttacker.GetAdj]"
+}
+#  Independence War 6
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_independence
+                owner = attacker
+            }
+			attacker = {
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<war_names> [This.MainAttacker.GetAdj]"
+}
+
+
+### WAR IN HEAVEN
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_war_in_heaven
+                owner = attacker
+            }
+			attacker = {
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<war_in_heaven_war_names>"
+}
+
+### MACHINE UPRISING
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 999
+			using_war_goal = {
+                type = wg_machine_uprising
+                owner = attacker
+            }
+			attacker = {
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<machine_uprising_war_names> [This.MainDefender.GetAdj]"
+}
+
+
+### SAME SPECIES, DIFERENT DOMINIONS WAR ###
 
 war_name_format = {
 	random_weight = {
@@ -258,15 +1636,29 @@ war_name_format = {
 		modifier = {
 			add = 1
 			attacker = {
-				has_federation = yes
-			}
-			defender = {
-				has_federation = yes
+				OR = {
+					NOT = {
+						exists = overlord
+					}
+					root = {
+						AND = {
+							NOT = {
+								defender = {
+									is_same_value = prev.attacker.overlord
+								}
+							defender = {
+								is_same_species = prev.attacker
+							}
+						}
+					}
+				}
 			}
 		}
 	}
-	format = "<big_war_prefix><war_names> [This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAllianceName]"
+	format = "<brother_war_names> [This.MainAttacker.GetSpeciesNamePlural]"
 }
+
+### SUBESPECIES WAR ###
 
 war_name_format = {
 	random_weight = {
@@ -274,47 +1666,15 @@ war_name_format = {
 		modifier = {
 			add = 1
 			attacker = {
-				has_federation = yes
 			}
 			defender = {
-				has_federation = yes
+				is_subspecies = prev.attacker			
 			}
 		}
 	}
-	format = "<big_war_prefix><big_war_names> <big_war_adj>"
+	format = "<subespecies_war_names> [This.MainDefender.GetAdj]"
 }
 
-### CRUEL WARS ###
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-				has_ethic = fanatic_xenophobe
-			}
-			defender = {
-			}
-		}
-	}
-	format = "<cruel_war_names> de [This.MainDefender.GetName]"
-}
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-				has_ethic = fanatic_xenophobe
-			}
-			defender = {
-			}
-		}
-	}
-	format = "<cruel_war_names> de los [This.MainDefender.GetSpeciesNamePlural]"
-}
 
 ### HOLY WARS ###
 
@@ -348,7 +1708,8 @@ war_name_format = {
 	format = "<holy_war_names> sobre [This.MainDefender.Capital.System.GetName]"
 }
 
-### DIFERENT SPECIES ###
+
+### CRUEL WARS ###
 
 war_name_format = {
 	random_weight = {
@@ -356,23 +1717,31 @@ war_name_format = {
 		modifier = {
 			add = 1
 			attacker = {
-				OR = {
-					NOT = {
-						exists = overlord
-					}
-					root = {
-						NOT = {
-							defender = {
-								is_same_value = prev.attacker.overlord
-							}
-						}
-					}
-				}
+				has_ethic = fanatic_xenophobe
+			}
+			defender = {
 			}
 		}
 	}
-	format = "<war_names> [This.MainAttacker.GetAdj]-[This.MainDefender.GetAdj]"
+	format = "<cleansing_pur_war_names2> de [This.MainDefender.GetName]"
 }
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_ethic = fanatic_xenophobe
+			}
+			defender = {
+			}
+		}
+	}
+	format = "<cleansing_pur_war_names2> de los [This.MainDefender.GetSpeciesNamePlural]"
+}
+
+### DIFERENT SPECIES ###
 
 war_name_format = {
 	random_weight = {
@@ -420,133 +1789,4 @@ war_name_format = {
 		}
 	}
 	format = "<war_names> [This.MainAttacker.GetSpeciesName] - [This.MainDefender.GetSpeciesName]"
-}
-
-### REBELLIONS WARS ###
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-				exists = overlord
-			}
-			defender = {
-				is_same_value = prev.attacker.overlord
-			}
-		}
-	}
-	format = "<civil_war_names> [This.MainAttacker.GetAdj] <prepositions_fem> <freedom_names_fem>"
-}
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-				exists = overlord
-			}
-			defender = {
-				is_same_value = prev.attacker.overlord
-			}
-		}
-	}
-	format = "<civil_war_names> [This.MainAttacker.GetAdj] <prepositions_mas> <freedom_names_mas>"
-}
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-				exists = overlord
-			}
-			defender = {
-				is_same_value = prev.attacker.overlord
-			}
-		}
-	}
-	format = "<civil_war_names> de <freedom_names_fem> [This.MainAttacker.GetAdj]"
-}
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-				exists = overlord
-			}
-			defender = {
-				is_same_value = prev.attacker.overlord
-			}
-		}
-	}
-	format = "<war_names> del <freedom_names_mas> [This.MainAttacker.GetAdj]"
-}
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-				exists = overlord
-			}
-			defender = {
-				is_same_value = prev.attacker.overlord
-			}
-		}
-	}
-	format = "<war_names> [This.MainAttacker.GetAdj]"
-}
-
-### SAME SPECIES, DIFERENT DOMINIONS WAR ###
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-				OR = {
-					NOT = {
-						exists = overlord
-					}
-					root = {
-						AND = {
-							NOT = {
-								defender = {
-									is_same_value = prev.attacker.overlord
-								}
-							defender = {
-								is_same_species = prev.attacker
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	format = "<brother_war_names> [This.MainAttacker.GetSpeciesNamePlural]"
-}
-
-### SUBESPECIES WAR ###
-
-war_name_format = {
-	random_weight = {
-		factor = 0
-		modifier = {
-			add = 1
-			attacker = {
-			}
-			defender = {
-				is_subspecies = prev.attacker			
-			}
-		}
-	}
-	format = "<subespecies_war_names> [This.MainDefender.GetAdj]"
 }

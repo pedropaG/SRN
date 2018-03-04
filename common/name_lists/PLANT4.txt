@@ -67,7 +67,7 @@ PLANT4 = {
 		random_names = {
 			"Naa'Radix"  "Naa'Vivea" "Naa'Ferna" "Naa'Gneto" "Naa'Bryo" "Naa'Rophyte" "Naa'Stirpis" "Naa'Vitanix" "Naa'Arbora" "Evora Naav" "Litea Naav" "Geola Naav" "Aluntola Naav" "Naa'Vitanix" "Lachlosa Naav"
 		}
-		sequential_name = "%O% Naa'Magnoli"
+		sequential_name = "%C%ª Naa'Magnoli"
 	}
 
 	### ARMIES

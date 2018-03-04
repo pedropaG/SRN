@@ -1,9 +1,10 @@
 ﻿### Molluscoid 2
 ### Created by Maximilian Olbers
+
 MOL2 = {
 	ship_names = {
 		generic = {
-			Yggschatt Addloug Ulourmgasch Kadgruums Schuutess Giggalws Wuegglar Glopposchib Plidbogg Powagglun Kopebuglun Bafghien Dugglensch Jarubsch Ssogbudk Uglarssob Jabbloud Ssunbesch Bakhuegg Muascholg Kuarregg Guklossh Halguggen Abuschegg Ygglum Mulgrysch Ymbdagss Jallgeb Juranssul Tillgunsch Badheigg Dhassigur Wimmgud Wajjugh Ghundagh Ijagssul Tillganssul Bafghuld
+			Yggschatt Addloug Ulourmgasch Kadgruums Schuutess Giggalws Wuegglar Glopposchib Plidbogg Powagglun Kopebuglun Bafghien Dugglensch Jarubsch Ssogbudk Uglarssob Jabbloud Ssunbesch Bakhuegg Muascholg Kuarregg Guklossh Halguggen Abuschegg Ygglum Mulgrysch Ymbdagss Jallgeb Juranssul Tillgunsch Badheigg Dhassigur Wimmgud Wajjugh Ghundagh Ijagssul Tillganssul Bafghuld Powgga Yggri Yggba Yggsu Wimmba Wimmggu Yggschla Wogga Haggla Uglabogg Uglarigg Jibbag Jabblagg Bafgha Baggasu Vigga Jablugg Gugglosska Powaggarun Biggaras Kurrgagog Gloppga Gloppgi Abusggi Kopeggi Kopggla
 		}
 
 		corvette = {
@@ -17,6 +18,12 @@ MOL2 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -27,20 +34,14 @@ MOL2 = {
 		constructor = {
 		}
 		
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Frontier Outpost"
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}	
 	}
 
 	fleet_names = {
@@ -67,15 +68,23 @@ MOL2 = {
 		}
 		
 		clone_army = { 
-			sequential_name = "%C%º Soldados Probeta"
+			sequential_name = "%C%ª Soldados Probeta"
 		}
 		
 		robotic_army = {
 			sequential_name = "%C%ª Banda de Mecánica"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Guarnición Mecánica"
+		}
 		
 		android_army = {
-			sequential_name = "%C%ª Banda of Replicata"
+			sequential_name = "%C%ª Banda de Replicata"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Guarnición Replicata"
 		}
 		
 		psionic_army = { 
@@ -96,7 +105,7 @@ MOL2 = {
 
 		generic = {
 			names = {
-				Gluggbafh Gluggrug Gluggobder Gluggenjaal Gluggasch Gluggaben Gluggduur Gluggmem Gluggow Gluggdhei Gluggsul Glugguld Bhugdhen Bhelgmem Bhinjuul Bhagsch Bhudghob Bhafsch Bhugroolsch Bhidgalb
+					Gluggbafh Gluggrug Gluggobder Gluggenjaal Gluggasch Gluggaben Gluggduur Gluggmem Gluggow Gluggdhei Gluggsul Glugguld Bhugdhen Bhelgmem Bhinjuul Bhagsch Bhudghob Bhafsch Bhugroolsch Bhidgalb Malggu Malgigul Maggsoth Miggirus Maggduur Maggow Maggrim Bhuggra Bhagga Bhigg
 			}
 		}
 		
@@ -142,7 +151,7 @@ MOL2 = {
 		default = {
 			# A complete name
 			full_names = {
-				Sungam Odnal Adrimga Kandag Tulanga Schuldess Weguttrim Dagguth Slugradeb Maluggreb Bufghen Waddahgs Ridubss Bakuggeth Doschulg Malungord Bahgfier Taruusch Wuhglaam Aschgraam
+				Sungam Odnal Adrimga Kandag Tulanga Schuldess Weguttrim Dagguth Slugradeb Maluggreb Bufghen Waddahgs Ridubss Bakuggeth Doschulg Malungord Bahgfier Taruusch Wuhglaam Aschgraam Sungabb Odgibb Sluggri Ridgabb Baguggi Widdig Tulbigg Daggoro Bufgha Waddug Ridugg Maliggo Malgugg
 			}
 			
 			# Always combined with a second name

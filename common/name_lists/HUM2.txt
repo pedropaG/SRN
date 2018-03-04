@@ -1,7 +1,7 @@
 ﻿### Human 2
+
 HUM2 = {
 	### SHIPS
-	alias = "MAM1"	#Game will find the real MAM1 before it finds HUM2 via alias, so this line is pointless unless the other MAM1 gets removed
 
 	ship_names = {
 
@@ -13,7 +13,13 @@ HUM2 = {
 			"Jal Lurrmon" "Jal Ickma" "Jal Trassom" "Jal Nurmon" "Jal Nigam" "Jal Rok" "Jal Vokja" "Jal Jekon" "Jal Torbak" "Jal Nisk"
 			"Jal Triken" "Jal Vokal" "Jal Sikra" "Jal Turus" "Jal Jiklan" "Jal Sik" "Jal Irken" "Jal Tenki" "Jal Oka" "Jal Tokkom"
 			"Jal Vikrim" "Jal Jidar" "Jal Bonton" "Jal Sotork" "Jal Tesk" "Jal Pintar" "Jal Everk" "Jal Erk" "Jal Bavak" "Jal Itik"
-			"Jal Kolpo" "Jal Vikisk" "Jal Siba" "Jal Nurgil" "Jal Olesk" "Jal Obassa" "Jal Toroll"
+			"Jal Kolpo" "Jal Vikisk" "Jal Siba" "Jal Nurgil" "Jal Olesk" "Jal Obassa" "Jal Toroll"			
+			"Kal Supon" "Kal Vimon" "Kal Tumon" "Kal Purlon" "Kal Urilon" "Kal Kumpuk" "Kal Valruk" "Kal Imon" "Kal Upon" "Kal Poinun"
+			"Kal Lak" "Kal Tarmon" "Kal Feidon" "Kal Morradon"
+			"Irsk Mul" "Irsk Torshka" "Irsk Hessint" "Irsk Mong" "Irsk Pollun" "Irsk Lodam" "Irsk Gungar" "Irsk Garan" "Irsk Patal"
+			"Irsk Bovam" "Irsk Tul" "Irsk Vul" "Irsk Bul" "Irsk Porskan" "Irsk Totollan" "Irsk Lorbask" "Irsk Hinnat" "Irsk Tumala"
+			"Trok Rul" "Trok Lorram" "Trok Pishkot" "Trok Hanata" "Trok Petroisal" "Trok Ytall" "Trok Hoffal" "Trok Bontosk" "Trok Pellator"
+			"Trok Rong" "Trok Cong" "Trok Sorong" "Trok Hattat" "Trok Viam" "Trok Offzul"
 		}
 
 		corvette = {
@@ -27,36 +33,30 @@ HUM2 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
-			"Kal Supon" "Kal Vimon" "Kal Tumon" "Kal Purlon" "Kal Urilon" "Kal Kumpuk" "Kal Valruk" "Kal Imon" "Kal Upon" "Kal Poinun"
-			"Kal Lak" "Kal Tarmon" "Kal Feidon" "Kal Morradon"
 		}
 		
 		colonizer = {
-			"Irsk Mul" "Irsk Torshka" "Irsk Hessint" "Irsk Mong" "Irsk Pollun" "Irsk Lodam" "Irsk Gungar" "Irsk Garan" "Irsk Patal"
-			"Irsk Bovam" "Irsk Tul" "Irsk Vul" "Irsk Bul" "Irsk Porskan" "Irsk Totollan" "Irsk Lorbask" "Irsk Hinnat" "Irsk Tumala"
 		}
 		
 		constructor = {
-			"Trok Rul" "Trok Lorram" "Trok Pishkot" "Trok Hanata" "Trok Petroisal" "Trok Ytall" "Trok Hoffal" "Trok Bontosk" "Trok Pellator"
-			"Trok Rong" "Trok Cong" "Trok Sorong" "Trok Hattat" "Trok Viam" "Trok Offzul"
 		}
 		
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Puesto Fronterizo"
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}
 	}
 
 	fleet_names = {
@@ -73,14 +73,12 @@ HUM2 = {
 		}
 			
 		assault_army = {
-			random_names = { "1er Equipo de Asalto"
-			}
+			random_names = { "1er Equipo de Asalto"	}
 			sequential_name = "%C%º Equipo de Asalto"
 		}
 		
 		slave_army = {
-			random_names = { "1er Cuerpo Penal"
-			}
+			random_names = { "1er Cuerpo Penal"	}
 			sequential_name = "%C%º Cuerpo Penal"
 		}
 		
@@ -91,28 +89,33 @@ HUM2 = {
 		robotic_army = {
 			sequential_name = "%C%ª Escuadrilla de Drones de Batalla"
 		}
+
+		robotic_defense_army = {
+			random_names = { "1er Emplazamiento de Drones de Batalla"	}
+			sequential_name = "%C%º Emplazamiento de Drones de Batalla"
+		}
 		
 		android_army = {
-			random_name = { "1er Comando Droide"
-			}
+			random_name = { "1er Comando Droide"	}
 			sequential_name = "%C%º Comando Droide"
 		}
 		
+		android_defense_army = {
+			sequential_name = "%C%ª Fuerza Droide de Defensa"
+		}
+		
 		psionic_army = { 
-			random_name = { "1er Comando Psi-Ops"
-			}
+			random_name = { "1er Comando Psi-Ops" }
 			sequential_name = "%C%º Comando Psi-Ops"
 		}
 		
 		xenomorph_army = {
-			random_name = { "1er Enjambre de Choque"
-			}
+			random_name = { "1er Enjambre de Choque" }
 			sequential_name = "%C%º Enjambre de Choque"
 		}
 		
 		gene_warrior_army = {
-			random_names = { "1er PuraSangres" 
-			}
+			random_names = { "1er PuraSangres" }
 			sequential_name = "%C%º PuraSangres"
 		}
 	}
@@ -179,7 +182,7 @@ HUM2 = {
 			
 			# Always combined with a second name
 			first_names = {
-				Merg Ilmas Fon Japra Vikal Monak Perak Rald
+					Merg Ilmas Fon Japra Vikal Monak Perak Rald Jurg Sapra Junak Vimas Tupra Kon Vuld Ganak Fadra Gapra
 			}
 			
 			# Always combined with a first name
@@ -192,7 +195,7 @@ HUM2 = {
 			}
 			
 			regnal_second_names = {
-				Toros Vigon Tysala Vis Vagas Inik Va Tor Wek Pok Vun Kap Nik Fen Taras Vagras Mikon
+				Toros Vigon Tysala
 			}
 		}
 	}

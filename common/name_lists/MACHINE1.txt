@@ -1,4 +1,6 @@
 ﻿### Machine 1
+### Written by Dee Majek
+
 MACHINE1 = {
 	should_name_home_system_planets = no
 	
@@ -8,21 +10,28 @@ MACHINE1 = {
 		}
 
 		corvette = {
-			Erradicador Aniquildaor Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+			Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
 		}
 		
 		destroyer = {
-			Erradicador Aniquildaor Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+			Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
 		}
 		
 		cruiser = {
-			Erradicador Aniquildaor Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+			Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
 		}
 		
 		battleship = {
-			Erradicador Aniquildaor Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+			Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}		
+
+		titan = {
+			Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador			
 		}
-		
+
+		colossus = {
+			Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}
 		science = {
 			Supervisor Investigador Examinador Dilucidador Viajero Erudito Analista
 		}
@@ -36,35 +45,34 @@ MACHINE1 = {
 		}
 
 		transport = {
-			"Convoy"
+			"Convoy" Portador Transportador
 		}
-		
-
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = { 
-			#random_names = { }
+	
+		military_station_small = {
+			Protector
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
-	}
+		ion_cannon = {
+			Guardián
+		}
 
-	ship_class_names = {
-		generic = {
-			
-		}		
+		### For Fallen Empires
+		small_ship_fallen_empire = {
+				Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}
+		large_ship_fallen_empire = {
+				Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}
+		massive_ship_fallen_empire = {
+				Erradicador Aniquilador Pacificador Vengador Nulificador Exterminador Silenciador Vaporizador Eliminador Obliterador Anulador Extintor Protector Defensor Dominador Supresor Derogador Conquistador Vencedor Prevaricador Sometedor Opositor Asaltante Asesino Diezmador Desintegrador Viciador Devastador Borrador Quebrantador Arruinador Extirpador Subyugador Rasurador Despachador Libertador Redimidor Salvador Árbitro Depredador Finalizador Potenciador Asediador Aturdidor Golpeador Emboscador Trilladora Forzador Ensamblador
+		}
 	}
 
 	fleet_names = {
 		random_names = {
 			
 		}
-		sequential_name = "%C%ª Legión"
+		sequential_name = "Legión %CC%"
 	}
 	
 	army_names = {
@@ -73,20 +81,28 @@ MACHINE1 = {
 			sequential_name = "%C%ª Fuerza de Asalto Mecanizada"
 		}
 
-		machine_defense_1 = {
+		machine_defense = {
 			sequential_name = "%C%ª Fuerza de Defensa Mecanizada"
 		}
 		
 		machine_assault_2 = {
 			sequential_name = "%C%ª Fuerza Pesada de Asalto"
 		}
-
-		machine_defense_2 = {
-			sequential_name = "%C%ª Fuerza Pesada de Defensa"
+	
+		machine_assault_3 = {
+			sequential_name = "Ultra Titán de Asalto %CC%"
 		}
 	
-			machine_assault_3 = {
-			sequential_name = "Ultra Titán de Asalto %CC%"
+		defense_army = {
+			sequential_name = "%C%ª Fuerza de Defensa Ciborg"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Fuerza Mecanizada Ciborg"
+		}
+		
+		clone_army = {
+			sequential_name = "%C%ª Fuerza Mecanizada Clon"
 		}
 	}
 		
@@ -103,61 +119,61 @@ MACHINE1 = {
 		
 		pc_desert = {
 			names = { 
-				"Nexus Abrasador" "Hub Abrasador" "Puente Abrasador" "Matriz Abrasador" "Red Abrasador" "Núcleo Abrasador" "Kernel Abrasador" "Fuente Abrasador" "Combinado Abrasador" "Locus Abrasador" "Central Abrasador" "Omphalos Abrasador" "Nucleus Abrasador" "Eje Abrasador" "Cruz Abrasador" "Terminus Abrasador" "Servidor Abrasador" "Chasis Abrasador"
+				"Nexo Abrasador" "Hub Abrasador" "Puente Abrasador" "Matriz Abrasador" "Red Abrasador" "Núcleo Abrasador" "Kernel Abrasador" "Fuente Abrasador" "Combinado Abrasador" "Locus Abrasador" "Central Abrasador" "Omphalos Abrasador" "Nucleus Abrasador" "Eje Abrasador" "Cruz Abrasador" "Terminus Abrasador" "Servidor Abrasador" "Chasis Abrasador"
 			}
 		}
 		
 		pc_tropical = {
 			names = { 
-				"Nexus Frondoso" "Hub Frondoso" "Puente Frondoso" "Matriz Frondosa" "Red Frondosa" "Núcleo Frondoso" "Kernel Frondoso" "Fuente Frondosa" "Combinado Frondoso" "Locus Frondoso" "Central Frondosa" "Omphalos Frondoso" "Nucleus Frondoso" "Eje Frondoso" "Cruz Frondosa" "Terminus Frondoso" "Servidor Frondoso" "Chasis Frondoso"				
+				"Nexo Frondoso" "Hub Frondoso" "Puente Frondoso" "Matriz Frondosa" "Red Frondosa" "Núcleo Frondoso" "Kernel Frondoso" "Fuente Frondosa" "Combinado Frondoso" "Locus Frondoso" "Central Frondosa" "Omphalos Frondoso" "Nucleus Frondoso" "Eje Frondoso" "Cruz Frondosa" "Terminus Frondoso" "Servidor Frondoso" "Chasis Frondoso"				
 			}
 		}
 		
 		pc_arid = {
 			names = { 
-				"Nexus Desecante" "Hub Desecante" "Puente Desecante" "Matriz Desecante" "Red Desecante" "Núcleo Desecante" "Kernel Desecante" "Fuente Desecante" "Combinado Desecante" "Locus Desecante" "Central Desecante" "Omphalos Desecante" "Nucleus Desecante" "Eje Desecante" "Cruz Desecante" "Terminus Desecante" "Servidor Desecante" "Chasis Desecante"
+				"Nexo Desecante" "Hub Desecante" "Puente Desecante" "Matriz Desecante" "Red Desecante" "Núcleo Desecante" "Kernel Desecante" "Fuente Desecante" "Combinado Desecante" "Locus Desecante" "Central Desecante" "Omphalos Desecante" "Nucleus Desecante" "Eje Desecante" "Cruz Desecante" "Terminus Desecante" "Servidor Desecante" "Chasis Desecante"
 			}
 		}
 		
 		pc_continental = {
 			names = { 
-				"Nexus Terrenal" "Hub Terrenal" "Puente Terrenal" "Matriz Terrenal" "Red Terrenal" "Núcleo Terrenal" "Kernel Terrenal" "Fuente Terrenal" "Combinado Terrenal" "Locus Terrenal" "Central Terrenal" "Omphalos Terrenal" "Nucleus Terrenal" "Eje Terrenal" "Cruz Terrenal" "Terminus Terrenal" "Servidor Terrenal" "Chasis Terrenal"
+				"Nexo Terrenal" "Hub Terrenal" "Puente Terrenal" "Matriz Terrenal" "Red Terrenal" "Núcleo Terrenal" "Kernel Terrenal" "Fuente Terrenal" "Combinado Terrenal" "Locus Terrenal" "Central Terrenal" "Omphalos Terrenal" "Nucleus Terrenal" "Eje Terrenal" "Cruz Terrenal" "Terminus Terrenal" "Servidor Terrenal" "Chasis Terrenal"
 			}
 		}
 		
 		pc_ocean = {
 			names = { 
-				"Nexus Fluido" "Hub Fluido" "Puente Fluido" "Matriz Fluida" "Red Fluida" "Núcleo Fluido" "Kernel Fluido" "Fuente Fluida" "Combinado Fluido" "Locus Fluido" "Central Fluida" "Omphalos Fluido" "Nucleus Fluido" "Eje Fluido" "Cruz Fluida" "Terminus Fluido" "Servidor Fluido" "Chasis Fluido"
+				"Nexo Fluido" "Hub Fluido" "Puente Fluido" "Matriz Fluida" "Red Fluida" "Núcleo Fluido" "Kernel Fluido" "Fuente Fluida" "Combinado Fluido" "Locus Fluido" "Central Fluida" "Omphalos Fluido" "Nucleus Fluido" "Eje Fluido" "Cruz Fluida" "Terminus Fluido" "Servidor Fluido" "Chasis Fluido"
 			}
 		}
 		
 		pc_tundra = {
 			names = { 
-				"Nexus Polar" "Hub Polar" "Puente Polar" "Matriz Polar" "Red Polar" "Núcleo Polar" "Kernel Polar" "Fuente Polar" "Combinado Polar" "Locus Polar" "Central Polar" "Omphalos Polar" "Nucleus Polar" "Eje Polar" "Cruz Polar" "Terminus Polar" "Servidor Polar" "Chasis Polar"
+				"Nexo Polar" "Hub Polar" "Puente Polar" "Matriz Polar" "Red Polar" "Núcleo Polar" "Kernel Polar" "Fuente Polar" "Combinado Polar" "Locus Polar" "Central Polar" "Omphalos Polar" "Nucleus Polar" "Eje Polar" "Cruz Polar" "Terminus Polar" "Servidor Polar" "Chasis Polar"
 			}
 		}
 		
 		pc_arctic = {
 			names = { 			
-				"Cryo Nexus" "Cryo Hub" "Puente Helado" "Cryo Matriz" "Red Helada" "Cryo Núcleo" "Kernel Helado" "Cryo Fuente" "Cryo Combinado" "Locus Helado" "Central Helada" "Omphalos Helado" "Cryo Nucleus" "Eje Helado" "Cryo Cruz" "Cryo Terminus" "Cryo Servidor" "Cryo Chasis"
+				"Cryo Nexo" "Cryo Hub" "Puente Helado" "Cryo Matriz" "Red Helada" "Cryo Núcleo" "Kernel Helado" "Cryo Fuente" "Cryo Combinado" "Locus Helado" "Central Helada" "Omphalos Helado" "Cryo Nucleus" "Eje Helado" "Cryo Cruz" "Cryo Terminus" "Cryo Servidor" "Cryo Chasis"
 			}
 		}
 
 		pc_savannah = {
 			names = { 
-				"Meseta Nexus" "Estepa Hub" "Landa Puente" "Meseta Matriz" "Estepa Red" "Landa Núcleo" "Landa Kernel" "Meseta Fuente" "Estepa Combinada" "Landa Locus" "Meseta Central" "Landa Omphalos" "Estepa Nucleus" "Meseta Eje" "Landa Cruz" "Meseta Terminus" "Landa Servidor" "Estepa Chasis"
+				"Nexo Meseta" "Estepa Hub" "Landa Puente" "Meseta Matriz" "Estepa Red" "Landa Núcleo" "Landa Kernel" "Meseta Fuente" "Estepa Combinada" "Landa Locus" "Meseta Central" "Landa Omphalos" "Estepa Nucleus" "Meseta Eje" "Landa Cruz" "Meseta Terminus" "Landa Servidor" "Estepa Chasis"
 			}
 		}
 
 		pc_alpine = {
 			names = { 
-				"Pico Nexus" "Pico Hub" "Pico Puente" "Pico Matriz" "Pico Red" "Pico Núcleo" "Pico Kernel" "Pico Fuente" "Pico Combinado" "Pico Locus" "Pico Central" "Pico Omphalos" "Pico Nucleus" "Pico Eje" "Pico Cruz" "Pico Terminus" "Pico Servidor" "Pico Chasis"
+				"Pico Nexo" "Pico Hub" "Pico Puente" "Pico Matriz" "Pico Red" "Pico Núcleo" "Pico Kernel" "Pico Fuente" "Pico Combinado" "Pico Locus" "Pico Central" "Pico Omphalos" "Pico Nucleus" "Pico Eje" "Pico Cruz" "Pico Terminus" "Pico Servidor" "Pico Chasis"
 			}
 		}
 
 		pc_nuked = {
 			names = { 
-				"Nexus Baldío" "Hub Yermo" "Puente Baldío" "Matriz Yerma" "Red Yerma" "Núcleo Yermo" "Kernel Yermo" "Fuente Baldía" "Combinado Yermo" "Locus Yermo" "Central Baldía" "Omphalos Yermo" "Nucleus Yermo" "Eje Yermo" "Cruz Baldía" "Terminus Yermo" "Servidor Yermo" "Chasis Yermo"				
+				"Nexo Baldío" "Hub Yermo" "Puente Baldío" "Matriz Yerma" "Red Yerma" "Núcleo Yermo" "Kernel Yermo" "Fuente Baldía" "Combinado Yermo" "Locus Yermo" "Central Baldía" "Omphalos Yermo" "Nucleus Yermo" "Eje Yermo" "Cruz Baldía" "Terminus Yermo" "Servidor Yermo" "Chasis Yermo"				
 			}
 		}
 		
@@ -218,7 +234,7 @@ MACHINE1 = {
 	ruler_names = {
 		default = {
 			full_names = {
-				Ejecutor 01 Director
+				Ejecutor 01 Director Actuador Sincronizador Alfa Mainframe Talus Quantus Mutex Scalar Axon Setun
 			}
 		}
 	}

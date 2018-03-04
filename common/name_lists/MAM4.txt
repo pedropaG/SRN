@@ -1,0 +1,186 @@
+﻿### Mammalian 4
+### Created by Henrik Eklund
+
+MAM4 = {
+	ship_names = {
+
+		generic = {
+			"Kha Thannatis" "Kha Bonntis" "Kha Rabtis" "Kha Muntis" "Kha Surtis" "Kha Bentis" "Kha Juntis" "Kha Buvinis"  "Kha Erantis" "Kha Arannis" "Kha Rhentis" "Kha Vaknis" "Kha Tibaris" "Kha Evendis" "Kha Uribis" "Kha Furanis" "Kha Ridanis" "Kha Seranis" "Kha Deranis" "Kha Dihanis" "Kha Rylanis" "Kha Rubis" "Kha Itnis" "Kha Yranis" "An Vebis" "An Turakis" "An Bevakis" "An Noranis" "An Syrutis" "An Vakiris" "An Cithanis" "An Brokunis" "An Oboris" "An Hirekulis" "An Giranis" "An Gursakis" "An Gavanonis" "An Garallis" "An Ubanis" "An Kharakis" "An Felgiris" "An Stupanis" "An Jiranis" "An Jaburis" "An Jirigalis" "An Ditiris" "An Navidis" "Dar Epiris" "Dar Hitiris" "Dar Lydiris" "Dar Torobanis" "Dar Isklanduris" "Dar Iberinnis" "Dar Tygharis" "Dar Tolvonis" "Dar Kermisaris"  "Dar Sotoris" "Dar Kabolis" "Dar Filiris" "Dar Epesuris" "Dar Evtidanis" "Dar Mysaris" "Dar Majedonis"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+		}
+		sequential_name = "%C%ª Orden Estelar"
+	}
+		
+	army_names = {
+		defense_army = {
+			sequential_name = "%C%ª Columna Defensiva"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Columna de Invasión"
+		}
+		
+		slave_army = {
+			sequential_name = "%C%ª Columna Correccional"
+		}
+		
+		clone_army = { 
+			sequential_name = "Tropas Moldeadas %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Infantería Robótica %R%"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "Protectores Robóticos %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Infantería Androide %R%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Protectores Androide %R%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "Infantería Psiónica %R%"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "Colmena Xenomorfa %R%"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%C%ª Tropas Modificadas"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Colonia Vatnik" "Colonia Srakir" "Colonia Bossnikar" "Colonia Elbekann" "Colonia Pugrannon" "Colonia Delnik" "Colonia Tyrkab" "Colonia Uranna" "Colonia Etris" "Colonia Kelnik" "Colonia Kurbidanna" "Colonia Falnik" "Colonia Suprag" 
+				"Nueva Selestaris" "Nuevo Ovkir" "Nueva Turbak" "Nuevo Palob" "Nueva Rioradin" "Nueva Bhertag" 
+				"Mandato Siskvi" "Mandato Helkiran" "Mandato Enthras" "Mandato Ephiri" "Mandato Pharus" "Mandato Posranu"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				"Sagu," "Thub," "Sene," "Migg," "Bora," "Jagg," "Imat," "Matu," "Sebu," "Enim," "Jaka," "Veti," "Kori," "Ekir," "Satu," "Pock," "Murk," "Velk," "Mirk," "Tabu," "Srak," "Mubi," "Itha," "Utha," "Vurp," "Utra," "Baga," "Bick," "Bock," "Nock," "Letu," "Larb," "Tabo," "Tibb," "Terk," "Jurk," "Jark," "Vinn," "Derk," "Dack," "Debe," "Saka," "Polt," "Nagg," "Korb," "Kald," "Tigg," "Otra," "Udil," "Adel," "Amik," "Brok," "Anak," "Kild," "Trag," "Vaki," "Ukna," "Abil," "Inki," "Idel," "Inck," "Brok," "Milv," "Makn," "Reti," "Rakn," "Roba," "Skeg," "Fald," "Feti," "Fori," "Fura," "Sagg," "Ster," "Noga," "Kreb," "Tagg," "Tigg," "Muri," "Utin," "Ulba," "Siga," "Larg," "Gori," "Gabb," "Gitu," "Gack," "Goll,"
+			}
+			
+			# Always combined with a first name
+			second_names_male = {
+				"hijo de Sagu" "hijo de Thub" "hijo de Sene" "hijo de Migg" "hijo de Bora" "hijo de Jagg" "hijo de Imat" "hijo de Matu" "hijo de Sebu" "hijo de Enim" "hijo de Jaka" "hijo de Veti" "hijo de Kori" "hijo de Ekir" "hijo de Satu" "hijo de Pock" "hijo de Murk" "hijo de Velk" "hijo de Mirk" "hijo de Tabu" "hijo de Srak" "hijo de Mubi" "hijo de Itha" "hijo de Utha" "hijo de Vurp" "hijo de Utra" "hijo de Baga" "hijo de Bick" "hijo de Bock" "hijo de Nock" "hijo de Letu" "hijo de Larb" "hijo de Tabi" "hijo de Tibb" "hijo de Terk" "hijo de Jurk" "hijo de Jark" "hijo de Vinn" "hijo de Derk" "hijo de Dack" "hijo de Debe" "hijo de Saka" "hijo de Polt" "hijo de Nagg" "hijo de Korb" "hijo de Kald" "hijo de Tigg" "hijo de Otra" "hijo de Udil" "hijo de Adel" "hijo de Amik" "hijo de Brok" "hijo de Anak" "hijo de Kild" "hijo de Trag" "hijo de Vaki" "hijo de Ukna" "hijo de Abil" "hijo de Inki" "hijo de Idel" "hijo de Inck" "hijo de Brok" "hijo de Milv" "hijo de Makn" "hijo de Reti" "hijo de Rakn" "hijo de Roba" "hijo de Skeg" "hijo de Fald" "hijo de Feti" "hijo de Fori" "hijo de Fura" "hijo de Sagg" "hijo de Ster" "hijo de Noga" "hijo de Kreb" "hijo de Tagg" "hijo de Tigg" "hijo de Muri" "hijo de Utin" "hijo de Ulba" "hijo de Siga" "hijo de Larg" "hijo de Gori" "hijo de Gabb" "hijo de Gitu" "hijo de Gack" "hijo de Goll"
+			}
+
+			second_names_female = {
+				"hija de  Sagu" "hija de  Thub" "hija de  Sene" "hija de  Migg" "hija de  Bora" "hija de  Jagg" "hija de  Imat" "hija de  Matu" "hija de  Sebu" "hija de  Enim" "hija de  Jaka" "hija de  Veti" "hija de  Kori" "hija de  Ekir" "hija de  Satu" "hija de  Pock" "hija de  Murk" "hija de  Velk" "hija de  Mirk" "hija de  Tabu" "hija de  Srak" "hija de  Mubi" "hija de  Itha" "hija de  Utha" "hija de  Vurp" "hija de  Utra" "hija de  Baga" "hija de  Bick" "hija de  Bock" "hija de  Nock" "hija de  Letu" "hija de  Larb" "hija de  Tabi" "hija de  Tibb" "hija de  Terk" "hija de  Jurk" "hija de  Jark" "hija de  Vinn" "hija de  Derk" "hija de  Dack" "hija de  Debe" "hija de  Saka" "hija de  Polt" "hija de  Nagg" "hija de  Korb" "hija de  Kald" "hija de  Tigg" "hija de  Otra" "hija de  Udil" "hija de  Adel" "hija de  Amik" "hija de  Brok" "hija de  Anak" "hija de  Kild" "hija de  Trag" "hija de  Vaki" "hija de  Ukna" "hija de  Abil" "hija de  Inki" "hija de  Idel" "hija de  Inck" "hija de  Brok" "hija de  Milv" "hija de  Makn" "hija de  Reti" "hija de  Rakn" "hija de  Roba" "hija de  Skeg" "hija de  Fald" "hija de  Feti" "hija de  Fori" "hija de  Fura" "hija de  Sagg" "hija de  Ster" "hija de  Noga" "hija de  Kreb" "hija de  Tagg" "hija de  Tigg" "hija de  Muri" "hija de  Utin" "hija de  Ulba" "hija de  Siga" "hija de  Larg" "hija de  Gori" "hija de  Gabb" "hija de  Gitu" "hija de  Gack" "hija de  Goll"
+			}
+			
+			regnal_first_names = {
+				Sagu Thub Sene Migg Bora Jagg Imat
+			}
+			
+			regnal_second_names = {
+				"vástago de Urug"
+			}
+		}
+	}
+}

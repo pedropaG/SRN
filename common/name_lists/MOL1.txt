@@ -26,6 +26,12 @@ MOL1 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -36,19 +42,14 @@ MOL1 = {
 		constructor = {
 		}
 		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Frontier Outpost"
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}
 	}
 
 	fleet_names = {
@@ -80,11 +81,19 @@ MOL1 = {
 		}
 		
 		robotic_army = {
-			sequential_name = "%O% Cefalodroides"
+			sequential_name = "%C%ª Cefalodroides"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Guardias Cefalodroides"
 		}
 		
 		android_army = {
 			sequential_name = "%C%ª Concha Espiritual"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Guardia Espiritual"
 		}
 		
 		psionic_army = { 
@@ -107,7 +116,7 @@ MOL1 = {
 
 		generic = {
 			names = {
-				Siggwal Schlurg Raggani "Lurgi Pash" Uggrim Uldrugg Maggrathi Gabbog Guraschim "Mag Rutosch" Gablorr Riblagga Tuggam Schlargoss Weggri Bakangi Guthur Eskogg Agglor
+				Siggwal Schlurg Raggani "Lurgi Pash" Uggrim Uldrugg Maggrathi Gabbog Guraschim "Mag Rutosch" Gablorr Riblagga Tuggam Schlargoss Weggri Bakangi Guthur Eskogg Agglor "Mag Gagarash" Guldrogg Schlaggi Schugaschi "Tagbash Vugg" Uggirisch Garibogg Seragoggh Tirgosch Gabloschi Chiblosch Shlargh Ergligg Sithgosh "Vaga Pash" "Pogga Pash"
 			}
 		}
 		
@@ -154,7 +163,7 @@ MOL1 = {
 		default = {
 			# A complete name
 			full_names = {
-				Schlurma Paggro Glorim Sagglor Ethogg Bagglosch Regglor Garma Bhanogg Tagglaro Riblogg Glosch Schlargim Shushk Alorig Aboglor Shugglerm Pablasch Gethmar Glabonsch
+				Schlurma Paggro Glorim Sagglor Ethogg Bagglosch Regglor Garma Bhanogg Tagglaro Riblogg Glosch Schlargim Shushk Alorig Aboglor Shugglerm Pablasch Gethmar Glabonsch Gogg Gaschush Sigglor Gaschi Pigglosch Abigghor Veshbagg Gollram Veggol Raggla Ragilig Vaschgo Abrigosch Baggog
 			}
 			
 			# Always combined with a second name

@@ -1,5 +1,6 @@
 ﻿### Reptilian 3
 ### Created by Maximilian Olbers
+
 REP3 = {
 	ship_names = {
 		generic = {
@@ -18,6 +19,12 @@ REP3 = {
 		battleship = {
 		}
 		
+		titan = {
+		}
+		
+		colossus = {
+		}
+		
 		science = {
 		}
 		
@@ -27,26 +34,21 @@ REP3 = {
 		constructor = {
 		}
 		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Puesto Fronterizo"
+		transport = {
 		}
-
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		
+		military_station_small = {
+		}
+		
+		ion_cannon = {
+		}
 	}
 
 	fleet_names = {
 		random_names = {
 			"Vagabundos del Vacío Dronolog" "Vagabundos del Vacío Gafereka" "Vagabundos del Vacío Kotalla" "Vagabundos del Vacío Golorod" "Vagabundos del Vacío Dirixelo" "Vagabundos del Vacío Kundere" "Vagabundos del Vacío Trellock" "Vagabundos del Vacío Korux" "Vagabundos del Vacío Dulkara" "Vagabundos del Vacío Kluxadoru" "Vagabundos del Vacío Foreskax" "Vagabundos del Vacío Krundoal" "Vagabundos del Vacío Lugec" "Vagabundos del Vacío Koogol"
 		}
-		sequential_name = "%C%º Vagabundos del Vacío"
+		sequential_name = "%C%ª Vagabundos del Vacío"
 	}
 	
 	### ARMIES
@@ -68,11 +70,20 @@ REP3 = {
 		}
 		
 		robotic_army = {
+			random_names =  { "1er Ejército de Autómatas"}
 			sequential_name = "%C%º Ejército de Autómatas"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Defensas Automatizadas"
 		}
 		
 		android_army = {
-			sequential_name = "%C%º Guerreros Mímicos"
+			sequential_name = "%C%ª Guerreros Mímicos"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Guardianes Mímicos"
 		}
 		
 		psionic_army = { 
@@ -80,7 +91,7 @@ REP3 = {
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%C%º Cambiantes Caóticos"
+			sequential_name = "%C%ª Cambiantes Caóticos"
 		}
 		
 		gene_warrior_army = {
@@ -94,7 +105,7 @@ REP3 = {
 
 		generic = {
 			names = {
-				Galan Nadex Gefarak Kutel Gulec Faradex Ralefek Gelard Derokem Dexalon Kitadul Dukalex Kluxared Dolok Gekoler Forexod Futexom Darakun Traglec Kregux
+				Galan Nadex Gefarak Kutel Gulec Faradex Ralefek Gelard Derokem Dexalon Kitadul Dukalex Kluxared Dolok Gekoler Forexod Futexom Darakun Traglec Kregux Mitakul Vagec Farix Sumlec Forex Gikal Kurec Magan Darkic Seradul Dukorex Cekonex Garbex Torix Dablox
 			}
 		}
 		
@@ -141,7 +152,7 @@ REP3 = {
 		default = {
 			# A complete name
 			full_names = {
-				Faragulek Klandrax Kulegaf Ludremex Maxerdok Tredagik Rukagikex Trokaxeg Tolodem Loxodal Ropadef Frelaxod Axemekat Frolaxen Dakalenex Dronafeg Mixrodem Tidarulek Raxuked Koxurem Guferal
+				Faragulek Klandrax Kulegaf Ludremex Maxerdok Tredagik Rukagikex Trokaxeg Tolodem Loxodal Ropadef Frelaxod Axemekat Frolaxen Dakalenex Dronafeg Mixrodem Tidarulek Raxuked Koxurem Guferal Samux Terinex Koldrax Moregaf Ludramok Ropodom Farglek Duxanek Dorbax Tolaxir Kirax Mikirax Toldox Forulek Toxodal Rimarik Kaxurin Gasmarux Trolix Vobodem Imixidal Durbaxa Kiriox Vamax
 			}
 			
 			# Always combined with a second name

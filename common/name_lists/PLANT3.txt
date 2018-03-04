@@ -1,5 +1,6 @@
 ﻿### Plantoid 3
 ### Created by Rufus Tronde, Miranda van den Brink
+
 PLANT3 = {	
 	### SHIPS
 
@@ -21,6 +22,12 @@ PLANT3 = {
 		battleship = {
 		}
 		
+		titan = {
+		}
+		
+		colossus = {
+		}
+		
 		science = {
 		}
 		
@@ -30,23 +37,14 @@ PLANT3 = {
 		constructor = {
 		}
 		
-		orbital_station = {
-		}
-		mining_station = {
-		}
-		research_station = {
-		}
-		wormhole_station = { }
-		#terraform_station = {
-		#}
-		observation_station = {
+		transport = {
 		}
 	
-		military_station_small = {  }
-	
-		military_station_medium = {  }
-	
-		military_station_large = {  }	
+		military_station_small = {
+		}
+		
+		ion_cannon = {
+		}
 	}
 	
 	fleet_names = {
@@ -78,9 +76,17 @@ PLANT3 = {
 		robotic_army = {
 			sequential_name = "Cadena de Margaritas %R%"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "Cadena de Narcisos %R%"
+		}
 		
 		android_army = {
 			sequential_name = "Cadena de Girasoles %R%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Cadena de Muguete %R%"
 		}
 		
 		psionic_army = { 
@@ -155,7 +161,7 @@ PLANT3 = {
 			
 			# Always combined with a second name
 			first_names_female = {
-				Flora Viola Violeta Lirio Rosa Margarita Sorbus Iris Jazmín Verónica Herbe Hazel Erica Olivo
+				Flora Viola Violeta Lirio Rosa Margarita Sorbus Iris Jazmín Verónica Herbe Hazel Erica Oliva
 			}
 
 			first_names_male = {

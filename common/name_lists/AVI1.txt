@@ -42,6 +42,12 @@ AVI1 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -52,23 +58,14 @@ AVI1 = {
 		constructor = {
 		}
 		
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = {
-				"Ojo Atento" "Ojo Vigilante" "Ojo Durmiente" "Ojo Agudo" "Ojo Despectivo" "Ojo Distraído" "Ojo Taimado" "Ojo Ferviente" "Ojo Intrépido" "Ojo Tenaz"
-			#}
-			#sequential_name = "%O% Frontier Outpost"
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}
 	}
 
 	ship_class_names = {
@@ -107,9 +104,17 @@ AVI1 = {
 			sequential_name = "%C%ª Columna de Máquinas"
 		}
 		
+		robotic_defense_army = {
+			sequential_name = "%C%º Centinelas Máquina"
+		}
+		
 		android_army = {
 			random_names = { "1er Ejército Cibernético de Choque" }
 			sequential_name = "%C%º Ejército Cibernético de Choque"
+		}
+		
+		android_defense_army = {
+			sequential_name = "%C%º Centinelas Cibernéticos"
 		}
 		
 		psionic_army = { 
@@ -133,8 +138,7 @@ AVI1 = {
 
 		generic = {
 			names = {
-				S'Prekeel J'Khanal S'Narkeel K'Karom "S'Kerin Vak" "Soska V'Ta" S'Bakri Yeethkri Bwaakar V'Vidir V'Ra M'Rak'Vo K'Karaal
-				V'Bindak Yeerok Kraak Deekri T'Tra C'Knoor S'Pemkru Bwreek T'Valdra K'Vra'Kok J'Mideer Jyylkir S'Vrak T'Sondek Paaltok M'Ruut C'Viirb T'Bukred D'Vraadir K'Mhakreer V'Tyykre Vakwaark
+				S'Prekeel J'Khanal S'Narkeel K'Karom "S'Kerin Vak" "Soska V'Ta" S'Bakri Yeethkri Bwaakar V'Vidir V'Ra M'Rak'Vo K'Karaal V'Bindak Yeerok Kraak Deekri T'Tra C'Knoor S'Pemkru Bwreek T'Valdra K'Vra'Kok J'Mideer Jyylkir S'Vrak T'Sondek Paaltok M'Ruut C'Viirb T'Bukred D'Vraadir K'Mhakreer V'Tyykre Vakwaark Kwaarik K'Rosok S'Narabu Briik B'Nuraka "Vetin V'Ta" "Y'Tari Vak" Pitirii Taakir Brangakii
 			}
 		}
 		
@@ -172,6 +176,16 @@ AVI1 = {
 			names = {
 			}
 		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
 		
 	}
 
@@ -181,7 +195,7 @@ AVI1 = {
 		default = {
 			# A complete name
 			full_names = {
-				Kreemak B'Raaki Reetril Yeedik L'Krami Eerkal Y'Sarkee Y'Heetak Lagraak Skraak T'Anaark Reebik P'Kida D'Kheera K'Reel T'Rootik Skeerid P'Dykna Haatrek Y'Ridaak
+				Kreemak B'Raaki Reetril Yeedik L'Krami Eerkal Y'Sarkee Y'Heetak Lagraak Skraak T'Anaark Reebik P'Kida D'Kheera K'Reel T'Rootik Skeerid P'Dykna Haatrek Y'Ridaak Y'Heeka Kurukaa Sikirooka Y'Hree B'Nookar Skreeki T'Marik D'Sariik K'Nuurak S'Kuurik L'Matreek Raakur Sakeeri Yuruuk T'Kiiri T'Maku B'Rhii B'Kuura L'Kiri P'Kakuur P'Konori R'Tariik Koorivi R'Tanoka R'Tanik Haakanu Haabik Kaabik Eerabik Saakubik
 			}
 			
 			# Always combined with a second name
