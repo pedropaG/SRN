@@ -1,7 +1,8 @@
 ﻿### Template
+### Created by Henrik Eklund
+
 HUM1 = {
 	### SHIPS
-	alias = "MAM5"
 
 	ship_names = {
 
@@ -48,6 +49,12 @@ HUM1 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -58,19 +65,14 @@ HUM1 = {
 		constructor = {
 		}
 
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Puesto Fronterizo"
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}	
 	}
 
 	ship_class_names = {
@@ -89,16 +91,12 @@ HUM1 = {
 	
 	army_names = {
 		defense_army = {			
-			names = { 
-				"1er Escudo Terrestre"
-			}
+			names = { "1er Escudo Terrestre" }
 			sequential_name = "%C%º Escudo Terrestre"
 		}
 			
 		assault_army = {
-			random_names = { 
-				"1er Gremio de Guerra"
-			}
+			random_names = { "1er Gremio de Guerra"	}
 			sequential_name = "%C%º Gremio de Guerra"
 		}
 		
@@ -113,9 +111,17 @@ HUM1 = {
 		robotic_army = {
 			sequential_name = "Lanceros Robóticos %C%"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "Protectores Robóticos %C%"
+		}
 		
 		android_army = {
 			sequential_name = "Cazadores Autónomos %C%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Guardianes Autónomos %C%"
 		}
 		
 		psionic_army = { 
@@ -189,6 +195,9 @@ HUM1 = {
 			full_names = { 
 				Falatir Hephanir Timaphon Listhim Jesslur Yndan Kashnak Bemalon Cognat Limathar Elemano Khebb Tetran Ketrill
 				Rhass Linntyl Haghonon Darmull Ralpakin Campramar Monnobak Hannakon Veltassa Karba Darmug Ghuum Jaffab Thaloth
+			}
+			full_names_female = {
+				Falatira Hephanira Timaphona Listhima Jesslura Yndana Kashnaka Bemalona Cognati Limathara Elemani Khebba Tetrana Ketrilla Rhassa Linntyla Haghonona Darmulla Ralpakini Campramara Monnobaki Hannakona Darmuga Ghuumi Jaffaba Thalotha Shiripa Rhethana Jonnara Esthonira Mikaba Veldanura Dorokina Sebakhira Corrona Tirrana Shibbala Lathira Veltassa Karba Jondra
 			}
 			
 			# Always combined with a second name

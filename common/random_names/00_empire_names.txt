@@ -80,7 +80,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Generic Fem
+# Democratic Generic Fem
 empire_name_parts_list = {
 	key = "democratic_gen_fem"
 	parts = {
@@ -101,7 +101,7 @@ empire_name_parts_list = {
 }
 
 
-# Democrática Generic Mas
+# Democratic Generic Mas
 empire_name_parts_list = {
 	key = "democratic_gen_mas"
 	parts = {		
@@ -411,7 +411,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Service Guarantees Citizenship fem
+# Democratic Service Guarantees Citizenship fem
 empire_name_parts_list = {
 	key = "democratic_service_fem"
 	parts = {
@@ -423,7 +423,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Service Guarantees Citizenship mas
+# Democratic Service Guarantees Citizenship mas
 empire_name_parts_list = {
 	key = "democratic_service_mas"
 	parts = {
@@ -761,7 +761,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Spiritualist Descriptive Fem
+# Democratic Spiritualist Descriptive Fem
 empire_name_parts_list = {
 	key = "democratic_spi_desc_fem"
 	parts = {
@@ -774,7 +774,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Spiritualist Descriptive Mas
+# Democratic Spiritualist Descriptive Mas
 empire_name_parts_list = {
 	key = "democratic_spi_desc_mas"
 	parts = {
@@ -865,7 +865,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Materialist Fem
+# Democratic Materialist Fem
 empire_name_parts_list = {
 	key = "democratic_mat_fem"
 	parts = {
@@ -885,7 +885,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Materialist Mas
+# Democratic Materialist Mas
 empire_name_parts_list = {
 	key = "democratic_mat_mas"
 	parts = {
@@ -898,7 +898,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Imperial Tecnocracia Fem
+# Imperial Technocracy Fem
 empire_name_parts_list = {
 	key = "imperial_tech_fem"
 	parts = {
@@ -912,7 +912,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Imperial Tecnocracia Mas
+# Imperial Technocracy Mas
 empire_name_parts_list = {
 	key = "imperial_tech_mas"
 	parts = {
@@ -922,7 +922,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Dictatorial Tecnocracia Fem
+# Dictatorial Technocracy Fem
 empire_name_parts_list = {
 	key = "dictatorial_tech_fem"
 	parts = {
@@ -936,7 +936,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Dictatorial Tecnocracia Mas
+# Dictatorial Technocracy Mas
 empire_name_parts_list = {
 	key = "dictatorial_tech_mas"
 	parts = {
@@ -944,7 +944,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Oligarchic Tecnocracia Fem
+# Oligarchic Technocracy Fem
 empire_name_parts_list = {
 	key = "oligarchic_tech_fem"
 	parts = {
@@ -964,7 +964,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Oligarchic Tecnocracia Mas
+# Oligarchic Technocracy Mas
 empire_name_parts_list = {
 	key = "oligarchic_tech_mas"
 	parts = {
@@ -977,7 +977,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Tecnocracia Fem
+# Democratic Technocracy Fem
 empire_name_parts_list = {
 	key = "democratic_tech_fem"
 	parts = {
@@ -998,7 +998,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Tecnocracia Mas
+# Democratic Technocracy Mas
 empire_name_parts_list = {
 	key = "democratic_tech_mas"
 	parts = {
@@ -1153,11 +1153,11 @@ empire_name_parts_list = {
 empire_name_parts_list = {
 	key = "dictatorial_pac_mas"
 	parts = {
-		"Nación" = 2
-		"Soveranía" = 1
-		"Fundación" = 1
-		"Comunalidad" = 2
-		"Administración" = 2
+		"Estado" = 1
+		"Mandato" = 3
+		"Pacto" = 3
+		"Convenio" = 3
+		"Acuerdo" = 3
 	}
 }
 
@@ -1223,10 +1223,11 @@ empire_name_parts_list = {
 		"Concordato" = 1
 		"Acuerdo" = 1
 		"Gobierno" = 1
+		"Convenio" = 2
 	}
 }
 
-# Imperial Celestial Imperio
+# Imperial Celestial Empire
 empire_name_parts_list = {
 	key = "imperial_celestial"
 	parts = {
@@ -1345,7 +1346,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Pacifist Descriptive Fem
+# Democratic Pacifist Descriptive Fem
 empire_name_parts_list = {
 	key = "democratic_pac_desc_fem"
 	parts = {
@@ -1363,7 +1364,7 @@ empire_name_parts_list = {
 	}
 }
 
-# Democrática Pacifist Descriptive Mas
+# Democratic Pacifist Descriptive Mas
 empire_name_parts_list = {
 	key = "democratic_pac_desc_mas"
 	parts = {
@@ -1528,6 +1529,84 @@ empire_name_parts_list = {
 	}
 }
 
+# Bandit Kingdom Generic
+empire_name_parts_list = {
+	key = "bandit_kingdom_gen"
+	parts = {
+		"Cartel" = 1
+		"Tríada" = 1
+		"Sindicato" = 1
+		"Cábala" = 1
+	}
+}
+
+# Bandit Kingdom Fem
+empire_name_parts_list = {
+	key = "bandit_kingdom_fem"
+	parts = {
+		"Tríada" = 1
+		"Cábala" = 1
+		"Liga" = 1
+	}
+}
+
+# Bandit Kingdom Mas
+empire_name_parts_list = {
+	key = "bandit_kingdom_mas"
+	parts = {
+		"Gremio" = 1
+		"Cartel" = 1
+		"Sindicato" = 1
+	}
+}
+
+# Bandit Kingdom Pre Fem
+empire_name_parts_list = {
+	key = "bandit_kingdom_pre_fem"
+	parts = {		
+		"La " = 1
+		"" = 90
+	}
+}
+
+# Bandit Kingdom Pre Mas
+empire_name_parts_list = {
+	key = "bandit_kingdom_pre_mas"
+	parts = {		
+		"El " = 1
+		"" = 90
+	}
+}
+
+# Bandit Kingdom Descriptive Fem
+empire_name_parts_list = {
+	key = "bandit_kingdom_des_fem"
+	parts = {
+		"de las Sombras" = 1
+		"Oscura" = 1
+		"Siniestra" = 1
+		"Sangrienta" = 1
+		"Tenebrosa" = 1
+		"Secreta" = 1
+		"Misteriosa" = 1
+		"Enigmática" = 1
+	}
+}
+
+# Bandit Kingdom Descriptive Mas
+empire_name_parts_list = {
+	key = "bandit_kingdom_des_mas"
+	parts = {
+		"de las Sombras" = 1
+		"Oscuro" = 1
+		"Siniestro" = 1
+		"Sangriento" = 1
+		"Tenebroso" = 1
+		"Secreto" = 1
+		"Misterioso" = 1
+		"Enigmático" = 1
+	}
+}
 
 # Enlightened fem
 empire_name_parts_list = {
@@ -1545,6 +1624,28 @@ empire_name_parts_list = {
 		"Alto Reino" = 4
 		"Reino Ilustrado" = 3
 		"Reino Estelar" = 2
+		"Reino" = 2
+	}
+}
+
+# Machine Intelligence
+empire_name_parts_list = {
+	key = "machine_intelligence"
+	parts = {
+		"Inteligencia Máquina"
+		"Bot inteligente"
+		"La Máquina"
+	}
+
+}
+
+# Machine Intelligence
+empire_name_parts_list = {
+	key = "machine_terminator"
+	parts = {
+		"Red Aérea"
+		"Frío Acero"
+		"Instrumento Letal"
 	}
 }
 
@@ -1678,7 +1779,7 @@ empire_name_parts_list = {
 	}
 }
 
-### States
+### STATES
 
 # Generic states (for use with Generic Descriptives) Fem
 empire_name_parts_list = {
@@ -2049,7 +2150,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<standard_pre_desc_mas><imperial_spi_fem> <imperial_spi_desc_fem> [This.GetSpeciesAdj]"
+	format = "<standard_pre_desc_fem><imperial_spi_fem> <imperial_spi_desc_fem> [This.GetSpeciesAdj]"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<imperial_spi_fem> [This.GetSpeciesAdj]"
 	# (Gran) Republica Galactica Humana
@@ -2306,9 +2407,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Imperial Tecnocracia
+### Imperial Technocracy
 
-# Imperial Tecnocracia 1 fem
+# Imperial Technocracy 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2327,7 +2428,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Imperial Tecnocracia 1 mas
+# Imperial Technocracy 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2346,7 +2447,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Imperial Tecnocracia 2 fem
+# Imperial Technocracy 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2365,7 +2466,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Imperial Tecnocracia 2 mas
+# Imperial Technocracy 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2384,7 +2485,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Imperial Tecnocracia 3 fem
+# Imperial Technocracy 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2403,7 +2504,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Imperial Tecnocracia 3 mas
+# Imperial Technocracy 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2421,7 +2522,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Imperial Tecnocracia 5 fem
+# Imperial Technocracy 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2440,7 +2541,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Imperial Tecnocracia 5 mas
+# Imperial Technocracy 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2614,7 +2715,7 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Imperial Celestial Imperio
+### Imperial Celestial Empire
 
 # Imperial Celestial 1
 empire_name_format = {
@@ -2924,7 +3025,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Imperial Generic 5
+# Imperial Generic 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -2943,7 +3044,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Imperial Generic 5
+# Imperial Generic 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -3448,9 +3549,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Dictatorial Tecnocracia
+### Dictatorial Technocracy
 
-# Dictatorial Tecnocracia 1 fem
+# Dictatorial Technocracy 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -3469,7 +3570,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Dictatorial Tecnocracia 1 mas
+# Dictatorial Technocracy 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -3488,7 +3589,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Dictatorial Tecnocracia 2 fem
+# Dictatorial Technocracy 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -3507,7 +3608,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Dictatorial Tecnocracia 2 mas
+# Dictatorial Technocracy 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -3526,7 +3627,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Dictatorial Tecnocracia 3 fem
+# Dictatorial Technocracy 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -3545,7 +3646,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Dictatorial Tecnocracia 3 mas
+# Dictatorial Technocracy 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -3564,7 +3665,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Dictatorial Tecnocracia 5 fem
+# Dictatorial Technocracy 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -3583,7 +3684,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Dictatorial Tecnocracia 5 mas
+# Dictatorial Technocracy 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4115,7 +4216,7 @@ empire_name_format = {
 
 ### Oligarchic Citizen Service
 
-# Oligarchic Ciudadana Service 1 fem
+# Oligarchic Citizen Service 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4134,7 +4235,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Oligarchic Ciudadana Service 1 mas
+# Oligarchic Citizen Service 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4153,7 +4254,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Oligarchic Ciudadana Service 2 fem
+# Oligarchic Citizen Service 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4172,7 +4273,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Oligarchic Ciudadana Service 2 mas
+# Oligarchic Citizen Service 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4191,7 +4292,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Oligarchic Ciudadana Service 3 fem
+# Oligarchic Citizen Service 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4210,7 +4311,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Oligarchic Ciudadana Service 3 mas
+# Oligarchic Citizen Service 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4691,9 +4792,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Oligarchic Tecnocracia
+### Oligarchic Technocracy
 
-# Oligarchic Tecnocracia 1 fem
+# Oligarchic Technocracy 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4712,7 +4813,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Oligarchic Tecnocracia 1 mas
+# Oligarchic Technocracy 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4731,7 +4832,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Oligarchic Tecnocracia 2 fem
+# Oligarchic Technocracy 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4750,7 +4851,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Oligarchic Tecnocracia 2 mas
+# Oligarchic Technocracy 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4769,7 +4870,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Oligarchic Tecnocracia 3 fem
+# Oligarchic Technocracy 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4788,7 +4889,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Oligarchic Tecnocracia 3 mas
+# Oligarchic Technocracy 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4807,7 +4908,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Oligarchic Tecnocracia 5 fem
+# Oligarchic Technocracy 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -4826,7 +4927,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Oligarchic Tecnocracia 5 mas
+# Oligarchic Technocracy 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5153,9 +5254,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Democrática Militarist 
+### Democratic Militarist 
 
-# Democrática Militarist 1 fem
+# Democratic Militarist 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5174,7 +5275,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Democrática Militarist 1 mas
+# Democratic Militarist 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5193,7 +5294,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Democrática Militarist 2 fem
+# Democratic Militarist 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5212,7 +5313,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Democrática Militarist 2 mas
+# Democratic Militarist 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5231,7 +5332,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Democrática Militarist 3 fem
+# Democratic Militarist 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5250,7 +5351,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Democrática Militarist 3 mas
+# Democratic Militarist 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5269,7 +5370,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Democrática Militarist 5 fem
+# Democratic Militarist 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5288,7 +5389,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Democrática Militarist 5 mas
+# Democratic Militarist 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5307,9 +5408,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Democrática Warrior Culture
+### Democratic Warrior Culture
 
-# Democrática Militarist 1 fem
+# Democratic Militarist 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5328,7 +5429,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Democrática Militarist 1 mas
+# Democratic Militarist 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5347,7 +5448,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Democrática Militarist 2 fem
+# Democratic Militarist 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5366,7 +5467,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Democrática Militarist 2 mas
+# Democratic Militarist 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5385,7 +5486,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Democrática Militarist 3 fem
+# Democratic Militarist 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5404,7 +5505,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Democrática Militarist 3 mas
+# Democratic Militarist 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5423,9 +5524,9 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-### Democrática Citizen Service
+### Democratic Citizen Service
 
-# Democrática Citizen Service 1 fem
+# Democratic Citizen Service 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5444,7 +5545,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Democrática Citizen Service 1 mas
+# Democratic Citizen Service 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5463,7 +5564,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Democrática Citizen Service 2 fem
+# Democratic Citizen Service 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5482,7 +5583,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Democrática Citizen Service 2 mas
+# Democratic Citizen Service 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5501,7 +5602,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Democrática Citizen Service 3 fem
+# Democratic Citizen Service 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5520,7 +5621,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Democrática Citizen Service 3 mas
+# Democratic Citizen Service 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5539,9 +5640,9 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-### Democrática Spiritualist
+### Democratic Spiritualist
 
-# Democrática Spiritualist 1 fem
+# Democratic Spiritualist 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5560,7 +5661,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Democrática Spiritualist 1 mas
+# Democratic Spiritualist 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5579,7 +5680,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Democrática Spiritualist 2 fem
+# Democratic Spiritualist 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5598,7 +5699,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Democrática Spiritualist 2 mas
+# Democratic Spiritualist 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5617,7 +5718,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Democrática Spiritualist 3 fem
+# Democratic Spiritualist 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5636,7 +5737,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Democrática Spiritualist 3 mas
+# Democratic Spiritualist 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5655,7 +5756,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Democrática Spiritualist 5 fem
+# Democratic Spiritualist 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5674,7 +5775,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Democrática Spiritualist 5 mas
+# Democratic Spiritualist 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5693,9 +5794,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Democrática Materialist
+### Democratic Materialist
 
-# Democrática Materialist 1 mas
+# Democratic Materialist 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5714,7 +5815,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Democrática Materialist 1 fem
+# Democratic Materialist 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5733,7 +5834,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Democrática Materialist 2 fem
+# Democratic Materialist 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5752,7 +5853,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Democrática Materialist 2 mas
+# Democratic Materialist 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5771,7 +5872,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Democrática Materialist 3 fem
+# Democratic Materialist 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5790,7 +5891,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Democrática Materialist 3 mas
+# Democratic Materialist 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5809,7 +5910,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Democrática Materialist 5 fem
+# Democratic Materialist 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5828,7 +5929,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Democrática Materialist 5 mas
+# Democratic Materialist 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5847,9 +5948,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Democrática Tecnocracia
+### Democratic Technocracy
 
-# Democrática Tecnocracia 1 fem
+# Democratic Technocracy 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5868,7 +5969,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Democrática Tecnocracia 1 mas
+# Democratic Technocracy 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5887,7 +5988,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Democrática Tecnocracia 2 fem
+# Democratic Technocracy 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5906,7 +6007,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Democrática Tecnocracia 2 mas
+# Democratic Technocracy 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5925,7 +6026,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Democrática Tecnocracia 3 fem
+# Democratic Technocracy 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5944,7 +6045,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Democrática Tecnocracia 3 mas
+# Democratic Technocracy 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5963,7 +6064,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Democrática Tecnocracia 5 fem
+# Democratic Technocracy 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -5982,7 +6083,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Democrática Tecnocracia 5 mas
+# Democratic Technocracy 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6001,9 +6102,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Democrática Pacifist
+### Democratic Pacifist
 
-# Democrática Pacifist 1 fem
+# Democratic Pacifist 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6022,7 +6123,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Democrática Pacifist 1 mas
+# Democratic Pacifist 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6041,7 +6142,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Democrática Pacifist 2 fem
+# Democratic Pacifist 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6060,7 +6161,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Democrática Pacifist 2 mas
+# Democratic Pacifist 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6079,7 +6180,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Democrática Pacifist 3 fem
+# Democratic Pacifist 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6098,7 +6199,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Democrática Pacifist 3 mas
+# Democratic Pacifist 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6117,7 +6218,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Democrática Pacifist 5 fem
+# Democratic Pacifist 5 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6136,7 +6237,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Democrática Pacifist 5 mas
+# Democratic Pacifist 5 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6155,9 +6256,9 @@ empire_name_format = {
 	# (Gran) Imperio Galactico Humano
 }
 
-### Democrática Generic
+### Democratic Generic
 
-# Democrática Generic 1 fem
+# Democratic Generic 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6176,7 +6277,7 @@ empire_name_format = {
 	# (Gran) Republica de Sol
 }
 
-# Democrática Generic 1 mas
+# Democratic Generic 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6195,7 +6296,7 @@ empire_name_format = {
 	# (Gran) Imperio de Sol
 }
 
-# Democrática Generic 2 fem
+# Democratic Generic 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6214,7 +6315,7 @@ empire_name_format = {
 	# (Gran) Republica de Tierra
 }
 
-# Democrática Generic 2 mas
+# Democratic Generic 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6233,7 +6334,7 @@ empire_name_format = {
 	# (Gran) Imperio de Tierra
 }
 
-# Democrática Generic 3 fem
+# Democratic Generic 3 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6252,7 +6353,7 @@ empire_name_format = {
 	# (Gran) Republica Humano
 }
 
-# Democrática Generic 3 mas
+# Democratic Generic 3 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6271,7 +6372,7 @@ empire_name_format = {
 	# (Gran) Imperio Humano
 }
 
-# Democrática Generic 5
+# Democratic Generic 5
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6290,7 +6391,7 @@ empire_name_format = {
 	# (Gran) Republica Galactica Humano
 }
 
-# Democrática Generic 5
+# Democratic Generic 5
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6330,7 +6431,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<generic_states_fem> [This.GetSpeciesNamePlural] <generic_mil_desc_fem>"
+	format = "<generic_states_fem> [This.GetSpeciesNamePlural] <generic_aut_desc_fem>"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<generic_states_fem> [This.GetSpeciesNamePlural]"
 	# Colonias Humanas Unidas
@@ -6355,7 +6456,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<generic_states_mas> [This.GetSpeciesNamePlural] <generic_mil_desc_mas>"
+	format = "<generic_states_mas> [This.GetSpeciesNamePlural] <generic_aut_desc_mas>"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<generic_states_mas> [This.GetSpeciesNamePlural]"
 	# Planetas Humanos Unidos
@@ -6380,7 +6481,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<generic_states_fem> <generic_mil_desc_fem> [This.GetSpeciesNamePlural]"
+	format = "<generic_states_fem> <generic_aut_desc_fem> [This.GetSpeciesNamePlural]"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<generic_states_fem> [This.GetSpeciesNamePlural]"
 	# Colonias Unidas Humanas
@@ -6405,7 +6506,7 @@ empire_name_format = {
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
-	format = "<generic_states_mas> <generic_mil_desc_mas> [This.GetSpeciesNamePlural]"
+	format = "<generic_states_mas> <generic_aut_desc_mas> [This.GetSpeciesNamePlural]"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<generic_states_mas> [This.GetSpeciesNamePlural]"
 	# Planetas Unidos Humanos
@@ -6611,7 +6712,7 @@ empire_name_format = {
 	# Asamblea de Humanos
 }
 
-# Generic Democrática 1 fem
+# Generic Democratic 1 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6636,7 +6737,7 @@ empire_name_format = {
 	# Colonias Humanas Unidas
 }
 
-# Generic Democrática 1 mas
+# Generic Democratic 1 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6661,7 +6762,7 @@ empire_name_format = {
 	# Planetas Humanos Unidos
 }
 
-# Generic Democrática 2 fem
+# Generic Democratic 2 fem
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6686,7 +6787,7 @@ empire_name_format = {
 	# Colonias Unidas Humanas
 }
 
-# Generic Democrática 2 mas
+# Generic Democratic 2 mas
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6711,7 +6812,7 @@ empire_name_format = {
 	# Planetas Unidos Humanos
 }
 
-# Generic Democrática 3
+# Generic Democratic 3
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6736,7 +6837,7 @@ empire_name_format = {
 	# Asamblea de Sol
 }
 
-# Generic Democrática 4
+# Generic Democratic 4
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6761,7 +6862,7 @@ empire_name_format = {
 	# Asamblea de Humanos
 }
 
-# Colmena Mind
+# Hive Mind
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6781,7 +6882,7 @@ empire_name_format = {
 }
 
 
-# Devouring Swarm
+# Devouring Swarm 1
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6800,7 +6901,7 @@ empire_name_format = {
 	# Horda Zelvana
 }
 
-# Devouring Swarm
+# Devouring Swarm 2
 empire_name_format = {
 	random_weight = {
 		factor = 0
@@ -6893,7 +6994,7 @@ empire_name_format = {
 	format = "<oligarchic_megachurch> de [This.Capital.GetStarName]"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<oligarchic_megachurch> de [This.Capital.GetStarName]"
-	# Human Empire
+	# Imperio de Sol
 }
 
 # Trade League 1
@@ -6931,7 +7032,74 @@ empire_name_format = {
 	format = "<trade_league> de [This.Capital.GetStarName]"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "<trade_league> de [This.Capital.GetStarName]"
-	# Human Empire
+	# Gremio de Sol
+}
+
+# Bandit Kingdom 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			OR = {
+				has_government = "gov_bandit_kingdom"
+				has_government = "gov_bandit_commune"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<bandit_kingdom_gen> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<bandit_kingdom_gen> [This.GetSpeciesAdj]"
+	# Tríada Humana
+}
+
+
+# Bandit Kingdom 2 fem
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			OR = {
+				has_government = "gov_bandit_kingdom"
+				has_government = "gov_bandit_commune"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<bandit_kingdom_pre_fem><bandit_kingdom_fem> <bandit_kingdom_des_fem>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<bandit_kingdom_fem> [This.GetSpeciesAdj]"
+	# La Liga de las Sombras
+}
+
+# Bandit Kingdom 2 mas
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			OR = {
+				has_government = "gov_bandit_kingdom"
+				has_government = "gov_bandit_commune"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "<bandit_kingdom_pre_mas><bandit_kingdom_mas> <bandit_kingdom_des_mas>"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<bandit_kingdom_mas> [This.GetSpeciesAdj]"
+	# El Gremio Siniestro
 }
 
 # Fanatical purifiers
@@ -7082,7 +7250,284 @@ empire_name_format = {
 	noun = "<pirate_names>"
 }
 
+empire_name_parts_list = {
+	key = "drone_pirate_names"
+	parts = {
+		"Drones Pícaros" = 10
+		"Drones Indomables" = 10
+		"Drones Impetuosos" = 10
+		"Drones Salvajes" = 10
+		"Drones Amotinados" = 10
+	}
+}
 
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			AND = {
+				is_pirate = yes
+				has_country_flag = drone_pirate
+			}
+		}
+	}
+	format = "format.drone_pirate.1"
+	noun = "<drone_pirate_names>"
+}
+
+empire_name_parts_list = {
+	key = "machine_pirate_names"
+	parts = {
+		"Unidades Corruptas" = 10
+		"Unidades Defectuosas" = 10
+		"Unidades Malignas" = 10
+		"Unidades Estropeadas" = 10
+		"Unidades Erróneas" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			AND = {
+				is_pirate = yes
+				has_country_flag = machine_pirate
+			}
+		}
+	}
+	format = "format.machine_pirate.1"
+	noun = "<machine_pirate_names>"
+}
+
+### MARAUDER NAMES
+
+# Dormant
+empire_name_parts_list = {
+	key = "marauder_names"
+	parts = {
+		"Asaltantes" = 30
+		"Merodeadores" = 30
+		"Recaudadores" = 20
+		"Guerreros Libres" = 20
+		"Saqueadores" = 10
+		"Piratas" = 10
+		"Corsarios" = 10
+		"Jinetes" = 10
+		"Devastadores" = 10
+		"Salvajes" = 10
+		"Tribus Estelares" = 10
+		"Asaltantes del Espacio" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			is_country_type = dormant_marauders
+		}
+	}
+	format = "<marauder_names> [This.GetSpeciesNamePlural]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<marauder_names> [This.GetSpeciesNamePlural]"
+}
+
+# Awakened
+empire_name_parts_list = {
+	key = "awakened_marauder_names"
+	parts = {
+		"Horda" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			is_country_type = awakened_marauders
+		}
+	}
+	format = "<awakened_marauder_names> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<awakened_marauder_names> [This.GetSpeciesAdj"
+}
+
+# Diadochi 1
+empire_name_parts_list = {
+	key = "diadochi_names_1_1"
+	parts = {
+		"Gran" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "diadochi_names_1_2"
+	parts = {
+		"Kanato" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			AND = {
+				has_government = "gov_diadochi"
+				has_country_flag = diadochi_1
+			}
+		}
+	}
+	format = "<diadochi_names_1_1> <diadochi_names_1_2> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<diadochi_names_1_1> <diadochi_names_1_2> [This.GetSpeciesAdj]"
+}# Gran Kanato Humano
+
+# Diadochi 2
+empire_name_parts_list = {
+	key = "diadochi_names_2_1"
+	parts = {
+		"Kaganato" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			AND = {
+				has_government = "gov_diadochi"
+				has_country_flag = diadochi_2
+			}
+		}
+	}
+	format = "<diadochi_names_2_1> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<diadochi_names_2_1> [This.GetSpeciesAdj]"
+} # Kaganato Humano
+
+# Diadochi 3
+empire_name_parts_list = {
+	key = "diadochi_names_3_1"
+	parts = {
+		"Verdadera" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "diadochi_names_3_2"
+	parts = {
+		"Horda" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			AND = {
+				has_government = "gov_diadochi"
+				has_country_flag = diadochi_3
+			}
+		}
+	}
+	format = "<diadochi_names_3_1> <diadochi_names_3_2> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<diadochi_names_3_1> <diadochi_names_3_2> [This.GetSpeciesAdj]"
+} # Verdadera Horda Humana
+
+# Diadochi 4
+empire_name_parts_list = {
+	key = "diadochi_names_4_1"
+	parts = {
+		"Sucesor" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "diadochi_names_4_2"
+	parts = {
+		"Kanato" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			AND = {
+				has_government = "gov_diadochi"
+				has_country_flag = diadochi_4
+			}
+		}
+	}
+	format = "<diadochi_names_4_2> <diadochi_names_4_1> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<diadochi_names_4_2> <diadochi_names_4_1> [This.GetSpeciesAdj]"
+}
+# Kanato Sucesor Humano
+
+# New Khanate
+empire_name_parts_list = {
+	key = "new_khanate_names_1_1"
+	parts = {
+		"Nuevo" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "new_khanate_names_1_2"
+	parts = {
+		"Kanato" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_country_flag = new_khanate_flag
+		}
+	}
+	format = "<new_khanate_names_1_1> <new_khanate_names_1_2> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<new_khanate_names_1_1> <new_khanate_names_1_2> [This.GetSpeciesAdj]"
+}
+# Nuevo Kanato Humano
+
+# Democratic Khanate
+empire_name_parts_list = {
+	key = "free_khanate_names_1_1"
+	parts = {
+		"Libre" = 30
+		"Democrático" = 30
+	}
+}
+empire_name_parts_list = {
+	key = "free_khanate_names_1_2"
+	parts = {
+		"Kanato" = 30
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_country_flag = democratic_khanate_flag
+		}
+	}
+	format = "<free_khanate_names_1_2> <free_khanate_names_1_1> [This.GetSpeciesAdj]"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<free_khanate_names_1_2> <free_khanate_names_1_1> [This.GetSpeciesAdj]"
+} 
+# Kanato Democrático Humano
 
 ### FALLEN EMPIRE NAMES
 
@@ -7152,13 +7597,13 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = fallen_empire
+			has_government = gov_stagnant_ascendancy
 			has_ethic = ethic_fanatic_xenophobe
 		}
 	}
 	format = "<fallen_empire_names_1> de [This.GetSpeciesNamePlural]"
 	noun = "[This.GetSpeciesName]"
-	# Vestigio de Humanos
+	# Vestigio de humanos
 }
 
 # Materialist Ancients
@@ -7167,8 +7612,8 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = fallen_empire
-			has_ethic = ethic_fanatic_materialist		
+			has_government = gov_stagnant_ascendancy
+			has_ethic = ethic_fanatic_materialist	
 		}
 	}
 	format = "<fallen_empire_names_2> [This.GetSpeciesNamePlural]"
@@ -7182,7 +7627,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = fallen_empire
+			has_government = gov_stagnant_ascendancy
 			has_ethic = ethic_fanatic_xenophile
 		}
 	}
@@ -7197,7 +7642,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = fallen_empire
+			has_government = gov_stagnant_ascendancy
 			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
@@ -7299,13 +7744,13 @@ empire_name_parts_list = {
 	}
 }
 
-# Xenophobe Awakned Ancients
+# Xenophobe Awakened Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = awakened_fallen_empire
+			has_government = gov_awakened_ascendancy
 			has_ethic = ethic_fanatic_xenophobe
 		}
 	}
@@ -7314,13 +7759,13 @@ empire_name_format = {
 	# Restauradores Humanos
 }
 
-# Materialist Awakned Ancients
+# Materialist Awakened Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = awakened_fallen_empire
+			has_government = gov_awakened_ascendancy
 			has_ethic = ethic_fanatic_materialist		
 		}
 	}
@@ -7329,13 +7774,13 @@ empire_name_format = {
 	# Reguladores Humanos
 }
 
-# Xenophile Awakned Ancients
+# Xenophile Awakened Ancients
 empire_name_format = {
 	random_weight = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = awakened_fallen_empire
+			has_government = gov_awakened_ascendancy
 			has_ethic = ethic_fanatic_xenophile
 		}
 	}
@@ -7350,7 +7795,7 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 100
-			is_country_type = awakened_fallen_empire
+			has_government = gov_awakened_ascendancy
 			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
@@ -7820,7 +8265,7 @@ empire_name_format = {
 			has_country_flag = radical_cult
 		}
 	}
-	format = "format.rad_cult.1"
+	format = "<radical_cult_names>"
 	noun = "<radical_cult_names>"
 	# Final Crucible
 }
@@ -7831,6 +8276,7 @@ empire_name_parts_list = {
 	key = "ai_names"
 	parts = {
 		"Conciencia Artificial" = 10
+		"Mente Máquina" = 5
 	}
 }
 
@@ -7842,7 +8288,7 @@ empire_name_format = {
 			has_government = "gov_machine_consciousness"
 		}
 	}
-	format = "format.ai.1"
+	format = "<ai_names>"
 	noun = "<ai_names>"
 	# Skynet
 }
@@ -7877,10 +8323,10 @@ empire_name_format = {
 		modifier = {
 			add = 100
 			is_country_type = enclave
-			has_government = gov_curator_enclave
+			has_government = gov_trader_enclave
 		}
 	}
-	format = "format.trader.1"
+	format = "<trader_names>"
 	noun = "<trader_names>"
 }
 
@@ -7891,10 +8337,10 @@ empire_name_format = {
 		modifier = {
 			add = 100
 			is_country_type = enclave
-			has_government = gov_trader_enclave
+			has_government = gov_curator_enclave
 		}
 	}
-	format = "format.curator.1"
+	format = "<curator_names>"
 	noun = "<curator_names>"
 }
 
@@ -7908,6 +8354,6 @@ empire_name_format = {
 			has_government = gov_artist_enclave
 		}
 	}
-	format = "format.artist.1"
+	format = "<artist_names>"
 	noun = "<artist_names>"
 }

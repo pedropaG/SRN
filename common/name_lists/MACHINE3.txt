@@ -1,4 +1,6 @@
 ﻿### Machine 3
+### Written by Dee Majek
+
 MACHINE3 = {
 	should_name_home_system_planets = no
 	
@@ -24,6 +26,14 @@ MACHINE3 = {
 		battleship = {
 			"Respondedor de Acero" "Centinela de Acero" "Respondedor Férreo" "Retenedor Cromado" "Caballero de Acero" "Campeón de Acero" "Partisano de Acero" "Lancero de Acero" "Guerrero Cromado" "Explorador de Acero" "Artillero de Acero" "Guardián Cromado" "Guardián de Hierro" "Defensor de Acero" "Guardia Cromado" "Carcelero de Acero" "Centinela de Acero" "Vigilante de Hierro" "Cerbero Cromado" "Vigía de Acero" "Custodio Cromado" "Protector de Acero" "Escolta Cromado" "Preservador de Acero" "Patrullero Cromado" "Escudo de Hierro" "Pastor de Acero" "Égida Cromada" "Guarda de Hierro" "Embarcación Cromada" "Guardaespaldas de Acero" "Supervisor de Hierro" "Respondedor Máquina" "Centinela Voltáico" "Retenedor Galvánico" "Caballero Galvánico" "Campeón Galvánico" "Partisano Plateado" "Lancero Plateado" "Guerrero Voltáico" "Explorador Cibernético" "Artillero Galvánico" "Guardián Plateado" "Guardián Galvanizado" "Defensor Sincrónico" "Guarda Máquina" "Guardia Cibernético" "Centinela Sincrónico" "Vigilante Voltáico" "Cerbero Vinculado" "Vigía Plateado" "Protector Máquina" "Escolta Vinculado" "Preservador Sincrónico" "Patrullero Vinculado" "Escudo Galvanizado" "Pastor Cibernético" "Égida Plateada" "Custodio Galvánico" "Guardaespaldas Sincrónico" "Supervisor Mecanizado" "Bastión de Acero" "Manto de Hierro" "Bastión Plateado" "Manto de Plata"
 		}
+
+		titan = {
+			"Respondedor de Acero" "Centinela de Acero" "Respondedor Férreo" "Retenedor Cromado" "Caballero de Acero" "Campeón de Acero" "Partisano de Acero" "Lancero de Acero" "Guerrero Cromado" "Explorador de Acero" "Artillero de Acero" "Guardián Cromado" "Guardián de Hierro" "Defensor de Acero" "Guardia Cromado" "Carcelero de Acero" "Centinela de Acero" "Vigilante de Hierro" "Cerbero Cromado" "Vigía de Acero" "Custodio Cromado" "Protector de Acero" "Escolta Cromado" "Preservador de Acero" "Patrullero Cromado" "Escudo de Hierro" "Pastor de Acero" "Égida Cromada" "Guarda de Hierro" "Embarcación Cromada" "Guardaespaldas de Acero" "Supervisor de Hierro" "Respondedor Máquina" "Centinela Voltáico" "Retenedor Galvánico" "Caballero Galvánico" "Campeón Galvánico" "Partisano Plateado" "Lancero Plateado" "Guerrero Voltáico" "Explorador Cibernético" "Artillero Galvánico" "Guardián Plateado" "Guardián Galvanizado" "Defensor Sincrónico" "Guarda Máquina" "Guardia Cibernético" "Centinela Sincrónico" "Vigilante Voltáico" "Cerbero Vinculado" "Vigía Plateado" "Protector Máquina" "Escolta Vinculado" "Preservador Sincrónico" "Patrullero Vinculado" "Escudo Galvanizado" "Pastor Cibernético" "Égida Plateada" "Custodio Galvánico" "Guardaespaldas Sincrónico" "Supervisor Mecanizado" "Bastión de Acero" "Manto de Hierro" "Bastión Plateado" "Manto de Plata"
+		}
+
+		colossus = {
+			"Respondedor de Acero" "Centinela de Acero" "Respondedor Férreo" "Retenedor Cromado" "Caballero de Acero" "Campeón de Acero" "Partisano de Acero" "Lancero de Acero" "Guerrero Cromado" "Explorador de Acero" "Artillero de Acero" "Guardián Cromado" "Guardián de Hierro" "Defensor de Acero" "Guardia Cromado" "Carcelero de Acero" "Centinela de Acero" "Vigilante de Hierro" "Cerbero Cromado" "Vigía de Acero" "Custodio Cromado" "Protector de Acero" "Escolta Cromado" "Preservador de Acero" "Patrullero Cromado" "Escudo de Hierro" "Pastor de Acero" "Égida Cromada" "Guarda de Hierro" "Embarcación Cromada" "Guardaespaldas de Acero" "Supervisor de Hierro" "Respondedor Máquina" "Centinela Voltáico" "Retenedor Galvánico" "Caballero Galvánico" "Campeón Galvánico" "Partisano Plateado" "Lancero Plateado" "Guerrero Voltáico" "Explorador Cibernético" "Artillero Galvánico" "Guardián Plateado" "Guardián Galvanizado" "Defensor Sincrónico" "Guarda Máquina" "Guardia Cibernético" "Centinela Sincrónico" "Vigilante Voltáico" "Cerbero Vinculado" "Vigía Plateado" "Protector Máquina" "Escolta Vinculado" "Preservador Sincrónico" "Patrullero Vinculado" "Escudo Galvanizado" "Pastor Cibernético" "Égida Plateada" "Custodio Galvánico" "Guardaespaldas Sincrónico" "Supervisor Mecanizado" "Bastión de Acero" "Manto de Hierro" "Bastión Plateado" "Manto de Plata"
+		}
 		
 		science = { 
 			"Módulo Científico"
@@ -40,26 +50,25 @@ MACHINE3 = {
 		transport = { 
 			"Módulo de Transporte"
 		}
-		
 
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = { 
-			#random_names = { }
+		military_station_small = {
+			"Reducto de Hierro" "Baluarte de Acero"
 		}
 
-		military_station_small = { "Reducto de Hierro" }
-		military_station_medium = { "Baluarte de Acero" }
-		military_station_large = { "Fortaleza Cromada" }
-	}
+		ion_cannon = {
+			"Fortaleza Cromada"
+		}
 
-	ship_class_names = {
-		generic = {
-		
-		}		
+		### For Fallen Empires
+		small_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+		large_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+		massive_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
 	}
 
 	fleet_names = {
@@ -75,7 +84,7 @@ MACHINE3 = {
 			sequential_name = "%C%º Escuadrón Vigilante Pro-Activo"
 		}
 
-		machine_defense_1 = {
+		machine_defense = {
 			random_names = { "1er Escuadrón Vigilante Defensivo" }
 			sequential_name = "%C%º Escuadrón Vigilante Defensivo"
 		}
@@ -84,15 +93,22 @@ MACHINE3 = {
 			random_names = { "1er Escuadrón Vigilante Ultra-Activo" }
 			sequential_name = "%C%º Escuadrón Vigilante Ultra-Activo"
 		}
-
-		machine_defense_2 = {
-			random_names = { "1er Escuadrón Vigilante Impenetrable" }
-			sequential_name = "%C%º Escuadrón Vigilante Impenetrable"
-		}
 		
 		machine_assault_3 = {
 			random_names = { "1er Vigilante Mega-Coloso" }
 			sequential_name = "%C%º Vigilante Mega-Coloso"
+		}
+		
+		defense_army = {
+			sequential_name = "%C%ª Defensores Bio-Curtidos"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Vigilantes Bio-Curtidos"
+		}
+		
+		clone_army = {
+			sequential_name = "%C%ª Clones Bio-Curtidos"
 		}
 	}
 		
@@ -102,13 +118,8 @@ MACHINE3 = {
 	planet_names = {
 
 		generic = {
-			names = {
-				
-				 "Habitat Kzzt" "Habitat Bwok" "Habitat Blip" "Habitat Koaxi" "Habitat Dwook" "Habitat Kwok" "Habitat Vworp" "Habitat Trock" "Habitat Clanck" "Habitat Qwert" "Habitat Zyzzyx" "Habitat Blixt" "Habitat Dwoop" "Habitat Bleep" "Habitat Fzzz" "Habitat Thwock" "Habitat Zonk" "Habitat Tessel" "Habitat Vrrr" "Habitat Whirr" "Habitat Flik" "Habitat Clack" "Habitat Nzzz" "Habitat Vizz" "Habitat Klonk" "Habitat Zap" "Habitat Plonk" "Habitat Krank" "Habitat Vert" "Habitat Pix" "Habitat Plink" "Habitat Zzt" "Habitat Bolt" "Habitat Klink" "Habitat Zpark" "Habitat Bzzt" "Habitat Cyl" "Habitat Axl" "Habitat Ovv" "Habitat Klik" "Habitat Mekk" "Habitat Brrow"
-
-				#"Habitat 1-8X" "Habitat 2-0Y" "Habitat 3-K3" "Habitat 4-7Z" "Habitat 5-0J" "Habitat 9-1V" "Habitat 7-5I" "Habitat 0-2M" "Habitat X-5X" "Habitat O-9T" "Habitat 6-G6" "Habitat B-X8" "Habitat I-39" "Habitat 8-0C" "Habitat 4-JH" "Habitat 0-VT" "Habitat Y-7N" "Habitat E-35" "Habitat 5-I5" "Habitat U-84" "Habitat T-14" "Habitat E-4N" "Habitat F-01" "Habitat 9-6L" "Habitat W-54" "Habitat K-06" "Habitat 3-J1" "Habitat 8-U7" "Habitat A-26" "Habitat R-49"
-
-				#"Biodomo Alpha" "Biodomo Beta" "Biodomo Gamma" "Biodomo Delta" "Biodomo Epsilon" "Biodomo Zeta" "Biodomo Eta" "Biodomo Theta" "Biodomo Iota" "Biodomo Kappa" "Biodomo Lambda" "Biodomo Mu" "Biodomo Nu" "Biodomo Xi" "Biodomo Omikron" "Biodomo Pi" "Biodomo Rho" "Biodomo Tau" "Biodomo Upsilon" "Biodomo Phi" "Biodomo Khi" "Biodomo Psi" "Biodomo Omega"
+			names = {				
+				 "Kzzt" "Bwok" "Blip" "Koaxi" "Dwook" "Kwok" "Vworp" "Trock" "Clanck" "Qwert" "Zyzzyx" "Blixt" "Bleep" "Fzzz" "Thwock" "Zonk" "Tessel" "Vrrr" "Whirr" "Flik" "Clack" "Vizz" "Klonk" "Zap" "Plonk" "Krank" "Vert" "Pix" "Plink" "Bolt" "Klink" "Zpark" "Bzzt" "Cyl" "Axl" "Wovv" "Klik" "Mekk" "Brrow" "Ping" "Dex" "Werx" "Gizmek" "Auton" "Motron" "Scy" "Int" "Char" "Bool" "Daton"			
 			}
 		}
 		
@@ -202,7 +213,7 @@ MACHINE3 = {
 	ruler_names = {
 		default = {
 			full_names = {
-				Cuidador Ionizador Blip Qube Módulo
+				Cuidador Ionizador Blip Qube Módulo Coordinador Atenuador Simulacron Harmonizador PAL Arcquitecto Vector
 			}
 		}
 	}

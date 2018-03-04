@@ -1,31 +1,40 @@
 ﻿### Machine 2
+### Written by Dee Majek
+
 MACHINE2 = {
 	should_name_home_system_planets = no
 	
 	ship_names = {
 
-		generic = {
-			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		generic = {			
 		}
 
 		corvette = {
-			"Nave de Combate Deca" "Nave de Combate Deci" "Nave de Combate Centi" "Nave de Combate Nano" "Nave de Combate Pico" "Nave de Combate Femto" "Nave de Combate Atto" "Nave de Combate Zepto" "Nave de Combate Yocto" "Nave de Combate Exa" "Nave de Combate Peta" "Nave de Combate Tera" "Nave de Combate Giga" "Nave de Combate Mega" "Nave de Combate Zetta" "Nave de Combate Yotta" "Nave de Combate Kibi" "Nave de Combate Mebi" "Nave de Combate Gibi" "Nave de Combate Tebi" "Nave de Combate Pebi" "Nave de Combate Exbi" "Nave de Combate Zebi" "Nave de Combate Yobi" "Nave de Combate Myria" "Nave de Combate Demi" "Nave de Combate Xenna" "Nave de Combate Weka" "Nave de Combate Vendeka" "Nave de Combate Xono" "Nave de Combate Weco" "Nave de Combate Vundo" "Nave de Combate Hedbo" "Nave de Combate Micri"
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
 		}
 		
 		destroyer = {
-			"Nave de Combate Deca" "Nave de Combate Deci" "Nave de Combate Centi" "Nave de Combate Nano" "Nave de Combate Pico" "Nave de Combate Femto" "Nave de Combate Atto" "Nave de Combate Zepto" "Nave de Combate Yocto" "Nave de Combate Exa" "Nave de Combate Peta" "Nave de Combate Tera" "Nave de Combate Giga" "Nave de Combate Mega" "Nave de Combate Zetta" "Nave de Combate Yotta" "Nave de Combate Kibi" "Nave de Combate Mebi" "Nave de Combate Gibi" "Nave de Combate Tebi" "Nave de Combate Pebi" "Nave de Combate Exbi" "Nave de Combate Zebi" "Nave de Combate Yobi" "Nave de Combate Myria" "Nave de Combate Demi" "Nave de Combate Xenna" "Nave de Combate Weka" "Nave de Combate Vendeka" "Nave de Combate Xono" "Nave de Combate Weco" "Nave de Combate Vundo" "Nave de Combate Hedbo" "Nave de Combate Micri"
+		"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
 		}
 		
 		cruiser = {
-			"Nave de Combate Deca" "Nave de Combate Deci" "Nave de Combate Centi" "Nave de Combate Nano" "Nave de Combate Pico" "Nave de Combate Femto" "Nave de Combate Atto" "Nave de Combate Zepto" "Nave de Combate Yocto" "Nave de Combate Exa" "Nave de Combate Peta" "Nave de Combate Tera" "Nave de Combate Giga" "Nave de Combate Mega" "Nave de Combate Zetta" "Nave de Combate Yotta" "Nave de Combate Kibi" "Nave de Combate Mebi" "Nave de Combate Gibi" "Nave de Combate Tebi" "Nave de Combate Pebi" "Nave de Combate Exbi" "Nave de Combate Zebi" "Nave de Combate Yobi" "Nave de Combate Myria" "Nave de Combate Demi" "Nave de Combate Xenna" "Nave de Combate Weka" "Nave de Combate Vendeka" "Nave de Combate Xono" "Nave de Combate Weco" "Nave de Combate Vundo" "Nave de Combate Hedbo" "Nave de Combate Micri"
+		"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
 		}
 		
 		battleship = {
-			"Nave de Combate Deca" "Nave de Combate Deci" "Nave de Combate Centi" "Nave de Combate Nano" "Nave de Combate Pico" "Nave de Combate Femto" "Nave de Combate Atto" "Nave de Combate Zepto" "Nave de Combate Yocto" "Nave de Combate Exa" "Nave de Combate Peta" "Nave de Combate Tera" "Nave de Combate Giga" "Nave de Combate Mega" "Nave de Combate Zetta" "Nave de Combate Yotta" "Nave de Combate Kibi" "Nave de Combate Mebi" "Nave de Combate Gibi" "Nave de Combate Tebi" "Nave de Combate Pebi" "Nave de Combate Exbi" "Nave de Combate Zebi" "Nave de Combate Yobi" "Nave de Combate Myria" "Nave de Combate Demi" "Nave de Combate Xenna" "Nave de Combate Weka" "Nave de Combate Vendeka" "Nave de Combate Xono" "Nave de Combate Weco" "Nave de Combate Vundo" "Nave de Combate Hedbo" "Nave de Combate Micri"
+		"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+
+		titan = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+
+		colossus = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
 		}
 		
 		science = { 
-			#"Investigador Venido del Vacío"
+			"Investigador"
 		}
 		
 		colonizer = { 
@@ -33,32 +42,31 @@ MACHINE2 = {
 		}
 		
 		constructor = { 
-			#"Constructor Venido del Vacío"
+			"Constructor"
 		}
 
 		transport = { 
 			"Transporte Máquina"
 		}
 		
-
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = { 
-			#random_names = { }
+		military_station_small = {
+			"Anti-Invasión Simplex"
 		}
 
-		military_station_small = { "Anti-Invasión Simplex" }
-		military_station_medium = { "Anti-Invasión Complex" }
-		military_station_large = { "Anti-Invasión Suplex" }
-	}
+		ion_cannon = {
+			"Anti-Invasión Suplex"
+		}
 
-	ship_class_names = {
-		generic = {
-			
-		}		
+		### For Fallen Empires
+		small_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+		large_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
+		massive_ship_fallen_empire = {
+			"Deca" "Deci" "Centi" "Nano" "Pico" "Femto" "Atto" "Zepto" "Yocto" "Exa" "Peta" "Tera" "Giga" "Mega" "Zetta" "Yotta" "Kibi" "Mebi" "Gibi" "Tebi" "Pebi" "Exbi" "Zebi" "Yobi" "Myria" "Demi" "Xenna" "Weka" "Vendeka" "Xono" "Weco" "Vundo" "Hedbo" "Micri"
+		}
 	}
 
 	fleet_names = {
@@ -75,7 +83,7 @@ MACHINE2 = {
 			sequential_name = "%C%º Asaltobot"
 		}
 
-		machine_defense_1 = {
+		machine_defense = {
 			random_names = { "1er Defensotrón" }
 			sequential_name = "%C%º Defensotrón"
 		}
@@ -84,15 +92,22 @@ MACHINE2 = {
 			random_names = { "1er Asaltobot Avanzado" }
 			sequential_name = "%C%º Asaltobot Avanzado"
 		}
-
-		machine_defense_2 = {
-		random_names = { "1er Defensotrón Avanzado" }
-			sequential_name = "%O%º Defensotrón Avanzado"
-		}
 		
 		machine_assault_3 = {
 			random_names = { "1er Hypertrón Gigante" }
 			sequential_name = "%O%º Hypertrón Gigante"
+		}
+		
+		defense_army = {
+			sequential_name = "%C%ª Guarnición Cibertrón"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Fuerza Cibertrón"
+		}
+		
+		clone_army = {
+			sequential_name = "%C%ª Clones Cibertrón"
 		}
 	}
 		
@@ -195,7 +210,7 @@ MACHINE2 = {
 	ruler_names = {
 		default = {
 			full_names = {
-				Cálculo Operador Protius Protia
+				Cálculo Operador Protius Protia Mechanus Lexer Terminus Combinatrix Automata Multiplex Logos Cognitus
 			}
 		}
 	}

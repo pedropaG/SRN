@@ -1,4 +1,6 @@
 ﻿### Mammalian 2
+### Created by Henrik Eklund
+
 MAM2 = {
 	### SHIPS
 
@@ -29,6 +31,12 @@ MAM2 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -38,21 +46,15 @@ MAM2 = {
 		
 		constructor = {
 		}
-		
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Puesto Fronterizo"
+	
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}
 	}
 
 	fleet_names = {
@@ -82,9 +84,17 @@ MAM2 = {
 		robotic_army = {
 			sequential_name = "Legión de Batalla Droide %R%"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "Legión de Defensa Droide %R%"
+		}
 		
 		android_army = {
 			sequential_name = "Legionarios Plateados %R%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Guardia Plateada %R%"
 		}
 		
 		psionic_army = { 
@@ -160,12 +170,12 @@ MAM2 = {
 			
 			# Always combined with a second name
 			first_names = {
-				Rodrig Galdrig Modrig Valdrig Jorim Barim Virpim Jargim Birm Raldirm Feldirm Pendirm
+				Rodrig Galdrig Modrig Valdrig Jorim Barim Virpim Jargim Birm Raldirm Feldirm Pendirm Suldirm Bakrig Kunrig Sarim Durim Vadrig Sukadrig Pudrig Vabrig Goridrig
 			}
 			
 			# Always combined with a first name
 			second_names = {
-				"den Hullos" "den Badir" "den Vathrag" "den Adasga" "den Polosch" "den Piriam" "den Tarrob" "den Iridar" "den Rothorag"
+				"den Hullos" "den Badir" "den Vathrag" "den Adasga" "den Polosch" "den Piriam" "den Tarrob" "den Iridar" "den Rothorag" "den Sukar" "den Armok" "den Vakor" "den Subir" "den Vatoris" "den Telnik" "den Vagors" "den Aramik" "den Pathir" "den Harak" "den Boknar"
 			}
 			
 			regnal_first_names = {

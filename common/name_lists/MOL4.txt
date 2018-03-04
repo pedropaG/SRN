@@ -1,0 +1,204 @@
+﻿### Molluscoid 4
+### Created by Dee Majek
+
+MOL4 = {
+	ship_names = {
+
+		generic = {
+		}
+
+		corvette = {
+			"Anguila Cargada" "Tiburón Vigilante" "Foca Acechante" "Rayo de Púas" "Mantarraya" "Francotirador" "Gaviota Chirriante" "Vieira Acechante" "Morsa Astuta" "Monstruo Marino" "Trilladora" "Escorpión de Mar" "Lucio Descuidero" "Calamar de Fuego" "Fuertealeta" "Negraleta" "Sirena Hambrienta" "Serpiente de Mar" "Caballito de Mar Veloz" "Cephalos" "Cangrejo a la Deriva" "Calamar Salado" "Camarón Acechante" "Langosta Negra" "Pez Negro" "Hidrozoan" "Ctenoforo" "Mesoglea" "Mejillón Travieso" "Nudibranquio Notorio" "Aeolid" "Cerata" "Calamar Astuto" "Estrella de Mar Plateada" "Sietebranquias" "Crustáceo Desgarrador" "Kril Astuto" "Nautilo Ágil" "Pargo Hirviente" "Liebre de Mar" "Espirula Espinosa" "Abulón Abominable" "Ostra Desagradable" "Percebe Salado" "Almeja Cósmica" "Gamba Juguetona" "Navajaleta" "Aspaleta" "Coral a la Dervia" "Cortaondas" "Persigue Arcos" "Embarcación de Jabeguero" "Jinete del Arco" "Medusa Justa" "Barcofuego" "Carraca Ágil" "Krait Sumergido" "Vendequillas" "Pez Espada Contundente" "Tiburón Salvaje" "Vieira Hervida" "Pesacador Rompemandíbulas" "Gamberro de Mar Profundo" "Salvaje Nacido del Mar" "Demonio del Mar" "Demonio Olaprofunda" "Bajoremolque" "Colmillo de Mar" "Terror Olaoscura" "Calamar Avaro" "Acechador del Mar" "Centinela de las Profundidades" "Almeja Inteligente" "Hierroaleta" "Cangrejo Cobarde" "Ahogador" "Estela Turbulenta" "Cazamareas" "Surfeaestrellas" "Marinero del Vacío" "Escamaestrella"
+		}
+		
+		destroyer = {
+			"Anguila Cargada" "Tiburón Vigilante" "Foca Acechante" "Rayo de Púas" "Mantarraya" "Francotirador" "Gaviota Chirriante" "Vieira Acechante" "Morsa Astuta" "Monstruo Marino" "Trilladora" "Escorpión de Mar" "Lucio Descuidero" "Calamar de Fuego" "Fuertealeta" "Negraleta" "Sirena Hambrienta" "Serpiente de Mar" "Caballito de Mar Veloz" "Cephalos" "Cangrejo a la Deriva" "Calamar Salado" "Camarón Acechante" "Langosta Negra" "Pez Negro" "Hidrozoan" "Ctenoforo" "Mesoglea" "Mejillón Travieso" "Nudibranquio Notorio" "Aeolid" "Cerata" "Calamar Astuto" "Estrella de Mar Plateada" "Sietebranquias" "Crustáceo Desgarrador" "Kril Astuto" "Nautilo Ágil" "Pargo Hirviente" "Liebre de Mar" "Espirula Espinosa" "Abulón Abominable" "Ostra Desagradable" "Percebe Salado" "Almeja Cósmica" "Gamba Juguetona" "Navajaleta" "Aspaleta" "Coral a la Dervia" "Cortaondas" "Persigue Arcos" "Embarcación de Jabeguero" "Jinete del Arco" "Medusa Justa" "Barcofuego" "Carraca Ágil" "Krait Sumergido" "Vendequillas" "Pez Espada Contundente" "Tiburón Salvaje" "Vieira Hervida" "Pesacador Rompemandíbulas" "Gamberro de Mar Profundo" "Salvaje Nacido del Mar" "Demonio del Mar" "Demonio Olaprofunda" "Bajoremolque" "Colmillo de Mar" "Terror Olaoscura" "Calamar Avaro" "Acechador del Mar" "Centinela de las Profundidades" "Almeja Inteligente" "Hierroaleta" "Cangrejo Cobarde" "Ahogador" "Estela Turbulenta" "Cazamareas" "Surfeaestrellas" "Marinero del Vacío" "Escamaestrella"
+		}
+		
+		cruiser = {
+			"Anguila Cargada" "Tiburón Vigilante" "Foca Acechante" "Rayo de Púas" "Mantarraya" "Francotirador" "Gaviota Chirriante" "Vieira Acechante" "Morsa Astuta" "Monstruo Marino" "Trilladora" "Escorpión de Mar" "Lucio Descuidero" "Calamar de Fuego" "Fuertealeta" "Negraleta" "Sirena Hambrienta" "Serpiente de Mar" "Caballito de Mar Veloz" "Cephalos" "Cangrejo a la Deriva" "Calamar Salado" "Camarón Acechante" "Langosta Negra" "Pez Negro" "Hidrozoan" "Ctenoforo" "Mesoglea" "Mejillón Travieso" "Nudibranquio Notorio" "Aeolid" "Cerata" "Calamar Astuto" "Estrella de Mar Plateada" "Sietebranquias" "Crustáceo Desgarrador" "Kril Astuto" "Nautilo Ágil" "Pargo Hirviente" "Liebre de Mar" "Espirula Espinosa" "Abulón Abominable" "Ostra Desagradable" "Percebe Salado" "Almeja Cósmica" "Gamba Juguetona" "Navajaleta" "Aspaleta" "Coral a la Dervia" "Cortaondas" "Persigue Arcos" "Embarcación de Jabeguero" "Jinete del Arco" "Medusa Justa" "Barcofuego" "Carraca Ágil" "Krait Sumergido" "Vendequillas" "Pez Espada Contundente" "Tiburón Salvaje" "Vieira Hervida" "Pesacador Rompemandíbulas" "Gamberro de Mar Profundo" "Salvaje Nacido del Mar" "Demonio del Mar" "Demonio Olaprofunda" "Bajoremolque" "Colmillo de Mar" "Terror Olaoscura" "Calamar Avaro" "Acechador del Mar" "Centinela de las Profundidades" "Almeja Inteligente" "Hierroaleta" "Cangrejo Cobarde" "Ahogador" "Estela Turbulenta" "Cazamareas" "Surfeaestrellas" "Marinero del Vacío" "Escamaestrella"
+		}
+		
+		battleship = {
+			"Anguila Cargada" "Tiburón Vigilante" "Foca Acechante" "Rayo de Púas" "Mantarraya" "Francotirador" "Gaviota Chirriante" "Vieira Acechante" "Morsa Astuta" "Monstruo Marino" "Trilladora" "Escorpión de Mar" "Lucio Descuidero" "Calamar de Fuego" "Fuertealeta" "Negraleta" "Sirena Hambrienta" "Serpiente de Mar" "Caballito de Mar Veloz" "Cephalos" "Cangrejo a la Deriva" "Calamar Salado" "Camarón Acechante" "Langosta Negra" "Pez Negro" "Hidrozoan" "Ctenoforo" "Mesoglea" "Mejillón Travieso" "Nudibranquio Notorio" "Aeolid" "Cerata" "Calamar Astuto" "Estrella de Mar Plateada" "Sietebranquias" "Crustáceo Desgarrador" "Kril Astuto" "Nautilo Ágil" "Pargo Hirviente" "Liebre de Mar" "Espirula Espinosa" "Abulón Abominable" "Ostra Desagradable" "Percebe Salado" "Almeja Cósmica" "Gamba Juguetona" "Navajaleta" "Aspaleta" "Coral a la Dervia" "Cortaondas" "Persigue Arcos" "Embarcación de Jabeguero" "Jinete del Arco" "Medusa Justa" "Barcofuego" "Carraca Ágil" "Krait Sumergido" "Vendequillas" "Pez Espada Contundente" "Tiburón Salvaje" "Vieira Hervida" "Pesacador Rompemandíbulas" "Gamberro de Mar Profundo" "Salvaje Nacido del Mar" "Demonio del Mar" "Demonio Olaprofunda" "Bajoremolque" "Colmillo de Mar" "Terror Olaoscura" "Calamar Avaro" "Acechador del Mar" "Centinela de las Profundidades" "Almeja Inteligente" "Hierroaleta" "Cangrejo Cobarde" "Ahogador" "Estela Turbulenta" "Cazamareas" "Surfeaestrellas" "Marinero del Vacío" "Escamaestrella"
+		}
+
+		titan = {
+			"Rompearcos" "Ahogado Resurgido" "Partebarcos" "Forjamareas" "Rasgacorrientes" "Horror Hundido"
+		}
+
+		colossus = {
+			"Come-Mundos" "Abiscreador"
+		}
+		
+		science = {
+			"Caballito de Mar Veloz" "Cephalos" "Cangrejo a la Deriva" "Calamar Salado" "Camarón Acechante" "Langosta Negra" "Pez Negro" "Hidrozoan" "Ctenoforo" "Mesoglea" "Mejillón Travieso" "Nudibranquio Notorio" "Aeolid" "Cerata" "Calamar Astuto" "Estrella de Mar Plateada" "Sietebranquias" "Crustáceo Desgarrador" "Kril Astuto" "Nautilo Ágil" "Pargo Hirviente" "Liebre de Mar" "Espirula Espinosa" "Abulón Abominable" "Ostra Desagradable" "Percebe Salado" "Almeja Cósmica" "Gamba Juguetona" "Navajaleta" "Aspaleta" "Coral a la Dervia" "Cortaondas" "Persigue Arcos" "Embarcación de Jabeguero" "Jinete del Arco" "Medusa Justa" "Barcofuego" "Carraca Ágil" "Krait Sumergido" "Vendequillas" "Pez Espada Contundente" "Tiburón Salvaje" "Vieira Hervida" "Pesacador Rompemandíbulas" "Gamberro de Mar Profundo" "Salvaje Nacido del Mar" "Demonio del Mar" "Demonio Olaprofunda" "Bajoremolque" "Colmillo de Mar" "Terror Olaoscura" "Calamar Avaro" "Acechador del Mar" "Centinela de las Profundidades" "Almeja Inteligente" "Hierroaleta" "Cangrejo Cobarde" "Ahogador" "Estela Turbulenta" "Cazamareas" "Surfeaestrellas" "Marinero del Vacío"			
+		}
+		
+		colonizer = {
+			"Caballito de Mar Veloz" "Cephalos" "Cangrejo a la Deriva" "Calamar Salado" "Camarón Acechante" "Langosta Negra" "Pez Negro" "Hidrozoan" "Ctenoforo" "Mesoglea" "Mejillón Travieso" "Nudibranquio Notorio" "Aeolid" "Cerata" "Calamar Astuto" "Estrella de Mar Plateada" "Sietebranquias" "Crustáceo Desgarrador" "Kril Astuto" "Nautilo Ágil" "Pargo Hirviente" "Liebre de Mar" "Espirula Espinosa" "Abulón Abominable" "Ostra Desagradable" "Percebe Salado" "Almeja Cósmica" "Gamba Juguetona" "Navajaleta" "Aspaleta" "Coral a la Dervia" "Cortaondas" "Persigue Arcos" "Embarcación de Jabeguero" "Jinete del Arco" "Medusa Justa" "Barcofuego" "Carraca Ágil" "Krait Sumergido" "Vendequillas" "Pez Espada Contundente" "Tiburón Salvaje" "Vieira Hervida" "Pesacador Rompemandíbulas" "Gamberro de Mar Profundo" "Salvaje Nacido del Mar" "Demonio del Mar" "Demonio Olaprofunda" "Bajoremolque" "Colmillo de Mar" "Terror Olaoscura" "Calamar Avaro" "Acechador del Mar" "Centinela de las Profundidades" "Almeja Inteligente" "Hierroaleta" "Cangrejo Cobarde" "Ahogador" "Estela Turbulenta" "Cazamareas" "Surfeaestrellas" "Marinero del Vacío"			
+		}
+		
+		constructor = {
+			"Caballito de Mar Veloz" "Cephalos" "Cangrejo a la Deriva" "Calamar Salado" "Camarón Acechante" "Langosta Negra" "Pez Negro" "Hidrozoan" "Ctenoforo" "Mesoglea" "Mejillón Travieso" "Nudibranquio Notorio" "Aeolid" "Cerata" "Calamar Astuto" "Estrella de Mar Plateada" "Sietebranquias" "Crustáceo Desgarrador" "Kril Astuto" "Nautilo Ágil" "Pargo Hirviente" "Liebre de Mar" "Espirula Espinosa" "Abulón Abominable" "Ostra Desagradable" "Percebe Salado" "Almeja Cósmica" "Gamba Juguetona" "Navajaleta" "Aspaleta" "Coral a la Dervia" "Cortaondas" "Persigue Arcos" "Embarcación de Jabeguero" "Jinete del Arco" "Medusa Justa" "Barcofuego" "Carraca Ágil" "Krait Sumergido" "Vendequillas" "Pez Espada Contundente" "Tiburón Salvaje" "Vieira Hervida" "Pesacador Rompemandíbulas" "Gamberro de Mar Profundo" "Salvaje Nacido del Mar" "Demonio del Mar" "Demonio Olaprofunda" "Bajoremolque" "Colmillo de Mar" "Terror Olaoscura" "Calamar Avaro" "Acechador del Mar" "Centinela de las Profundidades" "Almeja Inteligente" "Hierroaleta" "Cangrejo Cobarde" "Ahogador" "Estela Turbulenta" "Cazamareas" "Surfeaestrellas" "Marinero del Vacío"			
+		}
+		
+		transport = {
+			"Barcaza de la Muerte"
+		}
+	
+		military_station_small = {
+			"Percebe Boyante" "Coral Dentado" "Concha Sólida" "Poderoso Lastre" "Coral de Fuego" "Anémona Punzante"
+		}
+
+		ion_cannon = {
+			"Rompecascos" "Adjudicador Hundido" "Ola Eterna" "Árbitro Abisal"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Marea Roja" "Marea Negra" "Rompeolas" "Ola Estrellada" "Tsunami" "Marejada" "Tifón" "Ola de Mareas" "Aplastamiento Blanco" "Huracán" "El Diluvio" "Mar Furioso"
+		}
+		sequential_name = "%C%ª Flota Profunda"
+	}
+
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%C%ª Defensores Caparazónrígido"
+		}
+			
+		assault_army = {
+			sequential_name = "%C%ª Rompecáscaras"
+		}
+		
+		slave_army = {
+			sequential_name = "%C%ª Esclavos Ligados"
+		}
+		
+		clone_army = { 
+			sequential_name = "%C%ª Marinos Replicantes"
+		}
+		
+		robotic_army = {
+			sequential_name = "%C%ª Rompecáscaras Robóticos"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Defensabots Conchaférrea"
+		}
+		
+		android_army = {
+			sequential_name = "%C%ª Androides Rompeconchas"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Intrépidos Defensadroides"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%C%ª Azotamentes"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%C%ª Horrores Profundos"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%C%ª Germinantes Moribundos"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Fortaleza Coral" "Desembarco del Buscador" "Isla Flotante" "Perla Reluciente" "Arrecife Iluminado" "Perla Oculta" "Cala Brillante" "Orilla Lejana" "Isla a la Deriva" "Puerto Seguro" "El Amarradero" "Concha Blindada" "Siempre Asilo" "Concha Reluciente" "Ancla Pesada" "Ensenada Lejana" "Retiro Solitario" "Anclaje Abisal"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				"Bajíos Secos" "Braza Soleada" "Arenas Eternas" "Playa Seca" "Mar de Dunas" "Cala Arenosa" "Orilla Abrasada"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				"Millar de Algas" "Braza Tropical" "Costa Salvaje" "Bajíos Salvajes" "Lirio de Mar" "Manglar Resplandeciente"
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				"Extensión Banco de Arena" "Playa Bostezo" "Costa Árida" "Banco de Arena" "Orilla Sin Mar" "Ensenada Arenosa"
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				"Laguna Clara" "Costa Esmeralda" "Bahía Sombría" "Cala Protegida" "Isla Barlovento" "Atolón Verde" "Costa Ilimitada" "Aguasjustas"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				"Aguja Profunda" "Nautilus Oscuro" "Profundidades" "Relicario Hundido" "Flor Acuática" "Arrecife Hundido" "Joya Oceánica" "Espiral Hundida" "Tesoro Ondeante"
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				"Profunda Desolación" "Abismo Susurrante" "Costa Desolada" "Cuenca Hueca" "Arrecife Amargo" "Delta Nevado" "Dragado Oscuro"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				"Madre Perla" "Bajíos Congelados" "Costa Frígida" "Laguna Glacial" "Arrecife Helado" "Anclaje Helado" "Coral Escarchado"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Hierbamar" "Pradera Profunda" "Llanuras Bravas" "Concha Soleada" "Cuenca Alga"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"Alta Profundidad" "Fiordo Resonante" "Alto Canal" "Costa Nevada" "Canal Escarpado" "Angostos"
+			}
+		}
+		
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				"Skegg" "Skeff" "Gorblegg" "Snagg" "Oneggon" "Sogg" "Surg" "Takk" "Tegg" "Trall" "Turm" "Pogg" "Yegg" "Yurg" "Truss" "Veerigg" "Voyl" "Whelk" "Shelk" "Shulk" "Yogg" "Yorn" "Abthogg" "Gnashol" "Gogroth" "Olkogg" "Nir-Shub" "Isaggor" "Xanogg" "Yibroth" "Segnoth" "Ubbloss" "Nyvoss" "Dagoss" "Degof" "Vedoss" "Orrdeg" "Bassoneg" "Nyrg" "Norgg" "Roggesh" "Yib-Tesh" "Sosoth" "Vorosh" "Dathagg" "Avosh" "Imuth" "Naug" "Gesseg" "Forross" "Gommosh" "Gomm" "Girgg" "Gesh" "Grogg" "Yoggoss" "Gybbess" "Kaepp" "Nodess" "Ubb-Soth" "Mukk-shelch" "Vurthokk" "Tar-Gnish" "Kaleeg" "Yathag"
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				"Saltmarsh" "Sailmaker" "Skysail" "Shifttide" "Sixsheets" "Oarlock" "Oilskin" "Slipway" "Spindrift" "Sternwheel" "Taffrail" "Threesheets" "Twoheave" "Unrove" "Watersail" "Waterkite" "Watchsail" "Slipsail" "Slipsalt" "Whipsail" "Windward" "Windsail" "Swigg" "Yawl" "Beamsend" "Beamsea" "Boathook" "Bowsprit" "Brigsloop" "Broadside" "Carronade" "Chainwale" "Clewline" "Closehaul" "Cutwater" "Deadwake" "Deadlight" "Downhaul" "Fairlead" "Foresail" "Gangway" "Garboard" "Gunwale" "Hardtack" "Headsail" "Cantkeel" "Mainmast" "Mistship" "Springtide" "Longshore" "Starsail" "Farshore"
+
+			}
+			
+			regnal_first_names = {
+				"Cuthul" "Cusseg" "Saggosh" "Ythog" "Tor-Gol" "Urbogg" "Gemess" "Ikorsogg" "Kaless" "Karsegg" "Voroth" "Vossos" "Paseeg"
+			}
+			
+			regnal_second_names = {
+				"Silbamarea"
+			}
+		}
+	}
+}

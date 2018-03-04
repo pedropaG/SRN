@@ -26,6 +26,14 @@ HIVE = {
 		battleship = {
 			"Dron de Combate"
 		}
+
+		titan = {
+			"Dron de Combate"
+		}
+
+		colossus = {
+			"Dron Primario de Combate"
+		}
 		
 		science = {
 			"Dron Buscador"
@@ -38,24 +46,17 @@ HIVE = {
 		constructor = {
 			"Dron Constructor"
 		}
-		
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			"Vástago"
-		}
-
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
-
+	
 		transport = {
 			"Dron Portador"
+		}
+	
+		military_station_small = {
+			"Estacionario Defensivo"
+		}
+
+		ion_cannon = {
+			"Ión Defensivo"
 		}
 	}
 
@@ -68,7 +69,7 @@ HIVE = {
 	fleet_names = {
 		random_names = { "1er Enjambre de Combate"
 		}
-		sequential_name = "%O% Enjambre de Combate"
+		sequential_name = "%C%º Enjambre de Combate"
 	}
 	
 	### ARMIES
@@ -94,9 +95,17 @@ HIVE = {
 		robotic_army = {
 			sequential_name = "Drones-Guerreros Robóticos %C%"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "Drones-Defensivos Robóticos %C%"
+		}
 		
 		android_army = {
 			sequential_name = "Drones-Guerreros Droides %C%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Drones-Defensivos Droides %C%"
 		}
 		
 		psionic_army = { 

@@ -21,6 +21,12 @@ REP2 = {
 		battleship = {
 		}
 		
+		titan = {
+		}
+		
+		colossus = {
+		}
+		
 		science = {
 		}
 		
@@ -30,19 +36,14 @@ REP2 = {
 		constructor = {
 		}
 		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Frontier Outpost"
+		transport = {
 		}
-
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		
+		military_station_small = {
+		}
+		
+		ion_cannon = {
+		}
 	}
 
 	fleet_names = {
@@ -59,7 +60,7 @@ REP2 = {
 		}
 			
 		assault_army = {
-			sequential_name = "%C%º Invasores Planetarios"
+			sequential_name = "%C%ª Invasores Planetarios"
 		}
 		
 		slave_army = {
@@ -71,23 +72,31 @@ REP2 = {
 		}
 		
 		robotic_army = {
-			sequential_name = "%C%º Constructos de Batalla"
+			sequential_name = "%C%ª Constructos de Batalla"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Constructos Defensivos"
 		}
 		
 		android_army = {
-			sequential_name = "%C%º Androides de Batalla"
+			sequential_name = "%C%ª Androides de Batalla"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Androides Defensivos"
 		}
 		
 		psionic_army = { 
-			sequential_name = "%C%º Tejedores Cósmicos"
+			sequential_name = "%C%ª Tejedores Cósmicos"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%C%º Instrumentos de Erradicación"
+			sequential_name = "%C%ª Instrumentos de Erradicación"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "%C%º Elite Mutante"
+			sequential_name = "%C%ª Elite Mutante"
 		}	
 	}
 	### PLANETS
@@ -143,7 +152,7 @@ REP2 = {
 		default = {
 			# A complete name
 			full_names = {
-				Xirgliss Cathiox Zir Zarax Rekaxir Cax Zidlaxi Cabroxi Xidlor Zeraxim Moz Zoz Xaz Zax Zacadliss Cothaxir Xoblagiss Rezicax Morezac Midloxec
+				Xirgliss Cathiox Zir Zarax Rekaxir Cax Zidlaxi Cabroxi Xidlor Zeraxim Moz Zoz Xaz Zax Zacadliss Cothaxir Xoblagiss Rezicax Morezac Midloxec Vax Zumax Raxir Xiraxor Vox Zurix Xirax Caberox Cimax Morax Zetioz Verizac Medizac Carizac Mozac Vitarax Cobanox Xaboc Vaxoma Zetix Carax Cablox Zinix Cadux Mirox Raxor
 			}
 			
 			# Always combined with a second name

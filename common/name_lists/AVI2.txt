@@ -42,6 +42,12 @@ AVI2 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -52,28 +58,20 @@ AVI2 = {
 		constructor = {
 		}
 		
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = {
-				"Ojo Atento" "Ojo Vigilante" "Ojo Durmiente" "Ojo Agudo" "Ojo Despectivo" "Ojo Distraído" "Ojo Taimado" "Ojo Ferviente" "Ojo Intrépido" "Ojo Tenaz"
-			#}
-			#sequential_name = "%O% Frontier Outpost"
+
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}
 	}
 
 	ship_class_names = {
 		generic = {
-			Q'Dreeg Q'Polk Q'Doqur Q'Bewk Q'Rekoth Q'Jarok
+			Q'Dreeg Q'Polk Q'Doqur Q'Bewk Q'Rekoth Q'Jarok Q'Vakir Q'Surki Q'Daqa Q'Vatanu Q'Mitik Q'Sabor Q'Rimiko Q'Sbak Q'Darku Q'Parik Q'Vaku Q'Potok Q'Jibbi
 		}		
 	}
 
@@ -106,8 +104,16 @@ AVI2 = {
 			sequential_name = "%C%ª Fuerza Droide"
 		}
 		
+		robotic_defense_army = {
+			sequential_name = "%C%ª Defensa Droide"
+		}
+		
 		android_army = {
 			sequential_name = "%C%ª Nano Fuerza"
+		}
+		
+		android_defense_army = {
+			sequential_name = "%C%ª Nano Defensa"
 		}
 		
 		psionic_army = { 
@@ -167,6 +173,16 @@ AVI2 = {
 			names = {
 			}
 		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
 	}
 
 	### CHARACTERS
@@ -175,7 +191,7 @@ AVI2 = {
 		default = {
 			# A complete name
 			full_names = {
-				Bhunakh Taradak Loketral Yurulek Krotyug Laktras Heektor Datnaq Qutrok Traak Kryydur Tryykad Dluuret Klotrast Tabhuk Qotryyk Lytalk Bhudlakras Tuyledek Dalurkot
+				Bhunakh Taradak Loketral Yurulek Krotyug Laktras Heektor Datnaq Qutrok Traak Kryydur Tryykad Dluuret Klotrast Tabhuk Qotryyk Lytalk Bhudlakras Tuyledek Dalurkot Bahakum Triik Yavak Tuutalk Lokorik Baduraki Qoviik Qotaar Tibakh Hiikar Kataag Qobruuk Lakitrak
 			}
 			
 			# Always combined with a second name

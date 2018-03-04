@@ -18,6 +18,12 @@ ART2 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -28,24 +34,14 @@ ART2 = {
 		constructor = {
 		}
 		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = {
-				Xan-Zaj Kull-Zaj Medt-Zaj Kign-Zaj Synt-Zaj Kend-Zaj Klet-Zaj Terb-Zaj
-			#}
-			#sequential_name = "%O% Frontier Outpost"
+		transport = {
 		}
 	
-		military_station_small = {}
-	
-		military_station_medium = {}
-	
-		military_station_large = {}	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
 	}
 	
 	fleet_names = {
@@ -78,9 +74,17 @@ ART2 = {
 			sequential_name = "%C%ª Grupo Mecha"
 		}
 		
+		robotic_defense_army = {
+			sequential_name = "%C%ª Mecha de Defensa"
+		}
+		
 		android_army = {
 			random_names = { "1er Grupo Constructor" }
 			sequential_name = "%C%º Grupo Constructor"
+		}
+		
+		android_defense_army = {
+			sequential_name = "%C%ª Constructor de Defensa"
 		}
 		
 		psionic_army = {
@@ -139,8 +143,17 @@ ART2 = {
 		pc_arctic = {
 			names = {
 			}
+		}		
+
+		pc_savannah = {
+			names = {
+			}
 		}
-		
+
+		pc_alpine = {
+			names = {
+			}
+		}
 	}
 	
 	### CHARACTERS

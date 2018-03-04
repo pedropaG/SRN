@@ -3,6 +3,7 @@
  NAME_Sterilizer: "Esterelizador"
  NAME_AI_1: "IA 1"
  NAME_AI_2: "IA 2"
+ NAME_AI_STARBASE: "IA Base Estelar"
  NAME_AI_Core: "Núcleo IA"
  NAME_AI_Transport: "Transporte IA"
  NAME_AI_Colonizer: "Colonizador IA"
@@ -217,6 +218,9 @@
  NAME_C2: "C2"
  NAME_Taciturn: "Taciturno"
  NAME_Reticent: "Reticente"
- NAME_Cybrex_Core: "Último Bastión" # NEW
- NAME_Cybrex_Station_1: "Vigilia Uno" # NEW
- NAME_Cybrex_Station_2: "Vigilia Dos" # NEW
+
+# NEW
+ NAME_Cybrex_Core: "Último Bastión"
+ NAME_Cybrex_Station_1: "Vigilia Uno"
+ NAME_Cybrex_Station_2: "Vigilia Dos"
+ NAME_Marauder_Starbase: "Hogar Vacío"

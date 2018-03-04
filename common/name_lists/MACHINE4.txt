@@ -1,0 +1,178 @@
+﻿### Machine 4
+### Created by Maximilian Olbers
+
+MACHINE4 = {
+	should_name_home_system_planets = no
+	ship_names = {
+
+		generic = {
+			compuesto4 compuesto6 compuesto8 compuesto9 compuesto10 compuesto12 compuesto14 compuesto15 compuesto16 compuesto18 compuesto20 compuesto21 compuesto22 compuesto24 compuesto25 compuesto26 compuesto27 compuesto28 compuesto30 compuesto32 compuesto33 compuesto34 compuesto35 compuesto36 compuesto38 compuesto39 compuesto40 compuesto42 compuesto44 compuesto45 compuesto46 compuesto48 compuesto49 compuesto50 compuesto51 compuesto52 compuesto54 compuesto55 compuesto56 compuesto57 compuesto58 compuesto60 compuesto62 compuesto63 compuesto64 compuesto65 compuesto66 compuesto68 compuesto69 compuesto70 compuesto72 compuesto74 compuesto75 compuesto76 compuesto77 compuesto78 compuesto80 compuesto81 compuesto82 compuesto84 compuesto85 compuesto86 compuesto87 compuesto88 compuesto90 compuesto91 compuesto92 compuesto93 compuesto94 compuesto95 compuesto96 compuesto98 compuesto99 compuesto100 compuesto102 compuesto104 compuesto105 compuesto106 compuesto108 compuesto110 compuesto111 compuesto112 compuesto114 compuesto115 compuesto116 compuesto117 compuesto118 compuesto119 compuesto120 compuesto121 compuesto122 compuesto123 compuesto124 compuesto125 compuesto126 compuesto128 compuesto129 compuesto130 compuesto132 compuesto133 compuesto134 compuesto135 compuesto136 compuesto138 compuesto140 compuesto141 compuesto142 compuesto143 compuesto144 compuesto145 compuesto146 compuesto147 compuesto148 compuesto150 compuesto152 compuesto153 compuesto154 compuesto155 compuesto156 compuesto158 compuesto159 compuesto160 compuesto161 compuesto162 compuesto164 compuesto165 compuesto166 compuesto168 compuesto169 compuesto170 compuesto171 compuesto172 compuesto174 compuesto175 compuesto176 compuesto177 compuesto178 compuesto180 compuesto182 compuesto183 compuesto184 compuesto185 compuesto186 compuesto187 compuesto188 compuesto189 compuesto190 compuesto192 compuesto194 compuesto195 compuesto196 compuesto198 compuesto200 compuesto201 compuesto202 compuesto203 compuesto204 compuesto205 compuesto206 compuesto207 compuesto208 compuesto209 compuesto210 compuesto212 compuesto213 compuesto214 compuesto215 compuesto216 compuesto217 compuesto218 compuesto219 compuesto220 compuesto221 compuesto222 compuesto224 compuesto225 compuesto226 compuesto228 compuesto230 compuesto231 compuesto232 compuesto234 compuesto235 compuesto236 compuesto237 compuesto238 compuesto240 compuesto242 compuesto243 compuesto244 compuesto245 compuesto246 compuesto247 compuesto248 compuesto249 compuesto250 compuesto252 compuesto253 compuesto254 compuesto255 compuesto256 compuesto258 compuesto259 compuesto260 compuesto261 compuesto262 compuesto264 compuesto265 compuesto266 compuesto267 compuesto268 compuesto270 compuesto272 compuesto273 compuesto274 compuesto275 compuesto276 compuesto278 compuesto279 compuesto280 compuesto282 compuesto284 compuesto285 compuesto286 compuesto287 compuesto288 compuesto289 compuesto290 compuesto291 compuesto292 compuesto294 compuesto295 compuesto296 compuesto297 compuesto298 compuesto299 compuesto300 compuesto301 compuesto302 compuesto303 compuesto304 compuesto305 compuesto306 compuesto308 compuesto309 compuesto310 compuesto312 compuesto314 compuesto315 compuesto316 compuesto318 compuesto319 compuesto320 compuesto321 compuesto322 compuesto323 compuesto324 compuesto325 compuesto326 compuesto327 compuesto328 compuesto329 compuesto330 compuesto332 compuesto333 compuesto334 compuesto335 compuesto336 compuesto338 compuesto339 compuesto340 compuesto341 compuesto342 compuesto343 compuesto344 compuesto345 compuesto346 compuesto348 compuesto350 compuesto351 compuesto352 compuesto354 compuesto355 compuesto356 compuesto357 compuesto358 compuesto360 compuesto361 compuesto362 compuesto363 compuesto364 compuesto365 compuesto366 compuesto368 compuesto369 compuesto370 compuesto371 compuesto372 compuesto374 compuesto375 compuesto376 compuesto377 compuesto378 compuesto380 compuesto381 compuesto382 compuesto384 compuesto385 compuesto386 compuesto387 compuesto388 compuesto390 compuesto391 compuesto392 compuesto393 compuesto394 compuesto395 compuesto396 compuesto398 compuesto399 compuesto400 compuesto402 compuesto403 compuesto404 compuesto405 compuesto406 compuesto407 compuesto408 compuesto410 compuesto411 compuesto412 compuesto413 compuesto414 compuesto415 compuesto416 compuesto417 compuesto418 compuesto420 compuesto422 compuesto423 compuesto424 compuesto425 compuesto426 compuesto427 compuesto428 compuesto429 compuesto430 compuesto432 compuesto434 compuesto435 compuesto436 compuesto437 compuesto438 compuesto440 compuesto441 compuesto442 compuesto444 compuesto445 compuesto446 compuesto447 compuesto448 compuesto450 compuesto451 compuesto452 compuesto453 compuesto454 compuesto455 compuesto456 compuesto458 compuesto459 compuesto460 compuesto462 compuesto464 compuesto465 compuesto466 compuesto468 compuesto469 compuesto470 compuesto471 compuesto472 compuesto473 compuesto474 compuesto475 compuesto476 compuesto477 compuesto478 compuesto480 compuesto481 compuesto482 compuesto483 compuesto484 compuesto485 compuesto486 compuesto488 compuesto489 compuesto490 compuesto492 compuesto493 compuesto494 compuesto495 compuesto496 compuesto497 compuesto498 compuesto500 compuesto501 compuesto502 compuesto504 compuesto505 compuesto506 compuesto507 compuesto508 compuesto510 compuesto511 compuesto512 compuesto513 compuesto514 compuesto515 compuesto516 compuesto517 compuesto518 compuesto519 compuesto520 compuesto522 compuesto524 compuesto525 compuesto526 compuesto527 compuesto528 compuesto529 compuesto530 compuesto531 compuesto532 compuesto533 compuesto534 compuesto535 compuesto536 compuesto537 compuesto538 compuesto539 compuesto540 compuesto542 compuesto543 compuesto544 compuesto545 compuesto546 compuesto548 compuesto549 compuesto550 compuesto551 compuesto552 compuesto553 compuesto554 compuesto555 compuesto556 compuesto558 compuesto559 compuesto560 compuesto561 compuesto562 compuesto564 compuesto565 compuesto566 compuesto567 compuesto568 compuesto570 compuesto572 compuesto573 compuesto574 compuesto575 compuesto576 compuesto578 compuesto579 compuesto580 compuesto581 compuesto582 compuesto583 compuesto584 compuesto585 compuesto586 compuesto588 compuesto589 compuesto590 compuesto591 compuesto592 compuesto594 compuesto595 compuesto596 compuesto597 compuesto598 compuesto600 compuesto602 compuesto603 compuesto604 compuesto605 compuesto606 compuesto608 compuesto609 compuesto610 compuesto611 compuesto612 compuesto614 compuesto615 compuesto616 compuesto618 compuesto620 compuesto621 compuesto622 compuesto623 compuesto624 compuesto625 compuesto626 compuesto627 compuesto628 compuesto629 compuesto630 compuesto632 compuesto633 compuesto634 compuesto635 compuesto636 compuesto637 compuesto638 compuesto639 compuesto640 compuesto642 compuesto644 compuesto645 compuesto646 compuesto648 compuesto649 compuesto650 compuesto651 compuesto652 compuesto654 compuesto655 compuesto656 compuesto657 compuesto658 compuesto660 compuesto662 compuesto663 compuesto664 compuesto665 compuesto666 compuesto667 compuesto668 compuesto669 compuesto670 compuesto671 compuesto672 compuesto674 compuesto675 compuesto676 compuesto678 compuesto679 compuesto680 compuesto681 compuesto682 compuesto684 compuesto685 compuesto686 compuesto687 compuesto688 compuesto689 compuesto690 compuesto692 compuesto693 compuesto694 compuesto695 compuesto696 compuesto697 compuesto698 compuesto699 compuesto700 compuesto702 compuesto703 compuesto704 compuesto705 compuesto706 compuesto707 compuesto708 compuesto710 compuesto711 compuesto712 compuesto713 compuesto714 compuesto715 compuesto716 compuesto717 compuesto718 compuesto720 compuesto721 compuesto722 compuesto723 compuesto724 compuesto725 compuesto726 compuesto728 compuesto729 compuesto730 compuesto731 compuesto732 compuesto734 compuesto735 compuesto736 compuesto737 compuesto738 compuesto740 compuesto741 compuesto742 compuesto744 compuesto745 compuesto746 compuesto747 compuesto748 compuesto749 compuesto750 compuesto752 compuesto753 compuesto754 compuesto755 compuesto756 compuesto758 compuesto759 compuesto760 compuesto762 compuesto763 compuesto764 compuesto765 compuesto766 compuesto767 compuesto768 compuesto770 compuesto771 compuesto772 compuesto774 compuesto775 compuesto776 compuesto777 compuesto778 compuesto779 compuesto780 compuesto781 compuesto782 compuesto783 compuesto784 compuesto785 compuesto786 compuesto788 compuesto789 compuesto790 compuesto791 compuesto792 compuesto793 compuesto794 compuesto795 compuesto796 compuesto798 compuesto799 compuesto800 compuesto801 compuesto802 compuesto803 compuesto804 compuesto805 compuesto806 compuesto807 compuesto808 compuesto810 compuesto812 compuesto813 compuesto814 compuesto815 compuesto816 compuesto817 compuesto818 compuesto819 compuesto820 compuesto822 compuesto824 compuesto825 compuesto826 compuesto828 compuesto830 compuesto831 compuesto832 compuesto833 compuesto834 compuesto835 compuesto836 compuesto837 compuesto838 compuesto840 compuesto841 compuesto842 compuesto843 compuesto844 compuesto845 compuesto846 compuesto847 compuesto848 compuesto849 compuesto850 compuesto851 compuesto852 compuesto854 compuesto855 compuesto856 compuesto858 compuesto860 compuesto861 compuesto862 compuesto864 compuesto865 compuesto866 compuesto867 compuesto868 compuesto869 compuesto870 compuesto871 compuesto872 compuesto873 compuesto874 compuesto875 compuesto876 compuesto878 compuesto879 compuesto880 compuesto882 compuesto884 compuesto885 compuesto886 compuesto888 compuesto889 compuesto890 compuesto891 compuesto892 compuesto893 compuesto894 compuesto895 compuesto896 compuesto897 compuesto898 compuesto899 compuesto900 compuesto901 compuesto902 compuesto903 compuesto904 compuesto905 compuesto906 compuesto908 compuesto909 compuesto910 compuesto912 compuesto913 compuesto914 compuesto915 compuesto916 compuesto917 compuesto918 compuesto920 compuesto921 compuesto922 compuesto923 compuesto924 compuesto925 compuesto926 compuesto927 compuesto928 compuesto930 compuesto931 compuesto932 compuesto933 compuesto934 compuesto935 compuesto936 compuesto938 compuesto939 compuesto940 compuesto942 compuesto943 compuesto944 compuesto945 compuesto946 compuesto948 compuesto949 compuesto950 compuesto951 compuesto952 compuesto954 compuesto955 compuesto956 compuesto957 compuesto958 compuesto959 compuesto960 compuesto961 compuesto962 compuesto963 compuesto964 compuesto965 compuesto966 compuesto968 compuesto969 compuesto970 compuesto972 compuesto973 compuesto974 compuesto975 compuesto976 compuesto978 compuesto979 compuesto980 compuesto981 compuesto982 compuesto984 compuesto985 compuesto986 compuesto987 compuesto988 compuesto989 compuesto990 compuesto992 compuesto993 compuesto994 compuesto995 compuesto996 compuesto998 compuesto999 compuesto1000
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+			"Apocalyptic Prime"
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			prime002 prime003 prime005 prime007 prime011 prime013 prime017 prime019 prime023 prime029 prime031 prime037 prime041 prime043 prime047 prime053 prime059 prime061 prime067 prime071 prime073 prime079 prime083 prime089 prime097 prime101 prime103 prime107 prime109 prime113 prime127 prime131 prime137 prime139 prime149 prime151 prime157 prime163 prime167 prime173 prime179 prime181 prime191 prime193 prime197 prime199 prime211 prime223 prime227 prime229 prime233 prime239 prime241 prime251 prime257 prime263 prime269 prime271 prime277 prime281 prime283 prime293 prime307 prime311 prime313 prime317 prime331 prime337 prime347 prime349 prime353 prime359 prime367 prime373 prime379 prime383 prime389 prime397 prime401 prime409 prime419 prime421 prime431 prime433 prime439 prime443 prime449 prime457 prime461 prime463 prime467 prime479 prime487 prime491 prime499 prime503 prime509 prime521 prime523 prime541 prime547 prime557 prime563 prime569 prime571 prime577 prime587 prime593 prime599 prime601 prime607 prime613 prime617 prime619 prime631 prime641 prime643 prime647 prime653 prime659 prime661 prime673 prime677 prime683 prime691 prime701 prime709 prime719 prime727 prime733 prime739 prime743 prime751 prime757 prime761 prime769 prime773 prime787 prime797 prime809 prime811 prime821 prime823 prime827 prime829 prime839 prime853 prime857 prime859 prime863 prime877 prime881 prime883 prime887 prime907 prime911 prime919 prime929 prime937 prime941 prime947 prime953 prime967 prime971 prime977 prime983 prime991 prime997
+		}
+	}
+	
+	army_names = {
+
+		machine_assault_1 = {
+			random_names =  { "1er Escuadrón de Usurpación Táctico" }
+			sequential_name = "%C%º Escuadrón de Usurpación Táctico"
+		}
+
+		machine_defense = {
+			sequential_name = "%C%ª Fortificación Asignada"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%C%ª Demoliciones Pesadas"
+		}
+	
+		machine_assault_3 = {
+			random_names =  { "1er Erradicador" }
+			sequential_name = "%C%º Erradicador"
+		}
+	
+		defense_army = {
+			sequential_name = "%C%ª Égida Cibernética"
+		}
+			
+		assault_army = {
+			random_names =  { "1er Embate Cibernético" }
+			sequential_name = "%C%º Embate Cibernético"
+		}
+		
+		clone_army = {
+			random_names =  { "1er Regimiento Réplica" }
+			sequential_name = "%C%º Regimiento Réplica"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Congruencia Diferencia Isósceles Media Mediana Monomio Polinomio Cuadrática Radical Radio Escaleno Rational Recíproca Denominador Derecha Fracción Diámetro Equilátero Decimal Cúbica Grado Común Factor Irracional Lineal Compuesto Proporcional Solución Cuadrado Raíz Conjunto Poder Trinomio Multinomio Variable Entero Tolerancia Trigonométrico Intervalo Parábola Conjugación Disolvente Máxima Mínima Extrema Agudo Obtuso
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = { 
+			}
+			
+			# Always combined with a second name
+			first_names_male = {
+				Calculadora Ordenador
+			}
+
+			first_names_female = {
+				Calculadora Ordenador
+			}
+
+			# Always combined with a first name
+			second_names = {
+				Rombo Trapezoide Trapecio Hexágono Pentágono Octógono Heptágono Nonágono Decágono Octaedro Dodecaedro Icosaedro Oloide Esfericón Hiperboloide Isócrono Horóptero Syntractrix Trochoide Nephroide
+			}
+			
+			regnal_first_names_female = {				
+				Calculadora Ordenador
+			}
+
+			regnal_first_names_male = {				
+				Calculadora Ordenador
+			}
+			
+			regnal_second_names = {
+				Klein
+			}
+		}
+	}
+}

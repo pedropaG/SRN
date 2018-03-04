@@ -1,5 +1,6 @@
 ﻿### Plantoid 1
 ### Created by Rufus Tronde Miranda van den Brink
+
 PLANT = {
 	### SHIPS
 
@@ -8,16 +9,24 @@ PLANT = {
 		generic = {
 			   	}
 
-		corvette = {  "Espina" "Espina Plateada" "Espina de Hierro" "Espina Perforadora" "Espina Esmeralda" "Espina Dorada" "Tricoma" "Tricoma Plateada" "Tricoma de Hierro" "Tricoma de Jade" "Tricoma Esmeralda" "Tricoma Dorada" "Acícula" "Acícula Plateada" "Acícula de Hierro" "Acícula de Jade" "Acícula Dorada" "Acícula Perforante" "Acícula Esmeralda" "Sarpullido" 
+		corvette = {  "Espina" "Espina Plateada" "Espina de Hierro" "Espina Punzante" "Espina Esmeralda" "Espina Dorada" "Tricoma" "Tricoma Plateada" "Tricoma de Hierro" "Tricoma de Jade" "Tricoma Esmeralda" "Tricoma Dorada" "Acícula" "Acícula Plateada" "Acícula de Hierro" "Acícula de Jade" "Acícula Dorada" "Acícula Perforante" "Acícula Esmeralda" "Sarpullido" 
 		}
 
-		destroyer = { "Pétalo" "Pétalo Plateado" "Pétalo de Hierro" "Pétalo de Jade" "Pétalo Esmeralda" "Pétalo Dorado" "Perforador" "Perforador Plateado" "Perforador Dorado" "Perforador de Hierro" "Perforador Esmeralda" "Aguijón Plateado" "Aguijón" "Aguijón de ACero" "Aguijón Perforante" "Acuchillador" "Cúter"
+		destroyer = { "Pétalo" "Pétalo Plateado" "Pétalo de Hierro" "Pétalo de Jade" "Pétalo Esmeralda" "Pétalo Dorado" "Perforador" "Perforador Plateado" "Perforador Dorado" "Perforador de Hierro" "Perforador Esmeralda" "Aguijón Plateado" "Aguijón" "Aguijón de ACero" "Aguijón Perforante" "Cuchilla" "Rebanador"
 		}
 
-		cruiser = { "Cuchilla" "Cuchilla Plateada" "Cuchilla de Hierro" "Cuchilla de Jade" "Cuchilla Esmeralda" "Cuchilla Dorada" "Cuchilla Cortante" "Cuchilla Segadora" "Cuchilla Perforante"
+		cruiser = { "Hoja" "Hoja Plateada" "Hoja de Hierro" "Hoja de Jade" "Hoja Esmeralda" "Hoja Dorada" "Hoja Cortante" "Hoja Segadora" "Hoja Punzante"
 		}
 
-		battleship = { Espiga "Espiga Plateada" "Espiga de Hierro" "Espiga de Jade" "Espiga Esmeralda" "Espiga Dorada" "Espiga Perforante" "Furia" "Furia Esmeralda" "Furia Espinosa" "Espiga de Furia" "Castigador"
+		battleship = { Espiga "Espiga Plateada" "Espiga de Hierro" "Espiga de Jade" "Espiga Esmeralda" "Espiga Dorada" "Espiga Punzante" "Furia" "Furia Esmeralda" "Furia Espinosa" "Espiga de Furia" "Castigador"
+		}
+		
+		titan = {
+			"Flor Plateada" "Flor de Hierro" "Flor Esmeralda" "Flor Punzante" "Flor Dorada" "Flor de Jade"
+		}
+		
+		colossus = {
+			"Brote del Juicio" "Brote de la Perdición" "Brote Final"
 		}
 
 		science = {
@@ -26,6 +35,18 @@ PLANT = {
 
 		colonizer = {
 			"Capsula de Semillas" "Portador de Fruta"
+		}
+		
+		transport = {
+			"Rama de Hierro" "Rama Punzante" "Rama Esmeralda" "Rama Dorada" "Rama Plateada" "Rama de Jade"
+		}
+		
+		military_station_small = {
+			"Abrojo de Hierro" "Abrojo Punzante" "Abrojo Esmeralda" "Abrojo Dorado" "Abrojo Plateado" "Abrojo de Jade"
+		}
+		
+		ion_cannon = {
+			"Hebra de Hierro" "Hebra Punzante" "Hebra Esmeralda" "Hebra Dorada" "Hebra Plateada" "Hebra de Jade"
 		}
 
 		constructor = {
@@ -36,36 +57,27 @@ PLANT = {
 			"Transporte"
 		}
 
-		orbital_station = {
-			"Rama"
+		### For Fallen Empires
+		small_ship_fallen_empire = {
+			"Espina" "Espina Plateada" "Espina de Hierro" "Espina Punzante" "Espina Esmeralda" "Espina Dorada" "Tricoma" "Tricoma Plateada" "Tricoma de Hierro" "Tricoma de Jade" "Tricoma Esmeralda" "Tricoma Dorada" 
+			Aguja "Aguja Plateada" "Aguja de Hierro" "Aguja de Jade" "Aguja Dorada" "Aguja Punzante" "Aguja Esmeralda"						
+			"Pétalo" "Pétalo Plateado" "Pétalo de Hierro" "Pétalo de Jade" "Pétalo Esmeralda" "Pétalo Dorado" "Perforador" "Perforador Plateado" "Perforador Dorado" "Perforador de Hierro" "Perforador Esmeralda" "Aguijón Plateado" "Aguijón" "Aguijón de ACero" "Aguijón Perforante" "Cuchilla" "Rebanador"
 		}
-		mining_station = {
-			"Raíz"
+		large_ship_fallen_empire = {
+			"Hoja" "Hoja Plateada" "Hoja de Hierro" "Hoja de Jade" "Hoja Esmeralda" "Hoja Dorada" "Hoja Cortante" "Hoja Segadora" "Hoja Punzante" 
+			"Hoja Punzante" Espiga "Espiga Plateada" "Espiga de Hierro" "Espiga de Jade" "Espiga Esmeralda" "Espiga Dorada" "Espiga Punzante" 
+			Furia "Furia Esmeralda" "Espina Furiosa" "Espiga de Furia" Castigador
 		}
-		research_station = {
-			"Poda Ornamental"
+		massive_ship_fallen_empire = {
+			"Flor Plateada" "Flor de Hierro" "Flor Esmeralda" "Flor Punzante" "Flor Dorada" "Flor de Jade"
 		}
-		wormhole_station = { }
-		#terraform_station = {
-		#	"Greenhouse"
-		#	"Orangerie"
-		#}
-		observation_station = {
-			"Vid de Detección" "Vid Escaladora" "Vid Aferrante" "Enredadera" "Viña Creciente" "Diente de León"
-		}
-
-		military_station_small = { "Ya-te-veo" }
-
-		military_station_medium = { "Ya-te-veo" }
-
-		military_station_large = { "Ya-te-veo" }
 	}
 
 	fleet_names = {
 		random_names = {
 			"Corola Floreciente" "Corola Esplendorosa" "Corola de Vanguardia" "Corola Retorcida" "Corola Desarrollada"
 		}
-		sequential_name = "Corola %C%"
+		sequential_name = "%C%ª Corola"
 	}
 
 	### ARMIES
@@ -90,8 +102,16 @@ PLANT = {
 			sequential_name = "Corona de Latón %R%"
 		}
 
+		robotic_defense_army = {
+			sequential_name = "Escudo de Latón %R%"
+		}
+
 		android_army = {
 			sequential_name = "Corona Dorada %R%"
+		}
+
+		android_defense_army = {
+			sequential_name = "Escudo Dorado %R%"
 		}
 
 		psionic_army = { 
@@ -107,15 +127,13 @@ PLANT = {
 		}
 	}
 
-
-
 	### PLANETS
 
 	planet_names = {
 
 		generic = {
 			names = {
-                "Belleza" "Alegría" "Nuevo Comienzo" "Fruta de Osos" "Nuez Redonda" "Semilla de Esperanza" "Sueños en Ciernes" "Nectar de Esperanza" "Zarcillos Esperanzadores" "Esfuerzo Fructífero" "Siempre Primavera" "Lluvia de Primavera" "Nueva Luz"	"Triunfo" "Retoño" "Brote" "Verde Próspero" "Eclosión" "Floreciente"
+                "Belleza" "Alegría" "Nuevo Comienzo" "Fruta de Osos" "Nuez Redonda" "Semilla de Esperanza" "Sueños en Ciernes" "Nectar de Esperanza" "Zarcillos Esperanzadores" "Esfuerzo Fructífero" "Siempre Primavera" "Lluvia de Primavera" "Nueva Luz"	"Triunfo" "Retoño" "Brote" "Verde Próspero" "Eclosión" "Floreciente" "Raíz Estrella" "Tierra de Esperanza" "Gran Promesa" Abundancia "Nuevas Raices" "Vientos Gentiles" "Rama Tenaz" "Nube de Polen"
             }
 		}
 
@@ -171,6 +189,16 @@ PLANT = {
 			names = {
 				"Siempreverde" "Perseverancia" "Resistencia" "Nieve" "Tormenta Blanca" "Invernalia" "Solo Invierno"	"Cobijo Blanco"	"Bola de Nieve" "Raíces Escarchadas" "Campos de Plata" "Expanión Blanca" "Flor de Hielo" "Hoja de Hielo" "Flor de Escarcha" "Defiance"
             }
+		}
+		
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
 		}
 
 	}

@@ -17,12 +17,6 @@ Extradimensional = {
 		
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			sequential_name = "Puesto Fronterizo %CC%"
-		}
 
 		military_station_small = {}
 		military_station_medium = {}

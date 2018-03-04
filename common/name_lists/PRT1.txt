@@ -1,4 +1,6 @@
 ﻿### Pirates
+### Created by Henrik Eklund and Maximilian Olbers
+
 PRT1 = {
 	selectable = { always = no }
 	randomized = no
@@ -37,6 +39,11 @@ PRT1 = {
 			Nogoodnik "Picadura de Viruela" "Sueño Resquebrajado" Rompepromesas Chaquetero "Haz las Cuentas" "Por los Números" Percance Bruja "Chico Grande" "Mascota del Profesor" Desamparado "Campanas del Cielo"
 			Embaucador "Masa Crítica" "Golfa Estelar" "Doble Estandard" Retardado Zoquete Zopenco "Furia Ciega" "Os Maldigo" Carroñero Espontáneo "Libra de Carne"
 			"Entrecejo Fruncido" "Detonador Corto" Aguafiestas Almohadilla "Agente de Carretera" Fugitivo Mentecato Ignorante "No Es Lo que Parece" Reprobable Intolerante Petulante "Miradas Engañosas"
+			"Saqueo y Reconciliación" "Una Flecha en Vuelo" "Bala a la Cabeza" Megalomaniaco "Pequeño Hurto" "Gran Hurto" "A Flote" "Promesa Cumplida" "Máquina de Fragmentación" "Campista Impenitente"
+			"Espacio Impersinal" "Pilar Caído" "Movimiento Aplazado" Apuntabot "Ataque al Carguero" "Las Hondas" "Las Flechas" "Fortuna Indignante" "Termopilaico" "Pírrico y Orgulloso" "Cebo Serpenteante"
+			"Disparo al Botín" "Rasgo Deslizante" "Proezas Espeluznantes" "Tono Sordo de Sirena" "Ningún Bien" "Lo Peor" "¡Oh! Es un Pirata" "Asesino de Naves Científicas" Devastador "Acepta la Violencia"
+			"Repercusión Ilegal" "Plagario Descarado" "Paloma y Cuervo" "Alcheringa" "Percebe Jim" "Charles al Cargo" Ganker
+			"Manus Celer Dei" "Fatum Iustum Stultorum" "Extraños Eónes" "Reina Roja"
 		}
 		
 		corvette = {
@@ -59,33 +66,21 @@ PRT1 = {
 		
 		battleship = {
 		}
-		
-		mining_station = { 
-			"Estación"
+
+		titan = {
 		}
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
+
+		colossus = {
+		}
 		
 		transport = {
-			"Portador"
-		}
-		
-		military_station_small = {
-			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación"
-		}
-
-		military_station_medium = {
-			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación"
-		}
-
-		military_station_large = {
-			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación"
+			"Llévame a Casa"
 		}
 		
 		pirate_station = {
-			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación"
+			"Guarida Oscura" "Puerto Seguro" "Mercado de Esclavos" "Puerto Desesperación" "Casa Vorpal" "Hogar Mórbido" "Callejón Separador" "La Gran Casa" "Más Allá del Claro" "El Bulto Pirata" "Parroquia Fétida"
+			"Foso de Piratería" "Corte Corsaria" "Los Corsarios Personales" "Bodega Bucanera" "Letrina Rocosa" "Castillo G-Cero" "Hielo NEgro" "Solo Recompensas" "El Peso del Hurto" "Postura Depredadora"
+			"Complejo Pirata-Militar" "Puerto Inseguro" "Reino Migajas"
 		}
 	}
 
@@ -94,6 +89,10 @@ PRT1 = {
 			"Armada Sangrienta" "Flota Terrorífica" "Flotilla de la Muerte" "Armada Calavera" "Flota de la Condenación" "Flotilla Invasora" "Fuerza de Asalto"
 			"Escuadrón Pirata" "Flotilla Oscura" "Cuadrilla de Guerra" "Armada Pirata" "Flotilla Pirata" "Fuerza de Incursión" "Anfitrión Sangriento"
 			"Escuadrón de Caza" "Manada de Caza" "Azote de las Estrellas" "Flotilla Negra" "Flotilla Escarlata" "Merodeadores Estelares"
+			"Furor de la Bandera Negra" "Piratas Sin Fronteras" "Persistencia Incesante" "Tunantes Unidos" "Discrepantes" "Deshonor Entre Ladrones" "Rompe Reglas Premiado" 
+			"Rafaga Solar" "Cazadores de la Luna" "Confines de Carbón" "Bajo Presión" "Equipo de Casa" "Equipo Visitante" "Instrusos" "Los Persistentes" 
+			"Potenciadores de la Piratería" "Patrulla de la Vileza" "Placa China" "Corsarios Entusiastas" "Especialistas de la Incursión" "Potros del Abordaje" "Pícaros Azules" 
+			"Soñadores Radicales" "Respiran" "Caminantes del Globo"
 		}
 	}
 
@@ -107,19 +106,19 @@ PRT1 = {
 		default = {
 			full_names = {
 				"Tibias Cruzadas" Sonriente "Demonio-Volador" "Nariz Plana" "Almirante Amarillo" "Capitán Muerte" "Coronel Dolor"
-				"Qurob Sangrante" "Ruina de la Civilización" Pionero "Demonio Verde" Cicatriz "El Profesor" "Vientre Rojo" "Diente de Oro"
-				"Ojo de Plata" "Aliento de Muerte" "Jefe Nozka" "Azote del Espacio" "Jefe Militar Gebban" "Gran Cosa" "Ojos Salvajes"
+				"Qurob Sangrante" "Ruina de la Civilización" Pionero "Demonio Verde" Cicatriz "Vientre Rojo" "Diente de Oro"
+				"Ojo de Plata" "Aliento de Muerte" "Jefe Nozka" "Azote del Espacio" "Gran Cosa" "Ojos Salvajes"
 			}
 			
 			full_names_male = { 
 				"El Barón" "Rey Carnicero" "Su Señoría" "Emperador del Universo" "Timonel Loco" "Emperador Cuatro-Ojos VII" "Gordo Tirak" "El Comodoro" "El Salvaje" "El Veterano" "El Erudito" "El Cazador"
-				Sepulturero Facilitador "El Maldito" "Resbaladizo Luqav" "Astuto Birpe" Certero "Rikam el Borracho" "El Hechicero" "Betak el Bastardo" "El Destructor" "Ciudadano Jumbka" "Doctor S"
-				"Primer Oficial Tuwab"
+				Sepulturero Facilitador "El Maldito" "Resbaladizo Luqav" "Astuto Birpe" Certero "Rikam el Borracho" "El Hechicero" "Betak el Bastardo" "El Destructor" "Ciudadano Jumbka" "Doctor S" "El Profesor"
+				"Primer Oficial Tuwab" "Jefe Militar Gebban"
 			}
 			
 			full_names_female = {
 				"La Comadrona" "Reina Sangrienta" "Rokka La Niña" "La Sheriff" "Gorda Tirak" "La Comodoro" "La Salvaje" "La Veterana" "La Erudita" "La Cazadora" Sepulturera Facilitadora "La Maldita" "Resbaladiza Luqav"
-				"Astuta Birpe" Certera "Rikam la Borracha" "La Bruja" "Betak la Bastarda" "La Destructora" "Ciudadana Jumbka" "Doctora S" "Primera Oficial Tuwab"
+				"Astuta Birpe" Certera "Rikam la Borracha" "La Bruja" "Betak la Bastarda" "La Destructora" "Ciudadana Jumbka" "Doctora S" "Primera Oficial Tuwab" "La Profesora" "Jefa Militar Gebban"
 			}
 
 			first_names = {

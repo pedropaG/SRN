@@ -29,6 +29,12 @@ FUN1 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -39,21 +45,14 @@ FUN1 = {
 		constructor = {
 		}
 		
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = { }
-			#sequential_name = "%O% Frontier Outpost"
+		transport = {
+		}
+	
+		military_station_small = {
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}	
+		ion_cannon = {
+		}	
 	}
 
 	fleet_names = {
@@ -86,9 +85,17 @@ FUN1 = {
 		robotic_army = {
 			sequential_name = "%C%ª Combatientes Mecanizados"
 		}
+
+		robotic_defense_army = {
+			sequential_name = "%C%ª Defensores Mecanizados"
+		}
 		
 		android_army = {
 			sequential_name = "%C%ª Sección Centurión"
+		}
+
+		android_defense_army = {
+			sequential_name = "%C%ª Sección Centurión Defensiva"
 		}
 		
 		psionic_army = {

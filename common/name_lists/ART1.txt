@@ -30,6 +30,12 @@ ART1 = {
 		
 		battleship = {
 		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
 		
 		science = {
 		}
@@ -39,25 +45,15 @@ ART1 = {
 		
 		constructor = {
 		}
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
-		outpost_station = {
-			#random_names = {
-				Sul-Ta-Vor El-Ta-Vor Gul-Ta-Vor Park-Ta-Vor Lorug-Ta-Vor Urakt-Ta-Vor Iliku-Ta-Vor
-			#}
-			#sequential_name = "%O% Frontier Outpost"
+
+		transport = {
 		}
 	
-		military_station_small = {}
-	
-		military_station_medium = {}
-	
-		military_station_large = {}	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
 	}
 	
 	fleet_names = {
@@ -92,8 +88,16 @@ ART1 = {
 			sequential_name = "%C%ª Vaina de Droides"
 		}
 		
+		robotic_defense_army = {
+			sequential_name = "%C%ª Vaina de Droides de Defensa"
+		}
+		
 		android_army = {
 			sequential_name = "%C%ª Vaina de Androides"
+		}
+		
+		android_defense_army = {
+			sequential_name = "%C%ª Vaina de Androides de Defensa"
 		}
 		
 		psionic_army = {
@@ -115,8 +119,7 @@ ART1 = {
 	
 		generic = {
 			names = {
-				Vord-Ka-Torb Mirg-Vu-Karp Jorg-Se-Krop Reld-Te-Hirk Parg-Ki-Torp Terk-Ba-Pont Virm-Ri-Gand Iram-Je-Otak Larb-Ti-Darm Utam-Ja-Borm
-				Pind-Ra-Vosk Verm-Te-Birg Itil-Sa-Domb Urak-Fe-Tond Urba-Ta-Nack Orol-Ju-Bakk Lirg-Na-Korm Tilk-Ti-Darb Suet-Re-Pold Sisk-In-Atab
+				Vord-Ka-Torb Mirg-Vu-Karp Jorg-Se-Krop Reld-Te-Hirk Parg-Ki-Torp Terk-Ba-Pont Virm-Ri-Gand Iram-Je-Otak Larb-Ti-Darm Utam-Ja-Borm Pind-Ra-Vosk Verm-Te-Birg Itil-Sa-Domb Urak-Fe-Tond Urba-Ta-Nack Orol-Ju-Bakk Lirg-Na-Korm Tilk-Ti-Darb Suet-Re-Pold Sisk-In-Atab Taku-Ra-Molk Rima-Su-Kari Posk-Ja-Tori Karm-Ne-Tura
 			}
 		}
 		
@@ -154,6 +157,16 @@ ART1 = {
 			names = {
 			}
 		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
 		
 	}
 	
@@ -163,7 +176,7 @@ ART1 = {
 		default = {
 			# A complete name
 			full_names = {
-				Vi-Ka Po-To Re-Ma Su-Pe Uk-Ma Il-Si Im-Do Ju-Ta Va-Ra Ul-Ta Ib-Na Ek-Ir Er-Ba Bo-Ki Ri-Gu Ro-Ab Uv-Ko Fa-Ra Ol-So Bo-Gu
+				Vi-Ka Po-To Re-Ma Su-Pe Uk-Ma Il-Si Im-Do Ju-Ta Va-Ra Ul-Ta Ib-Na Ek-Ir Er-Ba Bo-Ki Ri-Gu Ro-Ab Uv-Ko Fa-Ra Ol-So Bo-Gu So-Ka Mi-Ti Va-Ku Ki-Va Si-Na Bo-Ka Po-Ra Na-Sa Ta-Ri Ma-Ku Im-Po Su-Bo Ti-Ra Va-Ri Uk-Ni Er-Ma Ev-Li Ul-Ba Pe-Ti Ja-Ju
 			}
 			
 			# Always combined with a second name
