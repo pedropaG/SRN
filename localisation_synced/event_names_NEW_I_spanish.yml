@@ -41,8 +41,21 @@
  NAME_Early_Warning_X-38: "Advertencia Temprana X-38"
  NAME_Feral_Prethoryn: "Pretoriano Salvaje"
  NAME_Galactic_Horde: "Horda Galáctica"
+ NAME_Salvaged_Fleet: "Flota Rescatada"
  
- ### DISCOVERY
+ ### DISTANT STARS
  NAME_Holy_World_War: "[This.MainAttacker.GetAdj] Holy World War"
+ NAME_Ancient_Drones: "Drones Anticuados"
+ NAME_Nivlac: "Nivlac"
+ NAME_Nivlacs: "Nivlacs"
+ NAME_Nivlac_Circle: "Círculo Nivlac"
+ NAME_mardak_vol_haters: "Vol"
+ NAME_mardak_vol_haters_fleet: "Purgadores de Mardak"
+ NAME_Gray_Goo: "Tempestad Gris"
+ NAME_Tempest_Fleet: "Tempestad de Bajío"
+ NAME_Great_Wound: "Gran Herida"
+ NAME_Nanite_Dragon: "Dragón Simulado"
+ NAME_Young_Dragon: "Especimen Inmaduro"
+ NAME_Spawning_Dragons: "Dragones liberados"
  
 

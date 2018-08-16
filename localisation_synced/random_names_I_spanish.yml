@@ -2253,6 +2253,17 @@
  Brink: "Brink"
  Veit: "Veit"
  Katz: "Katz"
+ Eye_of_Hawking: "Ojo de Hawking"
+ NAME_Subspace_Rupture_1: "Ruptura Subespacial F-49"
+ NAME_Subspace_Rupture_2: "Ruptura Subespacial RX-199"
+ NAME_Subspace_Rupture_3: "Ruptura Subespacial G-12"
+ NAME_Subspace_Rupture_4: "Ruptura Subespacial NL-889"
+ NAME_Subspace_Rupture_5: "Ruptura Subespacial QX-3"
+ NAME_Subspace_Rupture_6: "Ruptura Subespacial NGR-412"
+ NAME_Subspace_Rupture_7: "Ruptura Subespacial ZT-34"
+ NAME_Subspace_Rupture_8: "Ruptura Subespacial F-311"
+ NAME_Subspace_Rupture_9: "Ruptura Subespacial SX-77"
+ NAME_Subspace_Rupture_10: "Ruptura Subespacial PL-4499"
  
  # Perdido
  Host: "Anfitrión" 
