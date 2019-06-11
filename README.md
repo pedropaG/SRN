@@ -1,4 +1,4 @@
 # SRN
 Stellaris Mod to add translations of Spanish Random Names
 
-Updated to Stellaris 2.1
+Updated to Stellaris 2.2
