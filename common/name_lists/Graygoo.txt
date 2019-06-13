@@ -1,0 +1,18 @@
+﻿### Gray Goo
+graygoo = {
+	selectable = { always = no }
+	randomized = no
+	
+	### SHIPS
+
+	ship_names = {
+	
+		graygoo_mothership = {
+			"Gran Confluencia"
+		}
+
+		graygoo_interdictor = {
+			Reconstructor
+		}
+	}
+}

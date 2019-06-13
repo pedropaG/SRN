@@ -58,6 +58,13 @@ AVI3 = {
 			"Huevoportador XVI" "Huevoportador XVII" "Huevoportador XVIII" "Huevoportador XIX" "Huevoportador XX"
 		}
 		
+		sponsored_colonizer = {
+			"Huevoportador I" "Huevoportador II" "Huevoportador III" "Huevoportador IV" "Huevoportador V"
+			"Huevoportador VI" "Huevoportador VII" "Huevoportador VIII" "Huevoportador IX" "Huevoportador X"
+			"Huevoportador XI" "Huevoportador XII" "Huevoportador XIII" "Huevoportador XIV" "Huevoportador XV"
+			"Huevoportador XVI" "Huevoportador XVII" "Huevoportador XVIII" "Huevoportador XIX" "Huevoportador XX"
+		}
+		
 		science = {
 			"Ojo Interior" "Tercer Ojo" "Ojo Inspector" "Ojo Evaluador" "Ojo Analizador"
 			"Ojo Contemplativo" "Ojo Inquisitivo" "Ojo Evaluador" "Ojo Pensante"

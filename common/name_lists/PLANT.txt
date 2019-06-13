@@ -37,6 +37,10 @@ PLANT = {
 			"Capsula de Semillas" "Portador de Fruta"
 		}
 		
+		sponsored_colonizer = {
+			"Capsula de Semillas" "Portador de Fruta"
+		}
+		
 		transport = {
 			"Rama de Hierro" "Rama Punzante" "Rama Esmeralda" "Rama Dorada" "Rama Plateada" "Rama de Jade"
 		}

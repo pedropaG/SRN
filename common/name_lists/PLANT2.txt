@@ -36,6 +36,9 @@ PLANT2 = {
 		colonizer = { Rama Ondulador Enroscador Pecíolo Brote
 		}
 		
+		sponsored_colonizer = { Rama Ondulador Enroscador Pecíolo Brote
+		}
+		
 		constructor = { "Chinche Verde" "Chinche Mohosa" "Chinche Dorada"
 		}
 

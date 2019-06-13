@@ -40,6 +40,10 @@ MACHINE1 = {
 			Replicador Fundador Generador Sembrador Inductor Desarrollador
 		}
 		
+		sponsored_colonizer = {
+			Replicador Fundador Generador Sembrador Inductor Desarrollador
+		}
+		
 		constructor = {
 			Ensamblador Constructor Compilador Operador
 		}

@@ -72,6 +72,8 @@ black_hole_names = {
 	"Final de la Ascensión"
 	"Silencio Oscuro"
 	"Dominios de Abaddon"
+	"Ojo de Hawking"
+	"Ojo de Bal"
 }
 
 asteroid_prefix = {
@@ -177,6 +179,42 @@ asteroid_prefix = {
 	LK12-
 	YZ9-
 	VIR-
+	RF-
+	J999-
+	QT1-
+	9192-
+	B4-3-
+	ONA-
+	VA99-
+	B9-
+	CR9-
+	LA4-
+	WT9-
+	IU11-
+	944-
+	8Y-I-
+	VK1-
+	MF-
+	L49-
+	PO1-
+	B1R-
+	E44-
+	AR-2-
+	2940-
+	2195-
+	YU-5-
+	TR44-
+	AKU-9-
+	Z9-
+	N01-4-
+	NCC-
+	QI778-
+	G1-
+	50-K-
+	409F-
+	T1-T9-
+	SA-093-
+	W112-
 }
 
 asteroid_postfix = {
@@ -281,6 +319,34 @@ asteroid_postfix = {
 	6498
 	984
 	009
+	LT-47
+	002
+	K14
+	997
+	72
+	0004
+	32-X
+	55987
+	572
+	285
+	487
+	11-F
+	64-D
+	59-C
+	03-A
+	71-J
+	89-T
+	90-B
+	LF4
+	OT9
+	XI2
+	PN-98
+	TS-8
+	IJ-087
+	XR-1
+	193
+	141
+	717
 }
 
 star_names = {
@@ -1665,6 +1731,54 @@ star_names = {
 	Majek
 	"Boro_Baba"
 	Kuiper
+	Dristmak
+	Sanach
+	Iresta
+	Kappler
+	Mriik
+	Jangal
+	Baesta
+	Corinth
+	Aethos
+	Unaria
+	Folkel
+	Zom
+	Prythe
+	Halvam
+	Moscot
+	Nietz
+	Yamal
+	Meskeban
+	Fontral
+	Lirril
+	Ibanadar
+	Voldox
+	Prothon
+	Ancastar
+	Xolomon
+	Rizor
+	Gossomir
+	Flestia
+	Trinitar
+	Wymos
+	Immuthin
+	Rhodan
+	Mayer
+	Jezemei
+	Seb
+	Witzen
+	Sigge
+	Meredith
+	Flunph
+	Sjoberg
+	Gardener
+	Norberg
+	Cowhig
+	Charna
+	Kahkonen
+	Riggott
+	Meryl
+	"Il_Ya"
 }
 
 nebula_names = {

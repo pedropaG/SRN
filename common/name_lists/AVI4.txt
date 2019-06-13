@@ -80,6 +80,12 @@ AVI4 = {
 			"Rostru Alancha" "Gau Cantor" "Sirix Negro"
 		}
 		
+		sponsored_colonizer = {			
+			"Enakk Brisajadeante" "Laiu Borrascoso" "Qaquik Diamantino" "Rrao Deslizante" "Noru Azul" "Mimru Oscuro" "Pájaro Negro Errante" "Occu Cacareador" "Darter Alarápida" 
+			"Nerit Tormentoso" "Pájaro Cantor Sonrojado" "Darter Canciónubosa" "Warbler Frondoso" "Worui Hada" "Kral Revoloteo" "Lapu Burlón" "Petrel Aleteo" "Lyrak Posado" 
+			"Rostru Alancha" "Gau Cantor" "Sirix Negro"
+		}
+		
 		science = {			
 			"Enakk Brisajadeante" "Laiu Borrascoso" "Qaquik Diamantino" "Rrao Deslizante" "Noru Azul" "Mimru Oscuro" "Pájaro Negro Errante" "Occu Cacareador" "Darter Alarápida" 
 			"Nerit Tormentoso" "Pájaro Cantor Sonrojado" "Darter Canciónubosa" "Warbler Frondoso" "Worui Hada" "Kral Revoloteo" "Lapu Burlón" "Petrel Aleteo" "Lyrak Posado" 

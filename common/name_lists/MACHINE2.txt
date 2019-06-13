@@ -41,6 +41,10 @@ MACHINE2 = {
 			"Portador de Colonización"
 		}
 		
+		sponsored_colonizer = { 
+			"Portador de Colonización"
+		}
+		
 		constructor = { 
 			"Constructor"
 		}

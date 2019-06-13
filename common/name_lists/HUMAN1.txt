@@ -72,6 +72,12 @@ HUMAN1 = {
 			Jamaica Macao Mozambique Filipinas Somalia "Sri Lanka" Taiwan
 		}
 		
+		sponsored_colonizer = {
+			Muguete Abundancia Abundante Felicidad Esperanza Oportunidad Serenidad Unidad Destino Bretaña Bizantio Caledonia "El Dorado" Knossos Memphis 
+			Olimpo Persépolis "Sierra de la Plata" Esparta Valhalla "Palacio de Cristal" Alaska Angola Australia Brasil Canadá Congo Guinea India Indonesia 
+			Jamaica Macao Mozambique Filipinas Somalia "Sri Lanka" Taiwan
+		}
+		
 		science = {
 			Aldrin Armstrong Colombo Copérnico Cortés Drake Hubble Goddard Galileo Einstein Gagarin Tereshkova "Zheng He" "Leif Ericson" Magallanes "James Cook"
 			"Marco Polo" Newton Tesla "Von Braun" "Walter Raleigh" Asimov Clark Sagan "Ibn Battuta" Kepler Ptolemy Pytheas Azophi Discovery Voyager Alisio Explorador 

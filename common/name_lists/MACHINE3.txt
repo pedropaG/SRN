@@ -43,6 +43,10 @@ MACHINE3 = {
 			"Módulo de Replicación"
 		}
 		
+		sponsored_colonizer = {
+			"Módulo de Replicación"
+		}
+		
 		constructor = { 
 			"Módulo de Construcción"
 		}

@@ -62,6 +62,11 @@ HUMAN2 = {
 			Fundación Vástago Progenie Obligación Propósito Proveedor "Ciudad Brillante" Adquiridor Cultivador "Amanecer de la Civilización" Pureza Comunidad Hermandad
 		}
 		
+		sponsored_colonizer = {
+			"Buena Suerte" Profecía "Destino Manifiesto" Virtud Potencial Expansión "Espíritu Pionero" Prosperidad Cumbre Pináculo Sembradora Siega Demeter Isis Ceres Exodus
+			Fundación Vástago Progenie Obligación Propósito Proveedor "Ciudad Brillante" Adquiridor Cultivador "Amanecer de la Civilización" Pureza Comunidad Hermandad
+		}
+		
 		constructor = {
 			Industria Asiduidad Esfuerzo Obrero Constructor Artesano "Casco Protector" Progreso Ingeniero Promesa Oficio Refugio Bestia Creador Desarrollador Falsificador Fundición 
 			Factoría Yunque Pilar Arquitecto Acomodador Ptah Ilmarinen Creidhne Gobannus Luchtaine Goibniu Vishvakarman Tvastar Ikenga Qaynan Ucuetis Ogoun
